@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "scope": "Current training log/config snapshot and existing v45 grouped-score analysis; no v47 inference or new end-to-end reproduction.",
+  "snapshot_archive_sha256": "2eac08693ce18639fc6614e2e4b9d4bfc447795aeb6ff0b16a72b1ab347be4d3",
+  "actual_initialization_hashes_matched_studies": [
+    "outer_ilsd",
+    "inner_ilsd",
+    "joint_ilsd",
+    "joint_terminal"
+  ],
+  "actual_optimizer_updates_v46": 309,
+  "actual_optimizer_updates_stage3": 1559,
+  "completed_fixed_study_updates_stage3": 1450,
+  "v47_started_at_snapshot": false,
+  "report_sha256": "ab1ae5c36768883dda5e9c2f7ffd0400dd850ea2347e5fbeeb1cbbe29ce0f837",
+  "fixed_checkpoint_binary_downloaded_by_this_snapshot": false,
+  "live_status_addendum": "current_progress_live_status_20261005.json"
+}

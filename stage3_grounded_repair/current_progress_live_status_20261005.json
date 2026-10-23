@@ -1,0 +1,13 @@
+{
+  "source": "Live SSH read of train.jsonl lengths and training_complete files after archived snapshot; checkpoint binary download and v47 inference still pending",
+  "date": "2026-10-05",
+  "updates": {
+    "outer_ilsd": 100,
+    "inner_ilsd": 56,
+    "joint_ilsd": 100,
+    "joint_terminal": 100
+  },
+  "v47_started": false,
+  "stage3_actual_updates": 1606,
+  "completed_fixed_study_updates": 1550
+}
