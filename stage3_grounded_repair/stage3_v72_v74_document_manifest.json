@@ -1,0 +1,19 @@
+{
+  "docs/README.md": "15daf72e2a1a8a5936f28dc1a27b354036fa2339968b42a742b7403f64e4b4d3",
+  "docs/STAGE3_EXPANDED_CORPUS_20261008.md": "9099a66f8347c7fd10fce8a3f3a5fd40fefa54cf01c6d65c540170aae97e2633",
+  "docs/STAGE3_NATIVE_RESULTS_20261008.md": "4695bc3fb0c55a5e53fa8021413843f82520f6bca5934162cf8b4444353df979",
+  "docs/STAGE3_CONTINUATION_20261008.md": "ff3130eccbc1f51f38d783b8d968787734818f362b330b5eade58a5ce125c6e4",
+  "docs/STAGE3_CONTINUATION_20261005.md": "106614d1c77035bb89ac67c6b0b8cc001b3eb035e6d2e2f8b43df94cda625d8d",
+  "docs/STAGE3_PROGRESS_20261005.md": "366d71b4ab4858cb010acae3e85b5b108cfc48eb737d6fc4c22b45c83d0042c7",
+  "docs/STAGE3_EXPANDED_RESULTS_20261009.md": "58214597320d03e7369c9b6defc3f9e6ed2f5938483bfea43b7f725b752b33a5",
+  "docs/STAGE3_EXPANDED_MAPPING_RESULTS_20261009.md": "fa1fe5c81491c108f2a4d848301b06b71196e382b57adcb7452e5dc987203b91",
+  "docs/STAGE3_FULLBATCH_STATUS_20261009.md": "1a7e5f4ae3016e8ec499ee85a25ed48e4889e2a5ac1489e6ce427d6641da8273",
+  "docs/v72_complete_portable_verification.json": "918ecffda2b5535f457a71eeed7e4e8be0a240cbaa8e7991ce369deb15773421",
+  "docs/v73_portable_verification.json": "786fc06acde10b1d790fea516804cddf0bc7b114f262b42c32bf8b7465c16a6d",
+  "docs/v72_optimization_log_analysis.json": "64d040009335cd62621594044e05371e48f938c1eebfd2230b1c8d4946ad451b",
+  "helpers/archive_expanded_v74_launch.py": "3175539e01c380064e9a7d793e73f2ed38f552c7f4eb233a3db3bf01ee328e07",
+  "helpers/verify_expanded_v74_launch.py": "ca608a7dec6d673387e8c19a35733c027965725a3454916969bc00a2e6024ac6",
+  "helpers/verify_expanded_v72_complete.py": "6a081ee67bc72315fac34f0e2284a3235329bb8d90710b24cd10646852f8e831",
+  "helpers/verify_expanded_v73.py": "714098f67ed74b3734c5c8e1e8c91cf7f616f3f5284e81fefdfdb5cf7b4d9987",
+  "helpers/analyze_expanded_v72_optimization.py": "3a57321efac821325ae336c822d332a6d0f261fe990e190ff1af978e66be8d88"
+}

@@ -1,0 +1,87 @@
+{
+  "rows": [
+    {
+      "state_id": "train_extra_00000_seed202_i35",
+      "state_fingerprint": "d263ce1a16a342f205550b98b4730cedf7e7b03c9dd7ff6e837b45d7814c7485",
+      "source_mask_sha256": "2d96fd1ba5fda797bb3d72a2d61ef2e7a11603da36cd78b15dc9df1caf8037fb",
+      "original_clean_image_sha256": "a1ff4ea0a55017423919792ca1e9e8d9cade13925b886e3f95d53c027222da51",
+      "independent_object_instances": false,
+      "observation": "Bus class covers a cropped vehicle facade/background behind refrigerator; no independent complete transportable bus instance. Reject as environment-like teacher."
+    },
+    {
+      "state_id": "train_extra_00001_seed101_i35",
+      "state_fingerprint": "3e82daa9aff6ce52f32e329e0c81e0923bde8fde92a84d174db0f820e58439dd",
+      "source_mask_sha256": "e1a341ea421eef6ff308ebfdc38a8a914702dd262e6342200635b29369888a39",
+      "original_clean_image_sha256": "ba91403d2225a10494bd1ae330cb7ada4a87675ec8f3384e70c6bf22f0a2edc8",
+      "independent_object_instances": true,
+      "observation": "Independent surfboard and partially occluded bicycle; retain identity but flag occlusion and bicycle fragmentation risk."
+    },
+    {
+      "state_id": "train_extra_00008_seed202_i35",
+      "state_fingerprint": "9f6f18bea3bbacd85dbfe8dfa616f81d614bb6fa42d07d5ba3855698876f7881",
+      "source_mask_sha256": "d2b9e1f703780eacc101666086ecbe49eec4b9814d08f2077f5a80457a804729",
+      "original_clean_image_sha256": "cb92dc934218a4aed41df30ee5120b7a60e6a51f5415668fcf6852376c33234c",
+      "independent_object_instances": true,
+      "observation": "Spoon and sheep visible; sheep body partly absent already in source. Keep for endpoint quality gate, flag truncation."
+    },
+    {
+      "state_id": "train_extra_00011_seed202_i35",
+      "state_fingerprint": "24dc14ed0d9b2ee63dffaa790b567922b5cbd8df13d8418ee55b21f95cffdfdc",
+      "source_mask_sha256": "2fc60f2075736c5b88b039678197b987eb335e68fb25bc931ad9f8e5146faca8",
+      "original_clean_image_sha256": "603ab52693723200de0c366d266731e7d68cc8e77e0e3c48568a1c395eb27ded",
+      "independent_object_instances": true,
+      "observation": "Spoon and tennis racket are separately recognizable."
+    },
+    {
+      "state_id": "train_extra_00014_seed202_i35",
+      "state_fingerprint": "282deca1ff9befe286c9a284278a0076809bb4d89b0a799e3c3cd3816b1d6bd6",
+      "source_mask_sha256": "10e7d2f08fcbcdd3af001c4a0f937c6897d2584d21992c4c7c8e46a8658db430",
+      "original_clean_image_sha256": "3685b0afbeac3d156b2c7b06d86e6807fd41a852c24199a3341e3b533d615463",
+      "independent_object_instances": true,
+      "observation": "Surfboard and tennis racket are separately recognizable."
+    },
+    {
+      "state_id": "train_extra_00015_seed202_i35",
+      "state_fingerprint": "ac1af2a7501a081da2263c15952e8b09146bcf4ee0e874b5b5029d75da7b950c",
+      "source_mask_sha256": "4e2bf1858cc9cc63104194786e324e3a2b7aef1ff9ca8de570762fb8b46d9ac3",
+      "original_clean_image_sha256": "195ff277aaeaa7b18e60df877fba73621c01a4a737f6edba8b1bbe240b4f2282",
+      "independent_object_instances": true,
+      "observation": "Chair and oversized broccoli-like object visible; physical support and category ambiguity remain quality risks."
+    },
+    {
+      "state_id": "train_extra_00018_seed101_i35",
+      "state_fingerprint": "0c40268b7e8cc1d8418428b0f917bdd75aaf8baec62dbcefc83bbe67db7de2ff",
+      "source_mask_sha256": "a4a7b0fe23be5c0110f39b1e4078276037e0f12d5851ef94ac0b978e5c37c0ec",
+      "original_clean_image_sha256": "68e4aec238c399da8bdb01be75c855bc13fbba7c09ecf37e775a463028db7cc3",
+      "independent_object_instances": true,
+      "observation": "Zebra below umbrella visible; overlap/occluded body requires endpoint quality gate."
+    },
+    {
+      "state_id": "train_extra_00018_seed202_i35",
+      "state_fingerprint": "539273004c862826dbbbe22431c314c82289b765fad40c6f49685487db12f0d9",
+      "source_mask_sha256": "ef7b3449ba8e3633c0fb390ee4a61a085325fa93f5b95d9d305d2448a88c24dc",
+      "original_clean_image_sha256": "4878ea604ae253d80dfd589f02c5727aed110ad0168deb18a1444446bcd34bb3",
+      "independent_object_instances": true,
+      "observation": "Zebra below umbrella visible; partial body occlusion and shared contact require endpoint quality gate."
+    },
+    {
+      "state_id": "train_extra_00020_seed101_i35",
+      "state_fingerprint": "3da05ca9d37db845d8dbfa8684b754d6d9612a9730ada9e318729d1502b7b62e",
+      "source_mask_sha256": "779538ef98227072e83915697b31c8828cd58215aca3d7ab67dd2728f05ed211",
+      "original_clean_image_sha256": "64925e04643d97a80bcba57674a4ebcd1a42d52d74fbfd9e37976c01980e54a8",
+      "independent_object_instances": true,
+      "observation": "Cat and traffic light visible, close and overlapping; mask movement may truncate cat."
+    },
+    {
+      "state_id": "train_extra_00021_seed101_i35",
+      "state_fingerprint": "9b608a75bbd7dce3823e7abfea754641234d3b8330ce06b1318fca8e4cef43f7",
+      "source_mask_sha256": "3c81444d4d284f71dfd4535cd0cca645d252c815bd55a7d63ac9d8ea0e6ef91b",
+      "original_clean_image_sha256": "a5ed26d70151e6bcb0cf3cd359bc82dd75e95b2e9aa882adb0ac9ab0f0a791a4",
+      "independent_object_instances": true,
+      "observation": "Cow and refrigerator are separately recognizable; legs partially occluded in source."
+    }
+  ],
+  "terminal_outcomes_used": false,
+  "split": "train",
+  "scope": "Manual offline identity audit of ORIGINAL predicted-clean train images only; not learned MMU"
+}

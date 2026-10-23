@@ -1,0 +1,15 @@
+{
+  "STAGE3_EXPANDED_CORPUS_20261008.md": "7618fa8db4fe33ce0b5d525f9567edbcdc44685612aa7375dbbaabc41fbf12a4",
+  "STAGE3_EXPANDED_RECURRENT_PROTOCOL_20261008.md": "fabb1419cb93adab824581dca4b73762cb708d15bb762d1879708641e89ba7c0",
+  "README.md": "b4b2d0b3f9d16a53f1044d3e944165b5ac1fe673dcb7d9b29b23958fc60ad482",
+  "STAGE3_CONTINUATION_20261008.md": "fcf8f335de7399887e1ec97e9283c9a1541a07e27358e3297602da02f94baf20",
+  "STAGE3_PROGRESS_20261005.md": "e741185ffd0726809c542a8d27674d8e27ed562253a84147cf7877668e67c25a",
+  "STAGE3_CONTINUATION_20261005.md": "56f120b3806ed0f77a9e80f28e6ed6c0238280d3139702cb17b313c1f8d4ab3e",
+  "STAGE3_NATIVE_RESULTS_20261008.md": "ed7fcde055fc58d188092ed9adb8b1fab72e4138baaf17ba491d165122f1f575",
+  "v70_v71_portable_verification.json": "c0b378e090ad92044578587c8d307b48f8da5923840e7f89774a13e5296ca9c8",
+  "v72_launch_portable_verification.json": "1e738588a92ca935225ec6df7b53c65a17c09c0f7295f8e106595274fbf0e7fd",
+  "portable_verification_sources_v70_v72/verify_expanded_v70_v71.py": "cf6696f974151ba777f311093159402a8621ff8dff4eea05e581687c47fe72e9",
+  "portable_verification_sources_v70_v72/verify_expanded_v72_launch.py": "5a16720526d6cf5da3aaf43c49a3cf59b1fc1af6e42ff75ba0ebab9262543545",
+  "portable_verification_sources_v70_v72/archive_expanded_v70_v71.py": "d9d5b0618b334dee165e4407625db3c3cf092212c74fef467f0d67fa70d68eb2",
+  "portable_verification_sources_v70_v72/archive_expanded_v72_launch.py": "01c2558668d08eeba2456336c6873231eb227d11770bdcbd86c73ea29542d961"
+}

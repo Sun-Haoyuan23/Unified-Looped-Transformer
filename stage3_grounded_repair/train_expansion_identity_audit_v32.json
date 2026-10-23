@@ -1,0 +1,96 @@
+{
+  "rows": [
+    {
+      "state_id": "train_extra_00037_seed101_i35",
+      "state_fingerprint": "14b92e3a965564356d8e73f8478897d4e6a00ee81fba8a87f1e3546ca2ba50ab",
+      "source_mask_sha256": "b6c06f2755c04b7976b298c2121b2414b72556714ca7bcd4b0341af68b9941cb",
+      "original_clean_image_sha256": "ea1574198cd83c1cc98184ae9aa686ac01d72f9b40932a78720447cc359d4f79",
+      "independent_object_instances": true,
+      "observation": "Recognizable mug and giraffe head/neck; giraffe body already cropped. Vertical task is not supported by the fixed horizontal teacher."
+    },
+    {
+      "state_id": "train_extra_00037_seed202_i35",
+      "state_fingerprint": "757f4df0591b142c4f560caaabb2043ef7678ebca032191d8137706e8c2bf59c",
+      "source_mask_sha256": "54c05b51dd77679d391477977adca0704b37ae9ef5f607eedbd53692407422db",
+      "original_clean_image_sha256": "e848bb6d16f320e1b66f58f6928ccbbb3c84be5e385d17e7a8a8432071527a7b",
+      "independent_object_instances": false,
+      "observation": "Mug wraps around giraffe neck and giraffe body is cropped; fused support/occlusion prevents a reliable independent-instance teacher."
+    },
+    {
+      "state_id": "train_extra_00039_seed101_i35",
+      "state_fingerprint": "1e9b76e348d11848f56623c8b3898c65c8e483132074e679d95f6e69c97bb8c7",
+      "source_mask_sha256": "1544abb911519f6ff1416961adc35abbf8e9359c004a892db87f804a0e1a0fbd",
+      "original_clean_image_sha256": "a906858536436435670d9fc03390ad6ab3ec904757e681c4f7e52e20a7a898c6",
+      "independent_object_instances": true,
+      "observation": "Separate horse and red frisbee visible. Vertical task remains identity in the fixed teacher."
+    },
+    {
+      "state_id": "train_extra_00043_seed202_i35",
+      "state_fingerprint": "83f704f5ebdbe023dfcedd753854b4b93d5d9afaccb9b4f43358d4bc86290ca5",
+      "source_mask_sha256": "9aa23f872802911f80d9bc96118e94bd07c7d52e6fe18e722332094012459bdb",
+      "original_clean_image_sha256": "c79342c69b292386d4c9f9e2f19c0d0d378a7296c20da0b3032254fc3665d035",
+      "independent_object_instances": true,
+      "observation": "Separate red frisbee on floor and couch visible; their diagonal placement requires official relation gate."
+    },
+    {
+      "state_id": "train_extra_00045_seed101_i35",
+      "state_fingerprint": "ee3baad973498926c648190fb020f1e9948e824a239f9e01dbce568d90cb2ef3",
+      "source_mask_sha256": "d84a833d6804051c51d4185693c0556a60b9070586bf88ccafb50468cf9be569",
+      "original_clean_image_sha256": "a1f647aeac2667f7050b10394b12501957744edafc2e4171f129a00e4dc17f85",
+      "independent_object_instances": true,
+      "observation": "Tennis racket overlaps a recognizable pointed yellow board; source truncates board at bottom. Vertical task remains identity."
+    },
+    {
+      "state_id": "train_extra_00046_seed101_i35",
+      "state_fingerprint": "507b1b61f8f549d79b746c153d0cd0c6d6f5b1ed6ba70418ccf6086a07048e17",
+      "source_mask_sha256": "269c626f1137f19419d82efa77940c7f3a93eb8ef9efaee277699b952213afb8",
+      "original_clean_image_sha256": "6e9fe1c5c12693ba6d4168481720953077e769c38337de6c6e2fe87b0268581d",
+      "independent_object_instances": true,
+      "observation": "Separate suspended red frisbee and couch visible; original support is already unusual. Vertical task remains identity."
+    },
+    {
+      "state_id": "train_extra_00046_seed202_i35",
+      "state_fingerprint": "27442a2bac36be07b806157cf9353a3431834885b5239c77aee760f8b6588afd",
+      "source_mask_sha256": "e304a6828c8eeefc9f858590e4e1730b2b49b145adf0fb5895af6e755e24fa79",
+      "original_clean_image_sha256": "f581ef1c9aa86e7f64c25ec4e3eb6a2d9382ad909e950c3c5b563fafc2d79409",
+      "independent_object_instances": true,
+      "observation": "Separate yellow frisbee and couch visible; frisbee already suspended. Vertical task remains identity."
+    },
+    {
+      "state_id": "train_extra_00048_seed202_i35",
+      "state_fingerprint": "b2fe986c78bb27f6830d89cfdf5f5f45580accfa46e978d7d4f97356a46fb6bd",
+      "source_mask_sha256": "a4205b6eeb481646a67fb1bdf2620321a977b9609df729e51de33a9b5d87118c",
+      "original_clean_image_sha256": "0a683ffdfd6c731ba0d8797ea1e8f43e859f1db0a1af2fcae1392f4c31982bd2",
+      "independent_object_instances": true,
+      "observation": "Scissors-like metal object and red frisbee visible as distinct objects; scissors shape is irregular and their horizontal separation is weak."
+    },
+    {
+      "state_id": "train_extra_00057_seed101_i35",
+      "state_fingerprint": "2e589c22fa61d9b5a87b748487c67bccb823d11352df00323cad96e4bf3467fc",
+      "source_mask_sha256": "247dc4c133ac49095d8e7391627c1918eabb70e92a9b57f359ad63757f301c91",
+      "original_clean_image_sha256": "fabd60b200a7a42107a81af510b0b58ed7f95c3c6f062f4268268afce49bdc64",
+      "independent_object_instances": true,
+      "observation": "Racket and yellow pointed board recognizable with overlap; source board is cropped and horizontal separation is weak."
+    },
+    {
+      "state_id": "train_extra_00057_seed202_i35",
+      "state_fingerprint": "5ab3b0a1b694a8a25de50a197430481567112846d1c263af45b6396eedf5bee3",
+      "source_mask_sha256": "96a52d25cd55bcc7e6e6177410378d6376dc2c66b8a41589a8250061a1a7a14e",
+      "original_clean_image_sha256": "ca712e4ff559332a1ba3507743e74a8c354f258044b79708676c655ea7388acc",
+      "independent_object_instances": false,
+      "observation": "Yellow board appears as a curved stand attached to racket handle; surfboard identity and independent-object structure are ambiguous."
+    },
+    {
+      "state_id": "train_extra_00067_seed202_i35",
+      "state_fingerprint": "6b26e1fe11150b909858bcaf27de93365032fdb472addfd541123c246830aa54",
+      "source_mask_sha256": "3355caf8c3266b372b008271a49ae821387b3f18899a234688065ce6ef4b430e",
+      "original_clean_image_sha256": "895984929b4123da20df8f70277c00016be658f0b4503310d0199722c3ddd538",
+      "independent_object_instances": true,
+      "observation": "Recognizable cat and traffic light; cat is cropped and overlaps traffic light. Retain identity, require downstream geometry and terminal quality gates."
+    }
+  ],
+  "terminal_outcomes_used": false,
+  "split": "train",
+  "scope": "Manual audit of eleven ORIGINAL predicted-clean TRAIN images; no terminal images, labels or quality scores",
+  "image_contact": "train_expansion_middle_v30/identity_contact.jpg"
+}

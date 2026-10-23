@@ -1,0 +1,23 @@
+{
+  "STAGE3_READOUT_CAPACITY_20261008.md": "996418526d978930891a2a876298d81f7f946321715cd521c660293e64d41a4b",
+  "STAGE3_PROCESS_DIRECTION_20261008.md": "285600c568c8aebe580e0489dff025a576a1a45228a7da7eafce96f84b3a44ca",
+  "STAGE3_PROCESS_RESULTS_20261008.md": "9b20cbc30b1adb2230822b7b04fa262ecd007eb6393bc50794df2863f105ce66",
+  "STAGE3_PROCESS_SUPERVISION_20261008.md": "8ebbad103bf9ba8c037bfdac707c36d643b91fe8682065f2222c94dc127d8d78",
+  "STAGE3_CONTINUATION_20261008.md": "8c4dfe879c435b321f643e86661d55f511ab8242dc3b75bc91b58fa23eb384fd",
+  "STAGE3_POSITIVE_RESULTS_20261008.md": "b7d6cc675c0ea94f79c53da073b1da96cb38f0d20e7a1805d3ed81f9369ee11e",
+  "README.md": "1beed4f68ed1bfb070ad9118456bca57a874b3ba7970fe52d0dfaf40bef747d5",
+  "STAGE3_PROGRESS_20261005.md": "5d0a2ba9dbfe17f057e502aed3f21aa6c5ccc53fd78f4d6360cbe177fe1238af",
+  "STAGE3_CONTINUATION_20261005.md": "60dd77b8fd6521034509bc0f464a982440d626c0bba68df8da32e5e2bee90eff",
+  "STAGE3_RECURRENT_CORE_20261005.md": "3f2d99f835866b04c33ea3eb9641ff6a00d4c70616714e345ed1a90b2e7940be",
+  "v52_complete_portable_verification.json": "d6ae37c5f6065d38e11c4c4d5f412b22c08f87943008f45bb08f5e1eae71a453",
+  "v53_complete_portable_verification.json": "dc736597148efcf7e9fe19b31e5746936bc39c5fad86094e7dbc2142f18dc82b",
+  "v54_portable_verification.json": "6569364ec69d05e2ed9e8f39ed6fae1b18dfc1d80f4d254ba8300b2e20ee74b3",
+  "v55_portable_verification.json": "93e150d3dd8b252f98d301b8f343c07391ce3bf49b86fac5866b652e5efa2a66",
+  "v53_grouped_analysis.json": "ab7b54f0b25b23d0452705d0442f8184bb014f071d429986424a167b1b2227a2",
+  "v53_matched_process_comparison.json": "08395f30c026115c987df911b656aa2788ceef82d5d415e4a814f55a6c63594f",
+  "v53_quality_only_states.json": "7d4e26e11fe1969baf9662c98fc0372ce5a0b097566e8c5b6d533c67dcd106d8",
+  "v53_cost_records.json": "c73bc7a27ae38f20afb9bdba69cf7c5429736a7c8104531da17f70b9b3818cd7",
+  "v54_physical_alignment.json": "f370d5e05ee0052eae8e83f16848df5cebdfb9815959283c77f99e69851b378b",
+  "v54_gradient_geometry.json": "0c52bc7e54a2a922f50d50e5c8548cf993b3f37d05a0b6bcf7ea8ba5c1e49782",
+  "v55_readout_fit_summary.json": "fdf70c789625e31c180cafd7610ce4cd5dc022f98eddfcc0d067218ae4fc07d9"
+}

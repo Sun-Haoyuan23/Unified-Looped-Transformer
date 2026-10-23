@@ -1,0 +1,10 @@
+{
+  "reference_recomputed_repair.py": "68148845ded3d241349beb5d0c35cbd980f0469e02cb63ed15547db3ecd93f4e",
+  "test_reference_recomputed_repair.py": "5daa602c92c08a07210e61cb0357a7afdc577117b35568c30775139da01fc33a",
+  "check_reference_recomputed.py": "394b68699ae1c86615ab0b762c1eb6548664f9f952213e79d19e532cbc278d19",
+  "run_reference_recomputed.py": "f2cbef775f65105cb80cd9426c9d4cd086d026c018fb629704fd80e103d9c311",
+  "STAGE3_REFERENCE_RECOMPUTE_PROTOCOL_20261009.md": "30162ea37e9aa1dab82e40030beff7a49b02fda71ae5d87e1ff1182588ef116b",
+  "v79_portable_verification.json": "6e9f48ae474d4c97b296ef4027984b833f25728f504fa1b65d4a01f50c8a870b",
+  "v79_alignment_analysis.json": "f808ebd75a60ec67ff5a12c5312379b4b38d52b307aa48258c0ce82ba0bc4e24",
+  "STAGE3_PROCESS_FOUR_LOOP_TRAINING_RESULTS_20261009.md": "7e19c78d9ac3ece9aa5ebc35a8ad00cc550e72d503984e2d0756d53b904ffccf"
+}

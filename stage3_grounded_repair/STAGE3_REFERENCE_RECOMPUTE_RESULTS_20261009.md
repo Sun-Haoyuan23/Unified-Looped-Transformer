@@ -1,0 +1,13 @@
+# v80 逐循环重算连接参考接口结果
+
+v80已完成，launcher99216、GPU7 worker99237均exit0。两项新CPU检查、真实模型接口及完整49项manifest本地核验通过。归档SHA 9fd262f229789939beeb107be2a909696f552343ee6d4d87dc52a17998187386，67,615字节，证明见v80_portable_verification.json。服务器执行Torch检查；本地逐文件、来源、初始化及记录标量核验，没有本地Torch重跑。0optimizer/拟合/新图像/评分。
+
+改动为每次共享循环重新计算连接参考G(h0)，保持同一G/同A/B跨四次复用、参考不detach，前向仍h0+[G(h)-G(h0)]。实际加载v78 anchor_trainable4固定step420，41态物理delta及外/内hidden全部严格等缓存参考实现；六教师完整14终点latent严格复现v79固定缓存结果。独立非零探针的cached/recomputed delta与终点hash也严格相等。
+
+四路线cached_trainable4/recomputed_trainable4/recomputed_frozen4/no_loop实际初始tensor全部相同且匹配v77。fresh零head共164物理delta严格零；recomputed_trainable4全部41态和其他三组各6教师，共59完整14终点严格等baseline。5完整14反传通过，探针全部恢复，base/原core hash保持且base无梯度。
+
+真实零head终点到head梯度绝对和6.164508641。零反馈过程hidden到feedback梯度130.259208679，外/内core残余.000173796091/7.958e-12，仍如实保留外层非严格零。v79单分支四循环对照中的重算外/内残余.000064760551/3.365e-11来自不同loss/反传上下文，不强称数值完全一致。独立非零探针可训练core/证据路径非零，冻结组core为零。完整梯度数值在gradient_proofs.json及pipeline_status.json中。
+
+真实共享外/内各2862块，名义速度1021，峰22.106851101GiB、wall362.242757秒，checkpoint反向重算另计。每次重算修复外/内各16块，缓存参考10块，无循环0；当前实现保留重算调用，不主张部署缓存优化或FLOPs降低。没有新增部署参数，全部原独立层仍保留，累计额外1669768存储参数。
+
+数值问题已有可复现接口修正，质量收益尚待有限匹配训练。v81仅新训练recomputed_trainable4/recomputed_frozen4各固定420，沿用同v78初始tensor/抽样/RMS/actual-additive目标/loss，复用v78已完成cached/no_loop为已有对照；不得重复旧训练。固定420后先做原41TRAIN容量门，无自动终图/评分/val/controller。详细冻结协议见STAGE3_REFERENCE_RECOMPUTE_TRAINING_PROTOCOL_20261009.md，运行状态见STAGE3_PROCESS_ALIGNMENT_STATUS_20261009.md。

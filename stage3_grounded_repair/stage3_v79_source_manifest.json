@@ -1,0 +1,9 @@
+{
+  "process_alignment_diagnostics.py": "30b5178575c80094e7269c33253dc244c3f8aee259db7919084c5c64012d2a6c",
+  "test_process_alignment_diagnostics.py": "c2ba951a341d49fa4aac39b5841985ba6b1f3d17a6c76b2656ac39b2a789a2dd",
+  "check_process_alignment.py": "e6259620d5e3d98b4969dc521e7f286c23db73dd8f5a0eadff01422dade76fe0",
+  "run_process_alignment.py": "af85a8ae31c4392b96f52ae99c18db82375b4a6dd34fcc1055ba37c330068d2b",
+  "STAGE3_PROCESS_ALIGNMENT_PROTOCOL_20261009.md": "0fb6856d865556ceb5302eeff03bdc2cda45b02a17efaf6ff4f262683b6e03b0",
+  "v78_complete_portable_verification.json": "27f8125f4323aae8a38e8d4d15057f711c91aa7167510fd8db16fed05c868c52",
+  "v78_capacity_paired_analysis.json": "81c6021680d925668854e0aec122f339cae5deed88a32c7ee5a090df81fa4d0b"
+}
