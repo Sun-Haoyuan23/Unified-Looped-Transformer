@@ -1,0 +1,8 @@
+...............................................{"output": "/tmp/tmpefxftuy5/report.json", "states": 4, "prompts": 3, "actions": ["repair"], "zero_intervention": "passed"}
+{"output_dir": "/tmp/tmp65vm7yvj/splits", "counts": {"architecture_dev": 24, "train": 120, "val": 40, "sealed_test": 92}, "reduced_partition": false, "train_target_range_met": true, "val_target_range_met": true, "smoke_sources": ["architecture_dev"]}
+{"output": "/tmp/tmp2vubjzbr/merged.jsonl", "rows": 4, "mode": "merge", "nonnull_metric_counts": {"pickscore": 4, "hps": 4, "siglip": 4}, "scoring_prompt": "original baseline prompt"}
+..............................
+----------------------------------------------------------------------
+Ran 77 tests in 1.304s
+
+OK

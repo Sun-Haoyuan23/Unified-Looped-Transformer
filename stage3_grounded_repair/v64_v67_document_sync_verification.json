@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "files": 65,
+  "archive_sha256": "86aeed56ec2c8e76355500b7d2236b1ae30ab6f85c79d50bdfa4be724fa6132d",
+  "frozen_protocols_unchanged": true,
+  "scope": "document/source/proof and local metadata sync; not a new server Torch validation"
+}

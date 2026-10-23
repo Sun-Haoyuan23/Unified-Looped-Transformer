@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "artifact_manifest_files": 189,
+  "scoring_rows": 36,
+  "independent_TRAIN_prompts": 6,
+  "actual_complete_terminal_rollouts": 30,
+  "baseline_aliases": 6,
+  "fresh_paired_report_exact": true,
+  "original_canonical_paired_report_exact": true,
+  "source_config_protocol_image_latent_artifact_bytes_verified": true,
+  "server_Torch_scope": "Real state/CFG/hash audit, six zero/direct strict latent+pixel checks, 30 full 14-step rollouts, base hash unchanged and no gradients",
+  "local_scope": "Byte/hash/identity and stdlib recomputation of both paired reports; no local Torch or GPU rerun",
+  "source_mmu_detected_errors": 3,
+  "qualified_native_final_rebridge_states": [
+    "train_extra_00006_seed101_i35",
+    "train_extra_00010_seed101_i35",
+    "train_extra_00054_seed101_i35"
+  ],
+  "new_optimizer_updates": 0,
+  "learned_loop_success": false,
+  "controller_started": false,
+  "archive_sha256": "bd18e91f9d0868d6c2ec6621f08e0f3d1b7d69c3d467b9dfabe9b606fdbfff2a",
+  "canonical_paired_report_sha256": "0d43f6014d29a4e6a927bfa44dc1c1c3ade390ceb42ed5de0a8c6f04c4650eaf"
+}

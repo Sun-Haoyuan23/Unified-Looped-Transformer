@@ -1,0 +1,24 @@
+{
+  "heartbeat_time_utc": "2026-10-08T17:11:37.702Z",
+  "pipeline_phase": "complete",
+  "observed_optimizer_updates": {
+    "no_loop": 420,
+    "frozen_loop": 420,
+    "trainable_loop": 420
+  },
+  "all_logged_loss_and_gradient_norms_finite": true,
+  "observed_peak_gpu_memory_gib": {
+    "no_loop": 15.326032161712646,
+    "frozen_loop": 16.95284080505371,
+    "trainable_loop": 17.00877857208252
+  },
+  "final_checkpoints_present": true,
+  "capacity_reports_present": true,
+  "all_three_capacity_gates_failed": true,
+  "complete_archive_locally_verified": true,
+  "new_scoring_images": 0,
+  "controller_started": false,
+  "training_relaunched": false,
+  "frozen_training_source_modified": false,
+  "scope": "Fixed step420 all three arms complete and fully portable verified; capacity gates failed; no new generation-quality evidence"
+}

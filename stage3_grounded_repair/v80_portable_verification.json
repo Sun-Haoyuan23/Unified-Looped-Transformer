@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "archive_sha256": "9fd262f229789939beeb107be2a909696f552343ee6d4d87dc52a17998187386",
+  "manifest_files": 49,
+  "new_cpu_tests": 2,
+  "status": {
+    "phase": "passed",
+    "time": 1791512785.5997908,
+    "optimizer_updates": 0,
+    "new_scoring_images": 0,
+    "controller_started": false,
+    "actual_nonzero_forward_comparisons": 41,
+    "actual_v78_v79_teacher_endpoints": 6,
+    "zero_delta_checks": 164,
+    "full14_zero_endpoint_checks": 59,
+    "full14_backwards": 5,
+    "all_initializations_matched": true,
+    "zero_head_terminal_gradient": {
+      "head": 6.164508640766144,
+      "evidence": 0.0,
+      "outer_core": 0.0,
+      "inner_core": 0.0,
+      "feedback": 0.0
+    },
+    "zero_feedback_hidden_gradient": {
+      "head": 0.0,
+      "evidence": 0.0,
+      "outer_core": 0.00017379609113277183,
+      "inner_core": 7.958078640513122e-12,
+      "feedback": 130.25920867919922
+    },
+    "probes_restored": true,
+    "base_hash_unchanged": true,
+    "base_gradients": false,
+    "original_core_hash_unchanged": true,
+    "nominal_velocity_calls": 1021,
+    "actual_shared_calls": {
+      "outer": 2862,
+      "inner": 2862
+    },
+    "backward_checkpoint_recomputation_additional": true,
+    "peak_gpu_memory_gib": 22.10685110092163,
+    "walltime_seconds": 362.2427565623075,
+    "FLOPs": null
+  },
+  "scope": "Local archive/manifest/source/config/checkpoint provenance, initialization and recorded 41 same-forward/164 zero-delta/59 zero-terminal/5 backward checks; server Torch actual computations, no local Torch rerun, optimizer or new image-quality scoring"
+}

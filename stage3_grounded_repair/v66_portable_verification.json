@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "archive_sha256": "2490835d9618ff416d39c31ac046da8e8c9378a7f2cbcd233b48f296a6ab1fef",
+  "manifest_files_verified": 53,
+  "all_source_config_fixed_head_and_source_checkpoint_hashes_exact": true,
+  "matched_trainable_head_initialization": true,
+  "input_normalizer_buffers_route_specific": true,
+  "all2000_finite_head_training_rows_verified": true,
+  "identical_state_original_patch_and_target_fingerprints": 38,
+  "new_head_optimizer_updates": 2000,
+  "new_shared_core_optimizer_updates": 0,
+  "cumulative_parameter_updates": 6880,
+  "cumulative_external_optimizer_step_calls": 6682,
+  "interface_tests_cumulative": 190,
+  "new_scoring_images": 0,
+  "controller_started": false,
+  "all_capacity_gates_failed": true,
+  "server_torch_checks_not_repeated_locally": true,
+  "no_generation_or_architecture_gain_claim": true,
+  "FLOPs": null
+}

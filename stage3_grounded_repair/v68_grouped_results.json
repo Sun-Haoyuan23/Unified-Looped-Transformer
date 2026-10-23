@@ -1,0 +1,42 @@
+{
+  "checked_zero": {
+    "wrong_to_correct": 0,
+    "correct_to_wrong": 0,
+    "strict_quality_repairs": 0,
+    "pickscore": 0.0,
+    "hps": 0.0,
+    "siglip": 0.0
+  },
+  "native_final_rebridge": {
+    "wrong_to_correct": 5,
+    "correct_to_wrong": 0,
+    "strict_quality_repairs": 3,
+    "pickscore": 0.6358390025610182,
+    "hps": 0.010823567708333334,
+    "siglip": 0.0505070798099041
+  },
+  "native_parent_additive": {
+    "wrong_to_correct": 6,
+    "correct_to_wrong": 0,
+    "strict_quality_repairs": 5,
+    "pickscore": 0.6330006460417886,
+    "hps": 0.010660807291666666,
+    "siglip": 0.05239283045132955
+  },
+  "native_parent_direct": {
+    "wrong_to_correct": 6,
+    "correct_to_wrong": 0,
+    "strict_quality_repairs": 6,
+    "pickscore": 0.636831445212465,
+    "hps": 0.010945638020833334,
+    "siglip": 0.05432656283179919
+  },
+  "source_final_rebridge": {
+    "wrong_to_correct": 1,
+    "correct_to_wrong": 0,
+    "strict_quality_repairs": 0,
+    "pickscore": -0.3157187928478227,
+    "hps": -0.0013834635416666667,
+    "siglip": -0.002579124023516973
+  }
+}

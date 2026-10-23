@@ -1,0 +1,8 @@
+test_shared_zero_and_branch_scope (test_object_transport.TransportTests) ... ok
+test_target_direction_and_size (test_object_transport.TransportTests) ... ok
+test_zero_transport_dtype_shape_finite (test_object_transport.TransportTests) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.011s
+
+OK

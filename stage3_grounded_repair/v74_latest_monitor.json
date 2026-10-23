@@ -1,0 +1,35 @@
+{
+  "phase": "complete",
+  "locally_complete_verified": true,
+  "counts": {
+    "no_loop": {
+      "optimizer_step_calls": 1,
+      "closure_evaluations": 106,
+      "accepted_parameter_updates": 100,
+      "hard_evaluation_limit_hit": false,
+      "termination": "torch_return",
+      "attempted_internal_iterations": 100,
+      "torch_recorded_function_evals": 106
+    },
+    "frozen_loop": {
+      "optimizer_step_calls": 1,
+      "closure_evaluations": 102,
+      "accepted_parameter_updates": 100,
+      "hard_evaluation_limit_hit": false,
+      "termination": "torch_return",
+      "attempted_internal_iterations": 100,
+      "torch_recorded_function_evals": 102
+    },
+    "trainable_loop": {
+      "optimizer_step_calls": 1,
+      "closure_evaluations": 104,
+      "accepted_parameter_updates": 100,
+      "hard_evaluation_limit_hit": false,
+      "termination": "torch_return",
+      "attempted_internal_iterations": 100,
+      "torch_recorded_function_evals": 104
+    }
+  },
+  "capacity_gate_all_failed": true,
+  "archive_sha256": "27145c1457f9849bd88834f9859d7727ab1cfe4c537388d075beeb8ae558b647"
+}

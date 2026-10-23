@@ -1,0 +1,13 @@
+{
+  "phase": "complete",
+  "training_complete": true,
+  "monitor_only": true,
+  "completed_updates_observed": {
+    "no_loop": 210,
+    "frozen_loop": 210,
+    "trainable_loop": 210
+  },
+  "complete_portable_verification": "v64_complete_portable_verification.json",
+  "new_scoring_images": 0,
+  "controller_started": false
+}

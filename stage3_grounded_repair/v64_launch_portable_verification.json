@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "archive_sha256": "d1dd877cc2c041bca4918ff6971a67b562bad7f45fce2cdfe4e5c1559461d384",
+  "manifest_files_verified": 14,
+  "snapshot_time": 1791455533.992567,
+  "completed_parameter_updates_at_snapshot": {
+    "no_loop": 7,
+    "frozen_loop": 7,
+    "trainable_loop": 7
+  },
+  "total_new_parameter_updates_at_snapshot": 21,
+  "cumulative_parameter_updates_at_snapshot": 4271,
+  "cumulative_external_optimizer_step_calls_at_snapshot": 4073,
+  "primary_loop_initializations_and_all_schedules_matched": true,
+  "real_core_and_evidence_gradients_in_actual_training": true,
+  "all38_train_planned_coverage_verified": true,
+  "training_not_complete": true,
+  "fixed_final_checkpoint_not_available": true,
+  "new_scoring_images": 0,
+  "controller_started": false,
+  "server_torch_checks_not_repeated_locally": true,
+  "FLOPs": null
+}

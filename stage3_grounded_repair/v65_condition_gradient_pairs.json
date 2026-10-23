@@ -1,0 +1,44 @@
+[
+  {
+    "arm": "frozen_loop",
+    "teacher": "train_extra_00021_seed101_i35",
+    "preservation": "train_extra_00035_seed101_i35",
+    "kind": "same_objects_seed_opposite_relation",
+    "physical_common_gradient_cosine": -0.5293969065442222
+  },
+  {
+    "arm": "frozen_loop",
+    "teacher": "train_extra_00046_seed101_i35",
+    "preservation": "train_extra_00029_seed101_i35",
+    "kind": "same_objects_seed_opposite_relation",
+    "physical_common_gradient_cosine": -0.09760692608744545
+  },
+  {
+    "arm": "frozen_loop",
+    "teacher": "train_extra_00021_seed101_i35",
+    "preservation": "train_extra_00021_seed202_i35",
+    "kind": "same_prompt_other_seed",
+    "physical_common_gradient_cosine": -0.6553068485786976
+  },
+  {
+    "arm": "trainable_loop",
+    "teacher": "train_extra_00021_seed101_i35",
+    "preservation": "train_extra_00035_seed101_i35",
+    "kind": "same_objects_seed_opposite_relation",
+    "physical_common_gradient_cosine": 0.22623514882195842
+  },
+  {
+    "arm": "trainable_loop",
+    "teacher": "train_extra_00046_seed101_i35",
+    "preservation": "train_extra_00029_seed101_i35",
+    "kind": "same_objects_seed_opposite_relation",
+    "physical_common_gradient_cosine": 0.11262859168921777
+  },
+  {
+    "arm": "trainable_loop",
+    "teacher": "train_extra_00021_seed101_i35",
+    "preservation": "train_extra_00021_seed202_i35",
+    "kind": "same_prompt_other_seed",
+    "physical_common_gradient_cosine": 0.30847175075391264
+  }
+]

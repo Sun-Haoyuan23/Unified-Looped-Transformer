@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "archive_sha256": "460aa7a165ba97f8ed02e50c8e50788063e8d06e3342c45a9b207818623884eb",
+  "manifest_files": 37,
+  "new_cpu_tests": 3,
+  "status": {
+    "phase": "passed",
+    "time": 1791482416.7950695,
+    "optimizer_updates": 0,
+    "new_scoring_images": 0,
+    "analytical_fits": 0,
+    "controller_started": false,
+    "zero_endpoint_checks": 41,
+    "v75_prefix_teacher_checks": 6,
+    "full_terminal_backwards": 5,
+    "all_initial_tensors_equal": true,
+    "base_hash_unchanged": true,
+    "base_gradients": false,
+    "core_hash_unchanged": true,
+    "adapter_and_head_unmodified": true,
+    "zero_head_terminal_gradient": {
+      "head": 9.387453019618988,
+      "evidence": 0.0,
+      "outer_core": 0.0,
+      "inner_core": 0.0
+    },
+    "nominal_velocity_calls": 685,
+    "actual_shared_calls": {
+      "outer": 552,
+      "inner": 552
+    },
+    "peak_gpu_memory_gib": 18.44526243209839,
+    "walltime_seconds": 253.2328349482268,
+    "backward_checkpoint_recomputation_additional": true,
+    "FLOPs": null,
+    "no_training_or_quality_claim": true
+  },
+  "gradient_probes": [
+    {
+      "arm": "trainable_loop",
+      "outer_budget": 4,
+      "inner_budget": 2,
+      "gradient_abs_sum": {
+        "head": 9.015889708432951,
+        "evidence": 0.01926420035852061,
+        "outer_core": 0.002539274882110476,
+        "inner_core": 0.0020344973545434186
+      },
+      "shared_calls": {
+        "outer": 10,
+        "inner": 6
+      },
+      "probe_restored": true,
+      "full_remaining_velocities": 14
+    },
+    {
+      "arm": "trainable_loop",
+      "outer_budget": 2,
+      "inner_budget": 4,
+      "gradient_abs_sum": {
+        "head": 9.696207570668776,
+        "evidence": 0.019189815559002454,
+        "outer_core": 0.0010377013140896452,
+        "inner_core": 0.007193164161435561
+      },
+      "shared_calls": {
+        "outer": 6,
+        "inner": 10
+      },
+      "probe_restored": true,
+      "full_remaining_velocities": 14
+    },
+    {
+      "arm": "trainable_loop",
+      "outer_budget": 4,
+      "inner_budget": 4,
+      "gradient_abs_sum": {
+        "head": 10.03750136421877,
+        "evidence": 0.019744097603506816,
+        "outer_core": 0.00257844759926229,
+        "inner_core": 0.0072004224894044455
+      },
+      "shared_calls": {
+        "outer": 10,
+        "inner": 10
+      },
+      "probe_restored": true,
+      "full_remaining_velocities": 14
+    },
+    {
+      "arm": "frozen_loop",
+      "outer_budget": 4,
+      "inner_budget": 4,
+      "gradient_abs_sum": {
+        "head": 10.031876176217338,
+        "evidence": 0.019727770290046465,
+        "outer_core": 0.0,
+        "inner_core": 0.0
+      },
+      "shared_calls": {
+        "outer": 10,
+        "inner": 10
+      },
+      "probe_restored": true,
+      "full_remaining_velocities": 14
+    }
+  ],
+  "optimizer_updates": 0,
+  "new_scoring_images": 0,
+  "controller_started": false,
+  "scope": "Local file/source/config/checkpoint provenance, counters and finite gradient summaries; server Torch strict zero endpoints and prefix equality, actual autograd; no local Torch rerun or generation-quality claim"
+}

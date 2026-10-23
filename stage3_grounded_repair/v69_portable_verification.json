@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "manifest_files": 66,
+  "scoring_rows": 6,
+  "new_additive_decodes": 3,
+  "baseline_aliases": 3,
+  "fresh_paired_report_exact": true,
+  "original_canonical_paired_report_exact": true,
+  "source_config_protocol_process_artifact_image_final_bytes_verified": true,
+  "direct_native_endpoint_reproductions": 3,
+  "qualified_additive_teachers": 3,
+  "qualified_state_ids": [
+    "train_extra_00006_seed101_i35",
+    "train_extra_00010_seed101_i35",
+    "train_extra_00054_seed101_i35"
+  ],
+  "optimizer_updates": 0,
+  "controller_started": false,
+  "server_Torch_scope": "Three direct native endpoints strict; real FP32 residual reconstruction and full 14-step additive rollouts; Qwen27/flow9 original and additive features; complete additive flow trajectories; base unchanged/no gradients",
+  "local_scope": "All regular-file bytes/provenance and stdlib paired-report recomputation; no local Torch/GPU rerun",
+  "archive_sha256": "6aabd89db4684d178a370caaa580cd29b007e579dfac207ef27f7fdcb2480ecc",
+  "canonical_paired_report_sha256": "d0ea4afc576c6eb0d53c590edd4772f15f846393729605236208737f694f2d60"
+}

@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "archive_sha256": "27145c1457f9849bd88834f9859d7727ab1cfe4c537388d075beeb8ae558b647",
+  "manifest_files": 107,
+  "all_three_actual_initial_tensors_matched": true,
+  "matched_loop_initial_predictions": true,
+  "counts": {
+    "no_loop": {
+      "optimizer_step_calls": 1,
+      "closure_evaluations": 106,
+      "accepted_parameter_updates": 100,
+      "hard_evaluation_limit_hit": false,
+      "termination": "torch_return",
+      "attempted_internal_iterations": 100,
+      "torch_recorded_function_evals": 106
+    },
+    "frozen_loop": {
+      "optimizer_step_calls": 1,
+      "closure_evaluations": 102,
+      "accepted_parameter_updates": 100,
+      "hard_evaluation_limit_hit": false,
+      "termination": "torch_return",
+      "attempted_internal_iterations": 100,
+      "torch_recorded_function_evals": 102
+    },
+    "trainable_loop": {
+      "optimizer_step_calls": 1,
+      "closure_evaluations": 104,
+      "accepted_parameter_updates": 100,
+      "hard_evaluation_limit_hit": false,
+      "termination": "torch_return",
+      "attempted_internal_iterations": 100,
+      "torch_recorded_function_evals": 104
+    }
+  },
+  "total_accepted_parameter_updates": 300,
+  "total_closure_evaluations": 312,
+  "total_external_optimizer_steps": 3,
+  "all_123_capacity_scalars_verified": true,
+  "summaries": {
+    "no_loop": {
+      "teacher": {
+        "mean": 0.21745333075523376,
+        "maximum": 0.874432384967804
+      },
+      "geometry": {
+        "mean": 0.3368758161862691,
+        "maximum": 0.874432384967804
+      },
+      "native": {
+        "mean": 0.09803084532419841,
+        "maximum": 0.14654067158699036
+      },
+      "preservation": {
+        "mean": 0.0023963294341228904,
+        "maximum": 0.0127908606082201
+      },
+      "initial_loss": 0.36315772553151915,
+      "final_loss": 0.10992483009467836,
+      "final_gradient_norm": 0.05399246886372566,
+      "physical_capacity_gate_passed": false,
+      "optimizer_walltime_seconds": 27.872064795345068,
+      "peak_gpu_memory_gib": 7.13901948928833,
+      "counts": {
+        "optimizer_step_calls": 1,
+        "closure_evaluations": 106,
+        "accepted_parameter_updates": 100,
+        "hard_evaluation_limit_hit": false,
+        "termination": "torch_return",
+        "attempted_internal_iterations": 100,
+        "torch_recorded_function_evals": 106
+      },
+      "initial_to_final_improved": {
+        "teachers": 6,
+        "correct": 35
+      }
+    },
+    "frozen_loop": {
+      "teacher": {
+        "mean": 0.22885943204164505,
+        "maximum": 0.8853756189346313
+      },
+      "geometry": {
+        "mean": 0.34496189653873444,
+        "maximum": 0.8853756189346313
+      },
+      "native": {
+        "mean": 0.11275696754455566,
+        "maximum": 0.164997398853302
+      },
+      "preservation": {
+        "mean": 0.0024463651169623645,
+        "maximum": 0.013661745004355907
+      },
+      "initial_loss": 0.2744520191568881,
+      "final_loss": 0.11565289857930372,
+      "final_gradient_norm": 0.06367307901382446,
+      "physical_capacity_gate_passed": false,
+      "optimizer_walltime_seconds": 449.31944230385125,
+      "peak_gpu_memory_gib": 8.82179307937622,
+      "counts": {
+        "optimizer_step_calls": 1,
+        "closure_evaluations": 102,
+        "accepted_parameter_updates": 100,
+        "hard_evaluation_limit_hit": false,
+        "termination": "torch_return",
+        "attempted_internal_iterations": 100,
+        "torch_recorded_function_evals": 102
+      },
+      "initial_to_final_improved": {
+        "teachers": 6,
+        "correct": 30
+      }
+    },
+    "trainable_loop": {
+      "teacher": {
+        "mean": 0.23067924504478773,
+        "maximum": 0.8888556361198425
+      },
+      "geometry": {
+        "mean": 0.34691747029622394,
+        "maximum": 0.8888556361198425
+      },
+      "native": {
+        "mean": 0.11444101979335149,
+        "maximum": 0.16729477047920227
+      },
+      "preservation": {
+        "mean": 0.0022919090265142066,
+        "maximum": 0.012740393169224262
+      },
+      "initial_loss": 0.2744520191568881,
+      "final_loss": 0.11648557703565098,
+      "final_gradient_norm": 0.06148073077201843,
+      "physical_capacity_gate_passed": false,
+      "optimizer_walltime_seconds": 494.05949150957167,
+      "peak_gpu_memory_gib": 8.91516923904419,
+      "counts": {
+        "optimizer_step_calls": 1,
+        "closure_evaluations": 104,
+        "accepted_parameter_updates": 100,
+        "hard_evaluation_limit_hit": false,
+        "termination": "torch_return",
+        "attempted_internal_iterations": 100,
+        "torch_recorded_function_evals": 104
+      },
+      "initial_to_final_improved": {
+        "teachers": 6,
+        "correct": 33
+      }
+    }
+  },
+  "paired": {
+    "trainable_loop_vs_frozen_loop": {
+      "teachers": {
+        "improved": 0,
+        "total": 6,
+        "mean_delta": 0.001819813003142684
+      },
+      "geometry": {
+        "improved": 0,
+        "total": 3,
+        "mean_delta": 0.001955573757489504
+      },
+      "native": {
+        "improved": 0,
+        "total": 3,
+        "mean_delta": 0.0016840522487958226
+      },
+      "correct": {
+        "improved": 34,
+        "total": 35,
+        "mean_delta": -0.00015445609044815794
+      }
+    },
+    "trainable_loop_vs_no_loop": {
+      "teachers": {
+        "improved": 0,
+        "total": 6,
+        "mean_delta": 0.01322591428955397
+      },
+      "geometry": {
+        "improved": 0,
+        "total": 3,
+        "mean_delta": 0.010041654109954834
+      },
+      "native": {
+        "improved": 0,
+        "total": 3,
+        "mean_delta": 0.016410174469153077
+      },
+      "correct": {
+        "improved": 28,
+        "total": 35,
+        "mean_delta": -0.00010442040760868382
+      }
+    }
+  },
+  "new_scoring_images": 0,
+  "controller_started": false,
+  "scope": "Complete byte/provenance/config/log/checkpoint-hash and independent scalar checks; server Torch final tensors and base-freeze checks preserved, no local Torch rerun; physical capacity only, no endpoint or quality claim"
+}

@@ -1,0 +1,192 @@
+{
+  "time": 1791494249.1289296,
+  "pipeline": {
+    "phase": "training",
+    "time": 1791493342.3530047,
+    "workers": [
+      {
+        "arm": "anchor_trainable4",
+        "pid": 40814
+      },
+      {
+        "arm": "anchor_frozen4",
+        "pid": 40815
+      },
+      {
+        "arm": "plain_trainable4",
+        "pid": 40816
+      },
+      {
+        "arm": "no_loop",
+        "pid": 40817
+      }
+    ]
+  },
+  "arms": {
+    "anchor_trainable4": {
+      "optimizer_updates": 74,
+      "worker": {
+        "phase": "training",
+        "arm": "anchor_trainable4",
+        "time": 1791494248.3159838,
+        "optimizer_updates": 74,
+        "state_id": "train_extra_00040_seed202_i35",
+        "loss": 0.007464286871254444
+      },
+      "last_update": {
+        "step": 74,
+        "state_id": "train_extra_00040_seed202_i35",
+        "preservation_step": true,
+        "optimizer_update": true,
+        "loss": 0.007464286871254444,
+        "physical_loss": 0.0023444900289177895,
+        "terminal_loss": 0.00949872750788927,
+        "hidden_loss": 0.001542678102850914,
+        "gradient_norm_before_clip": 0.24635984003543854,
+        "gradient_abs_sum": {
+          "head": 44.75627212040126,
+          "evidence": 1.4819052202510647,
+          "outer_core": 0.05106614400574472,
+          "inner_core": 0.300230173044838,
+          "feedback": 6.467029094696045
+        },
+        "actual_shared_calls": {
+          "outer": 10,
+          "inner": 10
+        },
+        "full_remaining_velocity_forward_calls": 14,
+        "rollout_checkpoint_recomputation_in_backward": true,
+        "post_update_prefix_or_KV_used": false,
+        "walltime_seconds": 11.754110245034099,
+        "peak_gpu_memory_gib": 19.452678203582764,
+        "FLOPs": null
+      },
+      "complete": null,
+      "capacity": null
+    },
+    "anchor_frozen4": {
+      "optimizer_updates": 74,
+      "worker": {
+        "phase": "training",
+        "arm": "anchor_frozen4",
+        "time": 1791494247.5525448,
+        "optimizer_updates": 74,
+        "state_id": "train_extra_00040_seed202_i35",
+        "loss": 0.007415119558572769
+      },
+      "last_update": {
+        "step": 74,
+        "state_id": "train_extra_00040_seed202_i35",
+        "preservation_step": true,
+        "optimizer_update": true,
+        "loss": 0.007415119558572769,
+        "physical_loss": 0.002308489987626672,
+        "terminal_loss": 0.00931685883551836,
+        "hidden_loss": 0.0016024450305849314,
+        "gradient_norm_before_clip": 0.24213819205760956,
+        "gradient_abs_sum": {
+          "head": 44.039986580610275,
+          "evidence": 1.4625561661669053,
+          "outer_core": 0.0,
+          "inner_core": 0.0,
+          "feedback": 6.3939208984375
+        },
+        "actual_shared_calls": {
+          "outer": 10,
+          "inner": 10
+        },
+        "full_remaining_velocity_forward_calls": 14,
+        "rollout_checkpoint_recomputation_in_backward": true,
+        "post_update_prefix_or_KV_used": false,
+        "walltime_seconds": 11.702684855088592,
+        "peak_gpu_memory_gib": 18.553146362304688,
+        "FLOPs": null
+      },
+      "complete": null,
+      "capacity": null
+    },
+    "plain_trainable4": {
+      "optimizer_updates": 72,
+      "worker": {
+        "phase": "training",
+        "arm": "plain_trainable4",
+        "time": 1791494248.622965,
+        "optimizer_updates": 72,
+        "state_id": "train_extra_00045_seed101_i35",
+        "loss": 0.15482647716999054
+      },
+      "last_update": {
+        "step": 72,
+        "state_id": "train_extra_00045_seed101_i35",
+        "preservation_step": true,
+        "optimizer_update": true,
+        "loss": 0.15482647716999054,
+        "physical_loss": 0.0014328159159049392,
+        "terminal_loss": 0.0034852386452257633,
+        "hidden_loss": 0.15236744284629822,
+        "gradient_norm_before_clip": 0.15270167589187622,
+        "gradient_abs_sum": {
+          "head": 27.996967785060406,
+          "evidence": 2.4776687767589465,
+          "outer_core": 1.606548368697986,
+          "inner_core": 9.062173465266824,
+          "feedback": 5.535285472869873
+        },
+        "actual_shared_calls": {
+          "outer": 8,
+          "inner": 8
+        },
+        "full_remaining_velocity_forward_calls": 14,
+        "rollout_checkpoint_recomputation_in_backward": true,
+        "post_update_prefix_or_KV_used": false,
+        "walltime_seconds": 12.110870940610766,
+        "peak_gpu_memory_gib": 18.669212818145752,
+        "FLOPs": null
+      },
+      "complete": null,
+      "capacity": null
+    },
+    "no_loop": {
+      "optimizer_updates": 75,
+      "worker": {
+        "phase": "training",
+        "arm": "no_loop",
+        "time": 1791494240.700634,
+        "optimizer_updates": 75,
+        "state_id": "train_extra_00010_seed101_i35",
+        "loss": 1.881902813911438
+      },
+      "last_update": {
+        "step": 75,
+        "state_id": "train_extra_00010_seed101_i35",
+        "preservation_step": false,
+        "optimizer_update": true,
+        "loss": 1.881902813911438,
+        "physical_loss": 0.8973648548126221,
+        "terminal_loss": 0.8878750801086426,
+        "hidden_loss": 0.9892828464508057,
+        "gradient_norm_before_clip": 1.054640769958496,
+        "gradient_abs_sum": {
+          "head": 171.3961611688137,
+          "evidence": 8.73719775211066,
+          "outer_core": 0.0,
+          "inner_core": 0.0,
+          "feedback": 34.48547840118408
+        },
+        "actual_shared_calls": {
+          "outer": 0,
+          "inner": 0
+        },
+        "full_remaining_velocity_forward_calls": 14,
+        "rollout_checkpoint_recomputation_in_backward": true,
+        "post_update_prefix_or_KV_used": false,
+        "walltime_seconds": 11.455610053613782,
+        "peak_gpu_memory_gib": 15.300285816192627,
+        "FLOPs": null
+      },
+      "complete": null,
+      "capacity": null
+    }
+  },
+  "total_actual_updates": 295
+}

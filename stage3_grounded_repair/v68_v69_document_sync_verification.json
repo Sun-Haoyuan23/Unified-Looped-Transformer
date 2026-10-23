@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "files": 17,
+  "archive_sha256": "9c9d4241d9719fb7d302837daf0cad4a0380570218432388e8954d603c9b772a",
+  "frozen_protocol_bytes_unchanged": true,
+  "scope": "Remote host successfully verified archive and all 17 extracted document/proof/source hashes; local bundle manifest also checked"
+}

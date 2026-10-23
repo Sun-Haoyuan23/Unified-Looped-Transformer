@@ -1,0 +1,10 @@
+test_blocked_object_keys_rejected (test_routed_shared_revisit.RoutingTests) ... ok
+test_context_tokenization_locates_multiword_objects (test_routed_shared_revisit.RoutingTests) ... ok
+test_only_conditional_image_queries_object_keys_change (test_routed_shared_revisit.RoutingTests) ... ok
+test_opposite_swaps_objects_and_zero_is_exact (test_routed_shared_revisit.RoutingTests) ... ok
+test_zero_identity_and_output_scope_shared_frozen (test_routed_shared_revisit.RoutingTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK

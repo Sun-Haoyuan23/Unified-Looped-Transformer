@@ -1,0 +1,9 @@
+test_corrupt_state_or_time_rejected (test_rollback_evidence.RollbackTests) ... ok
+test_not_later_or_changed_grid_rejected (test_rollback_evidence.RollbackTests) ... ok
+test_only_evidence_imported_and_extra_cost_explicit (test_rollback_evidence.RollbackTests) ... ok
+test_other_seed_or_split_rejected (test_rollback_evidence.RollbackTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.007s
+
+OK

@@ -1,0 +1,254 @@
+{
+  "scope": "Descriptive recorded pre-update losses and gradient norms; randomized draw order; no new gradients, updates, endpoint or quality evaluation",
+  "arms": {
+    "no_loop": {
+      "train_log_sha256": "db37baaeeacbc95e85f6349f75b9b8925d3e64d791542aaffbedcbc340b0740f",
+      "groups": {
+        "teacher": {
+          "count": 210,
+          "minimum": 0.2475893199443817,
+          "median": 2.1945481300354004,
+          "maximum": 25.586177825927734,
+          "clipped_count": 183,
+          "clipped_fraction": 0.8714285714285714
+        },
+        "preservation": {
+          "count": 210,
+          "minimum": 0.013970091938972473,
+          "median": 0.19601063430309296,
+          "maximum": 1.613818883895874,
+          "clipped_count": 4,
+          "clipped_fraction": 0.01904761904761905
+        }
+      },
+      "teacher_first5_last5": {
+        "train_extra_00006_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9349922657012939,
+            "terminal_loss": 0.924449372291565
+          },
+          "last5": {
+            "physical_loss": 0.4732901632785797,
+            "terminal_loss": 0.34734716415405276
+          }
+        },
+        "train_extra_00010_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9504764914512634,
+            "terminal_loss": 0.9458155512809754
+          },
+          "last5": {
+            "physical_loss": 0.4934650480747223,
+            "terminal_loss": 0.33275272846221926
+          }
+        },
+        "train_extra_00021_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9914114832878113,
+            "terminal_loss": 0.9202653050422669
+          },
+          "last5": {
+            "physical_loss": 0.9457192182540893,
+            "terminal_loss": 0.41411285400390624
+          }
+        },
+        "train_extra_00039_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.8719399333000183,
+            "terminal_loss": 0.8878983616828918
+          },
+          "last5": {
+            "physical_loss": 0.39086833596229553,
+            "terminal_loss": 0.21886903643608094
+          }
+        },
+        "train_extra_00046_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.8121201992034912,
+            "terminal_loss": 0.8350289344787598
+          },
+          "last5": {
+            "physical_loss": 0.45174126625061034,
+            "terminal_loss": 0.34296262860298155
+          }
+        },
+        "train_extra_00054_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9044609427452087,
+            "terminal_loss": 0.9090906023979187
+          },
+          "last5": {
+            "physical_loss": 0.4555803418159485,
+            "terminal_loss": 0.3737319588661194
+          }
+        }
+      }
+    },
+    "frozen_loop": {
+      "train_log_sha256": "0035f63314ba4a32c3c98b9c9b7f8d1f122c0868b7f3be27af7e3cb6d80935bb",
+      "groups": {
+        "teacher": {
+          "count": 210,
+          "minimum": 0.1870148479938507,
+          "median": 2.4258720874786377,
+          "maximum": 46.20926284790039,
+          "clipped_count": 187,
+          "clipped_fraction": 0.8904761904761904
+        },
+        "preservation": {
+          "count": 210,
+          "minimum": 0.004969416186213493,
+          "median": 0.2368651106953621,
+          "maximum": 6.50731086730957,
+          "clipped_count": 4,
+          "clipped_fraction": 0.01904761904761905
+        }
+      },
+      "teacher_first5_last5": {
+        "train_extra_00006_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9545741081237793,
+            "terminal_loss": 0.9449013710021973
+          },
+          "last5": {
+            "physical_loss": 0.6027212142944336,
+            "terminal_loss": 0.5031322538852692
+          }
+        },
+        "train_extra_00010_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9687233448028565,
+            "terminal_loss": 0.9642452478408814
+          },
+          "last5": {
+            "physical_loss": 0.5966780304908752,
+            "terminal_loss": 0.4964065909385681
+          }
+        },
+        "train_extra_00021_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9931741833686829,
+            "terminal_loss": 0.936325204372406
+          },
+          "last5": {
+            "physical_loss": 0.9525287628173829,
+            "terminal_loss": 0.4928292155265808
+          }
+        },
+        "train_extra_00039_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9152715921401977,
+            "terminal_loss": 0.9249715566635132
+          },
+          "last5": {
+            "physical_loss": 0.5184360444545746,
+            "terminal_loss": 0.27114631831645963
+          }
+        },
+        "train_extra_00046_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.902755880355835,
+            "terminal_loss": 0.9221688389778138
+          },
+          "last5": {
+            "physical_loss": 0.6757084608078003,
+            "terminal_loss": 0.4411554753780365
+          }
+        },
+        "train_extra_00054_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9197353720664978,
+            "terminal_loss": 0.9215836882591247
+          },
+          "last5": {
+            "physical_loss": 0.5199642777442932,
+            "terminal_loss": 0.5207122921943664
+          }
+        }
+      }
+    },
+    "trainable_loop": {
+      "train_log_sha256": "c2311f7c6a761cd53b9952c22b34a9df3decbc8ca3a629961cadb52e2466b7c4",
+      "groups": {
+        "teacher": {
+          "count": 210,
+          "minimum": 0.1875249296426773,
+          "median": 2.2144817113876343,
+          "maximum": 32.08027648925781,
+          "clipped_count": 181,
+          "clipped_fraction": 0.861904761904762
+        },
+        "preservation": {
+          "count": 210,
+          "minimum": 0.011618769727647305,
+          "median": 0.21554119884967804,
+          "maximum": 4.070188045501709,
+          "clipped_count": 4,
+          "clipped_fraction": 0.01904761904761905
+        }
+      },
+      "teacher_first5_last5": {
+        "train_extra_00006_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9547122955322266,
+            "terminal_loss": 0.9452470898628235
+          },
+          "last5": {
+            "physical_loss": 0.5583162188529969,
+            "terminal_loss": 0.44198989272117617
+          }
+        },
+        "train_extra_00010_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9692615032196045,
+            "terminal_loss": 0.9651365280151367
+          },
+          "last5": {
+            "physical_loss": 0.5528729796409607,
+            "terminal_loss": 0.4232497215270996
+          }
+        },
+        "train_extra_00021_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9931363821029663,
+            "terminal_loss": 0.93548983335495
+          },
+          "last5": {
+            "physical_loss": 0.9516690135002136,
+            "terminal_loss": 0.46902361512184143
+          }
+        },
+        "train_extra_00039_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9246843934059144,
+            "terminal_loss": 0.931822681427002
+          },
+          "last5": {
+            "physical_loss": 0.4023538947105408,
+            "terminal_loss": 0.22101284563541412
+          }
+        },
+        "train_extra_00046_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9253501534461975,
+            "terminal_loss": 0.9379788279533386
+          },
+          "last5": {
+            "physical_loss": 0.6141344010829926,
+            "terminal_loss": 0.4481633245944977
+          }
+        },
+        "train_extra_00054_seed101_i35": {
+          "first5": {
+            "physical_loss": 0.9184233665466308,
+            "terminal_loss": 0.9185797929763794
+          },
+          "last5": {
+            "physical_loss": 0.46924412846565244,
+            "terminal_loss": 0.4185482084751129
+          }
+        }
+      }
+    }
+  }
+}

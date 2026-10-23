@@ -1,0 +1,58 @@
+{
+  "prior_local_report_union": [
+    "00369_seed101_i35",
+    "00375_seed101_i35",
+    "00412_seed202_i20",
+    "00412_seed202_i35",
+    "00414_seed202_i20",
+    "00414_seed202_i35",
+    "00444_seed202_i35",
+    "train_extra_00001_seed101_i35",
+    "train_extra_00008_seed202_i35",
+    "train_extra_00011_seed202_i35",
+    "train_extra_00014_seed202_i35",
+    "train_extra_00018_seed101_i35",
+    "train_extra_00018_seed202_i35",
+    "train_extra_00020_seed101_i35",
+    "train_extra_00021_seed101_i35",
+    "train_extra_00037_seed101_i35",
+    "train_extra_00039_seed101_i35",
+    "train_extra_00043_seed202_i35",
+    "train_extra_00046_seed101_i35",
+    "train_extra_00046_seed202_i35",
+    "train_extra_00048_seed202_i35",
+    "train_extra_00057_seed101_i35",
+    "train_extra_00067_seed202_i35"
+  ],
+  "v68_flipped_states": [
+    "train_extra_00003_seed101_i35",
+    "train_extra_00006_seed101_i35",
+    "train_extra_00009_seed202_i35",
+    "train_extra_00010_seed101_i35",
+    "train_extra_00019_seed101_i35",
+    "train_extra_00054_seed101_i35"
+  ],
+  "overlap": [],
+  "new": [
+    "train_extra_00003_seed101_i35",
+    "train_extra_00006_seed101_i35",
+    "train_extra_00009_seed202_i35",
+    "train_extra_00010_seed101_i35",
+    "train_extra_00019_seed101_i35",
+    "train_extra_00054_seed101_i35"
+  ],
+  "scope": "Exact state IDs distinguish index20/index35; independent prompt/seed removes flow index. Cross-seed direct/additive ceilings separated from source-inferred-noise bridge repairs.",
+  "prior_unique_prompt_seed_count": 21,
+  "new_noise_preserving_semantic_states": [
+    "train_extra_00006_seed101_i35",
+    "train_extra_00009_seed202_i35",
+    "train_extra_00010_seed101_i35",
+    "train_extra_00019_seed101_i35",
+    "train_extra_00054_seed101_i35"
+  ],
+  "new_noise_preserving_prompt_seed_count": 5,
+  "new_cross_seed_only_states": [
+    "train_extra_00003_seed101_i35"
+  ],
+  "all_exact_state_union_count": 29
+}

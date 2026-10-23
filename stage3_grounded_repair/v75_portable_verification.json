@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "archive_sha256": "5d247cdb72b63b8761746c02e15f2add70c389415877eb47008768778de94ce9",
+  "manifest_files": 35,
+  "new_cpu_tests": 4,
+  "summary": {
+    "outer": {
+      "teacher6": {
+        "plain_zero": {
+          "1": {
+            "mean_hidden_mse": 0.00864071467315542,
+            "mean_displacement_rms": 0.06598520296846865,
+            "mean_target_relative_mse": 4.175790553182947
+          },
+          "2": {
+            "mean_hidden_mse": 0.01712217049741906,
+            "mean_displacement_rms": 0.1150595313296543,
+            "mean_target_relative_mse": 10.843283239720273
+          }
+        },
+        "plain_feedback": {
+          "1": {
+            "mean_hidden_mse": 0.008148777183977917,
+            "mean_displacement_rms": 0.06051947987288031,
+            "mean_target_relative_mse": 3.8324273367852926
+          },
+          "2": {
+            "mean_hidden_mse": 0.009907889940995257,
+            "mean_displacement_rms": 0.07599476197643602,
+            "mean_target_relative_mse": 5.317943318831985
+          }
+        },
+        "anchored_feedback": {
+          "1": {
+            "mean_hidden_mse": 0.011994085258271054,
+            "mean_displacement_rms": 0.08341446905484068,
+            "mean_target_relative_mse": 6.561759669089148
+          },
+          "2": {
+            "mean_hidden_mse": 0.016193579210601574,
+            "mean_displacement_rms": 0.10499379132264637,
+            "mean_target_relative_mse": 9.850364210100661
+          }
+        }
+      },
+      "correct35": {
+        "plain_zero": {
+          "1": {
+            "mean_hidden_mse": 0.004352541969415448,
+            "mean_displacement_rms": 0.06597057053022302,
+            "mean_target_relative_mse": null
+          },
+          "2": {
+            "mean_hidden_mse": 0.013377972338103067,
+            "mean_displacement_rms": 0.11565225561121038,
+            "mean_target_relative_mse": null
+          }
+        },
+        "plain_feedback": {
+          "1": {
+            "mean_hidden_mse": 0.003509540562697128,
+            "mean_displacement_rms": 0.05920770485265618,
+            "mean_target_relative_mse": null
+          },
+          "2": {
+            "mean_hidden_mse": 0.005929707834058612,
+            "mean_displacement_rms": 0.07698389718274504,
+            "mean_target_relative_mse": null
+          }
+        },
+        "anchored_feedback": {
+          "1": {
+            "mean_hidden_mse": 0.006632201812846396,
+            "mean_displacement_rms": 0.08129409205075559,
+            "mean_target_relative_mse": null
+          },
+          "2": {
+            "mean_hidden_mse": 0.010452201772699815,
+            "mean_displacement_rms": 0.10204448584758821,
+            "mean_target_relative_mse": null
+          }
+        }
+      }
+    },
+    "inner": {
+      "teacher6": {
+        "plain_zero": {
+          "1": {
+            "mean_hidden_mse": 0.2798026954614005,
+            "mean_displacement_rms": 0.3219016866027141,
+            "mean_target_relative_mse": 1.822874516968379
+          },
+          "2": {
+            "mean_hidden_mse": 0.3247311560878082,
+            "mean_displacement_rms": 0.3977433609658582,
+            "mean_target_relative_mse": 2.268154988870003
+          }
+        },
+        "plain_feedback": {
+          "1": {
+            "mean_hidden_mse": 0.27347682465742545,
+            "mean_displacement_rms": 0.2910275534645279,
+            "mean_target_relative_mse": 1.6495997716683262
+          },
+          "2": {
+            "mean_hidden_mse": 0.3720686683710756,
+            "mean_displacement_rms": 0.4301574233157082,
+            "mean_target_relative_mse": 2.4984647760460956
+          }
+        },
+        "anchored_feedback": {
+          "1": {
+            "mean_hidden_mse": 0.28729037830077925,
+            "mean_displacement_rms": 0.12829550577033896,
+            "mean_target_relative_mse": 1.2623730991204247
+          },
+          "2": {
+            "mean_hidden_mse": 0.36896810722846624,
+            "mean_displacement_rms": 0.27635849651044897,
+            "mean_target_relative_mse": 1.9037569742191385
+          }
+        }
+      },
+      "correct35": {
+        "plain_zero": {
+          "1": {
+            "mean_hidden_mse": 0.10598216456621348,
+            "mean_displacement_rms": 0.32455621628400366,
+            "mean_target_relative_mse": null
+          },
+          "2": {
+            "mean_hidden_mse": 0.17754386191835034,
+            "mean_displacement_rms": 0.41997754876941656,
+            "mean_target_relative_mse": null
+          }
+        },
+        "plain_feedback": {
+          "1": {
+            "mean_hidden_mse": 0.0903006610386698,
+            "mean_displacement_rms": 0.2996034407370754,
+            "mean_target_relative_mse": null
+          },
+          "2": {
+            "mean_hidden_mse": 0.21126140165512722,
+            "mean_displacement_rms": 0.45715273061909745,
+            "mean_target_relative_mse": null
+          }
+        },
+        "anchored_feedback": {
+          "1": {
+            "mean_hidden_mse": 0.013859027841487246,
+            "mean_displacement_rms": 0.11733122737820056,
+            "mean_target_relative_mse": null
+          },
+          "2": {
+            "mean_hidden_mse": 0.07319619707868599,
+            "mean_displacement_rms": 0.2685246598539154,
+            "mean_target_relative_mse": null
+          }
+        }
+      }
+    }
+  },
+  "status": {
+    "phase": "passed",
+    "time": 1791481814.1144662,
+    "optimizer_updates": 0,
+    "analytical_fits": 0,
+    "new_scoring_images": 0,
+    "controller_started": false,
+    "base_hash_unchanged": true,
+    "base_gradients": false,
+    "original_core_hash_unchanged": true,
+    "adapter_and_head_unmodified": true,
+    "teacher_zero_budget1_checks": 6,
+    "all_state_zero_budget2_checks": 41,
+    "no_loop_zero_checks": 6,
+    "anchored_zero_feedback_full_hidden_checks": 82,
+    "full_terminal_backwards": 5,
+    "matched_loop_initializations": true,
+    "zero_head_terminal_gradient": {
+      "head": 7.97567617893219,
+      "evidence": 0.0,
+      "outer_core": 0.0,
+      "inner_core": 0.0
+    },
+    "actual_shared_calls": {
+      "outer": 1116,
+      "inner": 1116
+    },
+    "nominal_velocity_calls": 853,
+    "backward_checkpoint_recomputation_additional": true,
+    "peak_gpu_memory_gib": 16.80943012237549,
+    "walltime_seconds": 298.57116268388927,
+    "FLOPs": null,
+    "no_training_or_quality_claim": true
+  },
+  "optimizer_updates": 0,
+  "new_scoring_images": 0,
+  "controller_started": false,
+  "scope": "Local byte/source/config/checkpoint/target-hidden provenance and scalar checks; server actual Torch zero endpoints, connected-reference gradients and tensor equality; no local Torch rerun or generation-quality claim"
+}

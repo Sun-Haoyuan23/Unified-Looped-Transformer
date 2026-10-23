@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "files_sha256": {
+    "audit_native_teacher_pairs_v67.py": "27a15de15de004b7505af9b3c671c3d475703d400a458a13fcc100ef870c4243",
+    "config.json": "f3477eb6ef510848c3e4f8f1b28f6a94afe736602b899f3e1d39314e48461997",
+    "native_pairs.json": "72cc97f1428946bc1b5c5506097a13ebb99df7ad9d96edea79973e5cf50a214a",
+    "pipeline_status.json": "30f63f2e9ceae3b550149e9238f0dbb51396d07c1752d4b52630ac7502ee0d69",
+    "summary.json": "530ce53b053c419ee74b727060cc11410084aee024935835d31173e40e598960"
+  },
+  "all_train_states": 112,
+  "independent_train_prompts": 56,
+  "native_same_prompt_opposite_success_pairs": 15,
+  "existing_parent_semantic_and_preference_gated_candidates": 6,
+  "independent_eligible_prompts": 6,
+  "candidate_state_ids": [
+    "train_extra_00003_seed101_i35",
+    "train_extra_00006_seed101_i35",
+    "train_extra_00009_seed202_i35",
+    "train_extra_00010_seed101_i35",
+    "train_extra_00019_seed101_i35",
+    "train_extra_00054_seed101_i35"
+  ],
+  "new_successful_repair_teachers": 0,
+  "new_optimizer_updates": 0,
+  "new_scoring_images": 0,
+  "controller_started": false,
+  "scope": "Existing TRAIN baseline metadata only; different-seed native parents, no repaired continuation or local Torch state inspection",
+  "raw_server_state_bytes_not_yet_loaded_or_validated": true
+}

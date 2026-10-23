@@ -1,0 +1,68 @@
+{
+  "time": 1791494286.7215827,
+  "scope": "server read-only live prefix, not final checkpoint or local Torch verification",
+  "arms": {
+    "anchor_trainable4": {
+      "updates": 77,
+      "finite_matched_prefix": true,
+      "frozen_source_unchanged": true,
+      "worker_status": {
+        "phase": "training",
+        "arm": "anchor_trainable4",
+        "time": 1791494283.640887,
+        "optimizer_updates": 77,
+        "state_id": "train_extra_00006_seed101_i35",
+        "loss": 1.8046162128448486
+      },
+      "complete_exists": false,
+      "capacity_exists": false
+    },
+    "anchor_frozen4": {
+      "updates": 77,
+      "finite_matched_prefix": true,
+      "frozen_source_unchanged": true,
+      "worker_status": {
+        "phase": "training",
+        "arm": "anchor_frozen4",
+        "time": 1791494282.8153129,
+        "optimizer_updates": 77,
+        "state_id": "train_extra_00006_seed101_i35",
+        "loss": 1.801382303237915
+      },
+      "complete_exists": false,
+      "capacity_exists": false
+    },
+    "plain_trainable4": {
+      "updates": 75,
+      "finite_matched_prefix": true,
+      "frozen_source_unchanged": true,
+      "worker_status": {
+        "phase": "training",
+        "arm": "plain_trainable4",
+        "time": 1791494284.7416656,
+        "optimizer_updates": 75,
+        "state_id": "train_extra_00010_seed101_i35",
+        "loss": 2.942849636077881
+      },
+      "complete_exists": false,
+      "capacity_exists": false
+    },
+    "no_loop": {
+      "updates": 79,
+      "finite_matched_prefix": true,
+      "frozen_source_unchanged": true,
+      "worker_status": {
+        "phase": "training",
+        "arm": "no_loop",
+        "time": 1791494286.7091038,
+        "optimizer_updates": 79,
+        "state_id": "train_extra_00046_seed101_i35",
+        "loss": 1.6065500974655151
+      },
+      "complete_exists": false,
+      "capacity_exists": false
+    }
+  },
+  "total_actual_updates": 308,
+  "passed": true
+}

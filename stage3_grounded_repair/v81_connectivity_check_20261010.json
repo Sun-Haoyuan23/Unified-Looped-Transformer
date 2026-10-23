@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-10 10:06:34 UTC",
+  "server": "shy_23@10.103.12.98:1902",
+  "old_session_id": 77539,
+  "old_session_available": false,
+  "host_network_tcp_attempts": 2,
+  "connection_status": "TCP connection timed out before authentication",
+  "new_server_training_result_available": false,
+  "training_restarted": false,
+  "optimizer_updates_this_check": 0,
+  "new_scoring_images": 0,
+  "launch_archive_sha256": "a27b68e1ab8651e59a18487a4fda583362c5095027e5597c167802af31eaa7a2",
+  "launch_manifest_files_rechecked": 94,
+  "last_complete_portable_launch_updates": {
+    "recomputed_trainable4": 7,
+    "recomputed_frozen4": 7
+  },
+  "last_downloaded_server_prefix_updates": {
+    "recomputed_trainable4": 24,
+    "recomputed_frozen4": 24
+  },
+  "last_known_cumulative_parameter_updates": 10168,
+  "last_known_cumulative_external_steps": 9673,
+  "scope": "Read-only local archive and all 94 manifest byte checks; no new server or local Torch result"
+}

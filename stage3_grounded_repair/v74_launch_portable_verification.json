@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "archive_sha256": "3cb38263cd1390ab0804d74cbee456555ea9d0825983819efeab60b9ba796c9b",
+  "manifest_files": 40,
+  "all_three_actual_initial_tensors_matched": true,
+  "new_cpu_tests_passed": 2,
+  "actual_full_batch_closure_prefix": 6,
+  "recorded_accepted_updates_in_prefix": 2,
+  "optimizer_step_calls_observed": 3,
+  "initial": {
+    "no_loop": {
+      "teacher_mean": 0.716384599606196,
+      "preservation_mean": 0.009930851456842252,
+      "loss": 0.36315772553151915
+    },
+    "frozen_loop": {
+      "teacher_mean": 0.5451829880475998,
+      "preservation_mean": 0.003721050266176462,
+      "loss": 0.2744520191568881
+    },
+    "trainable_loop": {
+      "teacher_mean": 0.5451829880475998,
+      "preservation_mean": 0.003721050266176462,
+      "loss": 0.2744520191568881
+    }
+  },
+  "new_scoring_images": 0,
+  "controller_started": false,
+  "scope": "Bounded actual launch prefix and provenance only; not final optimizer counts, checkpoint, capacity or quality; local byte/standard-library checks, no Torch rerun"
+}

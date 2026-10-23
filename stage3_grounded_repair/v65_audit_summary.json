@@ -1,0 +1,174 @@
+{
+  "frozen_loop": {
+    "all38_physical_common_teacher_preservation_gradient_cosine": -0.6120667662396052,
+    "teacher_gradient_l2": 6.842651996637349,
+    "preservation_gradient_l2": 0.016525583180574937,
+    "teachers3_objective_directions": [
+      {
+        "arm": "frozen_loop",
+        "state_id": "train_extra_00021_seed101_i35",
+        "preservation": false,
+        "physical_loss": 0.3127036392688751,
+        "terminal_loss": 0.05091099441051483,
+        "common_parameters": {
+          "physical_l2": 2.964423179626465,
+          "terminal_l2": 4.668088436126709,
+          "cosine": 0.008583367001174446
+        },
+        "core_parameters": {
+          "physical_l2": 0.0,
+          "terminal_l2": 0.0,
+          "cosine": null
+        },
+        "physical_state": {
+          "physical_l2": 0.004537896253168583,
+          "terminal_l2": 0.09998376667499542,
+          "cosine": 0.0067885253134214165
+        },
+        "endpoint_sha256": "fc3adff9b144047db51396e086043c5ddd71957b3386eb7125c12335a2674aaa",
+        "full_remaining_velocities": 14,
+        "post_update_prefix_or_KV_used": false
+      },
+      {
+        "arm": "frozen_loop",
+        "state_id": "train_extra_00039_seed101_i35",
+        "preservation": false,
+        "physical_loss": 0.0906311497092247,
+        "terminal_loss": 0.017237767577171326,
+        "common_parameters": {
+          "physical_l2": 6.187380313873291,
+          "terminal_l2": 0.9912828207015991,
+          "cosine": 0.914386298448392
+        },
+        "core_parameters": {
+          "physical_l2": 0.0,
+          "terminal_l2": 0.0,
+          "cosine": null
+        },
+        "physical_state": {
+          "physical_l2": 0.03166620060801506,
+          "terminal_l2": 0.07374964654445648,
+          "cosine": 0.024220486654922598
+        },
+        "endpoint_sha256": "818482bce4e6823b16bd615b01493a77e88467c1bfe2935e3d1c98632e7bd2cf",
+        "full_remaining_velocities": 14,
+        "post_update_prefix_or_KV_used": false
+      },
+      {
+        "arm": "frozen_loop",
+        "state_id": "train_extra_00046_seed101_i35",
+        "preservation": false,
+        "physical_loss": 0.09796463698148727,
+        "terminal_loss": 0.019947975873947144,
+        "common_parameters": {
+          "physical_l2": 11.838811874389648,
+          "terminal_l2": 2.617741107940674,
+          "cosine": 0.9653042343125491
+        },
+        "core_parameters": {
+          "physical_l2": 0.0,
+          "terminal_l2": 0.0,
+          "cosine": null
+        },
+        "physical_state": {
+          "physical_l2": 0.03415151312947273,
+          "terminal_l2": 0.14855517446994781,
+          "cosine": 0.020764662476397945
+        },
+        "endpoint_sha256": "0bc9e36911b44fa972a439ebc5d22f00c24672c0fddb6e3d2264b07b212de72f",
+        "full_remaining_velocities": 14,
+        "post_update_prefix_or_KV_used": false
+      }
+    ],
+    "effective_core_fraction_changed_range": [
+      0.0,
+      0.0
+    ]
+  },
+  "trainable_loop": {
+    "all38_physical_common_teacher_preservation_gradient_cosine": 0.6471448280054308,
+    "teacher_gradient_l2": 40.216890371675575,
+    "preservation_gradient_l2": 0.020993712699300594,
+    "teachers3_objective_directions": [
+      {
+        "arm": "trainable_loop",
+        "state_id": "train_extra_00021_seed101_i35",
+        "preservation": false,
+        "physical_loss": 0.30766451358795166,
+        "terminal_loss": 0.05574464797973633,
+        "common_parameters": {
+          "physical_l2": 0.8410823941230774,
+          "terminal_l2": 5.013613224029541,
+          "cosine": 0.6646781450238679
+        },
+        "core_parameters": {
+          "physical_l2": 0.14818552136421204,
+          "terminal_l2": 0.9092841744422913,
+          "cosine": 0.8521396006556371
+        },
+        "physical_state": {
+          "physical_l2": 0.004501180723309517,
+          "terminal_l2": 0.14898937940597534,
+          "cosine": 0.00458026776262755
+        },
+        "endpoint_sha256": "4c08fafc1dea60c6508f2fcb7173014d3e8b2aa37ab099e5537c5015fa6e754b",
+        "full_remaining_velocities": 14,
+        "post_update_prefix_or_KV_used": false
+      },
+      {
+        "arm": "trainable_loop",
+        "state_id": "train_extra_00039_seed101_i35",
+        "preservation": false,
+        "physical_loss": 0.07565351575613022,
+        "terminal_loss": 0.015638720244169235,
+        "common_parameters": {
+          "physical_l2": 9.29783821105957,
+          "terminal_l2": 0.6267348527908325,
+          "cosine": -0.04680807164483084
+        },
+        "core_parameters": {
+          "physical_l2": 0.9421562552452087,
+          "terminal_l2": 0.0973837748169899,
+          "cosine": 0.04224772965695968
+        },
+        "physical_state": {
+          "physical_l2": 0.02893155999481678,
+          "terminal_l2": 0.0819043293595314,
+          "cosine": 0.021319671359599914
+        },
+        "endpoint_sha256": "623ec9f66b76282b52db70effe6cefc0102b66a16c705e01237c505845727885",
+        "full_remaining_velocities": 14,
+        "post_update_prefix_or_KV_used": false
+      },
+      {
+        "arm": "trainable_loop",
+        "state_id": "train_extra_00046_seed101_i35",
+        "preservation": false,
+        "physical_loss": 0.2776722013950348,
+        "terminal_loss": 0.03638565540313721,
+        "common_parameters": {
+          "physical_l2": 111.78425598144531,
+          "terminal_l2": 10.440272331237793,
+          "cosine": 0.9872099853669245
+        },
+        "core_parameters": {
+          "physical_l2": 5.209104061126709,
+          "terminal_l2": 0.4925776422023773,
+          "cosine": 0.9043822553816233
+        },
+        "physical_state": {
+          "physical_l2": 0.05749651789665222,
+          "terminal_l2": 0.1308324933052063,
+          "cosine": 0.035120628236389534
+        },
+        "endpoint_sha256": "162faef744efb05acfd827ebe95c46e17bd83475d38dc34685866bf7cd1ed49f",
+        "full_remaining_velocities": 14,
+        "post_update_prefix_or_KV_used": false
+      }
+    ],
+    "effective_core_fraction_changed_range": [
+      0.18561744689941406,
+      0.5431052446365356
+    ]
+  }
+}

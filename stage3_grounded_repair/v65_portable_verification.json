@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "archive_sha256": "40c09a4c620ded46b93b25e2498c2783bbdd7a3b7be30db979d153ec36e2f3f5",
+  "manifest_files_verified": 23,
+  "source_config_fixed_checkpoint_hashes_exact": true,
+  "physical_mse_reproductions": 76,
+  "full_endpoint_diagnostics": 12,
+  "gradient_gram_algebra_checked_locally": true,
+  "new_optimizer_updates": 0,
+  "new_analytical_fits": 0,
+  "new_scoring_images": 0,
+  "controller_started": false,
+  "server_torch_gradients_effective_weights_and_endpoint_tensors_not_recomputed_locally": true,
+  "endpoint_tensor_bytes_archived_not_locally_torch_decoded": true,
+  "no_causal_quality_or_generalization_claim": true,
+  "FLOPs": null
+}

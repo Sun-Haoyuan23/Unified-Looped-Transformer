@@ -1,0 +1,16 @@
+test_existing_hash_verified_and_mismatch_rejected (test_diagnose_repair_actuation.FileHashTests) ... ok
+test_legacy_unhashed_not_falsely_verified (test_diagnose_repair_actuation.FileHashTests) ... ok
+test_all_zero_mark_and_optional_rejection (test_diagnose_repair_actuation.SnapshotTests) ... ok
+test_known_delta_and_nonindependent_state_counts (test_diagnose_repair_actuation.SnapshotTests) ... ok
+test_latent_file_hash_tampering_rejected (test_diagnose_repair_actuation.SnapshotTests) ... ok
+test_nonfinite_shape_and_duplicate_fail (test_diagnose_repair_actuation.SnapshotTests) ... ok
+test_old_unhashed_and_zero_denominator (test_diagnose_repair_actuation.SnapshotTests) ... ok
+test_payload_wrong_teacher_id_and_action_rejected (test_diagnose_repair_actuation.SnapshotTests) ... ok
+test_zero_control_expected_not_rejected (test_diagnose_repair_actuation.SnapshotTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.035s
+
+OK
+{"output": "oracle_grounded_dev12x2_v2/actuation.json", "states": 48, "prompts": 12, "all_zero_noncontrol_actions": [], "all_provenance_hashes_verified": true}
+{"output": "oracle_early_dev12x2_v3/actuation.json", "states": 48, "prompts": 12, "all_zero_noncontrol_actions": [], "all_provenance_hashes_verified": true}

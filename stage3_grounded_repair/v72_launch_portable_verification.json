@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "archive_sha256": "1095308ea018ef7ba5af20be10a049b45339fa0d8e10837174a21c183d12860f",
+  "manifest_files": 27,
+  "scope": "launch_prefix_only_not_complete_training_or_final_checkpoint",
+  "completed_updates_in_snapshot": 21,
+  "updates_per_arm": 7,
+  "all_three_initializations_and_sampling_matched": true,
+  "finite_loss_and_gradient_prefix": true,
+  "final_checkpoint_included": false,
+  "quality_results_included": false,
+  "local_scope": "Byte/hash/config and actual seven-row optimizer log checks; not complete training or local Torch rerun"
+}

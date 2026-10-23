@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "phase": "launch",
+  "archive_sha256": "a27b68e1ab8651e59a18487a4fda583362c5095027e5597c167802af31eaa7a2",
+  "manifest_files": 94,
+  "actual_optimizer_updates": 14,
+  "arm_updates": {
+    "recomputed_trainable4": 7,
+    "recomputed_frozen4": 7
+  },
+  "arms": {
+    "recomputed_trainable4": {
+      "actual_optimizer_updates": 7,
+      "training_walltime_seconds": 83.06628253683448,
+      "peak_memory_gib": 20.99290180206299,
+      "nominal_training_terminal_velocities": 98,
+      "training_shared_calls": {
+        "outer": 112,
+        "inner": 112
+      }
+    },
+    "recomputed_frozen4": {
+      "actual_optimizer_updates": 7,
+      "training_walltime_seconds": 82.46843838505447,
+      "peak_memory_gib": 17.73627471923828,
+      "nominal_training_terminal_velocities": 98,
+      "training_shared_calls": {
+        "outer": 112,
+        "inner": 112
+      }
+    }
+  },
+  "paired_capacity": {},
+  "new_scoring_images": 0,
+  "controller_started": false,
+  "scope": "Local bytes/manifests/source/config/v80 proof/actual initialization and reused v78 control provenance, complete-line actual logs and independent scalar statistics; server Torch operations only, no local Torch rerun; launch is prefix only, complete includes fixed step420 checkpoints and capacity"
+}

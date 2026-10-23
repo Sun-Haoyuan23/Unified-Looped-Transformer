@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "archive_sha256": "281599654bb0dc1dc8b12d9dcd8e2cc40b598372d0c2e9b5553aa460c8b04eb8",
+  "manifest_files": 44,
+  "completed_updates_in_snapshot": 28,
+  "updates_per_arm": 7,
+  "all_four_initializations_and_sampling_matched": true,
+  "finite_loss_and_gradient_prefix": true,
+  "final_checkpoint_included": false,
+  "quality_results_included": false,
+  "scope": "Local bytes/hash/config/full420 sampling and first seven actual update logs per arm; launch proof only, no completed training or local Torch rerun"
+}

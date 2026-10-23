@@ -1,0 +1,860 @@
+{
+  "arms": {
+    "anchor_trainable4": {
+      "teacher_mean": 0.5284059246381124,
+      "preservation_mean": 0.003989120579457709,
+      "preservation_max": 0.012320157140493393,
+      "capacity_gate_passed": false,
+      "actual_optimizer_updates": 420,
+      "nominal_training_terminal_velocities": 5880,
+      "original_feature_capture_velocities": 41,
+      "repair_and_capacity_shared_calls": {
+        "outer": 4610,
+        "inner": 4610
+      },
+      "training_walltime_seconds": 4940.0289166960865,
+      "peak_memory_gib": 19.89711046218872,
+      "teacher_clip_fraction": 0.9095238095238095,
+      "preservation_clip_fraction": 0.023809523809523808,
+      "effective_bf16_changed_fraction": 0.8660436223764889
+    },
+    "anchor_frozen4": {
+      "teacher_mean": 0.5326414555311203,
+      "preservation_mean": 0.003907517370368753,
+      "preservation_max": 0.012732666917145252,
+      "capacity_gate_passed": false,
+      "actual_optimizer_updates": 420,
+      "nominal_training_terminal_velocities": 5880,
+      "original_feature_capture_velocities": 41,
+      "repair_and_capacity_shared_calls": {
+        "outer": 4610,
+        "inner": 4610
+      },
+      "training_walltime_seconds": 4932.5914048329,
+      "peak_memory_gib": 18.99984121322632,
+      "teacher_clip_fraction": 0.8904761904761904,
+      "preservation_clip_fraction": 0.01904761904761905,
+      "effective_bf16_changed_fraction": 0.0
+    },
+    "plain_trainable4": {
+      "teacher_mean": 0.5932987034320831,
+      "preservation_mean": 0.0019142391218338161,
+      "preservation_max": 0.008180121891200542,
+      "capacity_gate_passed": false,
+      "actual_optimizer_updates": 420,
+      "nominal_training_terminal_velocities": 5880,
+      "original_feature_capture_velocities": 41,
+      "repair_and_capacity_shared_calls": {
+        "outer": 3688,
+        "inner": 3688
+      },
+      "training_walltime_seconds": 5045.2064995821565,
+      "peak_memory_gib": 19.11516523361206,
+      "teacher_clip_fraction": 0.9857142857142858,
+      "preservation_clip_fraction": 0.02857142857142857,
+      "effective_bf16_changed_fraction": 0.8744331735079406
+    },
+    "no_loop": {
+      "teacher_mean": 0.5444059471289316,
+      "preservation_mean": 0.0033626759857205406,
+      "preservation_max": 0.009748163633048534,
+      "capacity_gate_passed": false,
+      "actual_optimizer_updates": 420,
+      "nominal_training_terminal_velocities": 5880,
+      "original_feature_capture_velocities": 41,
+      "repair_and_capacity_shared_calls": {
+        "outer": 0,
+        "inner": 0
+      },
+      "training_walltime_seconds": 4825.843814648688,
+      "peak_memory_gib": 15.747864246368408,
+      "teacher_clip_fraction": 0.8857142857142857,
+      "preservation_clip_fraction": 0.01904761904761905,
+      "effective_bf16_changed_fraction": 0.0
+    }
+  },
+  "comparisons": {
+    "anchor_trainable4_vs_anchor_frozen4": {
+      "teachers": {
+        "states": [
+          {
+            "state_id": "train_extra_00006_seed101_i35",
+            "trained": 0.4869936406612396,
+            "control": 0.4773043096065521,
+            "difference": 0.0096893310546875
+          },
+          {
+            "state_id": "train_extra_00010_seed101_i35",
+            "trained": 0.5020589828491211,
+            "control": 0.5049397349357605,
+            "difference": -0.0028807520866394043
+          },
+          {
+            "state_id": "train_extra_00021_seed101_i35",
+            "trained": 0.9453029036521912,
+            "control": 0.9446918964385986,
+            "difference": 0.0006110072135925293
+          },
+          {
+            "state_id": "train_extra_00039_seed101_i35",
+            "trained": 0.39342832565307617,
+            "control": 0.4536285102367401,
+            "difference": -0.06020018458366394
+          },
+          {
+            "state_id": "train_extra_00046_seed101_i35",
+            "trained": 0.4816831946372986,
+            "control": 0.4506986439228058,
+            "difference": 0.030984550714492798
+          },
+          {
+            "state_id": "train_extra_00054_seed101_i35",
+            "trained": 0.3609685003757477,
+            "control": 0.36458563804626465,
+            "difference": -0.0036171376705169678
+          }
+        ],
+        "improved": 3,
+        "mean_difference": -0.0042355308930079145
+      },
+      "preservation": {
+        "states": [
+          {
+            "state_id": "train_extra_00001_seed202_i35",
+            "trained": 0.0026405341923236847,
+            "control": 0.002670859917998314,
+            "difference": -3.032572567462921e-05
+          },
+          {
+            "state_id": "train_extra_00002_seed101_i35",
+            "trained": 0.003756531747058034,
+            "control": 0.0038594615180045366,
+            "difference": -0.00010292977094650269
+          },
+          {
+            "state_id": "train_extra_00003_seed202_i35",
+            "trained": 0.004560427740216255,
+            "control": 0.004246675409376621,
+            "difference": 0.00031375233083963394
+          },
+          {
+            "state_id": "train_extra_00004_seed202_i35",
+            "trained": 0.0031815783586353064,
+            "control": 0.002560892142355442,
+            "difference": 0.0006206862162798643
+          },
+          {
+            "state_id": "train_extra_00005_seed101_i35",
+            "trained": 0.003950985614210367,
+            "control": 0.004550507292151451,
+            "difference": -0.0005995216779410839
+          },
+          {
+            "state_id": "train_extra_00006_seed202_i35",
+            "trained": 0.0027673658914864063,
+            "control": 0.0026333401910960674,
+            "difference": 0.0001340257003903389
+          },
+          {
+            "state_id": "train_extra_00007_seed101_i35",
+            "trained": 0.0025883708149194717,
+            "control": 0.0024596243165433407,
+            "difference": 0.00012874649837613106
+          },
+          {
+            "state_id": "train_extra_00007_seed202_i35",
+            "trained": 0.0029519321396946907,
+            "control": 0.0027640345506370068,
+            "difference": 0.00018789758905768394
+          },
+          {
+            "state_id": "train_extra_00009_seed101_i35",
+            "trained": 0.012320157140493393,
+            "control": 0.012732666917145252,
+            "difference": -0.0004125097766518593
+          },
+          {
+            "state_id": "train_extra_00010_seed202_i35",
+            "trained": 0.010540289804339409,
+            "control": 0.011775101535022259,
+            "difference": -0.0012348117306828499
+          },
+          {
+            "state_id": "train_extra_00013_seed202_i35",
+            "trained": 0.0034547087270766497,
+            "control": 0.0030182432383298874,
+            "difference": 0.0004364654887467623
+          },
+          {
+            "state_id": "train_extra_00014_seed101_i35",
+            "trained": 0.0020396385807543993,
+            "control": 0.0020589283667504787,
+            "difference": -1.9289785996079445e-05
+          },
+          {
+            "state_id": "train_extra_00017_seed101_i35",
+            "trained": 0.002810554811730981,
+            "control": 0.0023943299893289804,
+            "difference": 0.00041622482240200043
+          },
+          {
+            "state_id": "train_extra_00017_seed202_i35",
+            "trained": 0.001197255332954228,
+            "control": 0.00134029530454427,
+            "difference": -0.00014303997159004211
+          },
+          {
+            "state_id": "train_extra_00019_seed202_i35",
+            "trained": 0.0017789250705391169,
+            "control": 0.0016173628391698003,
+            "difference": 0.00016156223136931658
+          },
+          {
+            "state_id": "train_extra_00021_seed202_i35",
+            "trained": 0.00532702449709177,
+            "control": 0.0061076791025698185,
+            "difference": -0.0007806546054780483
+          },
+          {
+            "state_id": "train_extra_00022_seed101_i35",
+            "trained": 0.00291367806494236,
+            "control": 0.0026373378932476044,
+            "difference": 0.00027634017169475555
+          },
+          {
+            "state_id": "train_extra_00022_seed202_i35",
+            "trained": 0.002387489890679717,
+            "control": 0.00199858658015728,
+            "difference": 0.0003889033105224371
+          },
+          {
+            "state_id": "train_extra_00029_seed101_i35",
+            "trained": 0.0023044650442898273,
+            "control": 0.001809614710509777,
+            "difference": 0.0004948503337800503
+          },
+          {
+            "state_id": "train_extra_00029_seed202_i35",
+            "trained": 0.0016060922062024474,
+            "control": 0.001370585523545742,
+            "difference": 0.00023550668265670538
+          },
+          {
+            "state_id": "train_extra_00034_seed101_i35",
+            "trained": 0.004849838092923164,
+            "control": 0.004385762382298708,
+            "difference": 0.0004640757106244564
+          },
+          {
+            "state_id": "train_extra_00034_seed202_i35",
+            "trained": 0.003106495598331094,
+            "control": 0.0026926964055746794,
+            "difference": 0.0004137991927564144
+          },
+          {
+            "state_id": "train_extra_00035_seed101_i35",
+            "trained": 0.01101644616574049,
+            "control": 0.010327119380235672,
+            "difference": 0.000689326785504818
+          },
+          {
+            "state_id": "train_extra_00035_seed202_i35",
+            "trained": 0.003358041401952505,
+            "control": 0.003294534981250763,
+            "difference": 6.350642070174217e-05
+          },
+          {
+            "state_id": "train_extra_00040_seed101_i35",
+            "trained": 0.0025389883667230606,
+            "control": 0.0022030603140592575,
+            "difference": 0.0003359280526638031
+          },
+          {
+            "state_id": "train_extra_00040_seed202_i35",
+            "trained": 0.002146113896742463,
+            "control": 0.001847360748797655,
+            "difference": 0.000298753147944808
+          },
+          {
+            "state_id": "train_extra_00042_seed101_i35",
+            "trained": 0.00839006993919611,
+            "control": 0.00802090298384428,
+            "difference": 0.00036916695535182953
+          },
+          {
+            "state_id": "train_extra_00042_seed202_i35",
+            "trained": 0.003950081299990416,
+            "control": 0.003931432496756315,
+            "difference": 1.8648803234100342e-05
+          },
+          {
+            "state_id": "train_extra_00045_seed101_i35",
+            "trained": 0.002312765223905444,
+            "control": 0.0025501593481749296,
+            "difference": -0.00023739412426948547
+          },
+          {
+            "state_id": "train_extra_00045_seed202_i35",
+            "trained": 0.0016535741742700338,
+            "control": 0.0017526985611766577,
+            "difference": -9.912438690662384e-05
+          },
+          {
+            "state_id": "train_extra_00047_seed202_i35",
+            "trained": 0.0031108770053833723,
+            "control": 0.002846556017175317,
+            "difference": 0.0002643209882080555
+          },
+          {
+            "state_id": "train_extra_00049_seed101_i35",
+            "trained": 0.00488564046099782,
+            "control": 0.004860700108110905,
+            "difference": 2.4940352886915207e-05
+          },
+          {
+            "state_id": "train_extra_00049_seed202_i35",
+            "trained": 0.00276461080648005,
+            "control": 0.0026546523440629244,
+            "difference": 0.0001099584624171257
+          },
+          {
+            "state_id": "train_extra_00054_seed202_i35",
+            "trained": 0.002233622595667839,
+            "control": 0.0020000082440674305,
+            "difference": 0.00023361435160040855
+          },
+          {
+            "state_id": "train_extra_00067_seed101_i35",
+            "trained": 0.00822404958307743,
+            "control": 0.008789336308836937,
+            "difference": -0.0005652867257595062
+          }
+        ],
+        "improved": 11,
+        "mean_difference": 8.16032090889556e-05
+      }
+    },
+    "anchor_trainable4_vs_plain_trainable4": {
+      "teachers": {
+        "states": [
+          {
+            "state_id": "train_extra_00006_seed101_i35",
+            "trained": 0.4869936406612396,
+            "control": 0.5472093224525452,
+            "difference": -0.06021568179130554
+          },
+          {
+            "state_id": "train_extra_00010_seed101_i35",
+            "trained": 0.5020589828491211,
+            "control": 0.5975285768508911,
+            "difference": -0.09546959400177002
+          },
+          {
+            "state_id": "train_extra_00021_seed101_i35",
+            "trained": 0.9453029036521912,
+            "control": 0.9451271891593933,
+            "difference": 0.00017571449279785156
+          },
+          {
+            "state_id": "train_extra_00039_seed101_i35",
+            "trained": 0.39342832565307617,
+            "control": 0.44758978486061096,
+            "difference": -0.05416145920753479
+          },
+          {
+            "state_id": "train_extra_00046_seed101_i35",
+            "trained": 0.4816831946372986,
+            "control": 0.5937070250511169,
+            "difference": -0.11202383041381836
+          },
+          {
+            "state_id": "train_extra_00054_seed101_i35",
+            "trained": 0.3609685003757477,
+            "control": 0.4286303222179413,
+            "difference": -0.0676618218421936
+          }
+        ],
+        "improved": 5,
+        "mean_difference": -0.06489277879397075
+      },
+      "preservation": {
+        "states": [
+          {
+            "state_id": "train_extra_00001_seed202_i35",
+            "trained": 0.0026405341923236847,
+            "control": 0.0007871734560467303,
+            "difference": 0.0018533607362769544
+          },
+          {
+            "state_id": "train_extra_00002_seed101_i35",
+            "trained": 0.003756531747058034,
+            "control": 0.0017145128222182393,
+            "difference": 0.0020420189248397946
+          },
+          {
+            "state_id": "train_extra_00003_seed202_i35",
+            "trained": 0.004560427740216255,
+            "control": 0.0023123391438275576,
+            "difference": 0.0022480885963886976
+          },
+          {
+            "state_id": "train_extra_00004_seed202_i35",
+            "trained": 0.0031815783586353064,
+            "control": 0.0006512125255540013,
+            "difference": 0.002530365833081305
+          },
+          {
+            "state_id": "train_extra_00005_seed101_i35",
+            "trained": 0.003950985614210367,
+            "control": 0.0023308871313929558,
+            "difference": 0.0016200984828174114
+          },
+          {
+            "state_id": "train_extra_00006_seed202_i35",
+            "trained": 0.0027673658914864063,
+            "control": 0.0006838947883807123,
+            "difference": 0.002083471103105694
+          },
+          {
+            "state_id": "train_extra_00007_seed101_i35",
+            "trained": 0.0025883708149194717,
+            "control": 0.0006342216511256993,
+            "difference": 0.0019541491637937725
+          },
+          {
+            "state_id": "train_extra_00007_seed202_i35",
+            "trained": 0.0029519321396946907,
+            "control": 0.000701027805916965,
+            "difference": 0.0022509043337777257
+          },
+          {
+            "state_id": "train_extra_00009_seed101_i35",
+            "trained": 0.012320157140493393,
+            "control": 0.008180121891200542,
+            "difference": 0.0041400352492928505
+          },
+          {
+            "state_id": "train_extra_00010_seed202_i35",
+            "trained": 0.010540289804339409,
+            "control": 0.005362013354897499,
+            "difference": 0.00517827644944191
+          },
+          {
+            "state_id": "train_extra_00013_seed202_i35",
+            "trained": 0.0034547087270766497,
+            "control": 0.0008941418491303921,
+            "difference": 0.0025605668779462576
+          },
+          {
+            "state_id": "train_extra_00014_seed101_i35",
+            "trained": 0.0020396385807543993,
+            "control": 0.0005303043872117996,
+            "difference": 0.0015093341935425997
+          },
+          {
+            "state_id": "train_extra_00017_seed101_i35",
+            "trained": 0.002810554811730981,
+            "control": 0.0011586134787648916,
+            "difference": 0.0016519413329660892
+          },
+          {
+            "state_id": "train_extra_00017_seed202_i35",
+            "trained": 0.001197255332954228,
+            "control": 0.0004401018377393484,
+            "difference": 0.0007571534952148795
+          },
+          {
+            "state_id": "train_extra_00019_seed202_i35",
+            "trained": 0.0017789250705391169,
+            "control": 0.0007689256453886628,
+            "difference": 0.001009999425150454
+          },
+          {
+            "state_id": "train_extra_00021_seed202_i35",
+            "trained": 0.00532702449709177,
+            "control": 0.002857503481209278,
+            "difference": 0.002469521015882492
+          },
+          {
+            "state_id": "train_extra_00022_seed101_i35",
+            "trained": 0.00291367806494236,
+            "control": 0.0006590380799025297,
+            "difference": 0.00225463998503983
+          },
+          {
+            "state_id": "train_extra_00022_seed202_i35",
+            "trained": 0.002387489890679717,
+            "control": 0.0004389688838273287,
+            "difference": 0.0019485210068523884
+          },
+          {
+            "state_id": "train_extra_00029_seed101_i35",
+            "trained": 0.0023044650442898273,
+            "control": 0.0006485113990493119,
+            "difference": 0.0016559536452405155
+          },
+          {
+            "state_id": "train_extra_00029_seed202_i35",
+            "trained": 0.0016060922062024474,
+            "control": 0.00036108787753619254,
+            "difference": 0.0012450043286662549
+          },
+          {
+            "state_id": "train_extra_00034_seed101_i35",
+            "trained": 0.004849838092923164,
+            "control": 0.0034037476871162653,
+            "difference": 0.001446090405806899
+          },
+          {
+            "state_id": "train_extra_00034_seed202_i35",
+            "trained": 0.003106495598331094,
+            "control": 0.0009675560868345201,
+            "difference": 0.0021389395114965737
+          },
+          {
+            "state_id": "train_extra_00035_seed101_i35",
+            "trained": 0.01101644616574049,
+            "control": 0.00585463922470808,
+            "difference": 0.00516180694103241
+          },
+          {
+            "state_id": "train_extra_00035_seed202_i35",
+            "trained": 0.003358041401952505,
+            "control": 0.001305644866079092,
+            "difference": 0.002052396535873413
+          },
+          {
+            "state_id": "train_extra_00040_seed101_i35",
+            "trained": 0.0025389883667230606,
+            "control": 0.0005186514463275671,
+            "difference": 0.0020203369203954935
+          },
+          {
+            "state_id": "train_extra_00040_seed202_i35",
+            "trained": 0.002146113896742463,
+            "control": 0.0004542345996014774,
+            "difference": 0.0016918792971409857
+          },
+          {
+            "state_id": "train_extra_00042_seed101_i35",
+            "trained": 0.00839006993919611,
+            "control": 0.006065706256777048,
+            "difference": 0.0023243636824190617
+          },
+          {
+            "state_id": "train_extra_00042_seed202_i35",
+            "trained": 0.003950081299990416,
+            "control": 0.0017066829605028033,
+            "difference": 0.0022433983394876122
+          },
+          {
+            "state_id": "train_extra_00045_seed101_i35",
+            "trained": 0.002312765223905444,
+            "control": 0.0013521724613383412,
+            "difference": 0.0009605927625671029
+          },
+          {
+            "state_id": "train_extra_00045_seed202_i35",
+            "trained": 0.0016535741742700338,
+            "control": 0.0006448624772019684,
+            "difference": 0.0010087116970680654
+          },
+          {
+            "state_id": "train_extra_00047_seed202_i35",
+            "trained": 0.0031108770053833723,
+            "control": 0.0009398998226970434,
+            "difference": 0.002170977182686329
+          },
+          {
+            "state_id": "train_extra_00049_seed101_i35",
+            "trained": 0.00488564046099782,
+            "control": 0.0020768488757312298,
+            "difference": 0.00280879158526659
+          },
+          {
+            "state_id": "train_extra_00049_seed202_i35",
+            "trained": 0.00276461080648005,
+            "control": 0.000927580229472369,
+            "difference": 0.0018370305770076811
+          },
+          {
+            "state_id": "train_extra_00054_seed202_i35",
+            "trained": 0.002233622595667839,
+            "control": 0.0009437343687750399,
+            "difference": 0.0012898882268927991
+          },
+          {
+            "state_id": "train_extra_00067_seed101_i35",
+            "trained": 0.00822404958307743,
+            "control": 0.007721806410700083,
+            "difference": 0.000502243172377348
+          }
+        ],
+        "improved": 0,
+        "mean_difference": 0.0020748814576238925
+      }
+    },
+    "anchor_trainable4_vs_no_loop": {
+      "teachers": {
+        "states": [
+          {
+            "state_id": "train_extra_00006_seed101_i35",
+            "trained": 0.4869936406612396,
+            "control": 0.505586564540863,
+            "difference": -0.018592923879623413
+          },
+          {
+            "state_id": "train_extra_00010_seed101_i35",
+            "trained": 0.5020589828491211,
+            "control": 0.5353266000747681,
+            "difference": -0.03326761722564697
+          },
+          {
+            "state_id": "train_extra_00021_seed101_i35",
+            "trained": 0.9453029036521912,
+            "control": 0.9461002945899963,
+            "difference": -0.0007973909378051758
+          },
+          {
+            "state_id": "train_extra_00039_seed101_i35",
+            "trained": 0.39342832565307617,
+            "control": 0.4506966769695282,
+            "difference": -0.057268351316452026
+          },
+          {
+            "state_id": "train_extra_00046_seed101_i35",
+            "trained": 0.4816831946372986,
+            "control": 0.45036399364471436,
+            "difference": 0.03131920099258423
+          },
+          {
+            "state_id": "train_extra_00054_seed101_i35",
+            "trained": 0.3609685003757477,
+            "control": 0.3783615529537201,
+            "difference": -0.017393052577972412
+          }
+        ],
+        "improved": 5,
+        "mean_difference": -0.016000022490819294
+      },
+      "preservation": {
+        "states": [
+          {
+            "state_id": "train_extra_00001_seed202_i35",
+            "trained": 0.0026405341923236847,
+            "control": 0.0022306020837277174,
+            "difference": 0.0004099321085959673
+          },
+          {
+            "state_id": "train_extra_00002_seed101_i35",
+            "trained": 0.003756531747058034,
+            "control": 0.0033134277909994125,
+            "difference": 0.0004431039560586214
+          },
+          {
+            "state_id": "train_extra_00003_seed202_i35",
+            "trained": 0.004560427740216255,
+            "control": 0.0039396025240421295,
+            "difference": 0.0006208252161741257
+          },
+          {
+            "state_id": "train_extra_00004_seed202_i35",
+            "trained": 0.0031815783586353064,
+            "control": 0.00294473790563643,
+            "difference": 0.00023684045299887657
+          },
+          {
+            "state_id": "train_extra_00005_seed101_i35",
+            "trained": 0.003950985614210367,
+            "control": 0.0030526851769536734,
+            "difference": 0.0008983004372566938
+          },
+          {
+            "state_id": "train_extra_00006_seed202_i35",
+            "trained": 0.0027673658914864063,
+            "control": 0.002469328697770834,
+            "difference": 0.00029803719371557236
+          },
+          {
+            "state_id": "train_extra_00007_seed101_i35",
+            "trained": 0.0025883708149194717,
+            "control": 0.0020901882089674473,
+            "difference": 0.0004981826059520245
+          },
+          {
+            "state_id": "train_extra_00007_seed202_i35",
+            "trained": 0.0029519321396946907,
+            "control": 0.0022982631344348192,
+            "difference": 0.0006536690052598715
+          },
+          {
+            "state_id": "train_extra_00009_seed101_i35",
+            "trained": 0.012320157140493393,
+            "control": 0.009748163633048534,
+            "difference": 0.0025719935074448586
+          },
+          {
+            "state_id": "train_extra_00010_seed202_i35",
+            "trained": 0.010540289804339409,
+            "control": 0.009468999691307545,
+            "difference": 0.0010712901130318642
+          },
+          {
+            "state_id": "train_extra_00013_seed202_i35",
+            "trained": 0.0034547087270766497,
+            "control": 0.0031907905358821154,
+            "difference": 0.0002639181911945343
+          },
+          {
+            "state_id": "train_extra_00014_seed101_i35",
+            "trained": 0.0020396385807543993,
+            "control": 0.0017483016708865762,
+            "difference": 0.0002913369098678231
+          },
+          {
+            "state_id": "train_extra_00017_seed101_i35",
+            "trained": 0.002810554811730981,
+            "control": 0.0025553088635206223,
+            "difference": 0.0002552459482103586
+          },
+          {
+            "state_id": "train_extra_00017_seed202_i35",
+            "trained": 0.001197255332954228,
+            "control": 0.0009828488109633327,
+            "difference": 0.00021440652199089527
+          },
+          {
+            "state_id": "train_extra_00019_seed202_i35",
+            "trained": 0.0017789250705391169,
+            "control": 0.0014303101925179362,
+            "difference": 0.00034861487802118063
+          },
+          {
+            "state_id": "train_extra_00021_seed202_i35",
+            "trained": 0.00532702449709177,
+            "control": 0.00396476686000824,
+            "difference": 0.0013622576370835304
+          },
+          {
+            "state_id": "train_extra_00022_seed101_i35",
+            "trained": 0.00291367806494236,
+            "control": 0.002500587608665228,
+            "difference": 0.00041309045627713203
+          },
+          {
+            "state_id": "train_extra_00022_seed202_i35",
+            "trained": 0.002387489890679717,
+            "control": 0.0021742687094956636,
+            "difference": 0.00021322118118405342
+          },
+          {
+            "state_id": "train_extra_00029_seed101_i35",
+            "trained": 0.0023044650442898273,
+            "control": 0.0018369393656030297,
+            "difference": 0.0004675256786867976
+          },
+          {
+            "state_id": "train_extra_00029_seed202_i35",
+            "trained": 0.0016060922062024474,
+            "control": 0.001335684210062027,
+            "difference": 0.00027040799614042044
+          },
+          {
+            "state_id": "train_extra_00034_seed101_i35",
+            "trained": 0.004849838092923164,
+            "control": 0.00443795183673501,
+            "difference": 0.0004118862561881542
+          },
+          {
+            "state_id": "train_extra_00034_seed202_i35",
+            "trained": 0.003106495598331094,
+            "control": 0.0028078097384423018,
+            "difference": 0.00029868585988879204
+          },
+          {
+            "state_id": "train_extra_00035_seed101_i35",
+            "trained": 0.01101644616574049,
+            "control": 0.00858944933861494,
+            "difference": 0.0024269968271255493
+          },
+          {
+            "state_id": "train_extra_00035_seed202_i35",
+            "trained": 0.003358041401952505,
+            "control": 0.002996832365170121,
+            "difference": 0.0003612090367823839
+          },
+          {
+            "state_id": "train_extra_00040_seed101_i35",
+            "trained": 0.0025389883667230606,
+            "control": 0.0024187108501791954,
+            "difference": 0.0001202775165438652
+          },
+          {
+            "state_id": "train_extra_00040_seed202_i35",
+            "trained": 0.002146113896742463,
+            "control": 0.0020997202955186367,
+            "difference": 4.639360122382641e-05
+          },
+          {
+            "state_id": "train_extra_00042_seed101_i35",
+            "trained": 0.00839006993919611,
+            "control": 0.007150211837142706,
+            "difference": 0.0012398581020534039
+          },
+          {
+            "state_id": "train_extra_00042_seed202_i35",
+            "trained": 0.003950081299990416,
+            "control": 0.0033334284089505672,
+            "difference": 0.0006166528910398483
+          },
+          {
+            "state_id": "train_extra_00045_seed101_i35",
+            "trained": 0.002312765223905444,
+            "control": 0.0020125736482441425,
+            "difference": 0.0003001915756613016
+          },
+          {
+            "state_id": "train_extra_00045_seed202_i35",
+            "trained": 0.0016535741742700338,
+            "control": 0.0015088185900822282,
+            "difference": 0.00014475558418780565
+          },
+          {
+            "state_id": "train_extra_00047_seed202_i35",
+            "trained": 0.0031108770053833723,
+            "control": 0.0027563623152673244,
+            "difference": 0.00035451469011604786
+          },
+          {
+            "state_id": "train_extra_00049_seed101_i35",
+            "trained": 0.00488564046099782,
+            "control": 0.004265732131898403,
+            "difference": 0.0006199083290994167
+          },
+          {
+            "state_id": "train_extra_00049_seed202_i35",
+            "trained": 0.00276461080648005,
+            "control": 0.002439905423671007,
+            "difference": 0.00032470538280904293
+          },
+          {
+            "state_id": "train_extra_00054_seed202_i35",
+            "trained": 0.002233622595667839,
+            "control": 0.002065394539386034,
+            "difference": 0.00016822805628180504
+          },
+          {
+            "state_id": "train_extra_00067_seed101_i35",
+            "trained": 0.00822404958307743,
+            "control": 0.0055349525064229965,
+            "difference": 0.002689097076654434
+          }
+        ],
+        "improved": 0,
+        "mean_difference": 0.0006264445937371679
+      }
+    }
+  },
+  "no_new_quality_or_generalization_measurement": true,
+  "FLOPs": null
+}

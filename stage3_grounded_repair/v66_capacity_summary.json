@@ -1,0 +1,66 @@
+{
+  "loop2": {
+    "teacher": {
+      "mean": 0.2876064144074917,
+      "max": 0.7384247779846191,
+      "below_gate": 0
+    },
+    "preservation": {
+      "mean": 0.0009507735342984753,
+      "max": 0.011594918556511402,
+      "below_gate": 30
+    },
+    "teachers": [
+      {
+        "state_id": "train_extra_00021_seed101_i35",
+        "preservation": false,
+        "denominator": 0.6509479880332947,
+        "physical_relative_target_mse": 0.7384247779846191
+      },
+      {
+        "state_id": "train_extra_00039_seed101_i35",
+        "preservation": false,
+        "denominator": 0.003874428104609251,
+        "physical_relative_target_mse": 0.059428002685308456
+      },
+      {
+        "state_id": "train_extra_00046_seed101_i35",
+        "preservation": false,
+        "denominator": 0.003600573865696788,
+        "physical_relative_target_mse": 0.06496646255254745
+      }
+    ]
+  },
+  "no_loop": {
+    "teacher": {
+      "mean": 0.23751860236128172,
+      "max": 0.6174927949905396,
+      "below_gate": 0
+    },
+    "preservation": {
+      "mean": 0.001550276913414044,
+      "max": 0.024555526673793793,
+      "below_gate": 24
+    },
+    "teachers": [
+      {
+        "state_id": "train_extra_00021_seed101_i35",
+        "preservation": false,
+        "denominator": 0.6509479880332947,
+        "physical_relative_target_mse": 0.6174927949905396
+      },
+      {
+        "state_id": "train_extra_00039_seed101_i35",
+        "preservation": false,
+        "denominator": 0.003874428104609251,
+        "physical_relative_target_mse": 0.04575052857398987
+      },
+      {
+        "state_id": "train_extra_00046_seed101_i35",
+        "preservation": false,
+        "denominator": 0.003600573865696788,
+        "physical_relative_target_mse": 0.04931248351931572
+      }
+    ]
+  }
+}

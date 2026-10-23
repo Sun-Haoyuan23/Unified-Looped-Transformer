@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "state_id": "00444_seed101_i35",
+  "terminal_requires_grad": true,
+  "adapter_gradient_abs_sum": 2.3100605517356598e-05,
+  "zero_intervention_latent_exact": true,
+  "base_parameter_gradients": false,
+  "optimizer_steps": 0,
+  "frozen_core_exact": true,
+  "cost": {
+    "network_velocity_calls": 14,
+    "visual_block_calls": 140,
+    "shared_revisit_calls": 8,
+    "mmu_checks": 0,
+    "FLOPs": null
+  },
+  "time_s": 10.934014052152634,
+  "peak_gb": 14.690453052520752
+}

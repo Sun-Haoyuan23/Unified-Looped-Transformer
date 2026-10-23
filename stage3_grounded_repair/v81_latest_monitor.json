@@ -1,0 +1,49 @@
+{
+  "time": 1791513306.2788897,
+  "arms": {
+    "recomputed_trainable4": {
+      "actual_updates": 24,
+      "worker_status": {
+        "phase": "training",
+        "arm": "recomputed_trainable4",
+        "time": 1791513302.0882168,
+        "optimizer_updates": 24,
+        "state_id": "train_extra_00017_seed101_i35",
+        "loss": 0.002853261772543192
+      },
+      "complete_line_prefix_audit_passed": true
+    },
+    "recomputed_frozen4": {
+      "actual_updates": 24,
+      "worker_status": {
+        "phase": "training",
+        "arm": "recomputed_frozen4",
+        "time": 1791513300.8675158,
+        "optimizer_updates": 24,
+        "state_id": "train_extra_00017_seed101_i35",
+        "loss": 0.002862529596313834
+      },
+      "complete_line_prefix_audit_passed": true
+    }
+  },
+  "optimizer_updates": 48,
+  "source_unchanged": true,
+  "errors": [],
+  "pipeline": {
+    "phase": "training",
+    "time": 1791512987.330658,
+    "workers": [
+      {
+        "arm": "recomputed_trainable4",
+        "pid": 104791
+      },
+      {
+        "arm": "recomputed_frozen4",
+        "pid": 104792
+      }
+    ]
+  },
+  "passed": true,
+  "cumulative_parameter_updates": 10168,
+  "cumulative_external_steps": 9673
+}

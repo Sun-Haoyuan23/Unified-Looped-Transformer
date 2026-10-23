@@ -1,0 +1,38 @@
+{
+  "diagnostic": "architecture development only, 12 prompt clusters",
+  "baseline_labels_unchanged": true,
+  "by_flow_index": {
+    "20": {
+      "n": 24,
+      "n_prompts": 12,
+      "AUC": 0.9368421052631579,
+      "zero_threshold_accuracy": 0.625,
+      "baseline_wrong_triggered": 10,
+      "baseline_correct_triggered": 0
+    },
+    "25": {
+      "n": 24,
+      "n_prompts": 12,
+      "AUC": 0.9473684210526315,
+      "zero_threshold_accuracy": 0.7083333333333334,
+      "baseline_wrong_triggered": 12,
+      "baseline_correct_triggered": 0
+    },
+    "30": {
+      "n": 24,
+      "n_prompts": 12,
+      "AUC": 0.9315789473684211,
+      "zero_threshold_accuracy": 0.6666666666666666,
+      "baseline_wrong_triggered": 11,
+      "baseline_correct_triggered": 0
+    },
+    "35": {
+      "n": 24,
+      "n_prompts": 12,
+      "AUC": 0.9421052631578948,
+      "zero_threshold_accuracy": 0.6666666666666666,
+      "baseline_wrong_triggered": 11,
+      "baseline_correct_triggered": 0
+    }
+  }
+}
