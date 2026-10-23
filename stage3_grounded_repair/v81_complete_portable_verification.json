@@ -1,0 +1,582 @@
+{
+  "passed": true,
+  "phase": "complete",
+  "archive_sha256": "8de6e1bbd3ed4174627f4a78993b0409f8d67426b1e58287d8de8b67c9b5658e",
+  "manifest_files": 102,
+  "actual_optimizer_updates": 840,
+  "arm_updates": {
+    "recomputed_trainable4": 420,
+    "recomputed_frozen4": 420
+  },
+  "arms": {
+    "recomputed_trainable4": {
+      "actual_optimizer_updates": 420,
+      "training_walltime_seconds": 5005.757746886462,
+      "peak_memory_gib": 22.2565655708313,
+      "nominal_training_terminal_velocities": 5880,
+      "training_shared_calls": {
+        "outer": 6720,
+        "inner": 6720
+      },
+      "teacher_mean": 0.5308191875616709,
+      "preservation_mean": 0.0036734967924920577,
+      "preservation_max": 0.011814102530479431,
+      "capacity_gate_passed": false,
+      "effective_bf16_changed_fraction": 0.865288218513864
+    },
+    "recomputed_frozen4": {
+      "actual_optimizer_updates": 420,
+      "training_walltime_seconds": 4960.103571882471,
+      "peak_memory_gib": 19.0052547454834,
+      "nominal_training_terminal_velocities": 5880,
+      "training_shared_calls": {
+        "outer": 6720,
+        "inner": 6720
+      },
+      "teacher_mean": 0.5292015224695206,
+      "preservation_mean": 0.0032312607425930245,
+      "preservation_max": 0.009831422939896584,
+      "capacity_gate_passed": false,
+      "effective_bf16_changed_fraction": 0.0
+    }
+  },
+  "paired_capacity": {
+    "recomputed_frozen4": {
+      "teachers": {
+        "improved": 3,
+        "mean_difference": 0.0016176650921503704,
+        "states": [
+          {
+            "state_id": "train_extra_00006_seed101_i35",
+            "difference": -0.008009672164916992
+          },
+          {
+            "state_id": "train_extra_00010_seed101_i35",
+            "difference": 0.004797101020812988
+          },
+          {
+            "state_id": "train_extra_00021_seed101_i35",
+            "difference": -1.7642974853515625e-05
+          },
+          {
+            "state_id": "train_extra_00039_seed101_i35",
+            "difference": -0.01960739493370056
+          },
+          {
+            "state_id": "train_extra_00046_seed101_i35",
+            "difference": 0.023880094289779663
+          },
+          {
+            "state_id": "train_extra_00054_seed101_i35",
+            "difference": 0.00866350531578064
+          }
+        ]
+      },
+      "preservation": {
+        "improved": 6,
+        "mean_difference": 0.00044223604989903313,
+        "states": [
+          {
+            "state_id": "train_extra_00001_seed202_i35",
+            "difference": 0.0002100607380270958
+          },
+          {
+            "state_id": "train_extra_00002_seed101_i35",
+            "difference": 0.0004486737307161093
+          },
+          {
+            "state_id": "train_extra_00003_seed202_i35",
+            "difference": 0.0007517540361732244
+          },
+          {
+            "state_id": "train_extra_00004_seed202_i35",
+            "difference": 3.630830906331539e-05
+          },
+          {
+            "state_id": "train_extra_00005_seed101_i35",
+            "difference": 0.0006931496318429708
+          },
+          {
+            "state_id": "train_extra_00006_seed202_i35",
+            "difference": 0.0002161143347620964
+          },
+          {
+            "state_id": "train_extra_00007_seed101_i35",
+            "difference": 0.00021443027071654797
+          },
+          {
+            "state_id": "train_extra_00007_seed202_i35",
+            "difference": 0.0004401800688356161
+          },
+          {
+            "state_id": "train_extra_00009_seed101_i35",
+            "difference": 0.0019826795905828476
+          },
+          {
+            "state_id": "train_extra_00010_seed202_i35",
+            "difference": 0.0014302004128694534
+          },
+          {
+            "state_id": "train_extra_00013_seed202_i35",
+            "difference": 0.00028167967684566975
+          },
+          {
+            "state_id": "train_extra_00014_seed101_i35",
+            "difference": 9.474135003983974e-05
+          },
+          {
+            "state_id": "train_extra_00017_seed101_i35",
+            "difference": 0.00046068127267062664
+          },
+          {
+            "state_id": "train_extra_00017_seed202_i35",
+            "difference": 0.00010914402082562447
+          },
+          {
+            "state_id": "train_extra_00019_seed202_i35",
+            "difference": 0.00011935527436435223
+          },
+          {
+            "state_id": "train_extra_00021_seed202_i35",
+            "difference": 0.001000316347926855
+          },
+          {
+            "state_id": "train_extra_00022_seed101_i35",
+            "difference": 0.00015358650125563145
+          },
+          {
+            "state_id": "train_extra_00022_seed202_i35",
+            "difference": -0.00014428002759814262
+          },
+          {
+            "state_id": "train_extra_00029_seed101_i35",
+            "difference": -0.0002453464549034834
+          },
+          {
+            "state_id": "train_extra_00029_seed202_i35",
+            "difference": -0.00012823543511331081
+          },
+          {
+            "state_id": "train_extra_00034_seed101_i35",
+            "difference": 0.0004560910165309906
+          },
+          {
+            "state_id": "train_extra_00034_seed202_i35",
+            "difference": 0.00017743976786732674
+          },
+          {
+            "state_id": "train_extra_00035_seed101_i35",
+            "difference": 0.0018731728196144104
+          },
+          {
+            "state_id": "train_extra_00035_seed202_i35",
+            "difference": 0.0004711837973445654
+          },
+          {
+            "state_id": "train_extra_00040_seed101_i35",
+            "difference": -6.699608638882637e-05
+          },
+          {
+            "state_id": "train_extra_00040_seed202_i35",
+            "difference": -0.00017228559590876102
+          },
+          {
+            "state_id": "train_extra_00042_seed101_i35",
+            "difference": 0.0016706744208931923
+          },
+          {
+            "state_id": "train_extra_00042_seed202_i35",
+            "difference": 0.0005621197633445263
+          },
+          {
+            "state_id": "train_extra_00045_seed101_i35",
+            "difference": 0.00021145737264305353
+          },
+          {
+            "state_id": "train_extra_00045_seed202_i35",
+            "difference": 0.00010263093281537294
+          },
+          {
+            "state_id": "train_extra_00047_seed202_i35",
+            "difference": 0.00011352775618433952
+          },
+          {
+            "state_id": "train_extra_00049_seed101_i35",
+            "difference": 0.0006151699926704168
+          },
+          {
+            "state_id": "train_extra_00049_seed202_i35",
+            "difference": 0.00028740521520376205
+          },
+          {
+            "state_id": "train_extra_00054_seed202_i35",
+            "difference": -0.00010474980808794498
+          },
+          {
+            "state_id": "train_extra_00067_seed101_i35",
+            "difference": 0.0011562267318367958
+          }
+        ]
+      }
+    },
+    "reused_v78_anchor_trainable4": {
+      "teachers": {
+        "improved": 2,
+        "mean_difference": 0.002413262923558553,
+        "states": [
+          {
+            "state_id": "train_extra_00006_seed101_i35",
+            "difference": 0.011849135160446167
+          },
+          {
+            "state_id": "train_extra_00010_seed101_i35",
+            "difference": 0.012710332870483398
+          },
+          {
+            "state_id": "train_extra_00021_seed101_i35",
+            "difference": 0.0010101795196533203
+          },
+          {
+            "state_id": "train_extra_00039_seed101_i35",
+            "difference": -0.010814964771270752
+          },
+          {
+            "state_id": "train_extra_00046_seed101_i35",
+            "difference": -0.014121860265731812
+          },
+          {
+            "state_id": "train_extra_00054_seed101_i35",
+            "difference": 0.013846755027770996
+          }
+        ]
+      },
+      "preservation": {
+        "improved": 32,
+        "mean_difference": -0.0003156237869656512,
+        "states": [
+          {
+            "state_id": "train_extra_00001_seed202_i35",
+            "difference": -0.0003636863548308611
+          },
+          {
+            "state_id": "train_extra_00002_seed101_i35",
+            "difference": -0.00040089269168674946
+          },
+          {
+            "state_id": "train_extra_00003_seed202_i35",
+            "difference": -0.00037996331229805946
+          },
+          {
+            "state_id": "train_extra_00004_seed202_i35",
+            "difference": -0.0007488366682082415
+          },
+          {
+            "state_id": "train_extra_00005_seed101_i35",
+            "difference": 6.808852776885033e-05
+          },
+          {
+            "state_id": "train_extra_00006_seed202_i35",
+            "difference": -0.0001737377606332302
+          },
+          {
+            "state_id": "train_extra_00007_seed101_i35",
+            "difference": -0.00030585634522140026
+          },
+          {
+            "state_id": "train_extra_00007_seed202_i35",
+            "difference": -0.00040177092887461185
+          },
+          {
+            "state_id": "train_extra_00009_seed101_i35",
+            "difference": -0.0005060546100139618
+          },
+          {
+            "state_id": "train_extra_00010_seed202_i35",
+            "difference": -0.0001679491251707077
+          },
+          {
+            "state_id": "train_extra_00013_seed202_i35",
+            "difference": -0.0005186835769563913
+          },
+          {
+            "state_id": "train_extra_00014_seed101_i35",
+            "difference": -0.00034057500306516886
+          },
+          {
+            "state_id": "train_extra_00017_seed101_i35",
+            "difference": -0.0003473402466624975
+          },
+          {
+            "state_id": "train_extra_00017_seed202_i35",
+            "difference": -0.00013253814540803432
+          },
+          {
+            "state_id": "train_extra_00019_seed202_i35",
+            "difference": -0.0002006147988140583
+          },
+          {
+            "state_id": "train_extra_00021_seed202_i35",
+            "difference": 0.0007029436528682709
+          },
+          {
+            "state_id": "train_extra_00022_seed101_i35",
+            "difference": -0.00057933758944273
+          },
+          {
+            "state_id": "train_extra_00022_seed202_i35",
+            "difference": -0.0004917113110423088
+          },
+          {
+            "state_id": "train_extra_00029_seed101_i35",
+            "difference": -0.0005425428971648216
+          },
+          {
+            "state_id": "train_extra_00029_seed202_i35",
+            "difference": -0.0003913341788575053
+          },
+          {
+            "state_id": "train_extra_00034_seed101_i35",
+            "difference": -0.00044856639578938484
+          },
+          {
+            "state_id": "train_extra_00034_seed202_i35",
+            "difference": -0.0006563805509358644
+          },
+          {
+            "state_id": "train_extra_00035_seed101_i35",
+            "difference": -7.38091766834259e-05
+          },
+          {
+            "state_id": "train_extra_00035_seed202_i35",
+            "difference": -0.00013083359226584435
+          },
+          {
+            "state_id": "train_extra_00040_seed101_i35",
+            "difference": -0.0005442388355731964
+          },
+          {
+            "state_id": "train_extra_00040_seed202_i35",
+            "difference": -0.0004901238717138767
+          },
+          {
+            "state_id": "train_extra_00042_seed101_i35",
+            "difference": -0.00023410934954881668
+          },
+          {
+            "state_id": "train_extra_00042_seed202_i35",
+            "difference": -0.00035140151157975197
+          },
+          {
+            "state_id": "train_extra_00045_seed101_i35",
+            "difference": -0.0002816305495798588
+          },
+          {
+            "state_id": "train_extra_00045_seed202_i35",
+            "difference": -0.00023472437169402838
+          },
+          {
+            "state_id": "train_extra_00047_seed202_i35",
+            "difference": -0.0004761165473610163
+          },
+          {
+            "state_id": "train_extra_00049_seed101_i35",
+            "difference": -0.0004976913332939148
+          },
+          {
+            "state_id": "train_extra_00049_seed202_i35",
+            "difference": -0.00039653643034398556
+          },
+          {
+            "state_id": "train_extra_00054_seed202_i35",
+            "difference": -0.000315704382956028
+          },
+          {
+            "state_id": "train_extra_00067_seed101_i35",
+            "difference": 0.0003074277192354202
+          }
+        ]
+      }
+    },
+    "reused_v78_no_loop": {
+      "teachers": {
+        "improved": 4,
+        "mean_difference": -0.013586759567260742,
+        "states": [
+          {
+            "state_id": "train_extra_00006_seed101_i35",
+            "difference": -0.006743788719177246
+          },
+          {
+            "state_id": "train_extra_00010_seed101_i35",
+            "difference": -0.020557284355163574
+          },
+          {
+            "state_id": "train_extra_00021_seed101_i35",
+            "difference": 0.00021278858184814453
+          },
+          {
+            "state_id": "train_extra_00039_seed101_i35",
+            "difference": -0.06808331608772278
+          },
+          {
+            "state_id": "train_extra_00046_seed101_i35",
+            "difference": 0.017197340726852417
+          },
+          {
+            "state_id": "train_extra_00054_seed101_i35",
+            "difference": -0.003546297550201416
+          }
+        ]
+      },
+      "preservation": {
+        "improved": 16,
+        "mean_difference": 0.0003108208067715168,
+        "states": [
+          {
+            "state_id": "train_extra_00001_seed202_i35",
+            "difference": 4.62457537651062e-05
+          },
+          {
+            "state_id": "train_extra_00002_seed101_i35",
+            "difference": 4.221126437187195e-05
+          },
+          {
+            "state_id": "train_extra_00003_seed202_i35",
+            "difference": 0.0002408619038760662
+          },
+          {
+            "state_id": "train_extra_00004_seed202_i35",
+            "difference": -0.0005119962152093649
+          },
+          {
+            "state_id": "train_extra_00005_seed101_i35",
+            "difference": 0.0009663889650255442
+          },
+          {
+            "state_id": "train_extra_00006_seed202_i35",
+            "difference": 0.00012429943308234215
+          },
+          {
+            "state_id": "train_extra_00007_seed101_i35",
+            "difference": 0.0001923262607306242
+          },
+          {
+            "state_id": "train_extra_00007_seed202_i35",
+            "difference": 0.00025189807638525963
+          },
+          {
+            "state_id": "train_extra_00009_seed101_i35",
+            "difference": 0.0020659388974308968
+          },
+          {
+            "state_id": "train_extra_00010_seed202_i35",
+            "difference": 0.0009033409878611565
+          },
+          {
+            "state_id": "train_extra_00013_seed202_i35",
+            "difference": -0.00025476538576185703
+          },
+          {
+            "state_id": "train_extra_00014_seed101_i35",
+            "difference": -4.9238093197345734e-05
+          },
+          {
+            "state_id": "train_extra_00017_seed101_i35",
+            "difference": -9.20942984521389e-05
+          },
+          {
+            "state_id": "train_extra_00017_seed202_i35",
+            "difference": 8.186837658286095e-05
+          },
+          {
+            "state_id": "train_extra_00019_seed202_i35",
+            "difference": 0.00014800007920712233
+          },
+          {
+            "state_id": "train_extra_00021_seed202_i35",
+            "difference": 0.0020652012899518013
+          },
+          {
+            "state_id": "train_extra_00022_seed101_i35",
+            "difference": -0.00016624713316559792
+          },
+          {
+            "state_id": "train_extra_00022_seed202_i35",
+            "difference": -0.0002784901298582554
+          },
+          {
+            "state_id": "train_extra_00029_seed101_i35",
+            "difference": -7.5017218478024e-05
+          },
+          {
+            "state_id": "train_extra_00029_seed202_i35",
+            "difference": -0.00012092618271708488
+          },
+          {
+            "state_id": "train_extra_00034_seed101_i35",
+            "difference": -3.668013960123062e-05
+          },
+          {
+            "state_id": "train_extra_00034_seed202_i35",
+            "difference": -0.0003576946910470724
+          },
+          {
+            "state_id": "train_extra_00035_seed101_i35",
+            "difference": 0.0023531876504421234
+          },
+          {
+            "state_id": "train_extra_00035_seed202_i35",
+            "difference": 0.00023037544451653957
+          },
+          {
+            "state_id": "train_extra_00040_seed101_i35",
+            "difference": -0.0004239613190293312
+          },
+          {
+            "state_id": "train_extra_00040_seed202_i35",
+            "difference": -0.0004437302704900503
+          },
+          {
+            "state_id": "train_extra_00042_seed101_i35",
+            "difference": 0.0010057487525045872
+          },
+          {
+            "state_id": "train_extra_00042_seed202_i35",
+            "difference": 0.00026525137946009636
+          },
+          {
+            "state_id": "train_extra_00045_seed101_i35",
+            "difference": 1.8561026081442833e-05
+          },
+          {
+            "state_id": "train_extra_00045_seed202_i35",
+            "difference": -8.996878750622272e-05
+          },
+          {
+            "state_id": "train_extra_00047_seed202_i35",
+            "difference": -0.00012160185724496841
+          },
+          {
+            "state_id": "train_extra_00049_seed101_i35",
+            "difference": 0.00012221699580550194
+          },
+          {
+            "state_id": "train_extra_00049_seed202_i35",
+            "difference": -7.183104753494263e-05
+          },
+          {
+            "state_id": "train_extra_00054_seed202_i35",
+            "difference": -0.00014747632667422295
+          },
+          {
+            "state_id": "train_extra_00067_seed101_i35",
+            "difference": 0.0029965247958898544
+          }
+        ]
+      }
+    }
+  },
+  "new_scoring_images": 0,
+  "controller_started": false,
+  "scope": "Local bytes/manifests/source/config/v80 proof/actual initialization and reused v78 control provenance, complete-line actual logs and independent scalar statistics; server Torch operations only, no local Torch rerun; launch is prefix only, complete includes fixed step420 checkpoints and capacity"
+}
