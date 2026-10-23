@@ -1,0 +1,1458 @@
+{
+  "document_date": "2026-10-23",
+  "last_completed_experiment_evidence_date": "2026-10-10",
+  "report_path": ".\\TECHNICAL_REPORT_AND_HANDOVER_20261023.md",
+  "report_sha256": "55b9fb1e317fc7bea80878aa5400a71671ecb0d7255635c69f097a65c5d6d3a6",
+  "report_characters": 53079,
+  "scope": "Local report and source/proof integrity audit only. No remote query, model rerun, optimizer, image generation or scoring in this report task.",
+  "report_dependencies_outside_deleted_directory": true,
+  "relative_paths_only": true,
+  "source_reference_count": 159,
+  "source_files": [
+    {
+      "path": ".\\LOOPED_UNIFIED_VISUAL_GENERATION_FULL_PROGRESS_20261004.md",
+      "bytes": 52601,
+      "sha256": "318dde49535083570ae326b4b17eae7c15d0a6d35c5d995353d58d1acefed59e"
+    },
+    {
+      "path": ".\\hybrid_visual_generation_research_plan.md",
+      "bytes": 30371,
+      "sha256": "ed46b2c2dcb900c2d2f1021a454a5a8420e20ad0162b67e9fb5f1d46dad19e53"
+    },
+    {
+      "path": ".\\stage1_showo2\\STAGE1_REPORT.md",
+      "bytes": 5199,
+      "sha256": "ba7a010ff796f302a9712864087e76412bb83db871c34c0c0f4a5ab9e5d02ca6"
+    },
+    {
+      "path": ".\\stage1_showo2\\aggregate_results.py",
+      "bytes": 5019,
+      "sha256": "3537cada36a748e3a059d9ef1c8ae65c52002fa0bb81209fa817fb5b1268ddc5"
+    },
+    {
+      "path": ".\\stage1_showo2\\launch_all_gpus.py",
+      "bytes": 3313,
+      "sha256": "37e06f0f0089b0f50ebfcae938762cdcd7fc09cc66269ab8aae96e996b006c85"
+    },
+    {
+      "path": ".\\stage1_showo2\\prepare_checkpoint.py",
+      "bytes": 2611,
+      "sha256": "8a05eb213166dffccea09f517d58be7a652fe453f6b7accf75d54bd85e8adb90"
+    },
+    {
+      "path": ".\\stage1_showo2\\run_baseline.py",
+      "bytes": 11458,
+      "sha256": "51deaaa1deeef67589cd628a500ecfb4c46b4d5fa6275c7d627d64c94f48bde6"
+    },
+    {
+      "path": ".\\stage1_showo2\\train_probe.py",
+      "bytes": 7375,
+      "sha256": "d9a5275b62a7c88aa1967618b92b4067e8d497976181c601054a8e6cef1fba28"
+    },
+    {
+      "path": ".\\stage2_loop\\RESEARCH_DECISIONS.md",
+      "bytes": 12368,
+      "sha256": "efb80d855420ebfcb10d785b195036b08f5944d5ccd76d4d7d5bcb6547b65458"
+    },
+    {
+      "path": ".\\stage2_loop\\STAGE2_REPORT.md",
+      "bytes": 5449,
+      "sha256": "4dbfc4881a8d2501ffbd3b061f2984079b4c799953aaa457fa0e139b9942c71d"
+    },
+    {
+      "path": ".\\stage2_loop\\run_elt_infer.py",
+      "bytes": 7973,
+      "sha256": "126e37e260bc780fc4075f7a5a452d30f82c81d128c0394d479f75799c5bd93c"
+    },
+    {
+      "path": ".\\stage2_loop\\run_head_truncate.py",
+      "bytes": 7465,
+      "sha256": "f0ad388d95ef36d30f047220a68b72935657eb6f63e4cf743f64ea8af995104a"
+    },
+    {
+      "path": ".\\stage2_loop\\train_elt.py",
+      "bytes": 11026,
+      "sha256": "465d7c63d4d8a4d875e26e1cc4078dd310a7516b1cd4743ed1b41f8640da914b"
+    },
+    {
+      "path": ".\\stage2b\\EXPERIMENT_LOG_20261003.md",
+      "bytes": 5045,
+      "sha256": "881fcb0df8c24725feae4cb0fd5df90baa024960ab493570ce07dab94447b373"
+    },
+    {
+      "path": ".\\stage2b\\MIDCOURSE_GROUNDED_LOOP_STATUS_20261004.md",
+      "bytes": 11601,
+      "sha256": "666e3be038eb2a8e5c02675cdb7ed61ef787f4c8a242c04c22ca3bef3a72ac04"
+    },
+    {
+      "path": ".\\stage2b\\calibrate_mmu_evidence.py",
+      "bytes": 9399,
+      "sha256": "72a098c122935fc6503be2ebab2d47940c866b0c3ec6f72903e8d106703ec6c3"
+    },
+    {
+      "path": ".\\stage2b\\collect_student_rollouts.py",
+      "bytes": 8705,
+      "sha256": "ba790246e8bea00245b0006d606a748f791c4d8f5cf4f12718fc6fd0e88a1947"
+    },
+    {
+      "path": ".\\stage2b\\collect_trajectories.py",
+      "bytes": 7170,
+      "sha256": "1391ce4bdab58ccd0ad675d9152da98f75473e0ae660aa2c33759b5b30c7b92a"
+    },
+    {
+      "path": ".\\stage2b\\early_bridge.py",
+      "bytes": 1372,
+      "sha256": "3ef3496e89ea66c345166fee90cbf9a2b65673bf69f70a830ab1d9449081277b"
+    },
+    {
+      "path": ".\\stage2b\\early_readout.py",
+      "bytes": 1503,
+      "sha256": "fdc1fd77bba025e6559a09100fbbfc70210fa8e23ad0cf32db071d6cd313aae1"
+    },
+    {
+      "path": ".\\stage2b\\elt_model.py",
+      "bytes": 24125,
+      "sha256": "b008a858d6ae7662638bd5ed4200369ca9b101eee93c999626d037b53c1c48a7"
+    },
+    {
+      "path": ".\\stage2b\\gated_revisit.py",
+      "bytes": 2827,
+      "sha256": "868de879934ceb6d8cb5560a48a7f489854207e4579bde2bd1e81c2dcdc11645"
+    },
+    {
+      "path": ".\\stage2b\\loop_solver_model.py",
+      "bytes": 3152,
+      "sha256": "3c785be5f8c6bc82dd5c32b909b9c3dd5a5ca113255fd15b19d32dfc098c7bf5"
+    },
+    {
+      "path": ".\\stage2b\\mmu_evidence_reader.py",
+      "bytes": 5812,
+      "sha256": "1407976596b5a89d645e4fcf8034bec42b039562d2ab42222f7c7413e58b3f2f"
+    },
+    {
+      "path": ".\\stage2b\\profile_mmu_evidence.py",
+      "bytes": 5042,
+      "sha256": "dbbac63cb2f1f71995d6578ef1ccab7e12d298ab7d3d1e8f72aa5f0a08bbf094"
+    },
+    {
+      "path": ".\\stage2b\\profile_recurrence_budget.py",
+      "bytes": 5404,
+      "sha256": "7d84d5ec32d0d5113e22cb4d128ec3a9337db7df48ddb06f0cbc9418ce998e91"
+    },
+    {
+      "path": ".\\stage2b\\run_elt_onpolicy.py",
+      "bytes": 28378,
+      "sha256": "b7fcf15b527c290c7ebed0491d26f89daaa297d9814d97228e02931f561be3ad"
+    },
+    {
+      "path": ".\\stage2b\\train_elt_onpolicy.py",
+      "bytes": 24657,
+      "sha256": "06b80fa26f581213a794e2cb6270d1c80c13fa36ec6e876c01fa003d8c441275"
+    },
+    {
+      "path": ".\\stage2b\\train_gated_quality.py",
+      "bytes": 10611,
+      "sha256": "4e95d3f8f1d916d6aa4c4b1169030376f991f9803616edd5501aa2897eeab8e6"
+    },
+    {
+      "path": ".\\stage2b\\train_loop_solver.py",
+      "bytes": 6942,
+      "sha256": "3bf8b6cdf70aa10bb4af72adca65ca0f3141030ca354cc17214dcf54186c0962"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_ANALYTIC_CORE_AUDIT_20261008.md",
+      "bytes": 2731,
+      "sha256": "7ab7e6f9d3c0295cdb488e994389b63d2a2e92ea562ccaa6b0dce235d3d65403"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_ANALYTIC_READOUT_20261008.md",
+      "bytes": 8003,
+      "sha256": "91e0ed3a9bea63eb6689c509eb931b8b98f74206cfa543e9c92c056fd46ed5f3"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_ANCHORED_RESULTS_20261009.md",
+      "bytes": 3055,
+      "sha256": "3189ac9246d5a236d5f2565e679218050301712ce12d71118725a16beb80b3e7"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_CONDITION_SEPARATION_20261008.md",
+      "bytes": 5977,
+      "sha256": "63e541d9a5fd425d065bff5ea504601e9e1c2ff158f8c5ce145b9c8fb3f95104"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_CORE_CONTRIBUTION_AUDIT_20261008.md",
+      "bytes": 5652,
+      "sha256": "c24a7b22262d4433d20ecb45e68ecad7d0cab7de2f5d49c306fce02a99970494"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_EXPANDED_CORPUS_20261008.md",
+      "bytes": 6670,
+      "sha256": "d183f72c8286f1d815cd9042c250de1da6ecc6a246c3a34e50b7774487fc5d0e"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_EXPANDED_MAPPING_RESULTS_20261009.md",
+      "bytes": 5249,
+      "sha256": "928b1b902283d6cd28b258562507ca6789083f50ef1dcc2f17aa71cddc075fae"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_EXPANDED_RESULTS_20261009.md",
+      "bytes": 5102,
+      "sha256": "391d051f170894840e7d0152f0a9e4fcdcd77ecffe0ec960bf755b85610121ff"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_FOUR_LOOP_RESULTS_20261009.md",
+      "bytes": 2637,
+      "sha256": "b152e0fef6d1a0239181bdb12cfc12162739b3bc4609cca8ffcfd87885c959e8"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_FULLBATCH_RESULTS_20261009.md",
+      "bytes": 3608,
+      "sha256": "b9ad118f9b4d01f23f3998aac557c0b832b53c2ea4fb1ec63ab2c2e98a968b4b"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_GLOBAL_TOKEN_CAPACITY_20261008.md",
+      "bytes": 4301,
+      "sha256": "0c4ef4964df7b3649d4a7e6d03d336a026ea1ff00a65ee16691ad4fa6a19742c"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_MINIMUM_GEOMETRY_20261004.md",
+      "bytes": 9598,
+      "sha256": "0188fb7b02a863099a12cc58d48f3128b68cf15c79461f20c2adae94244adfa7"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_MMU_LOOP_BOUNDARY_AUDIT_20261005.md",
+      "bytes": 2129,
+      "sha256": "fb5a73bc875db89081bee9df363de3faf6a33f12d133f3311d30f7d3729cfe8c"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_NATIVE_RESULTS_20261008.md",
+      "bytes": 8536,
+      "sha256": "dcfc615db0bf8d1804f52d0cd42a4cc9703e640a65ae8023dcfc67523f96d6f8"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_NATIVE_TEACHER_20261008.md",
+      "bytes": 4635,
+      "sha256": "3e242311d568af91a789092655a8a7d8f3ddc58b18e9aec8d57975cd927fadbc"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_NONLINEAR_CAPACITY_20261008.md",
+      "bytes": 5720,
+      "sha256": "27dd53e5743f060a4169f2cbe814370d438a771e269c98a13bbfe9982c404218"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_NONLINEAR_MAPPING_20261008.md",
+      "bytes": 3440,
+      "sha256": "de0b68c5fd50ff6fd302249e536de861b14a8bc9d90e85ef3a4a88e96f1bf7d0"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_NONLINEAR_RECURRENT_20261008.md",
+      "bytes": 5576,
+      "sha256": "08329a703e3af16982027b43241dfcf21ae759b48efd4cfd6c5c8ca4dad05263"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_OPTIMIZER_RESULTS_20261008.md",
+      "bytes": 3655,
+      "sha256": "d91b1d4d847cbdde8816293e7fda83226e3d1adcfc71e591f3fab59a53eac9ca"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_OUTER_LOOP_PLAN_20261005.md",
+      "bytes": 7182,
+      "sha256": "2c3f2f33e1b05426dd9920249545c7b202041d7dff902ef9edf963da5b37d2b7"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_PIXEL_TEACHER_20261004.md",
+      "bytes": 12497,
+      "sha256": "50ba0115a485f3b455312e8c8869901159cedd20aacce16ead001d88adf39007"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_POSITIVE_RESULTS_20261008.md",
+      "bytes": 5133,
+      "sha256": "809743f768ce3cc1bf1fbd09a53e76f7a0ac355eb17ddd8a770044dc8487b0a0"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_PRESERVATION_COVERAGE_20261008.md",
+      "bytes": 4336,
+      "sha256": "3ba85b31fe1aaea455856b28dce88778b947f12d7516f9e8fef063e5447d9913"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_PRESERVATION_RANK_20261008.md",
+      "bytes": 6404,
+      "sha256": "4fcd46e0aa5df6f9f87ec70d1aa84d3e75035b7e59791ea225ccdb4caab82e3f"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_PROCESS_ALIGNMENT_RESULTS_20261009.md",
+      "bytes": 4140,
+      "sha256": "319e0ec2c7f94ef8f6c292b49a539b577b05027cb565a21c4249078096a8aab8"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_PROCESS_DIRECTION_20261008.md",
+      "bytes": 5699,
+      "sha256": "285600c568c8aebe580e0489dff025a576a1a45228a7da7eafce96f84b3a44ca"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_PROCESS_FOUR_LOOP_RESULTS_20261009.md",
+      "bytes": 3977,
+      "sha256": "71f97d510a750980143c005c894f27492b1628175fe168007f0ff1685cd23e9f"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_PROCESS_FOUR_LOOP_TRAINING_RESULTS_20261009.md",
+      "bytes": 4184,
+      "sha256": "7e19c78d9ac3ece9aa5ebc35a8ad00cc550e72d503984e2d0756d53b904ffccf"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_PROCESS_RESULTS_20261008.md",
+      "bytes": 8558,
+      "sha256": "9b20cbc30b1adb2230822b7b04fa262ecd007eb6393bc50794df2863f105ce66"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_PROCESS_SUPERVISION_20261008.md",
+      "bytes": 8230,
+      "sha256": "8ebbad103bf9ba8c037bfdac707c36d643b91fe8682065f2222c94dc127d8d78"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_PROGRESS_20261005.md",
+      "bytes": 20670,
+      "sha256": "9a64d9452f9f51c11f0f6ab62f603d2a187da4db280fac531ef7125d8d13d355"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_READOUT_CAPACITY_20261008.md",
+      "bytes": 6269,
+      "sha256": "bda27bbc5b47c477460bf0b6061c5cb41ae41bc3b4e451265702a6585b4ccd80"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_READOUT_SUBSPACE_PROTOCOL_20261010.md",
+      "bytes": 3059,
+      "sha256": "52f8b38476ddea3664ba54f351dcdd41e96b368084a983eccd5c7954678d173b"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_RECURRENT_CORE_20261005.md",
+      "bytes": 9161,
+      "sha256": "80c5bd100e3f6518841414dcefa4efab03c55b940872571278762898443c8507"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_REFERENCE_RECOMPUTE_RESULTS_20261009.md",
+      "bytes": 2574,
+      "sha256": "a2119755c34c7b7b0354e1aedb948b7fcb9336439c9e4b72a55ea834cb790bf0"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_REFERENCE_RECOMPUTE_TRAINING_PROTOCOL_20261009.md",
+      "bytes": 3312,
+      "sha256": "fffb88c4d73f1ac45cff3a7ed7246aaba2d4ced8f1dfb0af48a8ab0fbef35081"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_REFERENCE_RECOMPUTE_TRAINING_RESULTS_20261010.md",
+      "bytes": 3325,
+      "sha256": "6b419842db8377505110f28012052721cf9340f7d178d37377d974fe35de9fee"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_RMS_CALIBRATION_20261005.md",
+      "bytes": 3897,
+      "sha256": "3740fe6d89b4ee6eb0613d53edddd96779c8e07d1d283dee0723028f29543a9e"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_STATE_SPACE_REVISIT_20261005.md",
+      "bytes": 7368,
+      "sha256": "7a975382a217de4c9225320b86d024e48d371b1aa25063549181883e5c6b4707"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_STATUS_20261004.md",
+      "bytes": 11750,
+      "sha256": "b46f2ed1ad4b14c83b570098c40c49da566ac207926cc27d96513d079f229e49"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_TRAIN_TEACHER_20261005.md",
+      "bytes": 11292,
+      "sha256": "eb5355548c937119fff7ddcd0d7698a95c3aab880eaf2fda8274a8457cc740b9"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\STAGE3_V13_TRAIN_PILOT_20261004.md",
+      "bytes": 6133,
+      "sha256": "9f889766f9f3458c75c5636375456a809aaa2cbdd67dcc66cf3e8ea63298270a"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\analytic_readout_operator.py",
+      "bytes": 5682,
+      "sha256": "076a945500f540813e4e8a529927c91546a501346e4b0cf5e34318188d50aa7a"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\anchored_recurrent_repair.py",
+      "bytes": 3899,
+      "sha256": "8f8ed4277ad88fe75acef45ff73c935f163fe1d3aa0d36f07aa618a83f8756e8"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\audit_analytic_core_contribution.py",
+      "bytes": 9762,
+      "sha256": "2a96ce9f607ee6bd782f35d0c3e63f1e972972ec91f49364426ad7d5611c2b1c"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\audit_nonlinear_recurrent_mapping.py",
+      "bytes": 12260,
+      "sha256": "d9a8f54a46e370ce2fcf00845d9603c7ee0e705dcec51dc0f6ae6c5c5f5c50ef"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\audit_process_objectives.py",
+      "bytes": 8897,
+      "sha256": "afb7ff9edc9c55ab3f90f6816932589b060d31ddabf592253b73a1cddda85f83"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\audit_recurrent_core_contribution.py",
+      "bytes": 13988,
+      "sha256": "771e41af0fa53f01fefaebc43f16b15fb3287830455fd9f03b4e57f29509d83d"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\audit_two_level_modulation.py",
+      "bytes": 7469,
+      "sha256": "a2bd871e18c5c32a14cb537e26bd9b110ba610e60d2f66c439a5d5dcfb6980c6"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\bounded_lbfgs.py",
+      "bytes": 3600,
+      "sha256": "17b945f41e57c8daaf0d67368baa75e15b887b430fa660b0ce62e27462dff21b"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\build_native_additive_process.py",
+      "bytes": 8577,
+      "sha256": "b159a0f67e14961745620edb013c2781c701787420078c2ef5a5017aeb5766aa"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\build_repair_candidates.py",
+      "bytes": 12251,
+      "sha256": "cbcc07363d280f52c511f8c960e831495f66779968d902ff3448c635519cc4f3"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\build_rollback_candidates.py",
+      "bytes": 7621,
+      "sha256": "ee71c2afaefc13f8b1a7d8b581df2cf0dc4540d0da69e758020ceac7161b0e52"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\build_routed_candidates.py",
+      "bytes": 5773,
+      "sha256": "814d93016e2d3d500dbd08850aba902296a706db151bd53d9320abd79bc94e2d"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\build_train_encoded_correlation_candidates.py",
+      "bytes": 11332,
+      "sha256": "aece0707512ce9afb5e26bc6de94e77d9687727c03770b5361007a034ad04978"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\build_transport_candidates.py",
+      "bytes": 7728,
+      "sha256": "b84340d74defb8e7f8522617a19511ed875fe559f72c5e679d750645bda9eaeb"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\candidate_provenance.py",
+      "bytes": 2192,
+      "sha256": "1cfcdb23947dd3a665818b91dea783a24903e2da1d0246c4e44cc1267485283a"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\capture_repair_states.py",
+      "bytes": 8060,
+      "sha256": "ea572e7f9442c8315dfbc3bb443ac9a8e94d999c95b9d621063d59d09db7a1de"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\check_mmu_outer_gradient.py",
+      "bytes": 4926,
+      "sha256": "119e3100bb5b980929e2e3b65b00931d4f10b89c5f664371b3e42b9186e12319"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\check_process_alignment.py",
+      "bytes": 16209,
+      "sha256": "e6259620d5e3d98b4969dc521e7f286c23db73dd8f5a0eadff01422dade76fe0"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\check_readout_subspace.py",
+      "bytes": 12457,
+      "sha256": "b08080ae352960de86ff9b88c8a4695b9e7a6582fcaa68129ebaf283c6675987"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\check_reference_recomputed.py",
+      "bytes": 11939,
+      "sha256": "394b68699ae1c86615ab0b762c1eb6548664f9f952213e79d19e532cbc278d19"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\correlated_scene_mirror.py",
+      "bytes": 2983,
+      "sha256": "6ea904e2dab31254e3590cf30b78569112cc14d768778723a0a230efc1e8760b"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\current_progress_snapshot_verification.json",
+      "bytes": 798,
+      "sha256": "6c784a7f84bf9854b0711ac0db97c49c4f3c25bb60e509a1aaffc6af83f8fe1b"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\diagnose_grounding.py",
+      "bytes": 6047,
+      "sha256": "534e811cd1a65dbe497e8c7861a86426fed91f5a662ad988df53cf91c1844113"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\diagnose_spatial_capacity.py",
+      "bytes": 4180,
+      "sha256": "a32d2bf033c15847d0286412f92eba5c468f8298294f0e56dc9c924db3bde0e5"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\diagnose_transport_geometry.py",
+      "bytes": 5428,
+      "sha256": "d1fef793971e163ee1c777431bcec4bb03c1f216359cbd6dcbdf615e9fdf279a"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\evaluate_repair_pairwise.py",
+      "bytes": 22515,
+      "sha256": "040ecbd9e49a98a20548e9eedce4bf6d4562cc7ab6ba75eed58176c0728ca827"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\evidence_conditioned_revisit.py",
+      "bytes": 4246,
+      "sha256": "07d9dcd92fa8660308475ec12e53572f47c4abbf49ceebe409eaeaf470b9aa31"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\evidence_encoder.py",
+      "bytes": 3971,
+      "sha256": "7e300ba59e770765df2b6da4c9efc9aa52e90867364bee571c61d6525b4f45f4"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\expanded_process_corpus.py",
+      "bytes": 10405,
+      "sha256": "a58f280356ce4b1c2250a01350710e7788817f0cc5d6617f7a6feead9ed7aa42"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\expanded_recurrent_protocol.py",
+      "bytes": 3806,
+      "sha256": "7d1c1efe216a90ee407a5d9ae4113610b908f0fe21d3afbc0fdab3e301000e9a"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\export_teacher_process.py",
+      "bytes": 12930,
+      "sha256": "4648361e28abf9c4b729ee9c4cf955a22c67ce2d0b9346561fad8fe09132639e"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\fm_rebridge.py",
+      "bytes": 3133,
+      "sha256": "f03ac0241d51e03bb736394663ceab4dc43a4d3868c1896ff8bb186393dcea7a"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\global_token_readout.py",
+      "bytes": 1695,
+      "sha256": "19e4fbc08e8aaf0d2a0d595b22f6d68321355ce622a8240f9741860e9e9bf26d"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\grounded_actions.py",
+      "bytes": 6750,
+      "sha256": "a020997d14747426637fce5e9061ff3096689b69b599da5bf31a864ad944b75d"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\make_prompt_splits.py",
+      "bytes": 16450,
+      "sha256": "70c5bcaba36c0fa3477cd68ef052f118052aa1c6fb30ffe1a31c275345121c61"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\merge_train_repair_corpora.py",
+      "bytes": 3168,
+      "sha256": "7e6363a38ecffaf2cd58dff7422fed82ad6820231a249756eaaee26190040ccc"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\minimal_pixel_teacher.py",
+      "bytes": 5074,
+      "sha256": "0e7fc729f2c7e01ba19b50a4363da1feb8a5e445d6f76cb001e28c3c56f09dcc"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\mmu_outer_context.py",
+      "bytes": 2563,
+      "sha256": "dc4ac58c3981f4d624cbad36d372735dedb1e125861e33080b00ec5847810d52"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\multibudget_response_repair.py",
+      "bytes": 3509,
+      "sha256": "1653cefe389dc93e796b28066f393eba73b8e6b47f610ec3e11b84815a01cb90"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\native_teacher_interface.py",
+      "bytes": 2490,
+      "sha256": "94d8ef03f1a00f7f9430d78d122a1845b5fbb16661bf080949ee7110672955ca"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\nonlinear_recurrent_repair.py",
+      "bytes": 3686,
+      "sha256": "521e99970aed3cfa08d3ee062aed9e4ff645a5801e6faed16d57a6eff96ce6c8"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\nonlinear_token_readout.py",
+      "bytes": 3572,
+      "sha256": "fd68816490801bdc92f9fa701c9e745ce79d3f4571215c0a86459cbd2248a08c"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\object_transport.py",
+      "bytes": 4227,
+      "sha256": "2a0ad9824243ac33f304596a29a1e30149dd2012d9a419a27d4c1b78c143a78f"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\outer_shared_revisit.py",
+      "bytes": 5297,
+      "sha256": "3d88e1c9cecff80c46907ad3a663767592622c781146960e61a874ea1f08a674"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\pixel_transport_teacher.py",
+      "bytes": 3690,
+      "sha256": "5ae3b7bd88177b4d989c8a0e65d13a61f4b5ee5d54f41ba623ab013a4d4c6987"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\prepare_analytic_readout.py",
+      "bytes": 7622,
+      "sha256": "f5fc6360ba9df6b730336fec48d0665c78c6a0d32c1ba5f767502f7ac71d72c0"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\prepare_train_expansion.py",
+      "bytes": 2346,
+      "sha256": "6e49f88c51e3992c4c494d4e9d63d97d58f09a8a66ae99c5fe2d29922a6f73e6"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\prepare_train_target_manifest.py",
+      "bytes": 6556,
+      "sha256": "2c954c93bfd574ce1aeeaa7e1cc8d5cb16650036efde05c40ef5b2eed37a3c28"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\preservation_geometry.py",
+      "bytes": 5139,
+      "sha256": "b739422d4178f4fec8b8751f40b1fe5c572c41301fc6538d615727325d780401"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\process_alignment_diagnostics.py",
+      "bytes": 2565,
+      "sha256": "30b5178575c80094e7269c33253dc244c3f8aee259db7919084c5c64012d2a6c"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\process_four_loop_protocol.py",
+      "bytes": 5626,
+      "sha256": "3ac51da63c94b0abb943e6fa4a853071d37eb10b190d82e3859eef52dbd40642"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\process_four_loop_repair.py",
+      "bytes": 3639,
+      "sha256": "6caddc98e651df4c8f9d8c617fb90e92ffa4ae389a7af5524ed28dafbd512c50"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\process_supervision.py",
+      "bytes": 4003,
+      "sha256": "1345e727156c794ed7c442486280cbae618ad459cc43aeab03803b86a0d7b3ba"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\process_training_targets.py",
+      "bytes": 6604,
+      "sha256": "b0723f02be2b9dbde76be39f7bb2fb17fdda63d98abd17a72ffc5e1d5b510da4"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\readout_subspace_solver.py",
+      "bytes": 1909,
+      "sha256": "e9ef04ed2bae320e2a467e62d5f87a72d493654063823dc3ca3035d523dda678"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\recover_geometry_evaluation.py",
+      "bytes": 8031,
+      "sha256": "0abcf7ab703cd118d996295cc1ac8acb23de8c2cee876c5fd141f461759473b6"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\recurrent_training_protocol.py",
+      "bytes": 1871,
+      "sha256": "2e27dc4bbf0c67d2b8620b35daccd49d591a3a4736237d0ba412efb2a062108b"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\reference_recomputed_repair.py",
+      "bytes": 2682,
+      "sha256": "68148845ded3d241349beb5d0c35cbd980f0469e02cb63ed15547db3ecd93f4e"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\rms_scaled_revisit.py",
+      "bytes": 2898,
+      "sha256": "3ee5544848da3b52a3dc706927f864d556964dc3e8310fc6ee71e54562956e8a"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\rollback_evidence.py",
+      "bytes": 2874,
+      "sha256": "e0d7c814343cb9454220045fb39011244bfb1e42e07353647868ad8f46f99d6f"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\run_readout_subspace.py",
+      "bytes": 1913,
+      "sha256": "1ba09e26a96a51b2dd9915cf72da126467a7f701df9b1601d2c6a18ee40c4637"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\run_reference_recomputed_training.py",
+      "bytes": 2228,
+      "sha256": "8bef2c72ebd40e9da7d6feaf30d66b0bc6a2b410a9a7f8f888049f4840bcaaaa"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\runtime.py",
+      "bytes": 11989,
+      "sha256": "3232e642b51d1d7a7f9cf3eca3b9ca8ec10ae935d3bd002e0e3124946268c450"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\spatial_token_revisit.py",
+      "bytes": 4715,
+      "sha256": "5132896848f4f22ea9d8bc3377e28324d6346c51034226b05839d5136fef5893"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\state_space_revisit.py",
+      "bytes": 10168,
+      "sha256": "1979960f5f1efcd900470791a5fe90726844932022a722906435ccc0b0ae9d4b"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\test_readout_subspace_solver.py",
+      "bytes": 1395,
+      "sha256": "55127f4119ec0c6f75a7fecd54ff69c5c3f1e1d04a6b80709ceecdb36d67f5e3"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\train_capacity_matched_operator.py",
+      "bytes": 9335,
+      "sha256": "9c7273158dfafe925c4649f29e921ca2f556afd47baf0fc390836a6be79752df"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\train_process_four_loop.py",
+      "bytes": 10677,
+      "sha256": "6691d2a13cc82b5ec1d01de78e283d4e2479abbbe910545bdcf69da5369e36c2"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\train_reference_recomputed.py",
+      "bytes": 13219,
+      "sha256": "585571a77de49db66fd9598504f795598955b8dbe399511985f7feee5269843c"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\train_rms_two_level_operator.py",
+      "bytes": 10159,
+      "sha256": "973f06da1005a2e70134b43880e40808d9793f15c20d856ad97ea82298569e24"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\train_token_repair_operator.py",
+      "bytes": 8760,
+      "sha256": "c7836ec0664d7cd011c0ca063d91bed987fc671b8302ee8c649ea35878e41d1f"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\trainable_recurrent_state.py",
+      "bytes": 6987,
+      "sha256": "7f1de939ba3eb24f7010b883ed0a52743e7122cff0d4c69d413f60d54eac7425"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v23_portable_verification.json",
+      "bytes": 1225,
+      "sha256": "311f0adce6594b5e8c557a8231fda4d1230cc2519c780207356be322abdeac2c"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v33_v35_portable_verification.json",
+      "bytes": 1522,
+      "sha256": "390725327db7fef247bf16da383872591656b2559ae2993e5ec77fe737d7abaf"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v36_v37_portable_verification.json",
+      "bytes": 1152,
+      "sha256": "14ed981475bddc505c7330e1fe7d6a72891af1b549d62d2050478b4f1913addb"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v56_portable_verification.json",
+      "bytes": 960,
+      "sha256": "e24543d74a4916b93300202e0076ea4630ea55c033dde32aea6121256938e601"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v67_metadata_verification.json",
+      "bytes": 1345,
+      "sha256": "1c4cafb8cd1960676a03293db8c8319cfebeee191e4abdc058e4b79633f0cfde"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v68_portable_verification.json",
+      "bytes": 1118,
+      "sha256": "bab480b64f0b642b42612893713d3587c235f5998a7a78fa81df5b3861084e9b"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v69_portable_verification.json",
+      "bytes": 1142,
+      "sha256": "816d779eb29c53dc10b7892d4e53085240cec0308fa5a4197989e4b4f014ac9b"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v70_v71_portable_verification.json",
+      "bytes": 963,
+      "sha256": "c0b378e090ad92044578587c8d307b48f8da5923840e7f89774a13e5296ca9c8"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v72_complete_portable_verification.json",
+      "bytes": 41890,
+      "sha256": "918ecffda2b5535f457a71eeed7e4e8be0a240cbaa8e7991ce369deb15773421"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v74_complete_portable_verification.json",
+      "bytes": 6260,
+      "sha256": "4a7e6166da708ac40367576cf0443290d47f65098636673760127548256aee93"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v78_capacity_paired_analysis.json",
+      "bytes": 31805,
+      "sha256": "81c6021680d925668854e0aec122f339cae5deed88a32c7ee5a090df81fa4d0b"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v78_complete_portable_verification.json",
+      "bytes": 34149,
+      "sha256": "27f8125f4323aae8a38e8d4d15057f711c91aa7167510fd8db16fed05c868c52"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v79_portable_verification.json",
+      "bytes": 12276,
+      "sha256": "6e9f48ae474d4c97b296ef4027984b833f25728f504fa1b65d4a01f50c8a870b"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v80_portable_verification.json",
+      "bytes": 1649,
+      "sha256": "4efc1eb15d5d9bc57a8a3460722991a25e08482f742db10f743c7ac9815db4c6"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v81_complete_portable_verification.json",
+      "bytes": 19333,
+      "sha256": "bbc995e4ddefbee6063841c478459259a56ce937ac9233c1f7e2a80556f6a224"
+    }
+  ],
+  "portable_proof_scalar_snapshots": [
+    {
+      "archive_sha256": "b570fcc1cd17d5f17728e33a2b545a141362c42ea89370f8503c50b085782831",
+      "path": ".\\stage3_grounded_repair\\v23_portable_verification.json",
+      "sha256": "311f0adce6594b5e8c557a8231fda4d1230cc2519c780207356be322abdeac2c"
+    },
+    {
+      "archive_sha256": "ab274425eb975bdd6f95c7053aa0dba691068259fd0d4f8f680ace09746e4b5b",
+      "path": ".\\stage3_grounded_repair\\v25_v26_portable_verification.json",
+      "sha256": "d449aa8edb8ee6e7cc3f4fc88f062049818e3471e6d4b8cf94f5c0da87b6434d"
+    },
+    {
+      "archive_sha256": "e1dfa14968b98ed25bbd77123d12510c4f07dc75311b8fee72c698629f6ad3da",
+      "path": ".\\stage3_grounded_repair\\v27_portable_verification.json",
+      "sha256": "d23460b5a25bdd098a02c8d26a2acd39ef573c3851243f7ab8b0b917e735076e"
+    },
+    {
+      "archive_sha256": "3aaae3f94cd9184041b1c0d695d3c1198d78cc1defd261534d8d9d75a382c569",
+      "path": ".\\stage3_grounded_repair\\v28_portable_verification.json",
+      "sha256": "ed2e39f3ec572c027980b8e69f5e5a7bb2e7b7076e95624320c59172cde655b1"
+    },
+    {
+      "path": ".\\stage3_grounded_repair\\v33_v35_portable_verification.json",
+      "sha256": "390725327db7fef247bf16da383872591656b2559ae2993e5ec77fe737d7abaf"
+    },
+    {
+      "archive_sha256": "afc55cedd110736a92687926e7121afda8bacd08fa436e1e351aa38aa06e5460",
+      "path": ".\\stage3_grounded_repair\\v36_v37_portable_verification.json",
+      "sha256": "14ed981475bddc505c7330e1fe7d6a72891af1b549d62d2050478b4f1913addb"
+    },
+    {
+      "archive_sha256": "a9874e2404fbae637ba76faf47eb4ebcdcdb3f5143397eb28afbb0f76c06b2e9",
+      "optimizer_updates": 300,
+      "path": ".\\stage3_grounded_repair\\v38_portable_verification.json",
+      "sha256": "3ca24a0ff63c8a49fe9f99e8b993c04060c027f155d0f3e6b1394582729eb940"
+    },
+    {
+      "archive_sha256": "73054ab13b85085d9ddcd52a1e5df6264c3e482c6416444f6802cf86c412b8d1",
+      "optimizer_updates": 0,
+      "path": ".\\stage3_grounded_repair\\v39_portable_verification.json",
+      "sha256": "dbdf20bcdd5706e107655cdefaab19edf76fc29029dfa769d2e160c21220c448"
+    },
+    {
+      "archive_sha256": "696b3ca058496614c686326e24b1e28b84879393049bb8bb3b219dd8676c92aa",
+      "optimizer_updates": 0,
+      "path": ".\\stage3_grounded_repair\\v40_portable_verification.json",
+      "sha256": "b8057aa8cb73a90afa116f71288e8cbbba14c6e31a7e75b96a9556cb2ebbdfbc"
+    },
+    {
+      "archive_sha256": "b0b4914af06146db8025d08710652b7da8274052f1761a24390c03cdf7361601",
+      "optimizer_updates": 300,
+      "path": ".\\stage3_grounded_repair\\v41_complete_portable_verification.json",
+      "sha256": "03917ca58bc92175740cf415e9911456f89e31171b14ded78d5d305b3fc2b1d0"
+    },
+    {
+      "archive_sha256": "f0c64f9571f111071c183ece2c9e21274dc07cb869e13d29fc42535cc308f729",
+      "path": ".\\stage3_grounded_repair\\v41_launch_portable_verification.json",
+      "sha256": "c6d96151d33d2845b85b1521fe02334cf0136f13528e60ea290d4132f7091400"
+    },
+    {
+      "archive_sha256": "fcc86011ec6538b1a70d664c7e9c0d249081a3452c52e9590eb3a121ad806061",
+      "optimizer_updates": 0,
+      "path": ".\\stage3_grounded_repair\\v42_portable_verification.json",
+      "sha256": "1851a3e7ced04d0dfd397466cd611e7a237a67256f5b3e3b74653b6bcb967b7d"
+    },
+    {
+      "archive_sha256": "465db57f5c064171a6ed8ac27f7730512f31e76e3990a64cc1d3037436cc0b32",
+      "path": ".\\stage3_grounded_repair\\v43_portable_verification.json",
+      "sha256": "6ef0241264a66ecbe0450e80037a4ec736d5dee7259b918c0f2503814fca6f34"
+    },
+    {
+      "archive_sha256": "b8916b26ce9b688089fdab2dd097a7097671dc016c14d3703c2d3e2612d55d03",
+      "optimizer_updates": 400,
+      "path": ".\\stage3_grounded_repair\\v44_complete_portable_verification.json",
+      "sha256": "771ecdaae652f821056a922362cbf18e1050e3ea972b29ac1d1c4f82f281715f"
+    },
+    {
+      "archive_sha256": "b5010f8780a5f927a1959a5dc54ef96f285f625cdad177ca96b3af236d84d323",
+      "scope": "Launch/interface/init only. No completed training log or checkpoint in this archive.",
+      "path": ".\\stage3_grounded_repair\\v44_launch_portable_verification.json",
+      "sha256": "2b62cad025c63d5f3b3da58fa622b739bba693ae2180b1e777923449ac1dbebe"
+    },
+    {
+      "archive_sha256": "37e72e51d8b1d3080ce589ab668b3167749f2e64f05698eba1d7db63692cb9a8",
+      "optimizer_updates": 0,
+      "path": ".\\stage3_grounded_repair\\v45_portable_verification.json",
+      "sha256": "85b19b9c7552413e838b681993d98a282b6e09a369c19631790330ca4a7ffe02"
+    },
+    {
+      "archive_sha256": "5090d660f2c7b21b1d059e4ec53336763e4e68c4e1ffd6edb08966f2ff261819",
+      "optimizer_updates": 400,
+      "path": ".\\stage3_grounded_repair\\v46_complete_portable_verification.json",
+      "sha256": "b9657b9d943b0daed05ad249373a5aa817e0a526ee06808ed4fd44258d8af7da"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "cb21d1be7d996153dc6eedb869df4c8c89ceef9657e62d469281294ebbebc167",
+      "scope": "Frozen launch source/config; actual zero/gradient proof; two joint GPU initializations; resource-only recovery and four-metric scoring guard. No completed training or checkpoint validation.",
+      "path": ".\\stage3_grounded_repair\\v46_launch_portable_verification.json",
+      "sha256": "007d08e5723ec77b58a4dae455ee5d6f7215d4ccbb06a45965c410d7749974a0"
+    },
+    {
+      "archive_sha256": "fbed5f1f37f318a1b538c981bfa7249e516fb8865db010e0b402922a128798d7",
+      "optimizer_updates": 0,
+      "path": ".\\stage3_grounded_repair\\v47_portable_verification.json",
+      "sha256": "451152f06d404f5d21639a21ba1ed71f3f00262fd4109642882ec170783f102f"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "e53343aebecdbfda002eca07f98b08c2b9f6681e998644ef905a928dfb216f98",
+      "optimizer_updates": 0,
+      "path": ".\\stage3_grounded_repair\\v48_portable_verification.json",
+      "sha256": "f18fa6d03a755a996993f7e7335f8b9a9589de961fc7a6dd1cfe4dbaec4bedf3"
+    },
+    {
+      "passed": true,
+      "archive_sha256": {
+        "stage3_teacher_process_v49_results.tgz": "3289fa245f1fd5ea4f2afe23349784c40c0306410926f6babe8855a42a6cadea",
+        "stage3_teacher_additive_v50_results.tgz": "03ef1978a44741a93674b1b54f1ae51ff0c51803fbf011769747f335a44f42d9"
+      },
+      "optimizer_updates": 0,
+      "path": ".\\stage3_grounded_repair\\v49_v50_portable_verification.json",
+      "sha256": "10452294a7ff007eed4f46fad8c277179c53814976964173047ad058b880fe8c"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "90828a31f7b6df0d36d0229d6db59c3db850751bd15078ce88e200afdc7e486d",
+      "path": ".\\stage3_grounded_repair\\v51_v52_launch_portable_verification.json",
+      "sha256": "c86c039c2d99ff50760792acad5589f40aaff246a9b547b741ee1b493a8eabab"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "32837fbf1863f79664e3388f95c0060f01642f07e87049deabec6c20fcfddfa8",
+      "manifest_files_verified": 44,
+      "controller_started": false,
+      "path": ".\\stage3_grounded_repair\\v52_complete_portable_verification.json",
+      "sha256": "d6ae37c5f6065d38e11c4c4d5f412b22c08f87943008f45bb08f5e1eae71a453"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "1eb5794da19fd25e575ae8445a8702b4e6e98c6b9a7fdc7fe9ddf446d219bccb",
+      "manifest_files_verified": 685,
+      "controller_started": false,
+      "path": ".\\stage3_grounded_repair\\v53_complete_portable_verification.json",
+      "sha256": "dc736597148efcf7e9fe19b31e5746936bc39c5fad86094e7dbc2142f18dc82b"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "f41e22a012038affb9e4cc5a593ef87fb468f7d842b2deaac37b862be8cc9450",
+      "manifest_files_verified": 29,
+      "optimizer_updates": 0,
+      "new_scoring_images": 0,
+      "path": ".\\stage3_grounded_repair\\v54_portable_verification.json",
+      "sha256": "6569364ec69d05e2ed9e8f39ed6fae1b18dfc1d80f4d254ba8300b2e20ee74b3"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "44a883b19f8cc0f95fc871e12965b593f842e816f4f5335a39c79aa8b1d2408b",
+      "manifest_files_verified": 17,
+      "optimizer_updates": 0,
+      "new_scoring_images": 0,
+      "scope": "Six TRAIN states, in-sample ridge fitting, not quality or causal recurrence improvement",
+      "path": ".\\stage3_grounded_repair\\v55_portable_verification.json",
+      "sha256": "93e150d3dd8b252f98d301b8f343c07391ce3bf49b86fac5866b652e5efa2a66"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "cac78bd9053adc3b219e3a2b15491c5c157fd13d25bd8d0f32dd99528b8470a5",
+      "manifest_files_verified": 340,
+      "optimizer_updates": 0,
+      "controller_started": false,
+      "path": ".\\stage3_grounded_repair\\v56_portable_verification.json",
+      "sha256": "e24543d74a4916b93300202e0076ea4630ea55c033dde32aea6121256938e601"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "3b9a5fb69239fb29138cf25668048ddd9e2f76aa7227f7671f5157d7de90da22",
+      "manifest_files_verified": 23,
+      "optimizer_updates": 0,
+      "new_scoring_images": 0,
+      "scope": "Same fitted head sensitivity to shared-core route; not comparison with a refitted no-loop head or new quality result",
+      "path": ".\\stage3_grounded_repair\\v57_portable_verification.json",
+      "sha256": "878f3bcccb5e2ca81c58c4abe6b5943f06e7962434b3d036c1e66c16eff737b7"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "2ca38127bf7cc4c98a49d3f73ccf12f971a4ba6f24c2479d153a9657af3e33d7",
+      "manifest_files_verified": 16,
+      "optimizer_updates": 0,
+      "new_scoring_images": 0,
+      "scope": "TRAIN fixed feature fit with equal teacher/preservation group weight; not measured endpoint quality",
+      "path": ".\\stage3_grounded_repair\\v58_portable_verification.json",
+      "sha256": "f30551d0579f3690ac469dbcccd0ae7b3b44fdb28ad721f5c5a9ef1aef5a802a"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "9d7edfec8f9dbf8a0d4b35b6dc810c57450b21c52ff7a871a2e7ff9ef9e3a689",
+      "manifest_files_verified": 32,
+      "optimizer_updates": 0,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "path": ".\\stage3_grounded_repair\\v59_portable_verification.json",
+      "sha256": "da79b0b91364fd2a000f0c9e6311d88b236a184f189c35fe5a4f51d80ff8cc35"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "16e237d7f72a05ecc0b70d93fb3498b404c5a81a5cc8d81d7c908376719a286e",
+      "manifest_files_verified": 30,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "path": ".\\stage3_grounded_repair\\v60_portable_verification.json",
+      "sha256": "dcaeb76f3ef6cb54a78c385e2be616a0c348c4c1f26a8e3a9dad90d7118f82cd"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "eef64c1772c2f157c60cd2d7495305ed0a98326970af03e7707f2091487fc744",
+      "manifest_files_verified": 17,
+      "optimizer_updates": 0,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "path": ".\\stage3_grounded_repair\\v61_portable_verification.json",
+      "sha256": "9f4c1866d64b1a250ab1a9b6f824196bad067b061dc6d67f8a6866ca834d37d5"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "5ddc3a39bec9f9b9b4a24f59440704208a7daebb2a0b003757f1863fbded338f",
+      "manifest_files_verified": 34,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "path": ".\\stage3_grounded_repair\\v62_portable_verification.json",
+      "sha256": "96ed6829c16e1637f828c64bd9451fc529955ecbdbfc8c4e8d71ca71311841ab"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "c23e717827c6ac4fe92dea996f949365451ff5a758d3fd505eeb276d01480d8c",
+      "manifest_files_verified": 22,
+      "new_optimizer_updates": 0,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "path": ".\\stage3_grounded_repair\\v63_portable_verification.json",
+      "sha256": "d4c41a5e9c631ad2f9f3afbc821b60d879785d2ad46130758dbf43f54d1c529a"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "5df1712242ef2a86f2ba4ec301da66e1fdce8b4f48f79242568351d9428cb3b2",
+      "manifest_files_verified": 67,
+      "new_parameter_updates": 630,
+      "new_external_optimizer_step_calls": 630,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "path": ".\\stage3_grounded_repair\\v64_complete_portable_verification.json",
+      "sha256": "672a8ca85a4cff22f35d0216089d761e075b549dca39bb34a85b562bcf5f35f1"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "d1dd877cc2c041bca4918ff6971a67b562bad7f45fce2cdfe4e5c1559461d384",
+      "manifest_files_verified": 14,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "path": ".\\stage3_grounded_repair\\v64_launch_portable_verification.json",
+      "sha256": "b6bf5ae6362d4caa42ddac55f080e2f00997b4ebd35411ebe9361ecbf3b7e43f"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "40c09a4c620ded46b93b25e2498c2783bbdd7a3b7be30db979d153ec36e2f3f5",
+      "manifest_files_verified": 23,
+      "new_optimizer_updates": 0,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "path": ".\\stage3_grounded_repair\\v65_portable_verification.json",
+      "sha256": "2c3bab3ae8f3fab96a6beaa7d945c69c39f6b94b4d35633005f50935f95dcb85"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "2490835d9618ff416d39c31ac046da8e8c9378a7f2cbcd233b48f296a6ab1fef",
+      "manifest_files_verified": 53,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "path": ".\\stage3_grounded_repair\\v66_portable_verification.json",
+      "sha256": "d72168c5b3c9cfadd874f81fa6bcd2054d78c678f30047ac0eddbace362680e8"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "bd18e91f9d0868d6c2ec6621f08e0f3d1b7d69c3d467b9dfabe9b606fdbfff2a",
+      "artifact_manifest_files": 189,
+      "new_optimizer_updates": 0,
+      "controller_started": false,
+      "local_scope": "Byte/hash/identity and stdlib recomputation of both paired reports; no local Torch or GPU rerun",
+      "server_Torch_scope": "Real state/CFG/hash audit, six zero/direct strict latent+pixel checks, 30 full 14-step rollouts, base hash unchanged and no gradients",
+      "path": ".\\stage3_grounded_repair\\v68_portable_verification.json",
+      "sha256": "bab480b64f0b642b42612893713d3587c235f5998a7a78fa81df5b3861084e9b"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "6aabd89db4684d178a370caaa580cd29b007e579dfac207ef27f7fdcb2480ecc",
+      "manifest_files": 66,
+      "optimizer_updates": 0,
+      "controller_started": false,
+      "local_scope": "All regular-file bytes/provenance and stdlib paired-report recomputation; no local Torch/GPU rerun",
+      "server_Torch_scope": "Three direct native endpoints strict; real FP32 residual reconstruction and full 14-step additive rollouts; Qwen27/flow9 original and additive features; complete additive flow trajectories; base unchanged/no gradients",
+      "path": ".\\stage3_grounded_repair\\v69_portable_verification.json",
+      "sha256": "816d779eb29c53dc10b7892d4e53085240cec0308fa5a4197989e4b4f014ac9b"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "c23ecfb46fde48279d861c5311f1f830c29c74659b838d918ec10404773f975f",
+      "manifest_files": {
+        "expanded_process_corpus_v70": 10,
+        "expanded_recurrent_gradient_v71": 31
+      },
+      "optimizer_updates": 0,
+      "new_scoring_images": 0,
+      "local_scope": "Manifest/source/config/provenance bytes and standard-library identity/schedule/gradient-report checks, no local Torch rerun",
+      "server_Torch_scope": "41 loop2 zero endpoints;6 no-loop zero endpoints;6 strict additive endpoints;6 complete14 endpoint backwards and unchanged base; common RMS and conditional visual features",
+      "path": ".\\stage3_grounded_repair\\v70_v71_portable_verification.json",
+      "sha256": "c0b378e090ad92044578587c8d307b48f8da5923840e7f89774a13e5296ca9c8"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "80313b27ca93bfd43de01290cab3e183d6b075c9f2c0a1612ce99788d7275f8b",
+      "manifest_files": 82,
+      "optimizer_updates": 1260,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "local_scope": "Byte/source/config/checkpoint and all1260 finite logs, full coverage, scalar capacity recomputation; no local Torch rerun",
+      "path": ".\\stage3_grounded_repair\\v72_complete_portable_verification.json",
+      "sha256": "918ecffda2b5535f457a71eeed7e4e8be0a240cbaa8e7991ce369deb15773421"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "1095308ea018ef7ba5af20be10a049b45339fa0d8e10837174a21c183d12860f",
+      "manifest_files": 27,
+      "scope": "launch_prefix_only_not_complete_training_or_final_checkpoint",
+      "local_scope": "Byte/hash/config and actual seven-row optimizer log checks; not complete training or local Torch rerun",
+      "path": ".\\stage3_grounded_repair\\v72_launch_portable_verification.json",
+      "sha256": "1e738588a92ca935225ec6df7b53c65a17c09c0f7295f8e106595274fbf0e7fd"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "00bb11b05344db42e54af25305be5766283ab9636a581236724a9cc66565af7d",
+      "manifest_files": 31,
+      "optimizer_updates": 0,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "scope": "Local byte/source/checkpoint/provenance and standard-library scalar/Gram checks; server Torch actual MSE, autograd and tensor hashes; no local Torch rerun",
+      "path": ".\\stage3_grounded_repair\\v73_portable_verification.json",
+      "sha256": "786fc06acde10b1d790fea516804cddf0bc7b114f262b42c32bf8b7465c16a6d"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "27145c1457f9849bd88834f9859d7727ab1cfe4c537388d075beeb8ae558b647",
+      "manifest_files": 107,
+      "total_accepted_parameter_updates": 300,
+      "total_external_optimizer_steps": 3,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "scope": "Complete byte/provenance/config/log/checkpoint-hash and independent scalar checks; server Torch final tensors and base-freeze checks preserved, no local Torch rerun; physical capacity only, no endpoint or quality claim",
+      "path": ".\\stage3_grounded_repair\\v74_complete_portable_verification.json",
+      "sha256": "4a7e6166da708ac40367576cf0443290d47f65098636673760127548256aee93"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "3cb38263cd1390ab0804d74cbee456555ea9d0825983819efeab60b9ba796c9b",
+      "manifest_files": 40,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "scope": "Bounded actual launch prefix and provenance only; not final optimizer counts, checkpoint, capacity or quality; local byte/standard-library checks, no Torch rerun",
+      "path": ".\\stage3_grounded_repair\\v74_launch_portable_verification.json",
+      "sha256": "6af9d9ca6cb005213bef7cfe1d5a7b6ecec64df2979111710b911d73db57e492"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "5d247cdb72b63b8761746c02e15f2add70c389415877eb47008768778de94ce9",
+      "manifest_files": 35,
+      "optimizer_updates": 0,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "scope": "Local byte/source/config/checkpoint/target-hidden provenance and scalar checks; server actual Torch zero endpoints, connected-reference gradients and tensor equality; no local Torch rerun or generation-quality claim",
+      "path": ".\\stage3_grounded_repair\\v75_portable_verification.json",
+      "sha256": "509e677c5a1b811b42824499c32b55ab176f4deaf111e517bd3ec699856f2b5a"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "460aa7a165ba97f8ed02e50c8e50788063e8d06e3342c45a9b207818623884eb",
+      "manifest_files": 37,
+      "optimizer_updates": 0,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "scope": "Local file/source/config/checkpoint provenance, counters and finite gradient summaries; server Torch strict zero endpoints and prefix equality, actual autograd; no local Torch rerun or generation-quality claim",
+      "path": ".\\stage3_grounded_repair\\v76_portable_verification.json",
+      "sha256": "03cd35709b2d01b4385fdb92383fab30cdc59fe930f13ed758bfdb024197c6c3"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "208cdcd1acb17a7eff63f9298b2271f538b8933fde5ce7882b7b10920002dda7",
+      "manifest_files": 47,
+      "optimizer_updates": 0,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "scope": "Local file/source/config/fixed prior checkpoint and new initialization bytes, exact cohort/additive provenance, hidden target/scales, FP32 RMS storage/range, finite loss/gradient/call summaries; server Torch zero endpoints and actual autograd; no local Torch rerun or generation-quality claim",
+      "path": ".\\stage3_grounded_repair\\v77_portable_verification.json",
+      "sha256": "cf82017b230ec46045217a0fb16d425fb79762d0dcddfabad87bd3418463c7e8"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "c080833e43b9eca15f37aad4db062bed096d8b8fac299a859271562dbba1a9f4",
+      "manifest_files": 173,
+      "optimizer_updates": 1680,
+      "external_optimizer_step_calls": 1680,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "scope": "Local raw manifests/config/source/fixed step420 checkpoint bytes, actual full logs and cohort sampling, independent scalar capacity/cost pairing; server Torch base/gradient/effective weights checks, no local Torch rerun or new generation-quality measurement",
+      "path": ".\\stage3_grounded_repair\\v78_complete_portable_verification.json",
+      "sha256": "27f8125f4323aae8a38e8d4d15057f711c91aa7167510fd8db16fed05c868c52"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "281599654bb0dc1dc8b12d9dcd8e2cc40b598372d0c2e9b5553aa460c8b04eb8",
+      "manifest_files": 44,
+      "scope": "Local bytes/hash/config/full420 sampling and first seven actual update logs per arm; launch proof only, no completed training or local Torch rerun",
+      "path": ".\\stage3_grounded_repair\\v78_launch_portable_verification.json",
+      "sha256": "2f96ef0fe14999bfe84e9455fe80994870b22ebcd835edb1811c15781bd557f4"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "0f0bb06b873ea6f06b884e4411df0febc369c66006b055ece045f970a8d10654",
+      "manifest_files": 74,
+      "scope": "Local bytes/manifests/fixed checkpoint provenance, 164 capacity and hidden scalars, 205 prefix groups and independent aggregate statistics; server Torch endpoint and VJP computations, no local Torch rerun, optimizer or image-quality scores",
+      "path": ".\\stage3_grounded_repair\\v79_portable_verification.json",
+      "sha256": "6e9f48ae474d4c97b296ef4027984b833f25728f504fa1b65d4a01f50c8a870b"
+    },
+    {
+      "passed": true,
+      "archive_sha256": "9fd262f229789939beeb107be2a909696f552343ee6d4d87dc52a17998187386",
+      "manifest_files": 49,
+      "scope": "Local archive/manifest/source/config/checkpoint provenance, initialization and recorded 41 same-forward/164 zero-delta/59 zero-terminal/5 backward checks; server Torch actual computations, no local Torch rerun, optimizer or new image-quality scoring",
+      "path": ".\\stage3_grounded_repair\\v80_portable_verification.json",
+      "sha256": "4efc1eb15d5d9bc57a8a3460722991a25e08482f742db10f743c7ac9815db4c6"
+    },
+    {
+      "passed": true,
+      "phase": "complete",
+      "archive_sha256": "8de6e1bbd3ed4174627f4a78993b0409f8d67426b1e58287d8de8b67c9b5658e",
+      "manifest_files": 102,
+      "actual_optimizer_updates": 840,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "scope": "Local bytes/manifests/source/config/v80 proof/actual initialization and reused v78 control provenance, complete-line actual logs and independent scalar statistics; server Torch operations only, no local Torch rerun; launch is prefix only, complete includes fixed step420 checkpoints and capacity",
+      "path": ".\\stage3_grounded_repair\\v81_complete_portable_verification.json",
+      "sha256": "bbc995e4ddefbee6063841c478459259a56ce937ac9233c1f7e2a80556f6a224"
+    },
+    {
+      "passed": true,
+      "phase": "launch",
+      "archive_sha256": "a27b68e1ab8651e59a18487a4fda583362c5095027e5597c167802af31eaa7a2",
+      "manifest_files": 94,
+      "actual_optimizer_updates": 14,
+      "new_scoring_images": 0,
+      "controller_started": false,
+      "scope": "Local bytes/manifests/source/config/v80 proof/actual initialization and reused v78 control provenance, complete-line actual logs and independent scalar statistics; server Torch operations only, no local Torch rerun; launch is prefix only, complete includes fixed step420 checkpoints and capacity",
+      "path": ".\\stage3_grounded_repair\\v81_launch_portable_verification.json",
+      "sha256": "c967d9dd4887225144ba76f3451d1139531773ba3f56a0c119f25d54a00c6d04"
+    }
+  ],
+  "latest_v81_summary": {
+    "actual_optimizer_updates": 840,
+    "manifest_files": 102,
+    "arms": {
+      "recomputed_trainable4": {
+        "actual_optimizer_updates": 420,
+        "training_walltime_seconds": 5005.757746886462,
+        "peak_memory_gib": 22.2565655708313,
+        "nominal_training_terminal_velocities": 5880,
+        "training_shared_calls": {
+          "outer": 6720,
+          "inner": 6720
+        },
+        "teacher_mean": 0.5308191875616709,
+        "preservation_mean": 0.0036734967924920577,
+        "preservation_max": 0.011814102530479431,
+        "capacity_gate_passed": false,
+        "effective_bf16_changed_fraction": 0.865288218513864
+      },
+      "recomputed_frozen4": {
+        "actual_optimizer_updates": 420,
+        "training_walltime_seconds": 4960.103571882471,
+        "peak_memory_gib": 19.0052547454834,
+        "nominal_training_terminal_velocities": 5880,
+        "training_shared_calls": {
+          "outer": 6720,
+          "inner": 6720
+        },
+        "teacher_mean": 0.5292015224695206,
+        "preservation_mean": 0.0032312607425930245,
+        "preservation_max": 0.009831422939896584,
+        "capacity_gate_passed": false,
+        "effective_bf16_changed_fraction": 0.0
+      }
+    },
+    "paired_capacity_summary": {
+      "recomputed_frozen4": {
+        "teachers": {
+          "improved": 3,
+          "mean_difference": 0.0016176650921503704
+        },
+        "preservation": {
+          "improved": 6,
+          "mean_difference": 0.00044223604989903313
+        }
+      },
+      "reused_v78_anchor_trainable4": {
+        "teachers": {
+          "improved": 2,
+          "mean_difference": 0.002413262923558553
+        },
+        "preservation": {
+          "improved": 32,
+          "mean_difference": -0.0003156237869656512
+        }
+      },
+      "reused_v78_no_loop": {
+        "teachers": {
+          "improved": 4,
+          "mean_difference": -0.013586759567260742
+        },
+        "preservation": {
+          "improved": 16,
+          "mean_difference": 0.0003108208067715168
+        }
+      }
+    }
+  },
+  "stage3_optimizer_ledger": [
+    {
+      "version": "v25",
+      "parameter_updates": 100,
+      "external_step_calls": 100
+    },
+    {
+      "version": "v28",
+      "parameter_updates": 100,
+      "external_step_calls": 100
+    },
+    {
+      "version": "v33",
+      "parameter_updates": 50,
+      "external_step_calls": 50
+    },
+    {
+      "version": "v38",
+      "parameter_updates": 300,
+      "external_step_calls": 300
+    },
+    {
+      "version": "v41",
+      "parameter_updates": 300,
+      "external_step_calls": 300
+    },
+    {
+      "version": "v44",
+      "parameter_updates": 400,
+      "external_step_calls": 400
+    },
+    {
+      "version": "v46",
+      "parameter_updates": 400,
+      "external_step_calls": 400
+    },
+    {
+      "version": "v52",
+      "parameter_updates": 400,
+      "external_step_calls": 400
+    },
+    {
+      "version": "v60",
+      "parameter_updates": 2000,
+      "external_step_calls": 2000
+    },
+    {
+      "version": "v62",
+      "parameter_updates": 200,
+      "external_step_calls": 2
+    },
+    {
+      "version": "v64",
+      "parameter_updates": 630,
+      "external_step_calls": 630
+    },
+    {
+      "version": "v66",
+      "parameter_updates": 2000,
+      "external_step_calls": 2000
+    },
+    {
+      "version": "v72",
+      "parameter_updates": 1260,
+      "external_step_calls": 1260
+    },
+    {
+      "version": "v74",
+      "parameter_updates": 300,
+      "external_step_calls": 3
+    },
+    {
+      "version": "v78",
+      "parameter_updates": 1680,
+      "external_step_calls": 1680
+    },
+    {
+      "version": "v81",
+      "parameter_updates": 840,
+      "external_step_calls": 840
+    }
+  ],
+  "totals": {
+    "stage3_parameter_updates": 10960,
+    "stage3_external_optimizer_steps": 10465,
+    "scoring_records": 4264,
+    "explicit_baseline_alias_records": 351,
+    "action_flips_including_repeats": 116,
+    "strict_train_teachers": 6,
+    "isolated_dev_teachers": 1,
+    "true_correct_train_states": 35,
+    "cpu_interface_checks_across_rounds": 217,
+    "controller_updates": 0
+  },
+  "v82_status": {
+    "completed": false,
+    "execution_status_confirmed": false,
+    "last_historical_launcher_dispatch_pid": 57234,
+    "unit_tests_confirmed_passed": false,
+    "analytic_fits_confirmed": 0,
+    "static_defect": "check_readout_subspace.py reads optimizer_updates; input v81 complete proof uses actual_optimizer_updates. Current source/input combination raises KeyError before Runtime.",
+    "static_defect_does_not_substitute_for_remote_error_log": true
+  },
+  "limitations": [
+    "No current server liveness claim for 2026-10-23.",
+    "Passed portable proof does not imply algorithm quality success.",
+    "Local evidence audit is not local Torch rerun.",
+    "Deleting binary execution artifacts can remove local rerun capability unless originals or full archives remain."
+  ],
+  "audit": {
+    "missing_references": [],
+    "abnormal_control_characters": {},
+    "absolute_filesystem_paths_in_report": false,
+    "deleted_directory_file_references": 0,
+    "optimizer_arithmetic_verified": true,
+    "v81_proof_schema_and_v82_read_mismatch_verified": true,
+    "scientific_scope_review": "Three independent subtask reviews with corrections applied; no experimental code modified."
+  }
+}
