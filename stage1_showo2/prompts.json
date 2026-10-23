@@ -1,0 +1,16 @@
+[
+  {"id":"composition_01","category":"composition","prompt":"Two red ceramic cups stand to the left of a blue plate on a wooden table, with a folded linen napkin behind the plate. Natural window light.","seeds":[101,102,103,104]},
+  {"id":"composition_02","category":"composition","prompt":"A small yellow bicycle is parked between a green bench and a gray mailbox on a quiet street. Both wheels and the full bicycle are visible.","seeds":[201,202,203,204]},
+  {"id":"composition_03","category":"composition","prompt":"Three white birds fly above a dark lighthouse; a single red sailboat is below the lighthouse on the sea. Clear horizon and distinct objects.","seeds":[301,302,303,304]},
+  {"id":"portrait_01","category":"portrait","prompt":"An older ceramic artist shaping a clay bowl at a workbench, hands and pottery wheel visible, soft side light, candid editorial photograph.","seeds":[401,402,403,404]},
+  {"id":"portrait_02","category":"portrait","prompt":"A violinist practicing backstage, natural posture, instrument and fingers clearly visible, warm dressing-room light, documentary photograph.","seeds":[501,502,503,504]},
+  {"id":"portrait_03","category":"portrait","prompt":"A child and a golden retriever looking through a rain-streaked window toward a garden, expressive faces, believable anatomy, gentle indoor light.","seeds":[601,602,603,604]},
+  {"id":"nature_01","category":"nature","prompt":"A misty mountain valley at dawn with layered ridges, a winding river and realistic atmospheric depth, detailed natural landscape photography.","seeds":[701,702,703,704]},
+  {"id":"nature_02","category":"nature","prompt":"Close-up of a kingfisher perched on a wet branch beside a stream, accurate feather texture, natural depth of field and overcast light.","seeds":[801,802,803,804]},
+  {"id":"nature_03","category":"nature","prompt":"A desert campsite under a clear night sky, small warm lantern beside a tent, distinct rock textures and restrained realistic lighting.","seeds":[901,902,903,904]},
+  {"id":"art_01","category":"illustration","prompt":"A whimsical illustrated library inside a giant tree, winding stairs, tiny reading nooks and warm lamplight, richly detailed watercolor style.","seeds":[1001,1002,1003,1004]},
+  {"id":"art_02","category":"illustration","prompt":"A poster-style illustration of a night market beside a canal, colorful stalls reflected in water, bold shapes and a coherent limited color palette.","seeds":[1101,1102,1103,1104]},
+  {"id":"art_03","category":"illustration","prompt":"A futuristic greenhouse on a rooftop, lush plants and transparent solar panels, elegant architectural concept art with clear spatial layout.","seeds":[1201,1202,1203,1204]},
+  {"id":"product_01","category":"product","prompt":"A handmade glass carafe and two matching tumblers on a simple stone shelf, refined studio product photograph with realistic reflections.","seeds":[1301,1302,1303,1304]},
+  {"id":"product_02","category":"product","prompt":"A compact camping lantern on a weathered wooden table beside a folded map, functional product details, neutral studio lighting and clean composition.","seeds":[1401,1402,1403,1404]}
+]

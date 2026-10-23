@@ -1,0 +1,15 @@
+{
+  "purpose": "training throughput probe only; baseline-generated images are re-encoded",
+  "physical_gpu": 0,
+  "steps": 200,
+  "microbatch": 1,
+  "rank": 16,
+  "trainable_parameters": 1064960,
+  "training_images": 14,
+  "first_loss": 0.09082,
+  "last_loss": 0.12793,
+  "median_step_s_after_warmup": 0.1835,
+  "mean_step_s_after_warmup": 0.184,
+  "peak_allocated_gb": 8.388,
+  "peak_reserved_gb": 8.642
+}

@@ -1,0 +1,15 @@
+{
+  "physical_gpu": 1,
+  "gpu_name": "NVIDIA GeForce RTX 3090",
+  "cuda_visible_devices": "1",
+  "torch": "2.6.0+cu124",
+  "model_load_s": 73.265,
+  "model_checkpoint": "/home/shy_23/iterative_visual_stage1_20261003/models/show-o2-1.5B-local",
+  "steps": 50,
+  "guidance": 5.0,
+  "dtype": "bfloat16",
+  "scheduler": "official shifted Euler flow",
+  "resolution": 432,
+  "safety_checker": "not applied; raw model output",
+  "task_count": 8
+}
