@@ -1,0 +1,29 @@
+{
+  "note": "PickScore is a preference proxy, not human votes",
+  "model_repo": "yuvalkirstain/PickScore_v1",
+  "pairs_per_variant": 56,
+  "variants": {
+    "base": {
+      "mean": 22.213723,
+      "median": 22.453085
+    },
+    "L1": {
+      "mean": 16.489727,
+      "median": 16.35807,
+      "mean_paired_change": -5.723996,
+      "fraction_higher": 0.0
+    },
+    "L2": {
+      "mean": 16.687536,
+      "median": 16.671416,
+      "mean_paired_change": -5.526187,
+      "fraction_higher": 0.0
+    },
+    "L3": {
+      "mean": 16.421662,
+      "median": 16.311175,
+      "mean_paired_change": -5.792061,
+      "fraction_higher": 0.0
+    }
+  }
+}

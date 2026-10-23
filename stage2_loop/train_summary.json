@@ -1,0 +1,27 @@
+{
+  "purpose": "functional ELT-inspired pilot, not human preference evidence",
+  "physical_gpu": 0,
+  "steps": 500,
+  "train_images": 42,
+  "validation_images": 14,
+  "trainable_parameters": 246784,
+  "head_block_calls": {
+    "baseline": 10,
+    "L1": 6,
+    "L2": 8,
+    "L3": 10
+  },
+  "validation_velocity_mse_before_L1_L2_L3": [
+    8.432315,
+    5.758946,
+    4.120503
+  ],
+  "validation_velocity_mse_after_L1_L2_L3": [
+    0.357717,
+    0.336839,
+    0.327014
+  ],
+  "median_step_s_after_warmup": 0.1673,
+  "peak_allocated_gb": 6.879,
+  "checkpoint": "/home/shy_23/iterative_visual_stage1_20261003/stage2_loop/elt_tied_tail_rank16.pt"
+}

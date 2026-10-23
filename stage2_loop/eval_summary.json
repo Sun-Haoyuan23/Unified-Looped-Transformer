@@ -1,0 +1,33 @@
+{
+  "image_count": 224,
+  "prompt_count": 14,
+  "seeds_per_prompt": 4,
+  "variants": {
+    "base": {
+      "mean_siglip_alignment": 0.193688,
+      "mean_within_prompt_siglip_distance": 0.071,
+      "median_within_prompt_siglip_distance": 0.070095
+    },
+    "L1": {
+      "mean_siglip_alignment": -0.024339,
+      "mean_within_prompt_siglip_distance": 0.030661,
+      "median_within_prompt_siglip_distance": 0.02927,
+      "mean_paired_alignment_change": -0.218027,
+      "fraction_alignment_higher": 0.0
+    },
+    "L2": {
+      "mean_siglip_alignment": -0.015972,
+      "mean_within_prompt_siglip_distance": 0.025425,
+      "median_within_prompt_siglip_distance": 0.02352,
+      "mean_paired_alignment_change": -0.20966,
+      "fraction_alignment_higher": 0.0
+    },
+    "L3": {
+      "mean_siglip_alignment": -0.019122,
+      "mean_within_prompt_siglip_distance": 0.024852,
+      "median_within_prompt_siglip_distance": 0.022467,
+      "mean_paired_alignment_change": -0.21281,
+      "fraction_alignment_higher": 0.0
+    }
+  }
+}
