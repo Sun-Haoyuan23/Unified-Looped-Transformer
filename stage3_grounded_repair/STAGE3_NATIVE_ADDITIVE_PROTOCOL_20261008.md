@@ -1,0 +1,11 @@
+# v69 原生教师的加法可达性与过程目标协议
+
+运行前冻结。只使用v68固定native_final_rebridge中已通过官方错→对且相对原canonical源baseline HPS／Pick有限非负的三个TRAIN候选00006seed101、00010seed101、00054seed101；不使用direct／parent_additive上限，不按新结果改变集合。
+
+核对v68完整归档manifest、原状态／输入artifact／终点／源码hash。用原prompt／grid／CFG完整14步严格复现v68已评分的native bridge终点；然后计算delta=FP32(native_input−original)，由original+delta重建实际可学习输入，记录input／endpoint浮点误差，并实际延续完整14步。不假定FP32加法严格等于直接输入。
+
+导出原状态与additive目标状态的冻结Qwen27／flow9表征、modality_positions、原grid、additive目标全部flow状态／速度和最终latent。表征与目标仅用于TRAIN准备／后续损失，后续推理不能读取teacher／父图／mask／像素／最终标签。临时hook仅特征读取，延续前移除，禁旧KV／inner prefix；base权重保持无梯度、hash不变。记录完整调用与walltime，FLOPs不填。
+
+预定三个新additive终图＋三个原canonical source baseline字节别名＝六评分记录。原v68成功teacher图不重新评分；新的additive终图做官方／HPS／Pick／SigLIP。单独保留重评分baseline漂移，严格质量门仍针对原canonical源baseline，不降低门。
+
+只有additive终图继续官方错→对且HPS／Pick均有限非负，其过程目标才可用于后续新训练。失败态全部保留，不将直接bridge成功自动当加法成功。原v36／v49／v50与旧训练均不覆盖；新目录native_teacher_additive_v69，optimizer0／controller0，不自动训练或val。后续扩展训练必须单独冻结原三教师＋新过门教师和全部35真实正确态、初始化／抽样／损失／固定checkpoint及共享循环对照。共享循环生成收益、证据特异性和泛化仍需独立验证。

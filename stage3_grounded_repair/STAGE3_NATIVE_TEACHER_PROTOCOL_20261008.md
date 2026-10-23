@@ -1,0 +1,17 @@
+# v68 原生轨迹教师接口验证协议
+
+运行前冻结；当前NOT_STARTED。v67是本地TRAIN基线元数据审计，没有加载服务器state或新终点评分。六候选不能计为新成功修复教师。
+
+原canonical112态56提示中全部15对“错误seed／同提示正确另一seed”保留manifest；其中六对的原生正确父图相对错误源图HPS／Pick均有限非负。选择发生在TRAIN教师准备，不用于部署controller、独立val或最终动作选择。不得把DEV／val／test引入。
+
+先在服务器验证v67源输入hash、六对原始state与final_latent文件hash、TRAIN身份、prompt／index35／time_grid／CFG一致、原／父CFG两个分支物理latent相同，读取原state字段和官方flow公式。不重捕获、不重评原父图。任何缺失或不一致都先定位，不能假定另seed完整轨迹可直接替代同状态修复。
+
+保留原prompt、原检查时间和检查证据，仅离线教师输入依照冻结TRAIN父图构造。预定六动作：原canonical baseline字节别名；checked_zero完整重算；source_final_rebridge（原错误终点latent与原inferred噪声）；native_parent_direct（直接父中途state，原生几何／质量上限）；native_parent_additive（source + FP32(parent−source)，检验可训练加法可达性）；native_final_rebridge（父最终latent与原inferred噪声）。
+
+FM时间t按原grid tensor算术保持，原inferred噪声由原中途完整速度v计算epsilon_hat=x_t−t*v，重新桥接(1−t)*epsilon_hat+t*x1。两个rebridge只改变x1，保留同原inferred噪声、时间及原prompt。禁止阈值、幅度和时机扫描；先核对FM参数化及真实字段再实现。所有更新后完整14速度重算，不使用旧KV／inner prefix。记录清晰度导入与另seed轨迹上限，不能归因共享循环。
+
+父direct须对原父baseline完整终点严格复现；父additive与direct浮点差异须记录并实际评估；checked_zero须对原baseline严格相等。六对×六动作=36评分记录，其中六baseline别名、其他动作完整终点实际执行。原父baseline评分只用已有原始记录，新增终图官方／HPS／Pick／SigLIP统一评分，严格相对原source canonical基线判门，漂移单独记录。
+
+仅native_final_rebridge若官方错→对且HPS／Pick有限非负，才可加入新的保留原inferred噪声的成功TRAIN教师池。native_parent_direct／additive仅表示跨seed轨迹上限，不能自动算部署修复能力。必须保留每候选失败与全六对统计、独立提示数、质量／成本及所有原始hash；代理偏好分数不等人评。
+
+这是离线原生教师接口，非最终方法。最终推理必须由可训练共享Transformer重访，根据中途MMU／视觉／latent输出物理更新，不读取父图、mask、像素编辑、最终标签或教师ID。原三教师+35真实正确池和原容量门保持；固定修复器独立val前controller0。

@@ -1,0 +1,16 @@
+{
+  "STAGE3_CONTINUATION_20261008.md": "a21e27fd2f29b7ecab43e004724254f8f32bbffb425276198bfb254670a139e9",
+  "STAGE3_POSITIVE_RESULTS_20261008.md": "34b0d7242058bbb59041a89f5d5eac8386870fe44f84b72dfe844475eb40fd7d",
+  "STAGE3_CORE_CONTRIBUTION_AUDIT_20261008.md": "c24a7b22262d4433d20ecb45e68ecad7d0cab7de2f5d49c306fce02a99970494",
+  "STAGE3_PROGRESS_20261005.md": "0667c54f28d4a6148715c9be2558426cf34b5f600803c1bcc33dfc4b1ce44cf5",
+  "STAGE3_CONTINUATION_20261005.md": "112a7701f3c93efa166307464fe1ecd1e84cb223682b8cfa2c6a0b2e8cd155a7",
+  "STAGE3_RECURRENT_CORE_20261005.md": "2231707c2520b6d44f4e7fab716bfd6956f1117cef83285ec084ed11bcd13902",
+  "README.md": "81e4eb6be106bb7d30aa8c0b7d69450cb3d857f31fa5a75c5d0c0acda39e05a8",
+  "v46_complete_portable_verification.json": "b9657b9d943b0daed05ad249373a5aa817e0a526ee06808ed4fd44258d8af7da",
+  "v47_portable_verification.json": "451152f06d404f5d21639a21ba1ed71f3f00262fd4109642882ec170783f102f",
+  "v47_grouped_analysis.json": "1257507d0378d43da36b6264065db9bfe2f13ac7ad93ab92bbd48127f6c1f12c",
+  "v47_endpoint_fit_analysis.json": "66e6da72f94a6bb658a94c1beb75354858181a268619252baaa3bf9380c00417",
+  "v47_quality_only_positive_states.json": "05dba5289ca7994a2716cccb330b58cc291c489b320ff47508c530ed1bf9033f",
+  "v47_ilsd_vs_terminal_analysis.json": "0dc51d5696f760ee65c427c01f69bb606ae7a54dda842657f5e6d0ecf56b6059",
+  "v48_portable_verification.json": "f18fa6d03a755a996993f7e7335f8b9a9589de961fc7a6dd1cfe4dbaec4bedf3"
+}

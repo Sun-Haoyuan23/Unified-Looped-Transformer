@@ -1,0 +1,11 @@
+# v65 固定非线性共享循环映射审计协议
+
+本协议在运行前冻结。v64三组固定step210均未过原容量门，不扩终图、val或controller。
+
+审计仅比较初始化与训练日程严格匹配的frozen_loop和trainable_loop固定最终checkpoint。使用原3严格TRAIN教师和35真实正确态，全部38态重现物理MSE，rtol1e-4/atol1e-6；记录残差空间集中度及全38态物理梯度Gram。参数梯度通过autograd.grad读取，不进行optimizer、解析拟合或参数更新。
+
+完整14步终点与物理／终点梯度诊断采用v61按元数据预定的6态：3教师、2同对象同seed反向关系正确伙伴及1同提示另一seed正确伙伴。不按终图、误差或val选择。输出公共参数、共享低秩核心及物理state上的目标梯度方向；6态之间的梯度Gram只描述局部干扰，不外推为全部数据的优化原因。交换MMU证据只对同原latent／prompt计算物理更新，不续跑该反向动作、不视为换prompt生成。
+
+比较实际BF16有效q/k/v/o权重相对v64真实起点的变化。基础、adapter和源checkpoint hash不变；12个诊断终点保存tensor，无图像解码或官方／偏好评分。任何物理更新后14次速度完整重算，禁旧KV／inner prefix。未测FLOPs为null，额外审计成本单列。
+
+运行前状态：NOT_STARTED。执行完成状态写入独立pipeline_status.json，本协议不回写历史。
