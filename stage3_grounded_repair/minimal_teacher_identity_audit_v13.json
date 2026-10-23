@@ -1,0 +1,54 @@
+{
+  "terminal_outcomes_used": false,
+  "scope": "Offline visual identity audit of the six ORIGINAL intermediate images only; not a learned MMU gate",
+  "rows": [
+    {
+      "state_id": "00369_seed101_i35",
+      "state_fingerprint": "111fca7788fd0a02d6c7b2476228f63c8eb9517dcbf9f3faf703d23f5434ed04",
+      "source_mask_sha256": "c89bea8b72afc9e7b2fb167ad2a066c846a5bb6f10b2cfb474a5bc59fae3e80c",
+      "original_clean_image_sha256": "5b4faeaad79e73692d75cc5627a026afdad7f8d241ac30df122670c1b453c4aa",
+      "independent_object_instances": true,
+      "observation": "Visible dining table and oven; oven embedded in kitchen. Cutout seams and floating appliance are quality risks."
+    },
+    {
+      "state_id": "00375_seed101_i35",
+      "state_fingerprint": "50702138158449fe0b0ea8935bf829a3570a62ea114b23eb6993f750f0599b84",
+      "source_mask_sha256": "ecdeab9b74d8b58f1328187e097a6248d81a4e6926a40dbf6145a34d11b659af",
+      "original_clean_image_sha256": "7605cdcbdeb7a01af13e482ac35bcb8f9ec116db1d42221dd0aacbdc9c7cb623",
+      "independent_object_instances": true,
+      "observation": "Visible independent boat and suitcase; source boat removal leaves dark water artifact."
+    },
+    {
+      "state_id": "00379_seed202_i35",
+      "state_fingerprint": "4f815ee3962a1c926da62e21c5c2c6c833174648db8277d2b677547999d8ccbf",
+      "source_mask_sha256": "3fa908e8a5b072bc1230b6091801e0c016f09406514fd6840e666c862ceabdf7",
+      "original_clean_image_sha256": "bba4f1257d2285cd782fc64a299d0929febeb40c5ef6303d6e1b0f0b45ed0868",
+      "independent_object_instances": false,
+      "observation": "Train class mask represents the carriage interior/environment, not an independent transportable train object; reject."
+    },
+    {
+      "state_id": "00412_seed202_i35",
+      "state_fingerprint": "76aa49e85db9698b95c43fa8d5b629f9110060cc246787d7493c86d98f9c84c4",
+      "source_mask_sha256": "51fb58e7019422d80a887449161ac463345af4c7426e987e3167b48b17a5d762",
+      "original_clean_image_sha256": "2ee30a0c0a8f75852e5cda603e95bcc71103c16c48ab94763d7803f31ea288a4",
+      "independent_object_instances": true,
+      "observation": "Visible banana and suitcase; banana placement retains instance identity but floats and leaves source shadow."
+    },
+    {
+      "state_id": "00414_seed202_i35",
+      "state_fingerprint": "1c029bc3deb01952a12f2653c8782be34c7e3a01aa747087fd63d2dfc5e5fd12",
+      "source_mask_sha256": "6abd2b3fe2a1e72cf2afe32429a474eed88d1bb5a7c12c38b07c8f84c5a0f97f",
+      "original_clean_image_sha256": "04ce74158a304a220b132233ced0aa87b422f0e613899a3dbc29c18133887038",
+      "independent_object_instances": true,
+      "observation": "Visible cat head overlapping backpack in original image; identity present, but truncation/occlusion and overlap remain quality risks."
+    },
+    {
+      "state_id": "00444_seed202_i35",
+      "state_fingerprint": "960cd3bcca744a4fbb56fefe85bca6d50593e0a97e61fb7afb259cad04f5b061",
+      "source_mask_sha256": "fc8b29b5ad7518894c7d1e4ce2f7cc2415aaf50fd287e4bdcd1ea0933448d80f",
+      "original_clean_image_sha256": "93d3a66c31ff3733e693f9ff9240d91ad9ddf1d277f5a8dc38f1dc2f2cdb28f8",
+      "independent_object_instances": true,
+      "observation": "Visible bed and frisbee; minimal shared resizing retains recognizable bed. Await official target/roundtrip geometry."
+    }
+  ]
+}
