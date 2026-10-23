@@ -1,0 +1,18 @@
+{
+  "archive_sha256": "ab274425eb975bdd6f95c7053aa0dba691068259fd0d4f8f680ace09746e4b5b",
+  "cores": {
+    "8": {
+      "portable_exact": true,
+      "paired_report_sha256": "f0b4154ab390f93cf06496b9ad119e8bf58a5b976dc633dcc68293a673705734",
+      "n_states": 24,
+      "n_prompts": 12
+    },
+    "2": {
+      "portable_exact": true,
+      "paired_report_sha256": "e352d6b6f9df5c9065602007e4c77ab5a501aa0f7b9d02d8de9c2b0c5f461725",
+      "n_states": 24,
+      "n_prompts": 12
+    }
+  },
+  "checkpoint_and_result_hashes_exact": true
+}

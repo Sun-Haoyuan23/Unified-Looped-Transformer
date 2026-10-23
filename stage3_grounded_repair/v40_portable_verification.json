@@ -1,0 +1,9 @@
+{
+  "archive_sha256": "696b3ca058496614c686326e24b1e28b84879393049bb8bb3b219dd8676c92aa",
+  "source_hashes_exact": true,
+  "summary_from_raw_records_exact": true,
+  "mean_algorithm": "same ordered accumulator as source Python3.10",
+  "windows": 48,
+  "exact_previously_scored_replays": 9,
+  "optimizer_updates": 0
+}

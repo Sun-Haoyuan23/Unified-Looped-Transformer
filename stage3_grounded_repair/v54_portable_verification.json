@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "archive_sha256": "f41e22a012038affb9e4cc5a593ef87fb468f7d842b2deaac37b862be8cc9450",
+  "manifest_files_verified": 29,
+  "source_config_checkpoint_hashes_exact": true,
+  "server_strict_endpoint_replays_verified_by_archive": 48,
+  "server_tensor_model_replay_not_repeated_locally": true,
+  "local_scalar_geometry_consistency": true,
+  "base_and_adapter_unchanged_reported": true,
+  "optimizer_updates": 0,
+  "new_scoring_images": 0,
+  "conclusions": "Direction and representation alignment diagnosis; no quality causality claim",
+  "FLOPs": null
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "archive_sha256": "c23e717827c6ac4fe92dea996f949365451ff5a758d3fd505eeb276d01480d8c",
+  "manifest_files_verified": 22,
+  "source_config_protocol_and_fixed_input_hashes_exact": true,
+  "primary_loop_initializations_matched": true,
+  "base_hash_and_no_gradient_verified_on_server": true,
+  "zero_full_endpoints_verified_on_server": true,
+  "three_real_full14_gradient_proofs": true,
+  "new_optimizer_updates": 0,
+  "new_scoring_images": 0,
+  "interface_tests_cumulative": 186,
+  "controller_started": false,
+  "server_torch_tensor_checks_not_repeated_locally": true,
+  "no_training_or_generation_quality_claim": true,
+  "FLOPs": null
+}

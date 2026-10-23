@@ -1,0 +1,38 @@
+[
+  {
+    "study": "outer_ilsd",
+    "state_id": "train_extra_00039_seed101_i35",
+    "baseline_correct": 0,
+    "candidate_correct": 0,
+    "pick_delta": 0.17739188073528567,
+    "hps_delta": 0.001708984375,
+    "siglip_delta": 0.01280200481414795
+  },
+  {
+    "study": "outer_ilsd",
+    "state_id": "train_extra_00046_seed101_i35",
+    "baseline_correct": 0,
+    "candidate_correct": 0,
+    "pick_delta": 0.2055741092194694,
+    "hps_delta": 0.00048828125,
+    "siglip_delta": -0.0033490657806396484
+  },
+  {
+    "study": "inner_ilsd",
+    "state_id": "train_extra_00039_seed101_i35",
+    "baseline_correct": 0,
+    "candidate_correct": 0,
+    "pick_delta": 0.43136782564988607,
+    "hps_delta": 0.0009765625,
+    "siglip_delta": -0.009853243827819824
+  },
+  {
+    "study": "joint_terminal",
+    "state_id": "train_extra_00039_seed101_i35",
+    "baseline_correct": 0,
+    "candidate_correct": 0,
+    "pick_delta": 0.5179018517310396,
+    "hps_delta": 0.002197265625,
+    "siglip_delta": -0.005525514483451843
+  }
+]

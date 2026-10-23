@@ -1,0 +1,8 @@
+{
+  "archive_sha256": "73054ab13b85085d9ddcd52a1e5df6264c3e482c6416444f6802cf86c412b8d1",
+  "all3_arms_portable_exact": true,
+  "source_checkpoint_and_candidate_hashes_exact": true,
+  "scored_terminal_images": 90,
+  "optimizer_updates": 0,
+  "interpretation": "TRAIN capacity diagnosis; no independent val or controller"
+}

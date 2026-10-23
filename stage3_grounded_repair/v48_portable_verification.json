@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "archive_sha256": "e53343aebecdbfda002eca07f98b08c2b9f6681e998644ef905a928dfb216f98",
+  "file_manifest_exact": true,
+  "source_config_checkpoint_hash_exact": true,
+  "strict_server_tensor_replays": 24,
+  "local_replayed_fit_statistics_match_v47": true,
+  "counterfactual_rollouts": 24,
+  "optimizer_updates": 0,
+  "new_scored_images": 0,
+  "summary": [
+    {
+      "study": "outer_ilsd",
+      "effective_BF16_weight_changed_fraction": 0.473269780476888,
+      "teacher_delta_core_contribution_min": 0.004643372177044041,
+      "teacher_delta_core_contribution_max": 0.016711969904424067,
+      "teacher_fit_without_core_updates": [
+        {
+          "state_id": "train_extra_00021_seed101_i35",
+          "learned": 0.8838986754417419,
+          "frozen": 0.8837805986404419
+        },
+        {
+          "state_id": "train_extra_00039_seed101_i35",
+          "learned": 0.9171574711799622,
+          "frozen": 0.9178746938705444
+        },
+        {
+          "state_id": "train_extra_00046_seed101_i35",
+          "learned": 0.9269126057624817,
+          "frozen": 0.9284043908119202
+        }
+      ]
+    },
+    {
+      "study": "inner_ilsd",
+      "effective_BF16_weight_changed_fraction": 0.3871612548828125,
+      "teacher_delta_core_contribution_min": 0.005344748510154218,
+      "teacher_delta_core_contribution_max": 0.010798287925317182,
+      "teacher_fit_without_core_updates": [
+        {
+          "state_id": "train_extra_00021_seed101_i35",
+          "learned": 0.4005924165248871,
+          "frozen": 0.40334153175354004
+        },
+        {
+          "state_id": "train_extra_00039_seed101_i35",
+          "learned": 1.0930206775665283,
+          "frozen": 1.0958088636398315
+        },
+        {
+          "state_id": "train_extra_00046_seed101_i35",
+          "learned": 0.9078969359397888,
+          "frozen": 0.9106867909431458
+        }
+      ]
+    },
+    {
+      "study": "joint_ilsd",
+      "effective_BF16_weight_changed_fraction": 0.3623973033467277,
+      "teacher_delta_core_contribution_min": 0.008366009229599382,
+      "teacher_delta_core_contribution_max": 0.009398410730698801,
+      "teacher_fit_without_core_updates": [
+        {
+          "state_id": "train_extra_00021_seed101_i35",
+          "learned": 0.375106543302536,
+          "frozen": 0.3770129084587097
+        },
+        {
+          "state_id": "train_extra_00039_seed101_i35",
+          "learned": 0.8056018948554993,
+          "frozen": 0.8141698241233826
+        },
+        {
+          "state_id": "train_extra_00046_seed101_i35",
+          "learned": 0.6324079036712646,
+          "frozen": 0.6378301382064819
+        }
+      ]
+    },
+    {
+      "study": "joint_terminal",
+      "effective_BF16_weight_changed_fraction": 0.368503101536485,
+      "teacher_delta_core_contribution_min": 0.006845744062454518,
+      "teacher_delta_core_contribution_max": 0.008336635485772483,
+      "teacher_fit_without_core_updates": [
+        {
+          "state_id": "train_extra_00021_seed101_i35",
+          "learned": 0.3683168292045593,
+          "frozen": 0.36975327134132385
+        },
+        {
+          "state_id": "train_extra_00039_seed101_i35",
+          "learned": 0.7614021897315979,
+          "frozen": 0.7634249329566956
+        },
+        {
+          "state_id": "train_extra_00046_seed101_i35",
+          "learned": 0.6530830264091492,
+          "frozen": 0.6555889844894409
+        }
+      ]
+    }
+  ],
+  "limit": "File hashes and portable statistics checked locally; tensor equality asserted in actual server audit, no local Torch execution"
+}

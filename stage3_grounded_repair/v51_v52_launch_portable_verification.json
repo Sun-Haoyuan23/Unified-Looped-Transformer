@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "archive_sha256": "90828a31f7b6df0d36d0229d6db59c3db850751bd15078ce88e200afdc7e486d",
+  "source_config_and_corpus_hash_exact": true,
+  "zero_budgets_exact": [
+    1,
+    2
+  ],
+  "real2x14_terminal_gradients": true,
+  "optimizer_updates_in_proof": 0,
+  "unit_tests_this_round": 5,
+  "actual_initialization_all_common_branches_exact": true,
+  "initial_matches_v46": true,
+  "sampling_prefix_matches_v46": true,
+  "training_updates_at_frozen_snapshot": {
+    "joint_control": 2,
+    "outer_process": 2,
+    "inner_process": 2,
+    "joint_process": 2
+  },
+  "fixed_completed_groups_before_v52": 1650,
+  "training_still_running": true,
+  "launch_snapshot_is_not_final_checkpoint": true,
+  "trained_generation_success": false
+}

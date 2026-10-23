@@ -1,0 +1,50 @@
+{
+  "archive_sha256": "b5010f8780a5f927a1959a5dc54ef96f285f625cdad177ca96b3af236d84d323",
+  "source_config_exact": true,
+  "strict_training_gate": true,
+  "all_common_and_branch_initial_parameters_matched": true,
+  "zero_full_terminal_exact_all4": true,
+  "gradient_proof": {
+    "phase": "passed",
+    "time": 1791187827.703475,
+    "optimizer_updates": 0,
+    "zero_intervention_latent_exact": true,
+    "zero_arms": [
+      "head_only",
+      "outer",
+      "inner",
+      "joint"
+    ],
+    "shared_cores_exact": true,
+    "base_parameter_gradients": false,
+    "shared_evidence_gradient_abs_sum": 1.4924975726753473,
+    "feedback_gradient_abs_sum": {
+      "outer": 0.028199825435876846,
+      "inner": 0.005089860409498215
+    },
+    "initial_readout_gradient_abs_sum": 260.05883026123047,
+    "trainable_parameters": {
+      "head_only": 603784,
+      "outer": 603784,
+      "inner": 702088,
+      "joint": 1001416
+    },
+    "adapter_gradient_abs_sum": 296.981866706803,
+    "time_s": 12.166209410876036,
+    "peak_memory_gib": 14.989152431488037,
+    "cost": {
+      "network_velocity_calls": 15,
+      "post_update_velocity_calls": 14,
+      "feature_capture_velocity_calls": 1,
+      "outer_backbone_layer_calls": 420,
+      "flow_head_layer_calls": 150,
+      "semantic_encoder_layer_calls_nominal": 390,
+      "outer_shared_revisit_calls": 2,
+      "inner_shared_revisit_calls": 2,
+      "nominal_full_network_velocity_calls": 50,
+      "FLOPs": null
+    },
+    "interpretation": "Trainability/identity only; no optimizer or semantic/quality gain"
+  },
+  "scope": "Launch/interface/init only. No completed training log or checkpoint in this archive."
+}

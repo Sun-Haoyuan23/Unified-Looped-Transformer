@@ -1,0 +1,170 @@
+{
+  "all64": {
+    "checked_inferred_opposite": {
+      "n": 64,
+      "prompts": 32,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 1,
+      "pick_delta": -0.051626545387513545,
+      "hps_delta": -0.00083160400390625,
+      "siglip_delta": 5.3797848522663116e-05
+    },
+    "checked_inferred_target": {
+      "n": 64,
+      "prompts": 32,
+      "wrong_to_correct": 8,
+      "correct_to_wrong": 0,
+      "pick_delta": -0.07448146902736852,
+      "hps_delta": -0.00098419189453125,
+      "siglip_delta": 0.0016352140810340643
+    },
+    "checked_original_roundtrip": {
+      "n": 64,
+      "prompts": 32,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 1,
+      "pick_delta": -0.006735127222540882,
+      "hps_delta": -4.1961669921875e-05,
+      "siglip_delta": -0.0004107058048248291
+    },
+    "checked_seed_opposite": {
+      "n": 64,
+      "prompts": 32,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 1,
+      "pick_delta": -0.05926902287990998,
+      "hps_delta": -0.000881195068359375,
+      "siglip_delta": -0.00019712490029633045
+    },
+    "checked_seed_target": {
+      "n": 64,
+      "prompts": 32,
+      "wrong_to_correct": 8,
+      "correct_to_wrong": 0,
+      "pick_delta": -0.09331829818233217,
+      "hps_delta": -0.001071929931640625,
+      "siglip_delta": 0.0010762366000562906
+    },
+    "checked_zero": {
+      "n": 64,
+      "prompts": 32,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 0,
+      "pick_delta": 0.0,
+      "hps_delta": 0.0,
+      "siglip_delta": 0.0
+    }
+  },
+  "original_localized11": {
+    "checked_inferred_opposite": {
+      "n": 11,
+      "prompts": 8,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 1,
+      "pick_delta": -0.3003726277091697,
+      "hps_delta": -0.004838423295454545,
+      "siglip_delta": 0.0003130056641318581
+    },
+    "checked_inferred_target": {
+      "n": 11,
+      "prompts": 8,
+      "wrong_to_correct": 8,
+      "correct_to_wrong": 0,
+      "pick_delta": -0.43334672888650777,
+      "hps_delta": -0.005726207386363636,
+      "siglip_delta": 0.009513972835107283
+    },
+    "checked_original_roundtrip": {
+      "n": 11,
+      "prompts": 8,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 1,
+      "pick_delta": -0.039186194749328766,
+      "hps_delta": -0.000244140625,
+      "siglip_delta": -0.002389561046253551
+    },
+    "checked_seed_opposite": {
+      "n": 11,
+      "prompts": 8,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 1,
+      "pick_delta": -0.34483795130129447,
+      "hps_delta": -0.005126953125,
+      "siglip_delta": -0.0011469085108150136
+    },
+    "checked_seed_target": {
+      "n": 11,
+      "prompts": 8,
+      "wrong_to_correct": 8,
+      "correct_to_wrong": 0,
+      "pick_delta": -0.5429428257881145,
+      "hps_delta": -0.006236683238636364,
+      "siglip_delta": 0.006261740218509327
+    },
+    "checked_zero": {
+      "n": 11,
+      "prompts": 8,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 0,
+      "pick_delta": 0.0,
+      "hps_delta": 0.0,
+      "siglip_delta": 0.0
+    }
+  },
+  "trigger9": {
+    "checked_inferred_opposite": {
+      "n": 9,
+      "prompts": 8,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 1,
+      "pick_delta": -0.36712210053342964,
+      "hps_delta": -0.005913628472222222,
+      "siglip_delta": 0.00038256247838338214
+    },
+    "checked_inferred_target": {
+      "n": 9,
+      "prompts": 8,
+      "wrong_to_correct": 8,
+      "correct_to_wrong": 0,
+      "pick_delta": -0.5296460019723983,
+      "hps_delta": -0.006998697916666667,
+      "siglip_delta": 0.011628189020686679
+    },
+    "checked_original_roundtrip": {
+      "n": 9,
+      "prompts": 8,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 1,
+      "pick_delta": -0.047894238026957386,
+      "hps_delta": -0.00029839409722222225,
+      "siglip_delta": -0.0029205746120876735
+    },
+    "checked_seed_opposite": {
+      "n": 9,
+      "prompts": 8,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 1,
+      "pick_delta": -0.4214686071460265,
+      "hps_delta": -0.006266276041666667,
+      "siglip_delta": -0.0014017770687739055
+    },
+    "checked_seed_target": {
+      "n": 9,
+      "prompts": 8,
+      "wrong_to_correct": 8,
+      "correct_to_wrong": 0,
+      "pick_delta": -0.6635967870743621,
+      "hps_delta": -0.007622612847222222,
+      "siglip_delta": 0.0076532380448447335
+    },
+    "checked_zero": {
+      "n": 9,
+      "prompts": 8,
+      "wrong_to_correct": 0,
+      "correct_to_wrong": 0,
+      "pick_delta": 0.0,
+      "hps_delta": 0.0,
+      "siglip_delta": 0.0
+    }
+  }
+}

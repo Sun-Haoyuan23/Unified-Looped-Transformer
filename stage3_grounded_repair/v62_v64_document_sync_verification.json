@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "archive_sha256": "13c6dbf26c8b9168a64ad4b05f4fa87ae09cf83faf69513264e817afa8038375",
+  "files_verified": 38,
+  "verification_scope": "server extracted basename-only documents and verified all manifest SHA256; no frozen experiment modified"
+}

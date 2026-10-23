@@ -1,0 +1,15 @@
+{
+  "archive_sha256": "b8916b26ce9b688089fdab2dd097a7097671dc016c14d3703c2d3e2612d55d03",
+  "optimizer_updates": 400,
+  "all_common_and_branch_initialization_exact": true,
+  "sampling_matches_v41": true,
+  "source_hashes_exact": true,
+  "finite_losses_gradients": true,
+  "frozen_core_completion_checks_passed": true,
+  "checkpoint_step100_sha256": {
+    "head_only": "b8758ba7aa10d2566a00704978ebcd741b1d21f457bf60bd931de8509df8ec90",
+    "outer": "2694a900c509bfa69daa87a947a1bbe11ab90070119149f9a1c13d5892fa43ed",
+    "inner": "babd8071c80446c5e443fad2d02becaa00950f7d55041fda3a029c91ac52b718",
+    "joint": "8dd687df99c929a6b1a22f6efe247ef590dbabe0483867fb31867913f27fdc8b"
+  }
+}

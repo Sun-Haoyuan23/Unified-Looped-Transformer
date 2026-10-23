@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "archive_sha256": "3b9a5fb69239fb29138cf25668048ddd9e2f76aa7227f7671f5157d7de90da22",
+  "manifest_files_verified": 23,
+  "source_config_derived_checkpoint_and_tensor_hashes_exact": true,
+  "original_endpoints_strictly_reproduced_on_server": 12,
+  "new_counterfactual_endpoints_on_server": 12,
+  "base_and_adapter_unchanged_reported": true,
+  "local_torch_replay_or_fit_not_repeated": true,
+  "optimizer_updates": 0,
+  "new_scoring_images": 0,
+  "analytical_fits": 0,
+  "scope": "Same fitted head sensitivity to shared-core route; not comparison with a refitted no-loop head or new quality result"
+}

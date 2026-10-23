@@ -1,0 +1,33 @@
+{
+  "portable_exact": true,
+  "paired_report_sha256": "b1d440a15d67ae6889d864c25a54332d28dcc96667f1668a64e9e3c012cfbaee",
+  "archive_sha256": "b570fcc1cd17d5f17728e33a2b545a141362c42ea89370f8503c50b085782831",
+  "training_gate": {
+    "data_ready": true,
+    "selected_teacher_states": 1,
+    "selected_teacher_prompts": 1,
+    "preservation_states": 18,
+    "teacher_action_counts": {
+      "checked_inferred_correlated_target": 1
+    },
+    "teacher_actions": {
+      "train_extra_00021_seed101_i35": "checked_inferred_correlated_target"
+    },
+    "allowed_split": "train",
+    "controller_authorized": false,
+    "independent_terminal_validation_required": true,
+    "semantic_guard": "official baseline wrong -> candidate correct",
+    "quality_guard": "both finite nonmissing HPS/Pick deltas >= 0",
+    "skipped_train_semantic_repairs_with_missing_quality": 0,
+    "skipped_train_semantic_repairs_with_quality_loss": 14
+  },
+  "qualified_pairs": [
+    {
+      "state_id": "train_extra_00021_seed101_i35",
+      "action": "checked_inferred_correlated_target",
+      "pick_delta": 0.0197260867435034,
+      "hps_delta": 0.000732421875,
+      "siglip_delta": 0.00498567521572113
+    }
+  ]
+}

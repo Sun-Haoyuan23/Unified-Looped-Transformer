@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "archive_sha256": "5df1712242ef2a86f2ba4ec301da66e1fdce8b4f48f79242568351d9428cb3b2",
+  "manifest_files_verified": 67,
+  "all_source_config_fixed_checkpoint_hashes_exact": true,
+  "matched_loop_initializations_and_all210_schedules": true,
+  "all630_finite_training_rows_verified": true,
+  "new_parameter_updates": 630,
+  "new_external_optimizer_step_calls": 630,
+  "trainable_loop_shared_core_update_steps": 210,
+  "cumulative_parameter_updates": 4880,
+  "cumulative_external_optimizer_step_calls": 4682,
+  "new_scoring_images": 0,
+  "cumulative_scoring_records": 4222,
+  "controller_started": false,
+  "all_physical_capacity_gates_failed": true,
+  "training_complete": true,
+  "server_torch_checks_not_repeated_locally": true,
+  "FLOPs": null
+}

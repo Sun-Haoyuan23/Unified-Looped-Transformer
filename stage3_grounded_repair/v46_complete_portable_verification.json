@@ -1,0 +1,15 @@
+{
+  "archive_sha256": "5090d660f2c7b21b1d059e4ec53336763e4e68c4e1ffd6edb08966f2ff261819",
+  "optimizer_updates": 400,
+  "initialization_exact": true,
+  "sampling_matches_v44": true,
+  "source_hashes_exact": true,
+  "frozen_core_completion_checks_passed": true,
+  "checkpoint_step100_sha256": {
+    "outer_ilsd": "8f64ea266bdd347940c89bc38ac33e8a9245872f34a7d6783b7e6887acbf1c1f",
+    "inner_ilsd": "1b42ce45467a17e77cc0be9faacba0b3fe6378a320a94d35fcf17a95ce2655ca",
+    "joint_ilsd": "a48654d190dbeba0b08264805921a00ae9b7f56f3b7695dbbb81a45ebabb510a",
+    "joint_terminal": "52c78fd616176e2fa085bd8cd8fb7ddab77d83da6578d4bab644897368123ac3"
+  },
+  "low_rank_training_gradients_nonzero": true
+}

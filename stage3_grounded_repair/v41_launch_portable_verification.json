@@ -1,0 +1,10 @@
+{
+  "archive_sha256": "f0c64f9571f111071c183ece2c9e21274dc07cb869e13d29fc42535cc308f729",
+  "source_hashes_exact": true,
+  "all_adapter_initialization_matches_v38": true,
+  "unit_tests": 4,
+  "complete_terminal_zero_gradient_proof": true,
+  "proof_optimizer_updates": 0,
+  "training_complete": false,
+  "interpretation": "Immutable launch/gradient/source evidence; ongoing training not represented as complete"
+}

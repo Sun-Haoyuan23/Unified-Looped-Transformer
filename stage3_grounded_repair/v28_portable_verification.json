@@ -1,0 +1,14 @@
+{
+  "archive_sha256": "3aaae3f94cd9184041b1c0d695d3c1198d78cc1defd261534d8d9d75a382c569",
+  "arms": {
+    "film": {
+      "portable_exact": true,
+      "paired_report_sha256": "55bbb34614587cd0b8b33d8c182588f79b46746b6d9bd3cf473f7efe7e15da82"
+    },
+    "spatial": {
+      "portable_exact": true,
+      "paired_report_sha256": "3cc68ec24a3cfe039f71ffc5edcdcd7baa0f45a63150d032b9be5565672744e6"
+    }
+  },
+  "artifact_hashes_exact": true
+}

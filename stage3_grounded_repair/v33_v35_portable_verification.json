@@ -1,0 +1,39 @@
+{
+  "v33": {
+    "portable_exact": true,
+    "paired_report_sha256": "e499ff694aa6e63567a67706d95b20891fc906897729481ae633be7448599dde"
+  },
+  "v35": {
+    "portable_exact": true,
+    "paired_report_sha256": "229519ebaf0d20f9fdbfb1a82cf844a126eac0ab4202320d9fccd124c8e3984b",
+    "training_gate": {
+      "data_ready": true,
+      "selected_teacher_states": 2,
+      "selected_teacher_prompts": 2,
+      "preservation_states": 17,
+      "teacher_action_counts": {
+        "checked_inferred_target": 2
+      },
+      "teacher_actions": {
+        "train_extra_00039_seed101_i35": "checked_inferred_target",
+        "train_extra_00046_seed101_i35": "checked_inferred_target"
+      },
+      "allowed_split": "train",
+      "controller_authorized": false,
+      "independent_terminal_validation_required": true,
+      "semantic_guard": "official baseline wrong -> candidate correct",
+      "quality_guard": "both finite nonmissing HPS/Pick deltas >= 0",
+      "skipped_train_semantic_repairs_with_missing_quality": 0,
+      "skipped_train_semantic_repairs_with_quality_loss": 12
+    },
+    "actual_terminal_runs": 109,
+    "alias_rows": 339,
+    "new_action_flips": 16,
+    "distinct_corrected_states": 8
+  },
+  "v33_archive_sha256": "7a35432f9a9f574a0c639e9b17bfd54f11b5bfad9934d800026aba13b048c20b",
+  "v35_archive_sha256": "8f6f0c4adffa2cd0514ab00b1431df93aff8d63196990156a6b637a28beee5ac",
+  "source_hashes_exact": true,
+  "fixed_checkpoint_exact": true,
+  "outer_actual_updates": 50
+}

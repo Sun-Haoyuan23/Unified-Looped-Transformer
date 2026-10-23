@@ -1,0 +1,15 @@
+{
+  "archive_sha256": "a9874e2404fbae637ba76faf47eb4ebcdcdb3f5143397eb28afbb0f76c06b2e9",
+  "optimizer_updates": 300,
+  "common_initialization_exact": true,
+  "identical_state_sampling": true,
+  "frozen_cores_exact": true,
+  "source_hashes_exact": true,
+  "checkpoint_step100_sha256": {
+    "outer": "7c25ec31a5fbcf1f8f11e2c629208ecf9655661ab33342f9c7168b8eafa05d4e",
+    "inner": "2d3e6c43daee598d6fc6a5ca1de9e57c8b7082dc86a2af35e1d7d621780a4023",
+    "joint": "2c9271befc260a3ba2236594360cdb13d5134c4a0c7083536176ba1bfbd7c73d"
+  },
+  "shared_evidence_gradient_proof": true,
+  "proof_optimizer_updates": 0
+}

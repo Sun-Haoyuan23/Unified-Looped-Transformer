@@ -1,0 +1,90 @@
+[
+  {
+    "mode": "trained_loop2",
+    "group": "teachers3",
+    "states": 3,
+    "adam_v60_mean": 0.13787069420019785,
+    "lbfgs_v62_mean": 0.12412355840206146,
+    "adam_v60_max": 0.34215274453163147,
+    "lbfgs_v62_max": 0.30019932985305786,
+    "improved_states": 2,
+    "initial_loss": 0.069976806640625,
+    "final_loss": 0.06293751299381256,
+    "final_gradient_norm": 0.02938716486096382,
+    "optimizer_audit": {
+      "optimizer_step_calls": 1,
+      "closure_evaluations": 104,
+      "accepted_parameter_updates": 100,
+      "hard_evaluation_limit_hit": false,
+      "termination": "torch_return",
+      "attempted_internal_iterations": 100,
+      "torch_recorded_function_evals": 104
+    }
+  },
+  {
+    "mode": "trained_loop2",
+    "group": "preservation35",
+    "states": 35,
+    "adam_v60_mean": 0.0020829083622499766,
+    "lbfgs_v62_mean": 0.0017514560463106526,
+    "adam_v60_max": 0.049541573971509933,
+    "lbfgs_v62_max": 0.03642120957374573,
+    "improved_states": 7,
+    "initial_loss": 0.069976806640625,
+    "final_loss": 0.06293751299381256,
+    "final_gradient_norm": 0.02938716486096382,
+    "optimizer_audit": {
+      "optimizer_step_calls": 1,
+      "closure_evaluations": 104,
+      "accepted_parameter_updates": 100,
+      "hard_evaluation_limit_hit": false,
+      "termination": "torch_return",
+      "attempted_internal_iterations": 100,
+      "torch_recorded_function_evals": 104
+    }
+  },
+  {
+    "mode": "trained_no_loop",
+    "group": "teachers3",
+    "states": 3,
+    "adam_v60_mean": 0.09641905936102073,
+    "lbfgs_v62_mean": 0.08398762655754884,
+    "adam_v60_max": 0.23687680065631866,
+    "lbfgs_v62_max": 0.19333821535110474,
+    "improved_states": 1,
+    "initial_loss": 0.049302443861961365,
+    "final_loss": 0.04293491691350937,
+    "final_gradient_norm": 0.023771369829773903,
+    "optimizer_audit": {
+      "optimizer_step_calls": 1,
+      "closure_evaluations": 105,
+      "accepted_parameter_updates": 100,
+      "hard_evaluation_limit_hit": false,
+      "termination": "torch_return",
+      "attempted_internal_iterations": 100,
+      "torch_recorded_function_evals": 105
+    }
+  },
+  {
+    "mode": "trained_no_loop",
+    "group": "preservation35",
+    "states": 35,
+    "adam_v60_mean": 0.0021858293546496758,
+    "lbfgs_v62_mean": 0.0018822022564043957,
+    "adam_v60_max": 0.0443645641207695,
+    "lbfgs_v62_max": 0.028225837275385857,
+    "improved_states": 5,
+    "initial_loss": 0.049302443861961365,
+    "final_loss": 0.04293491691350937,
+    "final_gradient_norm": 0.023771369829773903,
+    "optimizer_audit": {
+      "optimizer_step_calls": 1,
+      "closure_evaluations": 105,
+      "accepted_parameter_updates": 100,
+      "hard_evaluation_limit_hit": false,
+      "termination": "torch_return",
+      "attempted_internal_iterations": 100,
+      "torch_recorded_function_evals": 105
+    }
+  }
+]

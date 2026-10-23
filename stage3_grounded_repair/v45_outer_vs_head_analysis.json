@@ -1,0 +1,26 @@
+[
+  {
+    "cohort": "all6",
+    "states": 6,
+    "outer_correct_head_wrong": 0,
+    "outer_wrong_head_correct": 0,
+    "pick_outer_minus_head": -0.0033159173695670083,
+    "hps_outer_minus_head": 0.0010986328125
+  },
+  {
+    "cohort": "teachers3",
+    "states": 3,
+    "outer_correct_head_wrong": 0,
+    "outer_wrong_head_correct": 0,
+    "pick_outer_minus_head": -0.013125189108298704,
+    "hps_outer_minus_head": 0.0009765625
+  },
+  {
+    "cohort": "preservation3",
+    "states": 3,
+    "outer_correct_head_wrong": 0,
+    "outer_wrong_head_correct": 0,
+    "pick_outer_minus_head": 0.006493354369164687,
+    "hps_outer_minus_head": 0.001220703125
+  }
+]

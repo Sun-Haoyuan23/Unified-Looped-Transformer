@@ -1,0 +1,9 @@
+{
+  "archive_sha256": "fbed5f1f37f318a1b538c981bfa7249e516fb8865db010e0b402922a128798d7",
+  "all4_studies_portable_exact": true,
+  "cohort_exactly_matches_v39": true,
+  "checkpoint_source_image_latent_hashes_exact": true,
+  "scored_terminal_images": 144,
+  "optimizer_updates": 0,
+  "independent_validation": false
+}

@@ -1,0 +1,197 @@
+[
+  {
+    "teacher": "train_extra_00021_seed101_i35",
+    "preservation": "train_extra_00035_seed101_i35",
+    "kind": "same_objects_seed_opposite_relation",
+    "latent_distance": {
+      "rms_difference": 0.068634903470337,
+      "relative_rms": 0.11520132757791594,
+      "cosine": 0.9933727398289431,
+      "strict_equal": false
+    },
+    "condition_distance": {
+      "rms_difference": 0.01058667862370982,
+      "relative_rms": 0.46009987374167466,
+      "cosine": 0.8941708645773977,
+      "strict_equal": false
+    },
+    "encoded_condition_distance": {
+      "rms_difference": 0.6437662704535014,
+      "relative_rms": 0.13030915106526697,
+      "cosine": 0.9929401827345344,
+      "strict_equal": false
+    },
+    "original_hidden_distance": {
+      "outer": {
+        "rms_difference": 1.066966617667434,
+        "relative_rms": 0.04301616323419701,
+        "cosine": 0.9992302863061087,
+        "strict_equal": false
+      },
+      "inner": {
+        "rms_difference": 50.881156316320876,
+        "relative_rms": 0.3076297289997064,
+        "cosine": 0.9526904017991981,
+        "strict_equal": false
+      }
+    },
+    "normalized_token_distance": {
+      "trained_loop2": {
+        "rms_difference": 0.4237781055651728,
+        "relative_rms": 0.39769143509504157,
+        "cosine": 0.9210602155816162,
+        "strict_equal": false
+      },
+      "trained_no_loop": {
+        "rms_difference": 0.4900168982249148,
+        "relative_rms": 0.4560824557171366,
+        "cosine": 0.8962292063121756,
+        "strict_equal": false
+      }
+    },
+    "update_distance": {
+      "trained_loop2": {
+        "rms_difference": 0.5738458789790859,
+        "relative_rms": 1.3058262628696178,
+        "cosine": 0.3528707802209412,
+        "strict_equal": false
+      },
+      "trained_no_loop": {
+        "rms_difference": 0.6275850776313818,
+        "relative_rms": 1.3270918123553972,
+        "cosine": 0.32331724302673187,
+        "strict_equal": false
+      }
+    }
+  },
+  {
+    "teacher": "train_extra_00046_seed101_i35",
+    "preservation": "train_extra_00029_seed101_i35",
+    "kind": "same_objects_seed_opposite_relation",
+    "latent_distance": {
+      "rms_difference": 0.17709834304636146,
+      "relative_rms": 0.29631485792375406,
+      "cosine": 0.956296731887173,
+      "strict_equal": false
+    },
+    "condition_distance": {
+      "rms_difference": 0.017323467440723304,
+      "relative_rms": 0.7321846063162881,
+      "cosine": 0.7320189691942735,
+      "strict_equal": false
+    },
+    "encoded_condition_distance": {
+      "rms_difference": 1.0906050184604927,
+      "relative_rms": 0.23040689626430264,
+      "cosine": 0.9902038669422415,
+      "strict_equal": false
+    },
+    "original_hidden_distance": {
+      "outer": {
+        "rms_difference": 1.6019380256273588,
+        "relative_rms": 0.06553707633398811,
+        "cosine": 0.9979719698183249,
+        "strict_equal": false
+      },
+      "inner": {
+        "rms_difference": 80.32760585696572,
+        "relative_rms": 0.48533361670388586,
+        "cosine": 0.8823240943016434,
+        "strict_equal": false
+      }
+    },
+    "normalized_token_distance": {
+      "trained_loop2": {
+        "rms_difference": 0.6067024593655547,
+        "relative_rms": 0.6234610750367147,
+        "cosine": 0.8056545199985574,
+        "strict_equal": false
+      },
+      "trained_no_loop": {
+        "rms_difference": 0.6954050966883487,
+        "relative_rms": 0.7086676372961082,
+        "cosine": 0.7488993326162972,
+        "strict_equal": false
+      }
+    },
+    "update_distance": {
+      "trained_loop2": {
+        "rms_difference": 0.05360059787078423,
+        "relative_rms": 1.1956687203968308,
+        "cosine": 0.4576870122657839,
+        "strict_equal": false
+      },
+      "trained_no_loop": {
+        "rms_difference": 0.056752166480211384,
+        "relative_rms": 1.28171870398016,
+        "cosine": 0.32943069462194063,
+        "strict_equal": false
+      }
+    }
+  },
+  {
+    "teacher": "train_extra_00021_seed101_i35",
+    "preservation": "train_extra_00021_seed202_i35",
+    "kind": "same_prompt_other_seed",
+    "latent_distance": {
+      "rms_difference": 0.8126205153098401,
+      "relative_rms": 1.360549346345704,
+      "cosine": 0.0744558097983715,
+      "strict_equal": false
+    },
+    "condition_distance": {
+      "rms_difference": 0.010890088479073327,
+      "relative_rms": 0.4794285849342753,
+      "cosine": 0.885248233726762,
+      "strict_equal": false
+    },
+    "encoded_condition_distance": {
+      "rms_difference": 0.7443295206166886,
+      "relative_rms": 0.14707232175356721,
+      "cosine": 0.9939939815851139,
+      "strict_equal": false
+    },
+    "original_hidden_distance": {
+      "outer": {
+        "rms_difference": 4.521321359371199,
+        "relative_rms": 0.1828142757220023,
+        "cosine": 0.9835629612539666,
+        "strict_equal": false
+      },
+      "inner": {
+        "rms_difference": 122.04158819918052,
+        "relative_rms": 0.7369449092288681,
+        "cosine": 0.7284571439719565,
+        "strict_equal": false
+      }
+    },
+    "normalized_token_distance": {
+      "trained_loop2": {
+        "rms_difference": 1.125954731732251,
+        "relative_rms": 1.079957417459004,
+        "cosine": 0.41767018963321695,
+        "strict_equal": false
+      },
+      "trained_no_loop": {
+        "rms_difference": 1.210120505993688,
+        "relative_rms": 1.1636330682104814,
+        "cosine": 0.32434830118864194,
+        "strict_equal": false
+      }
+    },
+    "update_distance": {
+      "trained_loop2": {
+        "rms_difference": 0.6073728270426164,
+        "relative_rms": 1.4138683569742472,
+        "cosine": 0.006595743578887307,
+        "strict_equal": false
+      },
+      "trained_no_loop": {
+        "rms_difference": 0.6573469642851917,
+        "relative_rms": 1.4143001785480138,
+        "cosine": -0.0016574633854935326,
+        "strict_equal": false
+      }
+    }
+  }
+]

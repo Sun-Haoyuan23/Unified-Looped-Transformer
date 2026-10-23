@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "archive_sha256": "2ca38127bf7cc4c98a49d3f73ccf12f971a4ba6f24c2479d153a9657af3e33d7",
+  "manifest_files_verified": 16,
+  "source_config_checkpoint_coefficient_hashes_exact": true,
+  "teacher_states": 3,
+  "true_correct_preservation_states": 35,
+  "analytical_fits_performed_on_server_fp64": 2,
+  "local_torch_solver_not_repeated": true,
+  "optimizer_updates": 0,
+  "new_scoring_images": 0,
+  "no_deployment_checkpoint_changed": true,
+  "scope": "TRAIN fixed feature fit with equal teacher/preservation group weight; not measured endpoint quality"
+}

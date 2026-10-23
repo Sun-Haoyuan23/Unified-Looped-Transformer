@@ -1,0 +1,122 @@
+[
+  {
+    "cohort": "all6",
+    "action": "conditional_budget1",
+    "states": 6,
+    "pick_process_minus_control": 0.10736599152384463,
+    "hps_process_minus_control": 0.001912434895833334,
+    "siglip_process_minus_control": 0.0045546044905980425
+  },
+  {
+    "cohort": "all6",
+    "action": "conditional_revisit",
+    "states": 6,
+    "pick_process_minus_control": 0.0034912276251665153,
+    "hps_process_minus_control": 0.002156575520833333,
+    "siglip_process_minus_control": 0.005115538835525513
+  },
+  {
+    "cohort": "all6",
+    "action": "conditional_zero",
+    "states": 6,
+    "pick_process_minus_control": 0.0,
+    "hps_process_minus_control": 0.0,
+    "siglip_process_minus_control": 0.0
+  },
+  {
+    "cohort": "all6",
+    "action": "opposite_evidence",
+    "states": 6,
+    "pick_process_minus_control": -0.01861996251174486,
+    "hps_process_minus_control": 0.002075195312499999,
+    "siglip_process_minus_control": 0.004210640986760458
+  },
+  {
+    "cohort": "all6",
+    "action": "shuffled_evidence",
+    "states": 6,
+    "pick_process_minus_control": -0.023082271454692688,
+    "hps_process_minus_control": 0.002115885416666667,
+    "siglip_process_minus_control": 0.005913841227690379
+  },
+  {
+    "cohort": "teachers3",
+    "action": "conditional_budget1",
+    "states": 3,
+    "pick_process_minus_control": 0.19095166249402,
+    "hps_process_minus_control": 0.002278645833333333,
+    "siglip_process_minus_control": 0.010233382383982342
+  },
+  {
+    "cohort": "teachers3",
+    "action": "conditional_revisit",
+    "states": 3,
+    "pick_process_minus_control": 0.08326746075833097,
+    "hps_process_minus_control": 0.003092447916666667,
+    "siglip_process_minus_control": 0.0099916805823644
+  },
+  {
+    "cohort": "teachers3",
+    "action": "conditional_zero",
+    "states": 3,
+    "pick_process_minus_control": 0.0,
+    "hps_process_minus_control": 0.0,
+    "siglip_process_minus_control": 0.0
+  },
+  {
+    "cohort": "teachers3",
+    "action": "opposite_evidence",
+    "states": 3,
+    "pick_process_minus_control": 0.004559048775869684,
+    "hps_process_minus_control": 0.002441406249999999,
+    "siglip_process_minus_control": 0.0067445437113444005
+  },
+  {
+    "cohort": "teachers3",
+    "action": "shuffled_evidence",
+    "states": 3,
+    "pick_process_minus_control": 0.05518639169334469,
+    "hps_process_minus_control": 0.002766927083333333,
+    "siglip_process_minus_control": 0.010031407078107197
+  },
+  {
+    "cohort": "preservation3",
+    "action": "conditional_budget1",
+    "states": 3,
+    "pick_process_minus_control": 0.02378032055366927,
+    "hps_process_minus_control": 0.001546223958333333,
+    "siglip_process_minus_control": -0.0011241734027862549
+  },
+  {
+    "cohort": "preservation3",
+    "action": "conditional_revisit",
+    "states": 3,
+    "pick_process_minus_control": -0.07628500550799797,
+    "hps_process_minus_control": 0.001220703125,
+    "siglip_process_minus_control": 0.00023939708868662458
+  },
+  {
+    "cohort": "preservation3",
+    "action": "conditional_zero",
+    "states": 3,
+    "pick_process_minus_control": 0.0,
+    "hps_process_minus_control": 0.0,
+    "siglip_process_minus_control": 0.0
+  },
+  {
+    "cohort": "preservation3",
+    "action": "opposite_evidence",
+    "states": 3,
+    "pick_process_minus_control": -0.041798973799359374,
+    "hps_process_minus_control": 0.0017089843749999991,
+    "siglip_process_minus_control": 0.0016767382621765137
+  },
+  {
+    "cohort": "preservation3",
+    "action": "shuffled_evidence",
+    "states": 3,
+    "pick_process_minus_control": -0.10135093460273006,
+    "hps_process_minus_control": 0.00146484375,
+    "siglip_process_minus_control": 0.0017962753772735604
+  }
+]

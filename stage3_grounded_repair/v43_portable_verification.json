@@ -1,0 +1,19 @@
+{
+  "archive_sha256": "465db57f5c064171a6ed8ac27f7730512f31e76e3990a64cc1d3037436cc0b32",
+  "source_hashes_exact": true,
+  "actual_status": {
+    "phase": "passed",
+    "optimizer_updates": 0,
+    "questions": 2,
+    "official_reader_equivalent": true,
+    "zero_logits_and_hidden_exact": true,
+    "base_parameter_gradients": false,
+    "shared_cores_exact": true,
+    "shared_evidence_gradient_abs_sum": 0.015406584632728482,
+    "adapter_gradient_abs_sum": 0.3432799594120297,
+    "time_s": 0.3008021116256714,
+    "peak_memory_gib": 7.278571128845215,
+    "interpretation": "Task interface proof; no understanding accuracy/preservation gain or training"
+  },
+  "interpretation": "MMU task interface/gradient proof; no measured accuracy or training"
+}

@@ -1,0 +1,119 @@
+{
+  "no_loop": {
+    "teacher": {
+      "mean": 0.18006395548582077,
+      "max": 0.21632324159145355,
+      "v62_start_mean": 0.08398762655754884,
+      "improved_from_v62": 0,
+      "below_fixed_gate": 0
+    },
+    "preservation": {
+      "mean": 0.0012093670998833009,
+      "max": 0.01348191313445568,
+      "v62_start_mean": 0.0018822022564043957,
+      "improved_from_v62": 35,
+      "below_fixed_gate": 26
+    },
+    "optimizer_updates": 210,
+    "training_forward_walltime_seconds": 2413.8447503075004,
+    "peak_gpu_memory_gib": 15.231357097625732,
+    "teacher_terminal_losses_observed": [
+      {
+        "state_id": "train_extra_00046_seed101_i35",
+        "step": 205,
+        "terminal": 0.25242680311203003,
+        "physical": 0.3494732081890106
+      },
+      {
+        "state_id": "train_extra_00021_seed101_i35",
+        "step": 207,
+        "terminal": 0.05749647691845894,
+        "physical": 0.2479179948568344
+      },
+      {
+        "state_id": "train_extra_00039_seed101_i35",
+        "step": 209,
+        "terminal": 0.08248841017484665,
+        "physical": 0.17646156251430511
+      }
+    ]
+  },
+  "frozen_loop": {
+    "teacher": {
+      "mean": 0.1670998086531957,
+      "max": 0.3127036392688751,
+      "v62_start_mean": 0.12412355840206146,
+      "improved_from_v62": 0,
+      "below_fixed_gate": 0
+    },
+    "preservation": {
+      "mean": 0.0012220927497505077,
+      "max": 0.022761069238185883,
+      "v62_start_mean": 0.0017514560463106526,
+      "improved_from_v62": 35,
+      "below_fixed_gate": 31
+    },
+    "optimizer_updates": 210,
+    "training_forward_walltime_seconds": 2441.3334096968174,
+    "peak_gpu_memory_gib": 16.85908842086792,
+    "teacher_terminal_losses_observed": [
+      {
+        "state_id": "train_extra_00046_seed101_i35",
+        "step": 205,
+        "terminal": 0.0204924363642931,
+        "physical": 0.07077773660421371
+      },
+      {
+        "state_id": "train_extra_00021_seed101_i35",
+        "step": 207,
+        "terminal": 0.09674189239740372,
+        "physical": 0.32249292731285095
+      },
+      {
+        "state_id": "train_extra_00039_seed101_i35",
+        "step": 209,
+        "terminal": 0.025487065315246582,
+        "physical": 0.10709630697965622
+      }
+    ]
+  },
+  "trainable_loop": {
+    "teacher": {
+      "mean": 0.22033007691303888,
+      "max": 0.30766451358795166,
+      "v62_start_mean": 0.12412355840206146,
+      "improved_from_v62": 0,
+      "below_fixed_gate": 0
+    },
+    "preservation": {
+      "mean": 0.001345992603039901,
+      "max": 0.025099683552980423,
+      "v62_start_mean": 0.0017514560463106526,
+      "improved_from_v62": 34,
+      "below_fixed_gate": 28
+    },
+    "optimizer_updates": 210,
+    "training_forward_walltime_seconds": 2490.2685097362846,
+    "peak_gpu_memory_gib": 16.915661811828613,
+    "teacher_terminal_losses_observed": [
+      {
+        "state_id": "train_extra_00046_seed101_i35",
+        "step": 205,
+        "terminal": 0.018912747502326965,
+        "physical": 0.0903211161494255
+      },
+      {
+        "state_id": "train_extra_00021_seed101_i35",
+        "step": 207,
+        "terminal": 0.08652134984731674,
+        "physical": 0.3169964849948883
+      },
+      {
+        "state_id": "train_extra_00039_seed101_i35",
+        "step": 209,
+        "terminal": 0.016124198213219643,
+        "physical": 0.08688876777887344
+      }
+    ]
+  }
+}

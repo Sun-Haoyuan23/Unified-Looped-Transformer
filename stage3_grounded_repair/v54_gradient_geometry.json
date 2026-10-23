@@ -1,0 +1,4682 @@
+[
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 1.7935944534733255,
+      "state": 6.390498546071029,
+      "hidden": 0.02595776108412594
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.126072109602581,
+        "cosine": 0.3326110748950151
+      },
+      "terminal__hidden": {
+        "dot": -6.196026186624224e-05,
+        "cosine": -0.00028715574075691423
+      },
+      "state__hidden": {
+        "dot": -0.00015766954347020236,
+        "cosine": -0.00038712108339370224
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.7935944534733255,
+      "state": -1.126072109602581,
+      "hidden": 6.196026186624224e-05
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.00041081760879670734,
+      "state": 0.00025123976556963394,
+      "hidden": 0.00014959971783535283
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.00024956773555927225,
+        "cosine": 0.7768187929002796
+      },
+      "terminal__hidden": {
+        "dot": 5.3106233240965824e-05,
+        "cosine": 0.21421781544765525
+      },
+      "state__hidden": {
+        "dot": -4.801731916864526e-05,
+        "cosine": -0.24767851354595943
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.00041081760879670734,
+      "state": -0.00024956773555927225,
+      "hidden": -5.3106233240965824e-05
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.000784829874806567,
+      "state": 0.00038992785452762,
+      "hidden": 0.0002659509937843681
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0004809787090035479,
+        "cosine": 0.8694526972921323
+      },
+      "terminal__hidden": {
+        "dot": -9.516674022755895e-05,
+        "cosine": -0.20830352613277892
+      },
+      "state__hidden": {
+        "dot": -0.00012169262786656748,
+        "cosine": -0.3778951609217996
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.000784829874806567,
+      "state": -0.0004809787090035479,
+      "hidden": 9.516674022755895e-05
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 1.980729963224793e-08,
+      "state": 1.4306808061789542e-08,
+      "hidden": 0.0002283928531382047
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.2554211213264917e-08,
+        "cosine": 0.7457708772572315
+      },
+      "terminal__hidden": {
+        "dot": -1.944454067996044e-07,
+        "cosine": -0.0914205433319423
+      },
+      "state__hidden": {
+        "dot": 5.82920975495955e-08,
+        "cosine": 0.03224757434709192
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.980729963224793e-08,
+      "state": -1.2554211213264917e-08,
+      "hidden": 1.944454067996044e-07
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 1.792388710142079,
+      "state": 6.389853501259138,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.1253365117388754,
+        "cosine": 0.33252236398262736
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.792388710142079,
+      "state": -1.1253365117388754,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 2.7276576333119276e-06,
+      "state": 1.0189350361189486e-06,
+      "hidden": 0.024257638976114895
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.302477260941366e-06,
+        "cosine": 0.7812714839211128
+      },
+      "terminal__hidden": {
+        "dot": -1.3023371172417933e-05,
+        "cosine": -0.05062956839508241
+      },
+      "state__hidden": {
+        "dot": 6.338706194424677e-06,
+        "cosine": 0.0403183833902095
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -2.7276576333119276e-06,
+      "state": -1.302477260941366e-06,
+      "hidden": 1.3023371172417933e-05
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 7.348382710096354e-06,
+      "state": 2.843949950887098e-06,
+      "hidden": 0.0010561785432531218
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3.736387670860909e-06,
+        "cosine": 0.81732554439651
+      },
+      "terminal__hidden": {
+        "dot": -6.681938300431599e-06,
+        "cosine": -0.07584691267083424
+      },
+      "state__hidden": {
+        "dot": 5.6434052730360955e-06,
+        "cosine": 0.10297020914324127
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -7.348382710096354e-06,
+      "state": -3.736387670860909e-06,
+      "hidden": 6.681938300431599e-06
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 15.984281874649847,
+      "state": 9.617269642193868,
+      "hidden": 0.02307170603661996
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 5.954803301087914,
+        "cosine": 0.48028050583818577
+      },
+      "terminal__hidden": {
+        "dot": -0.0004605583089242347,
+        "cosine": -0.000758399786820446
+      },
+      "state__hidden": {
+        "dot": -0.00033231297690995655,
+        "cosine": -0.000705474872607477
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -15.984281874649847,
+      "state": -5.954803301087914,
+      "hidden": 0.0004605583089242347
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.04244853070306783,
+      "state": 0.0062049900372138506,
+      "hidden": 0.0002955085639691253
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.016025008686402924,
+        "cosine": 0.9874074466236249
+      },
+      "terminal__hidden": {
+        "dot": 0.00015481539297396426,
+        "cosine": 0.043711707604582234
+      },
+      "state__hidden": {
+        "dot": -7.109313474567486e-05,
+        "cosine": -0.05250154504184442
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.04244853070306783,
+      "state": -0.016025008686402924,
+      "hidden": -0.00015481539297396426
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.04107221625828414,
+      "state": 0.005462425388817941,
+      "hidden": 0.0002876104664127466
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.014747614327369457,
+        "cosine": 0.9845889187333341
+      },
+      "terminal__hidden": {
+        "dot": -0.0005071518365490249,
+        "cosine": -0.1475576025296285
+      },
+      "state__hidden": {
+        "dot": -0.00024991779280291555,
+        "cosine": -0.19938940366219188
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.04107221625828414,
+      "state": -0.014747614327369457,
+      "hidden": 0.0005071518365490249
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 1.6721671545951301e-06,
+      "state": 2.6033336160995157e-07,
+      "hidden": 0.00027707322353195393
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 6.438001632137343e-07,
+        "cosine": 0.9757674462363465
+      },
+      "terminal__hidden": {
+        "dot": -1.1120272958964657e-06,
+        "cosine": -0.05166284572756695
+      },
+      "state__hidden": {
+        "dot": -1.1512221857796553e-07,
+        "cosine": -0.013554919996519197
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.6721671545951301e-06,
+      "state": -6.438001632137343e-07,
+      "hidden": 1.1120272958964657e-06
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 15.900323744170372,
+      "state": 9.605558421061616,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 5.923897195624777,
+        "cosine": 0.47933950241549
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -15.900323744170372,
+      "state": -5.923897195624777,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 5.1688982353282396e-05,
+      "state": 4.246052306689002e-06,
+      "hidden": 0.020420761227335927
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.4051415766525495e-05,
+        "cosine": 0.9484805367183663
+      },
+      "terminal__hidden": {
+        "dot": -2.5632634053172123e-05,
+        "cosine": -0.024949295262677328
+      },
+      "state__hidden": {
+        "dot": 2.5381958875869224e-06,
+        "cosine": 0.008619786369669586
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -5.1688982353282396e-05,
+      "state": -1.4051415766525495e-05,
+      "hidden": 2.5632634053172123e-05
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.0003840223686153075,
+      "state": 3.92993205522509e-05,
+      "hidden": 0.001790752555370206
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.00011878723343475045,
+        "cosine": 0.9669387964224844
+      },
+      "terminal__hidden": {
+        "dot": -8.14772040001053e-05,
+        "cosine": -0.0982516983985051
+      },
+      "state__hidden": {
+        "dot": -1.3725123030375192e-05,
+        "cosine": -0.05173755908408289
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0003840223686153075,
+      "state": -0.00011878723343475045,
+      "hidden": 8.14772040001053e-05
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 1.5616037153444897,
+      "state": 3.2128421301213033,
+      "hidden": 0.0040565004799925225
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.34696891041109046,
+        "cosine": 0.15490322243696372
+      },
+      "terminal__hidden": {
+        "dot": 4.9193418876915536e-05,
+        "cosine": 0.0006180816125343628
+      },
+      "state__hidden": {
+        "dot": -3.628151345347558e-05,
+        "cosine": -0.000317808081118908
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.5616037153444897,
+      "state": -0.34696891041109046,
+      "hidden": -4.9193418876915536e-05
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.005382090528675824,
+      "state": 0.0007740337525337137,
+      "hidden": 0.000129210463592475
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": -0.0014127295999133167,
+        "cosine": -0.6921553753248365
+      },
+      "terminal__hidden": {
+        "dot": 0.0002352656962805677,
+        "cosine": 0.2821202541561476
+      },
+      "state__hidden": {
+        "dot": -2.9483565104742584e-05,
+        "cosine": -0.09322903839197677
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.005382090528675824,
+      "state": 0.0014127295999133167,
+      "hidden": -0.0002352656962805677
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.003216411250971749,
+      "state": 0.000218946640438249,
+      "hidden": 4.691243005024797e-05
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": -7.217064965439226e-06,
+        "cosine": -0.008600143256383818
+      },
+      "terminal__hidden": {
+        "dot": -8.227873466635098e-05,
+        "cosine": -0.2118155564477014
+      },
+      "state__hidden": {
+        "dot": -1.7539202029897026e-05,
+        "cosine": -0.17306000936797575
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.003216411250971749,
+      "state": 7.217064965439226e-06,
+      "hidden": 8.227873466635098e-05
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 1.7936362933926613e-06,
+      "state": 7.601706914897501e-08,
+      "hidden": 0.0007842372014140716
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": -7.969811318387313e-08,
+        "cosine": -0.21583669766563995
+      },
+      "terminal__hidden": {
+        "dot": -4.094215622549562e-06,
+        "cosine": -0.10916409021351328
+      },
+      "state__hidden": {
+        "dot": 1.1132667180880143e-06,
+        "cosine": 0.14418495464339556
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.7936362933926613e-06,
+      "state": 7.969811318387313e-08,
+      "hidden": 4.094215622549562e-06
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 1.5529197717257637,
+      "state": 3.2118467562461523,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.3483919703231695,
+        "cosine": 0.15599699020506297
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.5529197717257637,
+      "state": -0.3483919703231695,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 1.0235920484081896e-06,
+      "state": 2.094447921774827e-07,
+      "hidden": 0.0027803388558142084
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3.4099953170102516e-08,
+        "cosine": 0.07364708260818814
+      },
+      "terminal__hidden": {
+        "dot": 4.0042471777089294e-07,
+        "cosine": 0.007506000030718419
+      },
+      "state__hidden": {
+        "dot": 2.1911008673417667e-06,
+        "cosine": 0.0907985102767966
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.0235920484081896e-06,
+      "state": -3.4099953170102516e-08,
+      "hidden": -4.0042471777089294e-07
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 8.262461073679846e-05,
+      "state": 2.1080203167348066e-06,
+      "hidden": 0.0003158015291215195
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": -3.0676490402549655e-06,
+        "cosine": -0.23244144283470264
+      },
+      "terminal__hidden": {
+        "dot": -0.00010009975183252254,
+        "cosine": -0.6196852703551943
+      },
+      "state__hidden": {
+        "dot": 7.436886095734244e-06,
+        "cosine": 0.2882349362579339
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -8.262461073679846e-05,
+      "state": 3.0676490402549655e-06,
+      "hidden": 0.00010009975183252254
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 29.93360094541756,
+      "state": 9.849700346887069,
+      "hidden": 0.025454069843737322
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 8.579902406322931,
+        "cosine": 0.499679297625464
+      },
+      "terminal__hidden": {
+        "dot": -0.0005947787071066617,
+        "cosine": -0.0006813924457845258
+      },
+      "state__hidden": {
+        "dot": -0.0006880329945785076,
+        "cosine": -0.0013741025336878282
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -29.93360094541756,
+      "state": -8.579902406322931,
+      "hidden": 0.0005947787071066617
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.07622805216945193,
+      "state": 0.008213660102965488,
+      "hidden": 0.00045161739896672253
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.023857950434987882,
+        "cosine": 0.9534707120166508
+      },
+      "terminal__hidden": {
+        "dot": 0.00034812375120879866,
+        "cosine": 0.059332262676850475
+      },
+      "state__hidden": {
+        "dot": -0.0003038912485338797,
+        "cosine": -0.15778455792744886
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.07622805216945193,
+      "state": -0.023857950434987882,
+      "hidden": -0.00034812375120879866
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.0833469372202992,
+      "state": 0.008656607105076247,
+      "hidden": 0.00035808722733572673
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.026328206899399954,
+        "cosine": 0.9801727087831856
+      },
+      "terminal__hidden": {
+        "dot": -0.0007932625874056044,
+        "cosine": -0.14520371717860522
+      },
+      "state__hidden": {
+        "dot": -0.0003574276004698789,
+        "cosine": -0.20301111524054655
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0833469372202992,
+      "state": -0.026328206899399954,
+      "hidden": 0.0007932625874056044
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 3.4095946514380678e-06,
+      "state": 4.09161432277538e-07,
+      "hidden": 0.00044457350916367766
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.136310864366555e-06,
+        "cosine": 0.9620517598616343
+      },
+      "terminal__hidden": {
+        "dot": -2.0038144344119433e-06,
+        "cosine": -0.051467649506180886
+      },
+      "state__hidden": {
+        "dot": -2.476005510756585e-07,
+        "cosine": -0.01835830037605883
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -3.4095946514380678e-06,
+      "state": -1.136310864366555e-06,
+      "hidden": 2.0038144344119433e-06
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 29.77340909703999,
+      "state": 9.83278689477355,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 8.529559058114167,
+        "cosine": 0.49851012644769005
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -29.77340909703999,
+      "state": -8.529559058114167,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.00011492901654398235,
+      "state": 6.574217024348486e-06,
+      "hidden": 0.022862043849636138
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 2.644768075305527e-05,
+        "cosine": 0.9621676044244136
+      },
+      "terminal__hidden": {
+        "dot": -5.152530015315978e-05,
+        "cosine": -0.03178689874230604
+      },
+      "state__hidden": {
+        "dot": -5.154412913746131e-06,
+        "cosine": -0.013295346533354608
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.00011492901654398235,
+      "state": -2.644768075305527e-05,
+      "hidden": 5.152530015315978e-05
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.0004985203766231615,
+      "state": 3.620152702068664e-05,
+      "hidden": 0.001337747858635057
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0001296068827587264,
+        "cosine": 0.9647686064843832
+      },
+      "terminal__hidden": {
+        "dot": -9.611075632228407e-05,
+        "cosine": -0.11769104130011031
+      },
+      "state__hidden": {
+        "dot": -2.131213210992735e-05,
+        "cosine": -0.09684480352367957
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0004985203766231615,
+      "state": -0.0001296068827587264,
+      "hidden": 9.611075632228407e-05
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 2114.3650927650524,
+      "state": 70644.68502595823,
+      "hidden": 0.024631132667760642
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 4421.385791221413,
+        "cosine": 0.3617667718687593
+      },
+      "terminal__hidden": {
+        "dot": 0.015145648390571467,
+        "cosine": 0.0020987257379574942
+      },
+      "state__hidden": {
+        "dot": -0.03569573518370183,
+        "cosine": -0.0008557253402506687
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -2114.3650927650524,
+      "state": -4421.385791221413,
+      "hidden": -0.015145648390571467
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 5.561950648917419,
+      "state": 21.057309899954852,
+      "hidden": 0.0008821380252041588
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 8.910486765231084,
+        "cosine": 0.8233536585321984
+      },
+      "terminal__hidden": {
+        "dot": 0.022871013813170117,
+        "cosine": 0.32651533208540806
+      },
+      "state__hidden": {
+        "dot": -0.011769812786517331,
+        "cosine": -0.08635745580966002
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -5.561950648917419,
+      "state": -8.910486765231084,
+      "hidden": -0.022871013813170117
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 4.035087172572434,
+      "state": 15.01128317972909,
+      "hidden": 0.00044664060561090804
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 7.170837102862389,
+        "cosine": 0.9213708907339307
+      },
+      "terminal__hidden": {
+        "dot": -0.0073469377503204165,
+        "cosine": -0.17306163306100955
+      },
+      "state__hidden": {
+        "dot": -0.025445874070385423,
+        "cosine": -0.3107630411404963
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -4.035087172572434,
+      "state": -7.170837102862389,
+      "hidden": 0.0073469377503204165
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 0.00029125471381235765,
+      "state": 0.0013249009959314668,
+      "hidden": 0.0013549794204099045
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0005182556206294285,
+        "cosine": 0.834287671797021
+      },
+      "terminal__hidden": {
+        "dot": -3.646181411713417e-05,
+        "cosine": -0.05804107421048408
+      },
+      "state__hidden": {
+        "dot": 6.344889730180434e-05,
+        "cosine": 0.04735501907745195
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.00029125471381235765,
+      "state": -0.0005182556206294285,
+      "hidden": 3.646181411713417e-05
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 2104.7491877745056,
+      "state": 70608.56583025923,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 4405.278341400865,
+        "cosine": 0.3613636659708832
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -2104.7491877745056,
+      "state": -4405.278341400865,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.005598544754938601,
+      "state": 0.014385051495978966,
+      "hidden": 0.021121138853942373
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.007570839595846862,
+        "cosine": 0.8436275564859356
+      },
+      "terminal__hidden": {
+        "dot": -0.0001539195581254056,
+        "cosine": -0.014154598824048112
+      },
+      "state__hidden": {
+        "dot": 0.0008776546357397644,
+        "cosine": 0.05035113616565013
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.005598544754938601,
+      "state": -0.007570839595846862,
+      "hidden": 0.0001539195581254056
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.01297736958837134,
+      "state": 0.03489266682400204,
+      "hidden": 0.0008262357625932935
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.01803685723735715,
+        "cosine": 0.8476185437526063
+      },
+      "terminal__hidden": {
+        "dot": -0.00018804630003569495,
+        "cosine": -0.057427440647249896
+      },
+      "state__hidden": {
+        "dot": 0.0005788481401593433,
+        "cosine": 0.10780665374011808
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.01297736958837134,
+      "state": -0.01803685723735715,
+      "hidden": 0.00018804630003569495
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 1615.9056144495457,
+      "state": 77368.82610312672,
+      "hidden": 0.02503509978730338
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3339.601570609442,
+        "cosine": 0.2986782911773859
+      },
+      "terminal__hidden": {
+        "dot": 0.04396068371249391,
+        "cosine": 0.006911650672080975
+      },
+      "state__hidden": {
+        "dot": -0.03719737417871316,
+        "cosine": -0.0008451905182798924
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1615.9056144495457,
+      "state": -3339.601570609442,
+      "hidden": -0.04396068371249391
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 6.311270579606872,
+      "state": 17.082961910216298,
+      "hidden": 0.001616118025516049
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 7.20666361598569,
+        "cosine": 0.694055603483923
+      },
+      "terminal__hidden": {
+        "dot": 0.04939202346080755,
+        "cosine": 0.48905970480986083
+      },
+      "state__hidden": {
+        "dot": -0.01305629813754423,
+        "cosine": -0.07857817448705325
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -6.311270579606872,
+      "state": -7.20666361598569,
+      "hidden": -0.04939202346080755
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 3.250132369686587,
+      "state": 9.721308493201692,
+      "hidden": 0.0005845287405534672
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 4.850649766343146,
+        "cosine": 0.8629527779027399
+      },
+      "terminal__hidden": {
+        "dot": -0.005359233818538676,
+        "cosine": -0.12295586400879138
+      },
+      "state__hidden": {
+        "dot": -0.026380495142341392,
+        "cosine": -0.3499593854709683
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -3.250132369686587,
+      "state": -4.850649766343146,
+      "hidden": 0.005359233818538676
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 0.0005298803902513897,
+      "state": 0.002176107226994413,
+      "hidden": 0.0032169171487334107
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0008459823506506254,
+        "cosine": 0.7878294899773017
+      },
+      "terminal__hidden": {
+        "dot": -3.297220901257813e-05,
+        "cosine": -0.025254523722473523
+      },
+      "state__hidden": {
+        "dot": 0.00022666072154714454,
+        "cosine": 0.08566751778251948
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0005298803902513897,
+      "state": -0.0008459823506506254,
+      "hidden": 3.297220901257813e-05
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 1606.333604581723,
+      "state": 77341.98981755959,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3327.530303583373,
+        "cosine": 0.29853583960366514
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1606.333604581723,
+      "state": -3327.530303583373,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.002963545516056134,
+      "state": 0.009393134110183067,
+      "hidden": 0.01883973791643554
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.003821168172899245,
+        "cosine": 0.7242443058444357
+      },
+      "terminal__hidden": {
+        "dot": 0.00016128848114439282,
+        "cosine": 0.0215854010838954
+      },
+      "state__hidden": {
+        "dot": 0.0012857758204208197,
+        "cosine": 0.09665460813847342
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.002963545516056134,
+      "state": -0.003821168172899245,
+      "hidden": -0.00016128848114439282
+    }
+  },
+  {
+    "arm": "joint_control",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.007113492623007765,
+      "state": 0.020445922402724352,
+      "hidden": 0.0007777979560649099
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.009286493216255132,
+        "cosine": 0.7700287651975452
+      },
+      "terminal__hidden": {
+        "dot": -0.0002004222019067764,
+        "cosine": -0.08520615888038666
+      },
+      "state__hidden": {
+        "dot": 0.0007269825592045001,
+        "cosine": 0.18230023944665102
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.007113492623007765,
+      "state": -0.009286493216255132,
+      "hidden": 0.0002004222019067764
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 2.4329043692788974,
+      "state": 1.3121076612282787,
+      "hidden": 0.18755817599984118
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.5395933067206105,
+        "cosine": 0.8617052909030684
+      },
+      "terminal__hidden": {
+        "dot": -9.305504455481961e-05,
+        "cosine": -0.00013775564416539687
+      },
+      "state__hidden": {
+        "dot": -4.1263974629889355e-05,
+        "cosine": -8.317988619644936e-05
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -3.9724046124000627,
+      "state": -2.851659697443555,
+      "hidden": -0.18742385714017595
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.00031717329958150627,
+      "state": 0.0001323916296244481,
+      "hidden": 4.751968433331897e-06
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.00016919962775548375,
+        "cosine": 0.8256972328290237
+      },
+      "terminal__hidden": {
+        "dot": -3.894031270583553e-06,
+        "cosine": -0.10030309895043231
+      },
+      "state__hidden": {
+        "dot": 7.8208651919625e-06,
+        "cosine": 0.3118083653853727
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0004824788969017008,
+      "state": -0.0003094121231110504,
+      "hidden": -8.678802412257015e-06
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.00010529477157444553,
+      "state": 4.439557565033561e-05,
+      "hidden": 4.3596063054902585e-06
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 5.642186501537128e-05,
+        "cosine": 0.8252284431855187
+      },
+      "terminal__hidden": {
+        "dot": -1.052326808705649e-06,
+        "cosine": -0.04911606835031228
+      },
+      "state__hidden": {
+        "dot": 2.6898140728389076e-06,
+        "cosine": 0.1933431453964913
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.00016066430912934675,
+      "state": -0.0001035072540130659,
+      "hidden": -5.997093461682251e-06
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 4.6392767257892195e-05,
+      "state": 2.601971476371484e-05,
+      "hidden": 0.11932301576294363
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3.222999631312122e-05,
+        "cosine": 0.9276493636499349
+      },
+      "terminal__hidden": {
+        "dot": -2.1659078176898386e-05,
+        "cosine": -0.009205613121589334
+      },
+      "state__hidden": {
+        "dot": -4.638211999507395e-06,
+        "cosine": -0.002632311122626769
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -5.6963685010558845e-05,
+      "state": -5.3611498705603274e-05,
+      "hidden": -0.11929671852406444
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 2.432429393465612,
+      "state": 1.3119028129414436,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.5393321413197656,
+        "cosine": 0.8617104992977396
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -3.9717615262310115,
+      "state": -2.8512349477312826,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 6.114974871656607e-06,
+      "state": 2.0413667967956243e-06,
+      "hidden": 0.06822604866215871
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3.313911761107335e-06,
+        "cosine": 0.9379573235099732
+      },
+      "terminal__hidden": {
+        "dot": -6.644960829863203e-05,
+        "cosine": -0.10287739932811724
+      },
+      "state__hidden": {
+        "dot": -4.713644189518336e-05,
+        "cosine": -0.12630518039426047
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": 5.702072199022775e-05,
+      "state": 4.178116355744149e-05,
+      "hidden": -0.06811246272023755
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 8.76237274114735,
+      "state": 2.2868267725877494,
+      "hidden": 0.26506416020596235
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3.9125945417724,
+        "cosine": 0.8740521570453832
+      },
+      "terminal__hidden": {
+        "dot": -2.1521762465351848e-05,
+        "cosine": -1.4121845864642922e-05
+      },
+      "state__hidden": {
+        "dot": -6.0080874067966146e-06,
+        "cosine": -7.716921869995478e-06
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -12.674945758433655,
+      "state": -6.199415304687628,
+      "hidden": -0.2650366302075354
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.0015069435600790658,
+      "state": 0.0003523308625720265,
+      "hidden": 0.0033034312113358315
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0007265790226061205,
+        "cosine": 0.9971466120720878
+      },
+      "terminal__hidden": {
+        "dot": 0.00023085331348085,
+        "cosine": 0.10346774524990834
+      },
+      "state__hidden": {
+        "dot": 9.173983929703531e-05,
+        "cosine": 0.08503544673545552
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.002464375896966686,
+      "state": -0.0011706497246402234,
+      "hidden": -0.0036260243715106394
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.0004996469293947624,
+      "state": 0.00011680363320761368,
+      "hidden": 0.001099309849952748
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0002407284043436447,
+        "cosine": 0.9964776212945607
+      },
+      "terminal__hidden": {
+        "dot": 7.597722149415973e-05,
+        "cosine": 0.10251601977962908
+      },
+      "state__hidden": {
+        "dot": 3.0444220751552954e-05,
+        "cosine": 0.08496041532730594
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0008163525656861527,
+      "state": -0.00038797626339131587,
+      "hidden": -0.001205731301502397
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 0.00020920068598112983,
+      "state": 4.505981896505256e-05,
+      "hidden": 0.15365667703366198
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 9.393641056441827e-05,
+        "cosine": 0.967514957442
+      },
+      "terminal__hidden": {
+        "dot": -4.01898868186447e-05,
+        "cosine": -0.007088584365771608
+      },
+      "state__hidden": {
+        "dot": -1.0917396190027426e-05,
+        "cosine": -0.0041490496444604365
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0002629472093507939,
+      "state": -0.000128078833240833,
+      "hidden": -0.15360556954694748
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 8.760128107974323,
+      "state": 2.28630907080708,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3.9115235494453664,
+        "cosine": 0.8740237841293432
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -12.67165165468504,
+      "state": -6.197832618662144,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 2.884199757266658e-05,
+      "state": 3.5074659245649646e-06,
+      "hidden": 0.1070047421110118
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 9.74848951978857e-06,
+        "cosine": 0.96923241645113
+      },
+      "terminal__hidden": {
+        "dot": -0.00028816241062171687,
+        "cosine": -0.16402994839597454
+      },
+      "state__hidden": {
+        "dot": -0.00011727475126535743,
+        "cosine": -0.19142835966298324
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": 0.0002495719233864707,
+      "state": 0.00010401879578959105,
+      "hidden": -0.10659930498757489
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 2.2912641835455485,
+      "state": 0.8380243766739921,
+      "hidden": 0.030833844514073144
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": -0.8353076021553085,
+        "cosine": -0.602810106479858
+      },
+      "terminal__hidden": {
+        "dot": -0.000301787058593914,
+        "cosine": -0.0011354007844802296
+      },
+      "state__hidden": {
+        "dot": 1.1660705561352616e-05,
+        "cosine": 7.254085406385877e-05
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.455654797384109,
+      "state": -0.002728435312309655,
+      "hidden": -0.030543718098658624
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.0008902519569937179,
+      "state": 7.015342470848669e-05,
+      "hidden": 0.003172760887627439
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.2852423940723774e-05,
+        "cosine": 0.05142853290242401
+      },
+      "terminal__hidden": {
+        "dot": -0.00018569036093011733,
+        "cosine": -0.11048777307913746
+      },
+      "state__hidden": {
+        "dot": -1.4089417184282733e-05,
+        "cosine": -0.029864133519877465
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0007174140207071456,
+      "state": -6.891643049677659e-05,
+      "hidden": -0.002972981112906458
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.0003781272535118668,
+      "state": 2.703153758268809e-05,
+      "hidden": 0.001044402901499432
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 2.213028225022188e-05,
+        "cosine": 0.2188933601860756
+      },
+      "terminal__hidden": {
+        "dot": -6.820185736268678e-05,
+        "cosine": -0.1085283442073594
+      },
+      "state__hidden": {
+        "dot": -6.531766153381654e-06,
+        "cosine": -0.038874177951041984
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0003320556763274603,
+      "state": -4.26300532112804e-05,
+      "hidden": -0.0009696692663627876
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 4.959175764425356e-05,
+      "state": 5.820751925823409e-06,
+      "hidden": 0.017320201985658232
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": -1.1700013962755453e-05,
+        "cosine": -0.6886397446900535
+      },
+      "terminal__hidden": {
+        "dot": -0.0001199913041156485,
+        "cosine": -0.12946982076813834
+      },
+      "state__hidden": {
+        "dot": 1.0903032489295404e-05,
+        "cosine": 0.034338497208898304
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": 8.209956050056424e-05,
+      "state": -5.023770392528192e-06,
+      "hidden": -0.01721111366804213
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 2.2899360387519208,
+      "state": 0.8379207385955043,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": -0.8353304103193403,
+        "cosine": -0.6030386481597616
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.4546056314865263,
+      "state": -0.0025903283657597864,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 1.0173825477866742e-05,
+      "state": 6.323642707068058e-07,
+      "hidden": 0.009296478739288041
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": -4.7452819652432533e-07,
+        "cosine": -0.1870838159868466
+      },
+      "terminal__hidden": {
+        "dot": 7.209646381453862e-05,
+        "cosine": 0.2344296731470816
+      },
+      "state__hidden": {
+        "dot": 2.1378856409721603e-05,
+        "cosine": 0.27883132868528926
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -8.179576104861791e-05,
+      "state": -2.1536692449286324e-05,
+      "hidden": -0.00938995405134725
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 124.1413012065616,
+      "state": 2.279921217052723,
+      "hidden": 0.19900039615314352
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.895271458131833,
+        "cosine": 0.11265574805447927
+      },
+      "terminal__hidden": {
+        "dot": -0.00014168596680414424,
+        "cosine": -2.850635707494999e-05
+      },
+      "state__hidden": {
+        "dot": -3.0722345220363196e-05,
+        "cosine": -4.561077738338622e-05
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -126.03643079403946,
+      "state": -4.175161943363247,
+      "hidden": -0.19882798847481067
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.001264275073496952,
+      "state": 0.0002978518457433411,
+      "hidden": 0.00011090139996250821
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0004900196198427036,
+        "cosine": 0.7985323841589121
+      },
+      "terminal__hidden": {
+        "dot": 1.6809016694814057e-05,
+        "cosine": 0.04489035155515658
+      },
+      "state__hidden": {
+        "dot": 1.007335753378607e-05,
+        "cosine": 0.055424985292789206
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.001771103713490149,
+      "state": -0.0007979448237100484,
+      "hidden": -0.0001377837742730361
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.00042890348559739813,
+      "state": 9.890838111413329e-05,
+      "hidden": 3.87007004309981e-05
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.00016165119974605383,
+        "cosine": 0.7848426537925951
+      },
+      "terminal__hidden": {
+        "dot": 5.614382670092373e-06,
+        "cosine": 0.043577550002427426
+      },
+      "state__hidden": {
+        "dot": 3.108818342153527e-06,
+        "cosine": 0.05024807009192582
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0005961690659822019,
+      "state": -0.00026366839905687624,
+      "hidden": -4.7423901529357836e-05
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 0.0002812081656485343,
+      "state": 4.656444406681144e-05,
+      "hidden": 0.1257811804759439
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 6.910474785350355e-05,
+        "cosine": 0.6039023391547267
+      },
+      "terminal__hidden": {
+        "dot": 3.362380925633637e-05,
+        "cosine": 0.005653600496023877
+      },
+      "state__hidden": {
+        "dot": 3.1970170083365056e-05,
+        "cosine": 0.013210215502173134
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0003839367226629513,
+      "state": -0.0001476393617310265,
+      "hidden": -0.12584677505521005
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 124.13928889731731,
+      "state": 2.2794741620116774,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.8945432465243712,
+        "cosine": 0.11262441800885208
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -126.03383195915264,
+      "state": -4.174017399059682,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 3.7922519513923356e-05,
+      "state": 3.7303701213689314e-06,
+      "hidden": 0.07306961357680614
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 7.436040020002382e-06,
+        "cosine": 0.6251974021030685
+      },
+      "terminal__hidden": {
+        "dot": -0.00019773317542538704,
+        "cosine": -0.11878525757853758
+      },
+      "state__hidden": {
+        "dot": -7.587469117966785e-05,
+        "cosine": -0.14532909502095936
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": 0.0001523746153394738,
+      "state": 6.47082809324058e-05,
+      "hidden": -0.07279600574379821
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 871.5896561807256,
+      "state": 10792.73122215739,
+      "hidden": 0.20261529461508795
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 2578.4604651743275,
+        "cosine": 0.8406955764723988
+      },
+      "terminal__hidden": {
+        "dot": -0.0024317313743416756,
+        "cosine": -0.00018298835443217846
+      },
+      "state__hidden": {
+        "dot": -0.015048544787660078,
+        "cosine": -0.0003218049436879143
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -3450.0476985020714,
+      "state": -13371.176668451566,
+      "hidden": -0.1851350185150935
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.10111676092385594,
+      "state": 1.7546190942388362,
+      "hidden": 0.0023855388432958277
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.2200005199650814,
+        "cosine": 0.5223008191833085
+      },
+      "terminal__hidden": {
+        "dot": 0.0012393220125951243,
+        "cosine": 0.0797956731357463
+      },
+      "state__hidden": {
+        "dot": 0.004134765429592955,
+        "cosine": 0.06390961549824106
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.3223566025028694,
+      "state": -1.9787543764759923,
+      "hidden": -0.007759626280207946
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.033773901426786004,
+      "state": 0.5833439981399228,
+      "hidden": 0.0007936593089543669
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.07340611271491279,
+        "cosine": 0.5229729708630222
+      },
+      "terminal__hidden": {
+        "dot": 0.00039087520598301336,
+        "cosine": 0.07549713134326387
+      },
+      "state__hidden": {
+        "dot": 0.0013204776117360882,
+        "cosine": 0.061369363373864776
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.10757088966189524,
+      "state": -0.6580705956077989,
+      "hidden": -0.0025050122546327624
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 0.01754505841667758,
+      "state": 0.2440600881681881,
+      "hidden": 0.1212092556622406
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.05892902354643828,
+        "cosine": 0.9005409242401757
+      },
+      "terminal__hidden": {
+        "dot": -0.0022553967924869526,
+        "cosine": -0.04890774701425848
+      },
+      "state__hidden": {
+        "dot": -0.011337685105862413,
+        "cosine": -0.06591862148165442
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.07421868515530437,
+      "state": -0.29165142648400166,
+      "hidden": -0.10761617357562847
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 871.4342767798897,
+      "state": 10790.120686450962,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 2578.099866780055,
+        "cosine": 0.8407546270644479
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -3449.534152438435,
+      "state": -13368.220582891792,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.002943680068541926,
+      "state": 0.028512525881267303,
+      "hidden": 0.07822684080059715
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.008262738045992701,
+        "cosine": 0.901905083142569
+      },
+      "terminal__hidden": {
+        "dot": -0.0018065318004328603,
+        "cosine": -0.11904808436300196
+      },
+      "state__hidden": {
+        "dot": -0.009166102723126708,
+        "cosine": -0.1940836620173578
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.009399886316820956,
+      "state": -0.02760916120579183,
+      "hidden": -0.06725420640462432
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 656.9782525168584,
+      "state": 10028.710304233877,
+      "hidden": 0.23706873851770316
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 2088.2326175429503,
+        "cosine": 0.813543604105984
+      },
+      "terminal__hidden": {
+        "dot": 0.00312416373523063,
+        "cosine": 0.00025033475326386893
+      },
+      "state__hidden": {
+        "dot": 0.006649718431952428,
+        "cosine": 0.00013637776504324734
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -2745.213994859661,
+      "state": -12116.949569595661,
+      "hidden": -0.24684262026701412
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.2554460083976842,
+      "state": 2.841509905447101,
+      "hidden": 0.021626500023324058
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.8322418525631851,
+        "cosine": 0.9768444304037087
+      },
+      "terminal__hidden": {
+        "dot": 0.004437980401378018,
+        "cosine": 0.05970939896578684
+      },
+      "state__hidden": {
+        "dot": 0.017248475607509424,
+        "cosine": 0.06957977366105253
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.0921258431382084,
+      "state": -3.6910002397814154,
+      "hidden": -0.04331295613805211
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.08495176471491274,
+      "state": 0.9350672033885552,
+      "hidden": 0.00708892521178587
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.27462581276465825,
+        "cosine": 0.9743920689422009
+      },
+      "terminal__hidden": {
+        "dot": 0.0012886811821412013,
+        "cosine": 0.05251327295250756
+      },
+      "state__hidden": {
+        "dot": 0.005300267597580341,
+        "cosine": 0.06510077923254098
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.36086625567313985,
+      "state": -1.2149932735487952,
+      "hidden": -0.01367787352077412
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 0.022222002163046962,
+      "state": 0.25980630011994654,
+      "hidden": 0.11632615237953386
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.07335051869847868,
+        "cosine": 0.9653543489644982
+      },
+      "terminal__hidden": {
+        "dot": -0.0008875167265326492,
+        "cosine": -0.0174560618556618
+      },
+      "state__hidden": {
+        "dot": -0.006225006745406658,
+        "cosine": -0.035807690039150755
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.09468500412584038,
+      "state": -0.3269318120613367,
+      "hidden": -0.109213628867627
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 656.6112364023936,
+      "state": 10024.640710721265,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 2087.0410237721126,
+        "cosine": 0.8134716507955662
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -2743.652260811851,
+      "state": -12111.681732597859,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "outer_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.004396339189220228,
+      "state": 0.033210103655838034,
+      "hidden": 0.09202716090305937
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.011375586811958296,
+        "cosine": 0.9414409772078828
+      },
+      "terminal__hidden": {
+        "dot": -0.0017149811217559425,
+        "cosine": -0.08526204319965974
+      },
+      "state__hidden": {
+        "dot": -0.009674018027730685,
+        "cosine": -0.17499021503224402
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.014056944872534175,
+      "state": -0.034911672411493185,
+      "hidden": -0.08063816174056088
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 1.7770040534445974,
+      "state": 0.6592219409921974,
+      "hidden": 0.08969614304211751
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.9756330059653628,
+        "cosine": 0.9014184610276629
+      },
+      "terminal__hidden": {
+        "dot": -0.00043076569290199267,
+        "cosine": -0.0010789716017165821
+      },
+      "state__hidden": {
+        "dot": -0.0003235796324828448,
+        "cosine": -0.001330694819868293
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -2.752206287277729,
+      "state": -1.6345313638537582,
+      "hidden": -0.08894179762221549
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.01540099204975231,
+      "state": 0.005199738321621103,
+      "hidden": 0.0025748274299470394
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.00893935558347643,
+        "cosine": 0.998943948359685
+      },
+      "terminal__hidden": {
+        "dot": 0.0001712181245515404,
+        "cosine": 0.027189506421705124
+      },
+      "state__hidden": {
+        "dot": 2.1287569485289886e-05,
+        "cosine": 0.005817833270618776
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.024511565734781554,
+      "state": -0.014160381462535773,
+      "hidden": -0.0027673331218263392
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.007218795049722983,
+      "state": 0.0023952798296851697,
+      "hidden": 0.000980851722820064
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.004150901889075382,
+        "cosine": 0.9982331402821039
+      },
+      "terminal__hidden": {
+        "dot": -0.00011562422298817757,
+        "cosine": -0.04345250234642965
+      },
+      "state__hidden": {
+        "dot": -0.00010134729664226601,
+        "cosine": -0.06611992624006326
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.011254072720034532,
+      "state": -0.006444834424971454,
+      "hidden": -0.0007638801965227811
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 1.8634626306346206e-07,
+      "state": 6.876436357272587e-08,
+      "hidden": 0.0002282181343265895
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.1168444049665145e-07,
+        "cosine": 0.9866215903883002
+      },
+      "terminal__hidden": {
+        "dot": -3.517591547742105e-06,
+        "cosine": -0.5393988171286772
+      },
+      "state__hidden": {
+        "dot": -2.2709317960656195e-06,
+        "cosine": -0.5732542745122617
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": 3.21956084745497e-06,
+      "state": 2.0904829936514113e-06,
+      "hidden": -0.00022242961096240223
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 1.7531654711528497,
+      "state": 0.6513613089305423,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.9619775416461284,
+        "cosine": 0.9002072368210813
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -2.715143006376345,
+      "state": -1.613338847113451,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.0012186088460093734,
+      "state": 0.0002655451459851818,
+      "hidden": 0.0859122457550238
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0005650951622421994,
+        "cosine": 0.9933910492542389
+      },
+      "terminal__hidden": {
+        "dot": -0.00048284200291761345,
+        "cosine": -0.04718949652115978
+      },
+      "state__hidden": {
+        "dot": -0.000241248973529803,
+        "cosine": -0.05050899819831541
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0013008620074151515,
+      "state": -0.0005893913357936502,
+      "hidden": -0.08518815469290394
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 27.34818293740842,
+      "state": 3.607592799032719,
+      "hidden": 0.08024548449346627
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 9.208610048657196,
+        "cosine": 0.9270882753725012
+      },
+      "terminal__hidden": {
+        "dot": -0.005785400561959661,
+        "cosine": -0.003905340394453977
+      },
+      "state__hidden": {
+        "dot": -0.002125852265070065,
+        "cosine": -0.003951063619930455
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -36.55100756867554,
+      "state": -12.814076989436415,
+      "hidden": -0.07233423171392442
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.38984902617514383,
+      "state": 0.05202493604149411,
+      "hidden": 0.002108972859203996
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.14219521506083418,
+        "cosine": 0.9984607060200708
+      },
+      "terminal__hidden": {
+        "dot": -0.002958739061128742,
+        "cosine": -0.10318651455618814
+      },
+      "state__hidden": {
+        "dot": -0.0010869335076681705,
+        "cosine": -0.10376758379515764
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.5290855027303697,
+      "state": -0.1931332177897935,
+      "hidden": 0.0019366996870446747
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.16261540290689713,
+      "state": 0.02101684957508311,
+      "hidden": 0.0007285400497946842
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.05792738864287312,
+        "cosine": 0.9908759859480445
+      },
+      "terminal__hidden": {
+        "dot": -0.0013756859667131446,
+        "cosine": -0.12638972001829576
+      },
+      "state__hidden": {
+        "dot": -0.0004949505553220389,
+        "cosine": -0.12648857280891873
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.21916710604052608,
+      "state": -0.07844928783349267,
+      "hidden": 0.0011420964911474567
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 1.1051610950180816e-05,
+      "state": 1.2727277719604136e-06,
+      "hidden": 5.462557944371015e-05
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3.710272655931438e-06,
+        "cosine": 0.9892937633327045
+      },
+      "terminal__hidden": {
+        "dot": -1.1546450500316146e-05,
+        "cosine": -0.4699348743424265
+      },
+      "state__hidden": {
+        "dot": -3.846743836324645e-06,
+        "cosine": -0.4613467629750827
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -3.2154331116842143e-06,
+      "state": -1.1362565934557834e-06,
+      "hidden": -3.9232385091799906e-05
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 26.77191087051338,
+      "state": 3.532420501920406,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 9.001426392899551,
+        "cosine": 0.9256257993192332
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -35.77333724555676,
+      "state": -12.533846888460591,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.02379658620204489,
+      "state": 0.002129238767963456,
+      "hidden": 0.07735334600502389
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.00705734178128191,
+        "cosine": 0.9914518754324149
+      },
+      "terminal__hidden": {
+        "dot": -0.0014394290836174592,
+        "cosine": -0.0335500670008804
+      },
+      "state__hidden": {
+        "dot": -0.0005401214582435313,
+        "cosine": -0.042086198273283616
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.02941449891476348,
+      "state": -0.008646459095944707,
+      "hidden": -0.07537379550702475
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 6.081227941348045,
+      "state": 0.3425296286796815,
+      "hidden": 0.009000523302396438
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.9739857998970671,
+        "cosine": 0.6748510254837804
+      },
+      "terminal__hidden": {
+        "dot": -0.0006515674478749472,
+        "cosine": -0.0027850298703958653
+      },
+      "state__hidden": {
+        "dot": -0.0002596989742282567,
+        "cosine": -0.004677214442457176
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -7.05456217416743,
+      "state": -1.3162557307266882,
+      "hidden": -0.008089256891793576
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.1606004450104134,
+      "state": 0.004157643773774989,
+      "hidden": 7.756239827136547e-05
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.02565801633572,
+        "cosine": 0.9929469976390745
+      },
+      "terminal__hidden": {
+        "dot": 0.0006379693427039695,
+        "cosine": 0.18075937150518118
+      },
+      "state__hidden": {
+        "dot": 7.921064730371021e-05,
+        "cosine": 0.1394871849097175
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.186896430727914,
+      "state": -0.029894870763873323,
+      "hidden": -0.0007947423907720953
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.03962475154820413,
+      "state": 0.0011111097159055927,
+      "hidden": 2.0698267108388644e-05
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.006461556775050363,
+        "cosine": 0.9738126592960797
+      },
+      "terminal__hidden": {
+        "dot": 0.0001462338587441564,
+        "cosine": 0.1614721657968668
+      },
+      "state__hidden": {
+        "dot": 1.804291245545594e-05,
+        "cosine": 0.11897649639595159
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.04623254218216419,
+      "state": -0.007590709402576601,
+      "hidden": -0.00018497503987609059
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 3.956414126295887e-06,
+      "state": 4.78145271680297e-07,
+      "hidden": 4.600737960687763e-05
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.1808916409751864e-06,
+        "cosine": 0.8585769873331152
+      },
+      "terminal__hidden": {
+        "dot": -9.297216412678284e-06,
+        "cosine": -0.6891096301688711
+      },
+      "state__hidden": {
+        "dot": -4.305576722204524e-06,
+        "cosine": -0.9179893664228708
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": 4.159910659129045e-06,
+      "state": 2.646539814720216e-06,
+      "hidden": -3.240458653115281e-05
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 5.874968012448049,
+      "state": 0.3371282846055683,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.941033557575937,
+        "cosine": 0.6686591043125227
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -6.816001570347507,
+      "state": -1.2781618432983577,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.0060307759272528036,
+      "state": 0.0001321124391609038,
+      "hidden": 0.008856255257409806
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0008314883187186404,
+        "cosine": 0.931531833146562
+      },
+      "terminal__hidden": {
+        "dot": -0.0014264734329103947,
+        "cosine": -0.19518751215658464
+      },
+      "state__hidden": {
+        "dot": -0.00035264695726521834,
+        "cosine": -0.3260192341047467
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.005435790820503358,
+      "state": -0.0006109538016951199,
+      "hidden": -0.0070771348746142375
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 38.08215314497278,
+      "state": 3.55987760258198,
+      "hidden": 0.0738999657136683
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 11.15294993954352,
+        "cosine": 0.9578808087517292
+      },
+      "terminal__hidden": {
+        "dot": -0.004412827508869935,
+        "cosine": -0.002630474437669486
+      },
+      "state__hidden": {
+        "dot": -0.001686989688901119,
+        "cosine": -0.0032890674260150467
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -49.23069018652528,
+      "state": -14.71114053126998,
+      "hidden": -0.06780014859134736
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.5726503891690105,
+      "state": 0.05139661191325885,
+      "hidden": 0.0023395690169897136
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.1713986599309905,
+        "cosine": 0.9990687997767396
+      },
+      "terminal__hidden": {
+        "dot": -0.0014563407440527738,
+        "cosine": -0.03978783325124637
+      },
+      "state__hidden": {
+        "dot": -0.0006579568243050132,
+        "cosine": -0.0600015154675942
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.7425927078726344,
+      "state": -0.22213731487920163,
+      "hidden": -0.00022527139786011568
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.258041205170627,
+      "state": 0.02482838600423973,
+      "hidden": 0.0007701220846321432
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.07990616784263645,
+        "cosine": 0.9983010503220058
+      },
+      "terminal__hidden": {
+        "dot": -0.0012036730060628739,
+        "cosine": -0.08538551483409479
+      },
+      "state__hidden": {
+        "dot": -0.0004412241497231261,
+        "cosine": -0.10090327020269631
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.33674369971930584,
+      "state": -0.10429332960594917,
+      "hidden": 0.0008747750541577647
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 1.8420448677381862e-05,
+      "state": 1.994000713347482e-06,
+      "hidden": 6.655127830145006e-05
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 6.00957259352551e-06,
+        "cosine": 0.9915870100882596
+      },
+      "terminal__hidden": {
+        "dot": -1.4253566924639509e-05,
+        "cosine": -0.40709451991024204
+      },
+      "state__hidden": {
+        "dot": -4.854179824786855e-06,
+        "cosine": -0.42138105424494277
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.0176454306438245e-05,
+      "state": -3.149393469832523e-06,
+      "hidden": -4.7443531565530545e-05
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 37.22135478254512,
+      "state": 3.4817014379711306,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 10.894021923715613,
+        "cosine": 0.9569657470773426
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -48.11537663656004,
+      "state": -14.375723340754657,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.030088347639335697,
+      "state": 0.0019491726926376615,
+      "hidden": 0.070723723333745
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.007617178481688389,
+        "cosine": 0.9946488928135685
+      },
+      "terminal__hidden": {
+        "dot": -0.0017385601918296475,
+        "cosine": -0.03768842632014735
+      },
+      "state__hidden": {
+        "dot": -0.0005829545350481926,
+        "cosine": -0.04965088200079392
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.03596696591898764,
+      "state": -0.008983396636698867,
+      "hidden": -0.06840220871607948
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 3275.954137968162,
+      "state": 13723.947310719634,
+      "hidden": 0.08385357014905256
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 6382.175482937653,
+        "cosine": 0.9518320268752074
+      },
+      "terminal__hidden": {
+        "dot": -0.041989627072224325,
+        "cosine": -0.0025334499677811292
+      },
+      "state__hidden": {
+        "dot": -0.09399775899906089,
+        "cosine": -0.0027708766937815407
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -9658.087615576324,
+      "state": -20106.028772323327,
+      "hidden": 0.05213381426261747
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 57.38014559402947,
+      "state": 215.47093335223386,
+      "hidden": 0.0028283852854153876
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 111.15790297994494,
+        "cosine": 0.9996896038362288
+      },
+      "terminal__hidden": {
+        "dot": -0.019158727817414706,
+        "cosine": -0.047557230997771524
+      },
+      "state__hidden": {
+        "dot": -0.04954472877230316,
+        "cosine": -0.06346493275405475
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -168.51888949704494,
+      "state": -326.57929092791574,
+      "hidden": 0.06587507073526616
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 20.72165096072253,
+      "state": 79.16176393060765,
+      "hidden": 0.000998884705608421
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 40.457059388400125,
+        "cosine": 0.9989055003345156
+      },
+      "terminal__hidden": {
+        "dot": -0.005165993921712882,
+        "cosine": -0.03590740598527526
+      },
+      "state__hidden": {
+        "dot": -0.01481528365887232,
+        "cosine": -0.052685918761616116
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -61.17354423218376,
+      "state": -119.60400778664217,
+      "hidden": 0.018982391890359475
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 0.00035448067002233135,
+      "state": 0.0014169917598425145,
+      "hidden": 0.00022132872070112553
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0007014605846980169,
+        "cosine": 0.9897450344703961
+      },
+      "terminal__hidden": {
+        "dot": -0.00012063956532424303,
+        "cosine": -0.43069972839140414
+      },
+      "state__hidden": {
+        "dot": -0.00025455338512568647,
+        "cosine": -0.4545444166702386
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0009353016887893634,
+      "state": -0.0018638989582738426,
+      "hidden": 0.0001538642295025644
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 3195.5307290726405,
+      "state": 13423.399579079858,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 6226.870688820571,
+        "cosine": 0.9507516521948366
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -9422.401402662737,
+      "state": -19650.27024524966,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 2.321257860099372,
+      "state": 5.913617365173076,
+      "hidden": 0.07980497143732763
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3.689130288152974,
+        "cosine": 0.995716466950775
+      },
+      "terminal__hidden": {
+        "dot": -0.017544265767772495,
+        "cosine": -0.04076228589511337
+      },
+      "state__hidden": {
+        "dot": -0.029383193182759722,
+        "cosine": -0.04277178813650715
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -5.992843882669273,
+      "state": -9.573364460155238,
+      "hidden": -0.0328775125925107
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 2572.127624110074,
+      "state": 12838.934731202658,
+      "hidden": 0.06415059564594391
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 5347.6624861970995,
+        "cosine": 0.9305789767707411
+      },
+      "terminal__hidden": {
+        "dot": -0.049290301201215345,
+        "cosine": -0.0038372038240193857
+      },
+      "state__hidden": {
+        "dot": -0.11338733192953007,
+        "cosine": -0.003950933264823511
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -7919.74082167925,
+      "state": -18186.483830619443,
+      "hidden": 0.09852703771566475
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 54.60260629641417,
+      "state": 230.7817462888901,
+      "hidden": 0.0026131336654778153
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 112.19842409031017,
+        "cosine": 0.9994920471933797
+      },
+      "terminal__hidden": {
+        "dot": -0.02078293292068429,
+        "cosine": -0.05501984174084544
+      },
+      "state__hidden": {
+        "dot": -0.05527932415927923,
+        "cosine": -0.07118380268472863
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -166.78024776150676,
+      "state": -342.9248916877744,
+      "hidden": 0.07344912413867771
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 17.118192921677576,
+      "state": 73.82546333266922,
+      "hidden": 0.0008515008317686052
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 35.506776102316735,
+        "cosine": 0.9988015155418822
+      },
+      "terminal__hidden": {
+        "dot": -0.005122362410443013,
+        "cosine": -0.042427633171133794
+      },
+      "state__hidden": {
+        "dot": -0.014979350862526017,
+        "cosine": -0.059744422083650515
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -52.61984664184328,
+      "state": -109.31726004015911,
+      "hidden": 0.01925021229335502
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 0.0002617317948714895,
+      "state": 0.0012393476662554885,
+      "hidden": 0.0002215306894601085
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0005619501876796936,
+        "cosine": 0.9866724506403346
+      },
+      "terminal__hidden": {
+        "dot": -9.297970482986177e-05,
+        "cosine": -0.38613838146978186
+      },
+      "state__hidden": {
+        "dot": -0.00024022458524580582,
+        "cosine": -0.45846261371951913
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0007307022775732426,
+      "state": -0.0015610732683788893,
+      "hidden": 0.00011167360061388289
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 2498.86621338145,
+      "state": 12529.698230543927,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 5197.300869907167,
+        "cosine": 0.9288296072129338
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -7696.167084672534,
+      "state": -17726.99910041163,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "inner_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 1.5403497787380427,
+      "state": 4.628051689507712,
+      "hidden": 0.06046443045923739
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 2.6558541471173553,
+        "cosine": 0.9947076209539919
+      },
+      "terminal__hidden": {
+        "dot": -0.023292026165258183,
+        "cosine": -0.07632162539800537
+      },
+      "state__hidden": {
+        "dot": -0.042888432322479006,
+        "cosine": -0.08107577119298946
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -4.172911901086197,
+      "state": -7.241017406610995,
+      "hidden": 0.005716027683018147
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 5.0572344388596004,
+      "state": 3.9165136602685457,
+      "hidden": 0.07043556920041422
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3.2845428944608646,
+        "cosine": 0.7380207486535854
+      },
+      "terminal__hidden": {
+        "dot": -0.00026492654424451346,
+        "cosine": -0.00044388750154342627
+      },
+      "state__hidden": {
+        "dot": -0.00037724356180168447,
+        "cosine": -0.000718250603478624
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -8.3415124377612,
+      "state": -7.20067933539691,
+      "hidden": -0.06979339913374855
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.0010490823737689565,
+      "state": 0.00020003073848664355,
+      "hidden": 0.0032521294166279525
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.00041976253024526584,
+        "cosine": 0.9163270449652944
+      },
+      "terminal__hidden": {
+        "dot": -0.00022121849596237384,
+        "cosine": -0.11976577531279706
+      },
+      "state__hidden": {
+        "dot": -0.0002700059441981007,
+        "cosine": -0.33476577117578893
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.001247626410601613,
+      "state": -0.00034978732560572685,
+      "hidden": -0.002760904975331905
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.00046970644623927347,
+      "state": 9.755490147598123e-05,
+      "hidden": 0.0005476407018271252
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.00019438644209842057,
+        "cosine": 0.9080884737810329
+      },
+      "terminal__hidden": {
+        "dot": -2.4416749365186654e-05,
+        "cosine": -0.048142287913321494
+      },
+      "state__hidden": {
+        "dot": -4.687869831017404e-05,
+        "cosine": -0.2028164316791167
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0006396761398198086,
+      "state": -0.0002450626458028347,
+      "hidden": -0.0004763452549239595
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 2.2827991912277216e-05,
+      "state": 5.066760026267261e-06,
+      "hidden": 0.027316795995604045
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 9.962869126654286e-06,
+        "cosine": 0.9263719632842263
+      },
+      "terminal__hidden": {
+        "dot": -6.1295753398949235e-06,
+        "cosine": -0.007762143239080868
+      },
+      "state__hidden": {
+        "dot": -9.109340220996973e-06,
+        "cosine": -0.02448538151079855
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -2.6661285698490898e-05,
+      "state": -5.920288881378697e-06,
+      "hidden": -0.027301557107806063
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 5.055557501451917,
+      "state": 3.9161897056082458,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3.2838692492226818,
+        "cosine": 0.738022273414096
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -8.339426781656638,
+      "state": -7.200058979058864,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 3.8090551123451603e-06,
+      "state": 5.580500426428359e-07,
+      "hidden": 0.02114277969318272
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.3522703782949562e-06,
+        "cosine": 0.92750943005214
+      },
+      "terminal__hidden": {
+        "dot": -7.534138718934915e-06,
+        "cosine": -0.02654874167491697
+      },
+      "state__hidden": {
+        "dot": -1.4917918546781434e-05,
+        "cosine": -0.13733796768738038
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": 2.372813341032334e-06,
+      "state": 1.3007598168273151e-05,
+      "hidden": -0.02112032766430129
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.000131511540650748,
+      "state": 2.0744210268613383e-05,
+      "hidden": 0.01817622339317238
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 4.818112633351107e-05,
+        "cosine": 0.9224579171002693
+      },
+      "terminal__hidden": {
+        "dot": -5.627584858123086e-06,
+        "cosine": -0.0036398902903025596
+      },
+      "state__hidden": {
+        "dot": -3.633166052563129e-05,
+        "cosine": -0.0591677383257574
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.00017406508178217738,
+      "state": -3.2593675925313677e-05,
+      "hidden": -0.018134264131385344
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 20.76488020193731,
+      "state": 6.312830587428195,
+      "hidden": 0.08133640218720595
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 8.114917809945458,
+        "cosine": 0.7087732906270997
+      },
+      "terminal__hidden": {
+        "dot": -0.00033475228838537093,
+        "cosine": -0.0002575825039209621
+      },
+      "state__hidden": {
+        "dot": -0.0004653108114110961,
+        "cosine": -0.0006493645814816079
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -28.879463311096345,
+      "state": -14.427283119196735,
+      "hidden": -0.08053633911807563
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.026780441390851166,
+      "state": 0.0040062164914738034,
+      "hidden": 0.005451592840535056
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.01019095098082273,
+        "cosine": 0.9838720881244147
+      },
+      "terminal__hidden": {
+        "dot": 0.0004167026796671748,
+        "cosine": 0.03448702418914978
+      },
+      "state__hidden": {
+        "dot": -8.183048726161525e-05,
+        "cosine": -0.01751000313153335
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.03738809511325297,
+      "state": -0.014115337004764873,
+      "hidden": -0.0057864650392461595
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.018475047616467184,
+      "state": 0.002503614578038448,
+      "hidden": 0.0009918883344522222
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.00667181876462566,
+        "cosine": 0.9809970952628537
+      },
+      "terminal__hidden": {
+        "dot": -0.00026447687175032815,
+        "cosine": -0.06178222217719607
+      },
+      "state__hidden": {
+        "dot": -0.00014645489232518864,
+        "cosine": -0.09293702297365496
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.024882389571484552,
+      "state": -0.009028978473574705,
+      "hidden": -0.0005809565600949115
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 0.00027842303597398017,
+      "state": 4.3315353734876095e-05,
+      "hidden": 0.028920202992764044
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.00010719513336544589,
+        "cosine": 0.9761162748076899
+      },
+      "terminal__hidden": {
+        "dot": -0.00011359806158016839,
+        "cosine": -0.040032956976604486
+      },
+      "state__hidden": {
+        "dot": -4.385490272800507e-05,
+        "cosine": -0.03918289775068181
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0002720201074872632,
+      "state": -0.00010665558427311832,
+      "hidden": -0.02876275002806853
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 20.716584930239918,
+      "state": 6.305987033803009,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 8.09707987298022,
+        "cosine": 0.7084232471287804
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -28.813664854599203,
+      "state": -14.403066939375588,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 4.231708145772715e-05,
+      "state": 3.6359096103716096e-06,
+      "hidden": 0.02899283128132435
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 1.2078892078949626e-05,
+        "cosine": 0.9737841654350345
+      },
+      "terminal__hidden": {
+        "dot": -6.474175341229072e-05,
+        "cosine": -0.058449565820025653
+      },
+      "state__hidden": {
+        "dot": -2.8381223218118856e-05,
+        "cosine": -0.08741365030146155
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": 1.0345780362742714e-05,
+      "state": 1.2666421661277321e-05,
+      "hidden": -0.028899708354858878
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.002719042572636796,
+      "state": 0.0002867712923282312,
+      "hidden": 0.016979886738130258
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0008558931943466529,
+        "cosine": 0.9692676824096008
+      },
+      "terminal__hidden": {
+        "dot": -0.00030863828130975833,
+        "cosine": -0.0454228514255075
+      },
+      "state__hidden": {
+        "dot": -0.0001647893058781683,
+        "cosine": -0.0746781917039913
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0032662974852807336,
+      "state": -0.0009778751801948014,
+      "hidden": -0.016506459135807144
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 10.411518455213978,
+      "state": 1.2350515802747846,
+      "hidden": 0.009906905861353076
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 2.0597826230671457,
+        "cosine": 0.5744097533204918
+      },
+      "terminal__hidden": {
+        "dot": -0.0009308413692219926,
+        "cosine": -0.002898341942081807
+      },
+      "state__hidden": {
+        "dot": -0.00024181843194745372,
+        "cosine": -0.0021861393159003243
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -12.470370233249255,
+      "state": -3.2945923851566414,
+      "hidden": -0.008734246084240001
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.009094531634197102,
+      "state": 0.00025491468568610834,
+      "hidden": 0.0014379486049604132
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0012308499877164989,
+        "cosine": 0.8083836641620682
+      },
+      "terminal__hidden": {
+        "dot": 1.1620675126624219e-06,
+        "cosine": 0.0003213434922478854
+      },
+      "state__hidden": {
+        "dot": -2.3450000065263757e-05,
+        "cosine": -0.038732340253821426
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.010326543716311795,
+      "state": -0.0014623146777597482,
+      "hidden": -0.001415660671970546
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.004922061503572274,
+      "state": 0.00013571502404731572,
+      "hidden": 0.00041366203076273245
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0006682256019099092,
+        "cosine": 0.8175901089525338
+      },
+      "terminal__hidden": {
+        "dot": -7.142025129299903e-05,
+        "cosine": -0.05005241376139706
+      },
+      "state__hidden": {
+        "dot": -1.898138368606813e-05,
+        "cosine": -0.08011080101247667
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.005518866861691287,
+      "state": -0.0007849592429321999,
+      "hidden": -0.0003232603942009547
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 0.00010567307648188528,
+      "state": 7.5721439014433275e-06,
+      "hidden": 0.0033610821394005853
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 2.4650455453583193e-05,
+        "cosine": 0.8714316773629366
+      },
+      "terminal__hidden": {
+        "dot": -8.247032531733277e-05,
+        "cosine": -0.13838084206999052
+      },
+      "state__hidden": {
+        "dot": -3.084023333230447e-05,
+        "cosine": -0.19331638390142947
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -4.78532066449873e-05,
+      "state": -1.3823660248318398e-06,
+      "hidden": -0.0032477716045968843
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 10.396118491407744,
+      "state": 1.2345993641746764,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 2.057626804473114,
+        "cosine": 0.5743385585949102
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -12.453745292183651,
+      "state": -3.292226168889285,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 1.6360433242548315e-05,
+      "state": 3.70181003746872e-07,
+      "hidden": 0.0026201807395321982
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 2.0556843239474822e-06,
+        "cosine": 0.8353182302799314
+      },
+      "terminal__hidden": {
+        "dot": -2.2970438438342496e-06,
+        "cosine": -0.01109446232458068
+      },
+      "state__hidden": {
+        "dot": 3.066015981722232e-06,
+        "cosine": 0.09844682742660388
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.6119073813121782e-05,
+      "state": -5.491881353962551e-06,
+      "hidden": -0.002620949713637272
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.0012613371587411946,
+      "state": 5.364406546949518e-05,
+      "hidden": 0.0020740323466971458
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.00023003686462783713,
+        "cosine": 0.8843435295545906
+      },
+      "terminal__hidden": {
+        "dot": -0.0007758158162804887,
+        "cosine": -0.4796619529955696
+      },
+      "state__hidden": {
+        "dot": -0.00017161283084553958,
+        "cosine": -0.5144949906830665
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0007155582071425551,
+      "state": -0.00011206809928528388,
+      "hidden": -0.0011266036998343444
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 49.50202549004207,
+      "state": 7.730210959955297,
+      "hidden": 0.06659371465041725
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 13.557282961939688,
+        "cosine": 0.6930514919359072
+      },
+      "terminal__hidden": {
+        "dot": -0.0003678485316133279,
+        "cosine": -0.000202600690692373
+      },
+      "state__hidden": {
+        "dot": -0.00038955672872675873,
+        "cosine": -0.0005429482238219027
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -63.058940631964745,
+      "state": -21.28710437490861,
+      "hidden": -0.06583630950031771
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.07742762760417596,
+      "state": 0.006474864341566178,
+      "hidden": 0.0016278824777595778
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0222885028521541,
+        "cosine": 0.9954457211944021
+      },
+      "terminal__hidden": {
+        "dot": 0.00044108139688895504,
+        "cosine": 0.0392879384491682
+      },
+      "state__hidden": {
+        "dot": -4.3694793220029854e-05,
+        "cosine": -0.01345869115861482
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.10015721169687788,
+      "state": -0.028719672355537622,
+      "hidden": -0.0020252690997804145
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.049876978876626614,
+      "state": 0.004771047901937313,
+      "hidden": 0.0002843841282341966
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.015316977627204303,
+        "cosine": 0.992924254899388
+      },
+      "terminal__hidden": {
+        "dot": -7.33458370203898e-05,
+        "cosine": -0.01947478725424656
+      },
+      "state__hidden": {
+        "dot": -5.345727934867261e-05,
+        "cosine": -0.0458930885725339
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.06512061066238309,
+      "state": -0.020034568247321895,
+      "hidden": -0.00015758101040384652
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 0.000981935676684603,
+      "state": 8.886832138498983e-05,
+      "hidden": 0.027057426205285465
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0002917799614424027,
+        "cosine": 0.987735025520223
+      },
+      "terminal__hidden": {
+        "dot": -0.00019725926100384368,
+        "cosine": -0.03826948700994969
+      },
+      "state__hidden": {
+        "dot": -6.177732490372278e-05,
+        "cosine": -0.039839361428495416
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0010764563765802556,
+      "state": -0.0003188709577361167,
+      "hidden": -0.02679838967113749
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 49.36765795285117,
+      "state": 7.718482537345402,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 13.517860221655521,
+        "cosine": 0.6925015124530088
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -62.88551820317835,
+      "state": -21.236342768789637,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.00015285388809666397,
+      "state": 7.829207192954627e-06,
+      "hidden": 0.022119776277047996
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3.427627258474197e-05,
+        "cosine": 0.990823844799954
+      },
+      "terminal__hidden": {
+        "dot": -6.991831230730432e-05,
+        "cosine": -0.03802439620480745
+      },
+      "state__hidden": {
+        "dot": -3.340943509598416e-05,
+        "cosine": -0.08028231258655928
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.00011721184776119508,
+      "state": -8.69604453569646e-06,
+      "hidden": -0.022016448533458556
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.005928141145328332,
+      "state": 0.0003858128378134762,
+      "hidden": 0.01550424556209
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0014912035707775717,
+        "cosine": 0.9860281868754209
+      },
+      "terminal__hidden": {
+        "dot": -0.00046840651817074507,
+        "cosine": -0.048858299015981425
+      },
+      "state__hidden": {
+        "dot": -0.00019721789615834932,
+        "cosine": -0.08063668494416963
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.006950938202799843,
+      "state": -0.001679798513840159,
+      "hidden": -0.014838621185537408
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 2251.402419699299,
+      "state": 27188.08809902861,
+      "hidden": 0.07085387441579963
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 5792.633832787935,
+        "cosine": 0.7403893753865926
+      },
+      "terminal__hidden": {
+        "dot": -0.004819353034158901,
+        "cosine": -0.00038157540615091644
+      },
+      "state__hidden": {
+        "dot": -0.04241193212689809,
+        "cosine": -0.0009663109966386053
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -8044.031433349418,
+      "state": -32980.67952333391,
+      "hidden": -0.023622589369673715
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.2678707192314408,
+      "state": 1.0107361992693884,
+      "hidden": 0.006083412948445443
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.4296541390829709,
+        "cosine": 0.8257288678444387
+      },
+      "terminal__hidden": {
+        "dot": -0.0028739295209313275,
+        "cosine": -0.07119341779228676
+      },
+      "state__hidden": {
+        "dot": -0.03131208624327086,
+        "cosine": -0.3993185132945574
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.6946509264338565,
+      "state": -1.409078247915019,
+      "hidden": 0.02810260274738056
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.1732662358004167,
+      "state": 0.6721902172675915,
+      "hidden": 0.0010765448450391856
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.2966527580227457,
+        "cosine": 0.8692512548831232
+      },
+      "terminal__hidden": {
+        "dot": -0.0008531372395867435,
+        "cosine": -0.06246631203971336
+      },
+      "state__hidden": {
+        "dot": -0.006238224245596276,
+        "cosine": -0.2318989731642934
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.469065855280557,
+      "state": -0.9626047486548794,
+      "hidden": 0.006014816514753045
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 0.0031578105555622347,
+      "state": 0.013309740431154023,
+      "hidden": 0.02446697206787206
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.005278742972647006,
+        "cosine": 0.8142404757551562
+      },
+      "terminal__hidden": {
+        "dot": -0.00015387451499833586,
+        "cosine": -0.017505863909161052
+      },
+      "state__hidden": {
+        "dot": -0.0005728835151589429,
+        "cosine": -0.03174617598931983
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.008282679009887682,
+      "state": -0.018015599884963,
+      "hidden": -0.023740213993237343
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 2250.9263425967933,
+      "state": 27186.314703746764,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 5791.859699680721,
+        "cosine": 0.740392858802079
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -8042.786042496409,
+      "state": -32978.17440688364,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.0007837760934764884,
+      "state": 0.0018942750895332892,
+      "hidden": 0.022279889505074823
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.0009203293336487422,
+        "cosine": 0.7553108687256195
+      },
+      "terminal__hidden": {
+        "dot": -0.00020760753596923347,
+        "cosine": -0.049681030018236524
+      },
+      "state__hidden": {
+        "dot": -0.0015515993292456029,
+        "cosine": -0.2388369644422156
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0014964978916387267,
+      "state": -0.0012630050946854606,
+      "hidden": -0.020520682637612368
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.030998560824727073,
+      "state": 0.07526484978416871,
+      "hidden": 0.01694705504936812
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.04162713780111662,
+        "cosine": 0.8618063415147974
+      },
+      "terminal__hidden": {
+        "dot": -0.0007308042226732616,
+        "cosine": -0.03188476073607072
+      },
+      "state__hidden": {
+        "dot": -0.002737138793626409,
+        "cosine": -0.07663966545292483
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.07189489439161348,
+      "state": -0.11415484871505885,
+      "hidden": -0.013479112000957609
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "all",
+    "squared_gradient_norms": {
+      "terminal": 1186.344088326377,
+      "state": 21877.474640359094,
+      "hidden": 0.0822850135739565
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3826.212392538406,
+        "cosine": 0.7510435906052464
+      },
+      "terminal__hidden": {
+        "dot": -0.003595589940509589,
+        "cosine": -0.000363918764102606
+      },
+      "state__hidden": {
+        "dot": -0.04562929585742564,
+        "cosine": -0.0010754365682223387
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -5012.552886986544,
+      "state": -25703.641403273094,
+      "hidden": -0.03306012829655249
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "evidence_encoder",
+    "squared_gradient_norms": {
+      "terminal": 0.24794564419114817,
+      "state": 3.6299547639621967,
+      "hidden": 0.016690409641456322
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.8705048568356812,
+        "cosine": 0.9175766439313082
+      },
+      "terminal__hidden": {
+        "dot": -0.005370942134465116,
+        "cosine": -0.0834908214159857
+      },
+      "state__hidden": {
+        "dot": -0.04468444117727,
+        "cosine": -0.18153995630962
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -1.1130795572375898,
+      "state": -4.455775173575025,
+      "hidden": 0.03336497317584532
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "token_position_projection",
+    "squared_gradient_norms": {
+      "terminal": 0.14977041884599862,
+      "state": 1.4906431359376349,
+      "hidden": 0.0035402090135780574
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.4006999215835274,
+        "cosine": 0.8480459666628898
+      },
+      "terminal__hidden": {
+        "dot": -0.000266277525749101,
+        "cosine": -0.011563972199371905
+      },
+      "state__hidden": {
+        "dot": -0.004375736925490841,
+        "cosine": -0.060235138014972905
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.5502040625593251,
+      "state": -1.8869673197514563,
+      "hidden": 0.0011018054626445012
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "hidden_feedback",
+    "squared_gradient_norms": {
+      "terminal": 0.002919248014696102,
+      "state": 0.03431548586412886,
+      "hidden": 0.023515340291286754
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.009264993010188868,
+        "cosine": 0.9256877638657411
+      },
+      "terminal__hidden": {
+        "dot": 0.0004243375022795783,
+        "cosine": 0.051215366517935484
+      },
+      "state__hidden": {
+        "dot": 0.0008452420098043107,
+        "cosine": 0.029755028044722107
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.012608578526207573,
+      "state": -0.04442572088133929,
+      "hidden": -0.024784919820427173
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "latent_readout",
+    "squared_gradient_norms": {
+      "terminal": 1185.920329287654,
+      "state": 21872.159016886344,
+      "hidden": 0.0
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 3824.8766080884307,
+        "cosine": 0.7510067577803864
+      },
+      "terminal__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      },
+      "state__hidden": {
+        "dot": 0.0,
+        "cosine": null
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -5010.7969390897415,
+      "state": -25697.035624653043,
+      "hidden": -0.0
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "outer_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.0009902144041416413,
+      "state": 0.006202311198070337,
+      "hidden": 0.025725945943816185
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.002317714757253976,
+        "cosine": 0.9352303450421711
+      },
+      "terminal__hidden": {
+        "dot": 0.00014041327884447183,
+        "cosine": 0.027820048624000306
+      },
+      "state__hidden": {
+        "dot": -0.0011715643076440265,
+        "cosine": -0.09274781334503557
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.0034483424407428416,
+      "state": -0.007348461648646451,
+      "hidden": -0.024694794906086323
+    }
+  },
+  {
+    "arm": "joint_process",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "group": "inner_low_rank_core",
+    "squared_gradient_norms": {
+      "terminal": 0.022133513266930666,
+      "state": 0.15450777579018152,
+      "hidden": 0.012813108683819173
+    },
+    "pairs": {
+      "terminal__state": {
+        "dot": 0.052996963788965026,
+        "cosine": 0.9062554711954289
+      },
+      "terminal__hidden": {
+        "dot": 0.0014768789385805783,
+        "cosine": 0.08769856044595253
+      },
+      "state__hidden": {
+        "dot": 0.0037572045431749227,
+        "cosine": 0.08444275878649991
+      }
+    },
+    "directional_derivative_along_actual_negative_total_gradient": {
+      "terminal": -0.07660735603856172,
+      "state": -0.21126194419198385,
+      "hidden": -0.018047192208528802
+    }
+  }
+]

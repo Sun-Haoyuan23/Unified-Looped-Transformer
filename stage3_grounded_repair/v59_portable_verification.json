@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "archive_sha256": "9d7edfec8f9dbf8a0d4b35b6dc810c57450b21c52ff7a871a2e7ff9ef9e3a689",
+  "manifest_files_verified": 32,
+  "source_config_checkpoint_probe_state_and_spectrum_hashes_exact": true,
+  "frozen_reference_scalar_checks": 88,
+  "paired_prediction_records": 152,
+  "states": 38,
+  "qr_svd_performed_on_server_torch_fp64": true,
+  "portable_spectrum_rank_and_tolerance_arithmetic_verified_locally": true,
+  "local_torch_feature_capture_or_linear_algebra_not_repeated": true,
+  "optimizer_updates": 0,
+  "analytical_fits": 0,
+  "new_scoring_images": 0,
+  "controller_started": false,
+  "cumulative_scoring_records": 4222,
+  "cumulative_optimizer_updates_completed": 2050,
+  "interface_tests_cumulative": 174,
+  "limitation": "Fixed linear TRAIN-feature audit, no new quality/generalization or nonlinear recurrence result",
+  "FLOPs": null
+}

@@ -1,0 +1,29 @@
+{
+  "archive_sha256": "afc55cedd110736a92687926e7121afda8bacd08fa436e1e351aa38aa06e5460",
+  "targets_portable_exact": true,
+  "training_gate": {
+    "data_ready": true,
+    "selected_teacher_states": 3,
+    "selected_teacher_prompts": 3,
+    "preservation_states": 35,
+    "teacher_action_counts": {
+      "training_target": 3
+    },
+    "teacher_actions": {
+      "train_extra_00021_seed101_i35": "training_target",
+      "train_extra_00039_seed101_i35": "training_target",
+      "train_extra_00046_seed101_i35": "training_target"
+    },
+    "allowed_split": "train",
+    "controller_authorized": false,
+    "independent_terminal_validation_required": true,
+    "semantic_guard": "official baseline wrong -> candidate correct",
+    "quality_guard": "both finite nonmissing HPS/Pick deltas >= 0",
+    "skipped_train_semantic_repairs_with_missing_quality": 0,
+    "skipped_train_semantic_repairs_with_quality_loss": 0
+  },
+  "joint_zero_and_terminal_gradient": true,
+  "joint_optimizer_steps": 0,
+  "source_hashes_exact": true,
+  "interpretation": "Selected TRAIN target readiness; not a controller or benchmark comparison"
+}

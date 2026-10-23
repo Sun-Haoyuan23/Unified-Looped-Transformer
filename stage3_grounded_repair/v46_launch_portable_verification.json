@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "archive_sha256": "cb21d1be7d996153dc6eedb869df4c8c89ceef9657e62d469281294ebbebc167",
+  "scope": "Frozen launch source/config; actual zero/gradient proof; two joint GPU initializations; resource-only recovery and four-metric scoring guard. No completed training or checkpoint validation.",
+  "actual_gpu_initialization_studies_verified": [
+    "joint_ilsd",
+    "joint_terminal"
+  ],
+  "actual_outer_inner_gpu_initialization_in_this_archive": false,
+  "zero_terminal_budgets_exact": [
+    1,
+    2
+  ],
+  "low_rank_gradient_abs_sum": {
+    "outer": 0.012078477782779373,
+    "inner": 0.029811928747221828
+  },
+  "base_parameter_gradients": false,
+  "shared_base_cores_exact": true,
+  "dry_run_optimizer_updates": 0,
+  "unique_new_interface_tests": 6,
+  "original_evaluator_sha256": "4e47c88991b7d85589262d9cc2273d0a04f5c1046443b04ee279d3dafad93051",
+  "resource_scoring_wrapper_sha256": "75883a153bdcff59d2c3d4781c4899d483716efbb8992ec74097640053439966",
+  "training_completed_claim": false
+}

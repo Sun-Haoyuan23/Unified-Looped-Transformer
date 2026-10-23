@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "archive_sha256": "eef64c1772c2f157c60cd2d7495305ed0a98326970af03e7707f2091487fc744",
+  "manifest_files_verified": 17,
+  "source_config_checkpoint_head_and_state_hashes_exact": true,
+  "fixed_mse_reproductions_verified": 12,
+  "states": 6,
+  "opposite_relation_pairs": 2,
+  "same_prompt_other_seed_controls": 1,
+  "optimizer_updates": 0,
+  "new_scoring_images": 0,
+  "analytical_fits": 0,
+  "controller_started": false,
+  "original_tensor_operations_on_server_only": true,
+  "local_byte_and_scalar_checks_only": true,
+  "limitation": "TRAIN pair separation and evidence sensitivity; no new quality result, no changed-prompt rollout",
+  "total_optimizer_updates_including_head_only": 4050,
+  "previous_end_to_end_updates": 2050,
+  "head_only_updates": 2000,
+  "cumulative_scoring_records": 4222,
+  "interface_tests_cumulative": 178,
+  "FLOPs": null
+}

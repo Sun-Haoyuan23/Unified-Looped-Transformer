@@ -1,0 +1,14 @@
+{
+  "archive_sha256": "e1dfa14968b98ed25bbd77123d12510c4f07dc75311b8fee72c698629f6ad3da",
+  "cores": {
+    "8": {
+      "portable_exact": true,
+      "paired_report_sha256": "721be06987b046f95e3784b9da341088754dc0107993e3f404bfe8ffb6b23059"
+    },
+    "2": {
+      "portable_exact": true,
+      "paired_report_sha256": "45ca717584b9fd1eff167f6c17a4ab46cdf314d24e080750f3e1d260906a4793"
+    }
+  },
+  "artifact_hashes_exact": true
+}

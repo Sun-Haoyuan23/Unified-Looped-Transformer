@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "archive": "stage3_latest_v59_v61_documents.tgz",
+  "archive_sha256": "f9cf0fea287d4d81f8d1431f3c69a53b13b65730690b8b07b7950ef061bf616f",
+  "remote_document_hashes_verified": 28,
+  "remote_experiment_statuses": {
+    "preservation_rank_audit_v59": "complete",
+    "nonlinear_readout_capacity_v60": "complete",
+    "condition_separation_audit_v61": "complete"
+  },
+  "next_experiment_directory_observed_absent": "optimizer_separation_v62",
+  "automation_id": "10",
+  "automation_status": "ACTIVE",
+  "scope": "Host-network SSH archive hash, safe basename extraction, per-document SHA256 and completed experiment status check; does not add experimental results."
+}

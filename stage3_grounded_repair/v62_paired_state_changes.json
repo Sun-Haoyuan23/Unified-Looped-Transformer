@@ -1,0 +1,534 @@
+[
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00037321753916330636,
+    "lbfgs_v62_mse": 0.0004893768345937133
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0018185541266575456,
+    "lbfgs_v62_mse": 0.001474527409300208
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00003_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0022463391069322824,
+    "lbfgs_v62_mse": 0.0018213503062725067
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00004_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00045220396714285016,
+    "lbfgs_v62_mse": 0.0005436025676317513
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00005_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00038838040200062096,
+    "lbfgs_v62_mse": 0.00047903863014653325
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00006_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0003527148219291121,
+    "lbfgs_v62_mse": 0.0004896079190075397
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00007_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00047783844638615847,
+    "lbfgs_v62_mse": 0.0005694377468898892
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00007_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.000507097807712853,
+    "lbfgs_v62_mse": 0.0005701823974959552
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00009_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00045107011101208627,
+    "lbfgs_v62_mse": 0.0006585533265024424
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00010_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0004297493724152446,
+    "lbfgs_v62_mse": 0.0005723810754716396
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00013_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00034500585752539337,
+    "lbfgs_v62_mse": 0.0004592027107719332
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00014_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0003681914822664112,
+    "lbfgs_v62_mse": 0.00047259879647754133
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00017_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00043656909838318825,
+    "lbfgs_v62_mse": 0.0005478629609569907
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00017_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00033882123534567654,
+    "lbfgs_v62_mse": 0.0004477851907722652
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00019_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.000422103883465752,
+    "lbfgs_v62_mse": 0.000519884517416358
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "adam_v60_mse": 0.34215274453163147,
+    "lbfgs_v62_mse": 0.30019932985305786
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0014058413216844201,
+    "lbfgs_v62_mse": 0.0011716794688254595
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00022_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0005971953505650163,
+    "lbfgs_v62_mse": 0.0007017096504569054
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00022_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00040490934043191373,
+    "lbfgs_v62_mse": 0.0005346898105926812
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00029_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.001201246865093708,
+    "lbfgs_v62_mse": 0.0010623702546581626
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00029_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0004073921008966863,
+    "lbfgs_v62_mse": 0.0005765113746747375
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00034_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.001198442536406219,
+    "lbfgs_v62_mse": 0.0012197410687804222
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00034_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0004958029021508992,
+    "lbfgs_v62_mse": 0.0006081706378608942
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00035_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.049541573971509933,
+    "lbfgs_v62_mse": 0.03642120957374573
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00035_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0017204367322847247,
+    "lbfgs_v62_mse": 0.0013684345176443458
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "adam_v60_mse": 0.03566184639930725,
+    "lbfgs_v62_mse": 0.03652956336736679
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00040_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00040206723497249186,
+    "lbfgs_v62_mse": 0.0005643003969453275
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00040_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.000346941378666088,
+    "lbfgs_v62_mse": 0.00046927740913815796
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00042_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0011508528841659427,
+    "lbfgs_v62_mse": 0.001140739070251584
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00042_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0004294468089938164,
+    "lbfgs_v62_mse": 0.0005551953800022602
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00045_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00033117886050604284,
+    "lbfgs_v62_mse": 0.0004398638557177037
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00045_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0002855167258530855,
+    "lbfgs_v62_mse": 0.00039825597195886075
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "adam_v60_mse": 0.035797491669654846,
+    "lbfgs_v62_mse": 0.035641781985759735
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00047_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0005224770284257829,
+    "lbfgs_v62_mse": 0.0006657273042947054
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00049_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0009143337374553084,
+    "lbfgs_v62_mse": 0.000927963643334806
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00049_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00040789201739244163,
+    "lbfgs_v62_mse": 0.000515265273861587
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00054_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0006527292425744236,
+    "lbfgs_v62_mse": 0.0007439198670908809
+  },
+  {
+    "mode": "trained_loop2",
+    "state_id": "train_extra_00067_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.001077658380381763,
+    "lbfgs_v62_mse": 0.0011005447013303638
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00001_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0006109205423854291,
+    "lbfgs_v62_mse": 0.0008626759517937899
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00002_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.003171193413436413,
+    "lbfgs_v62_mse": 0.0026392878498882055
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00003_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.002747421385720372,
+    "lbfgs_v62_mse": 0.0022342116571962833
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00004_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0006575402803719044,
+    "lbfgs_v62_mse": 0.0009153681457974017
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00005_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.000620187958702445,
+    "lbfgs_v62_mse": 0.0009227990522049367
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00006_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0005177107523195446,
+    "lbfgs_v62_mse": 0.000751991115976125
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00007_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0006277902866713703,
+    "lbfgs_v62_mse": 0.0008521371055394411
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00007_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0006406912580132484,
+    "lbfgs_v62_mse": 0.0008778025512583554
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00009_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00056326953927055,
+    "lbfgs_v62_mse": 0.0009605225059203804
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00010_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0006626694812439382,
+    "lbfgs_v62_mse": 0.0009777229279279709
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00013_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.000514041748829186,
+    "lbfgs_v62_mse": 0.0007762661552987993
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00014_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0006102878833189607,
+    "lbfgs_v62_mse": 0.0008246798533946276
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00017_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0005048785242252052,
+    "lbfgs_v62_mse": 0.0007642795098945498
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00017_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00048120220890268683,
+    "lbfgs_v62_mse": 0.0007411403930746019
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00019_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.00048477889504283667,
+    "lbfgs_v62_mse": 0.0006973877898417413
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00021_seed101_i35",
+    "preservation": false,
+    "adam_v60_mse": 0.23687680065631866,
+    "lbfgs_v62_mse": 0.19333821535110474
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00021_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0016412053955718875,
+    "lbfgs_v62_mse": 0.0016324786702170968
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00022_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.000894281780347228,
+    "lbfgs_v62_mse": 0.001112122554332018
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00022_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0006374493823386729,
+    "lbfgs_v62_mse": 0.0008336466853506863
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00029_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.000859116087667644,
+    "lbfgs_v62_mse": 0.0009783097775653005
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00029_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0004833229468204081,
+    "lbfgs_v62_mse": 0.0008031289326027036
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00034_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0016365480842068791,
+    "lbfgs_v62_mse": 0.0017348338151350617
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00034_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0008177231065928936,
+    "lbfgs_v62_mse": 0.0010770505759865046
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00035_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0443645641207695,
+    "lbfgs_v62_mse": 0.028225837275385857
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00035_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.002376719145104289,
+    "lbfgs_v62_mse": 0.0018852094653993845
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00039_seed101_i35",
+    "preservation": false,
+    "adam_v60_mse": 0.027391908690333366,
+    "lbfgs_v62_mse": 0.030088510364294052
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00040_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0006721651880070567,
+    "lbfgs_v62_mse": 0.0008929328760132194
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00040_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0005691544502042234,
+    "lbfgs_v62_mse": 0.000776743923779577
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00042_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0014420989900827408,
+    "lbfgs_v62_mse": 0.0015068319626152515
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00042_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0005225501372478902,
+    "lbfgs_v62_mse": 0.0008192395325750113
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00045_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.000514418410602957,
+    "lbfgs_v62_mse": 0.0007964125834405422
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00045_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0004554125480353832,
+    "lbfgs_v62_mse": 0.0007312698871828616
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00046_seed101_i35",
+    "preservation": false,
+    "adam_v60_mse": 0.02498846873641014,
+    "lbfgs_v62_mse": 0.028536153957247734
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00047_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0007015286828391254,
+    "lbfgs_v62_mse": 0.0009979578899219632
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00049_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0013495810562744737,
+    "lbfgs_v62_mse": 0.001458259648643434
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00049_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0006952035473659635,
+    "lbfgs_v62_mse": 0.0009299557423219085
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00054_seed202_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.0008836942724883556,
+    "lbfgs_v62_mse": 0.0011144817108288407
+  },
+  {
+    "mode": "trained_no_loop",
+    "state_id": "train_extra_00067_seed101_i35",
+    "preservation": true,
+    "adam_v60_mse": 0.001572705921716988,
+    "lbfgs_v62_mse": 0.0017721028998494148
+  }
+]

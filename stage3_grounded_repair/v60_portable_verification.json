@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "archive_sha256": "16e237d7f72a05ecc0b70d93fb3498b404c5a81a5cc8d81d7c908376719a286e",
+  "manifest_files_verified": 30,
+  "source_config_protocol_checkpoint_state_hashes_exact": true,
+  "feature_and_target_hash_checks_exact_to_v59": 76,
+  "trainable_initializations_matched": true,
+  "per_head_parameters": 484032,
+  "completed_head_optimizer_updates": 2000,
+  "new_shared_core_optimizer_updates": 0,
+  "previous_end_to_end_optimizer_updates_completed": 2050,
+  "total_optimizer_updates_including_head_only": 4050,
+  "new_scoring_images": 0,
+  "cumulative_scoring_records": 4222,
+  "interface_tests_cumulative": 178,
+  "controller_started": false,
+  "no_deployment_or_quality_result": true,
+  "server_torch_training_and_tensor_checks_not_repeated_locally": true,
+  "FLOPs": null
+}

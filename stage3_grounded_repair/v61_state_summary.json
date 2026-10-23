@@ -1,0 +1,410 @@
+[
+  {
+    "state_id": "train_extra_00021_seed101_i35",
+    "prompt": "a photo of a cow right of a refrigerator",
+    "preservation": false,
+    "mode": "trained_loop2",
+    "target_margin": 1.0000114440917969,
+    "opposite_margin": 2.875,
+    "reference_mse": 0.34215274453163147,
+    "reproduced_mse": 0.34215274453163147,
+    "absolute_reference_error": 0.0,
+    "raw_condition_flip_distance": {
+      "rms_difference": 0.00990469396428021,
+      "relative_rms": 0.4317865430127743,
+      "cosine": 0.9067801906365388,
+      "strict_equal": false
+    },
+    "token_flip_distance": {
+      "rms_difference": 0.08789956567319708,
+      "relative_rms": 0.062206558016439845,
+      "cosine": 0.9983163349493144,
+      "strict_equal": false
+    },
+    "update_flip_distance": {
+      "rms_difference": 0.4775841000510158,
+      "relative_rms": 1.0227543723508072,
+      "cosine": 0.6592760389583419,
+      "strict_equal": false
+    },
+    "original_update_rms": 0.6071044206619263,
+    "actual_shared_calls": {
+      "outer": 4,
+      "inner": 4
+    }
+  },
+  {
+    "state_id": "train_extra_00021_seed101_i35",
+    "prompt": "a photo of a cow right of a refrigerator",
+    "preservation": false,
+    "mode": "trained_no_loop",
+    "target_margin": 1.0000114440917969,
+    "opposite_margin": 2.875,
+    "reference_mse": 0.23687680065631866,
+    "reproduced_mse": 0.23687681555747986,
+    "absolute_reference_error": 1.4901161193847656e-08,
+    "raw_condition_flip_distance": {
+      "rms_difference": 0.00990469396428021,
+      "relative_rms": 0.4317865430127743,
+      "cosine": 0.9067801906365388,
+      "strict_equal": false
+    },
+    "token_flip_distance": {
+      "rms_difference": 0.08784107259747377,
+      "relative_rms": 0.06216398848896632,
+      "cosine": 0.9983188493165416,
+      "strict_equal": false
+    },
+    "update_flip_distance": {
+      "rms_difference": 0.517260651474336,
+      "relative_rms": 1.0265815066258772,
+      "cosine": 0.6619296417831758,
+      "strict_equal": false
+    },
+    "original_update_rms": 0.6568571925163269,
+    "actual_shared_calls": {
+      "outer": 0,
+      "inner": 0
+    }
+  },
+  {
+    "state_id": "train_extra_00021_seed202_i35",
+    "prompt": "a photo of a cow right of a refrigerator",
+    "preservation": true,
+    "mode": "trained_loop2",
+    "target_margin": 1.375009536743164,
+    "opposite_margin": -0.6249713897705078,
+    "reference_mse": 0.0014058413216844201,
+    "reproduced_mse": 0.0014058412052690983,
+    "absolute_reference_error": 1.1641532182693481e-10,
+    "raw_condition_flip_distance": {
+      "rms_difference": 0.010829736345948068,
+      "relative_rms": 0.4815709744381527,
+      "cosine": 0.8840446982893442,
+      "strict_equal": false
+    },
+    "token_flip_distance": {
+      "rms_difference": 0.173872539150349,
+      "relative_rms": 0.12370464510154729,
+      "cosine": 0.99575554190961,
+      "strict_equal": false
+    },
+    "update_flip_distance": {
+      "rms_difference": 0.07356600359655985,
+      "relative_rms": 1.2967747711599056,
+      "cosine": 0.2957217375589545,
+      "strict_equal": false
+    },
+    "original_update_rms": 0.022495990619063377,
+    "actual_shared_calls": {
+      "outer": 4,
+      "inner": 4
+    }
+  },
+  {
+    "state_id": "train_extra_00021_seed202_i35",
+    "prompt": "a photo of a cow right of a refrigerator",
+    "preservation": true,
+    "mode": "trained_no_loop",
+    "target_margin": 1.375009536743164,
+    "opposite_margin": -0.6249713897705078,
+    "reference_mse": 0.0016412053955718875,
+    "reproduced_mse": 0.0016412060940638185,
+    "absolute_reference_error": 6.984919309616089e-10,
+    "raw_condition_flip_distance": {
+      "rms_difference": 0.010829736345948068,
+      "relative_rms": 0.4815709744381527,
+      "cosine": 0.8840446982893442,
+      "strict_equal": false
+    },
+    "token_flip_distance": {
+      "rms_difference": 0.1737845786114027,
+      "relative_rms": 0.12364095471066812,
+      "cosine": 0.9957624017818187,
+      "strict_equal": false
+    },
+    "update_flip_distance": {
+      "rms_difference": 0.09688459750730331,
+      "relative_rms": 1.3449268833825094,
+      "cosine": 0.206273153772297,
+      "strict_equal": false
+    },
+    "original_update_rms": 0.02430628426373005,
+    "actual_shared_calls": {
+      "outer": 0,
+      "inner": 0
+    }
+  },
+  {
+    "state_id": "train_extra_00029_seed101_i35",
+    "prompt": "a photo of a frisbee above a couch",
+    "preservation": true,
+    "mode": "trained_loop2",
+    "target_margin": 3.125001907348633,
+    "opposite_margin": -0.4999713897705078,
+    "reference_mse": 0.001201246865093708,
+    "reproduced_mse": 0.001201246865093708,
+    "absolute_reference_error": 0.0,
+    "raw_condition_flip_distance": {
+      "rms_difference": 0.01815534699732744,
+      "relative_rms": 0.762239184708296,
+      "cosine": 0.7094957126476162,
+      "strict_equal": false
+    },
+    "token_flip_distance": {
+      "rms_difference": 0.20210701504282388,
+      "relative_rms": 0.14652897639778947,
+      "cosine": 0.9932840440941625,
+      "strict_equal": false
+    },
+    "update_flip_distance": {
+      "rms_difference": 0.05442039507377198,
+      "relative_rms": 1.2569022667753549,
+      "cosine": 0.327100403342771,
+      "strict_equal": false
+    },
+    "original_update_rms": 0.020924312993884087,
+    "actual_shared_calls": {
+      "outer": 4,
+      "inner": 4
+    }
+  },
+  {
+    "state_id": "train_extra_00029_seed101_i35",
+    "prompt": "a photo of a frisbee above a couch",
+    "preservation": true,
+    "mode": "trained_no_loop",
+    "target_margin": 3.125001907348633,
+    "opposite_margin": -0.4999713897705078,
+    "reference_mse": 0.000859116087667644,
+    "reproduced_mse": 0.000859116087667644,
+    "absolute_reference_error": 0.0,
+    "raw_condition_flip_distance": {
+      "rms_difference": 0.01815534699732744,
+      "relative_rms": 0.762239184708296,
+      "cosine": 0.7094957126476162,
+      "strict_equal": false
+    },
+    "token_flip_distance": {
+      "rms_difference": 0.20202723116872928,
+      "relative_rms": 0.14647098917334964,
+      "cosine": 0.9932926365136675,
+      "strict_equal": false
+    },
+    "update_flip_distance": {
+      "rms_difference": 0.08193159517770493,
+      "relative_rms": 1.4117306004359487,
+      "cosine": 0.00833226335125828,
+      "strict_equal": false
+    },
+    "original_update_rms": 0.01769542507827282,
+    "actual_shared_calls": {
+      "outer": 0,
+      "inner": 0
+    }
+  },
+  {
+    "state_id": "train_extra_00035_seed101_i35",
+    "prompt": "a photo of a cow left of a refrigerator",
+    "preservation": true,
+    "mode": "trained_loop2",
+    "target_margin": 3.0,
+    "opposite_margin": 0.8750114440917969,
+    "reference_mse": 0.049541573971509933,
+    "reproduced_mse": 0.049541573971509933,
+    "absolute_reference_error": 0.0,
+    "raw_condition_flip_distance": {
+      "rms_difference": 0.01126489017488385,
+      "relative_rms": 0.48808094695790555,
+      "cosine": 0.8808884946083373,
+      "strict_equal": false
+    },
+    "token_flip_distance": {
+      "rms_difference": 0.1082197234589841,
+      "relative_rms": 0.07679181433044867,
+      "cosine": 0.9976103282904064,
+      "strict_equal": false
+    },
+    "update_flip_distance": {
+      "rms_difference": 0.5074415620710885,
+      "relative_rms": 1.2775625526415437,
+      "cosine": 0.40008435702838596,
+      "strict_equal": false
+    },
+    "original_update_rms": 0.13288141787052155,
+    "actual_shared_calls": {
+      "outer": 4,
+      "inner": 4
+    }
+  },
+  {
+    "state_id": "train_extra_00035_seed101_i35",
+    "prompt": "a photo of a cow left of a refrigerator",
+    "preservation": true,
+    "mode": "trained_no_loop",
+    "target_margin": 3.0,
+    "opposite_margin": 0.8750114440917969,
+    "reference_mse": 0.0443645641207695,
+    "reproduced_mse": 0.0443645641207695,
+    "absolute_reference_error": 0.0,
+    "raw_condition_flip_distance": {
+      "rms_difference": 0.01126489017488385,
+      "relative_rms": 0.48808094695790555,
+      "cosine": 0.8808884946083373,
+      "strict_equal": false
+    },
+    "token_flip_distance": {
+      "rms_difference": 0.10815757606285913,
+      "relative_rms": 0.07674967335861371,
+      "cosine": 0.9976145235781121,
+      "strict_equal": false
+    },
+    "update_flip_distance": {
+      "rms_difference": 0.5553169647295495,
+      "relative_rms": 1.3060459651022158,
+      "cosine": 0.359714313284152,
+      "strict_equal": false
+    },
+    "original_update_rms": 0.125746950507164,
+    "actual_shared_calls": {
+      "outer": 0,
+      "inner": 0
+    }
+  },
+  {
+    "state_id": "train_extra_00039_seed101_i35",
+    "prompt": "a photo of a horse above a frisbee",
+    "preservation": false,
+    "mode": "trained_loop2",
+    "target_margin": 0.6250133514404297,
+    "opposite_margin": 1.5000038146972656,
+    "reference_mse": 0.03566184639930725,
+    "reproduced_mse": 0.035661838948726654,
+    "absolute_reference_error": 7.450580596923828e-09,
+    "raw_condition_flip_distance": {
+      "rms_difference": 0.0063807613603853236,
+      "relative_rms": 0.2870311626408509,
+      "cosine": 0.9588065558365206,
+      "strict_equal": false
+    },
+    "token_flip_distance": {
+      "rms_difference": 0.09828398445643223,
+      "relative_rms": 0.06885879714748522,
+      "cosine": 0.9986738065525289,
+      "strict_equal": false
+    },
+    "update_flip_distance": {
+      "rms_difference": 0.025744445919401494,
+      "relative_rms": 0.4528248047018767,
+      "cosine": 0.9130455749440985,
+      "strict_equal": false
+    },
+    "original_update_rms": 0.06185993179678917,
+    "actual_shared_calls": {
+      "outer": 4,
+      "inner": 4
+    }
+  },
+  {
+    "state_id": "train_extra_00039_seed101_i35",
+    "prompt": "a photo of a horse above a frisbee",
+    "preservation": false,
+    "mode": "trained_no_loop",
+    "target_margin": 0.6250133514404297,
+    "opposite_margin": 1.5000038146972656,
+    "reference_mse": 0.027391908690333366,
+    "reproduced_mse": 0.027391904965043068,
+    "absolute_reference_error": 3.725290298461914e-09,
+    "raw_condition_flip_distance": {
+      "rms_difference": 0.0063807613603853236,
+      "relative_rms": 0.2870311626408509,
+      "cosine": 0.9588065558365206,
+      "strict_equal": false
+    },
+    "token_flip_distance": {
+      "rms_difference": 0.09820780435735764,
+      "relative_rms": 0.06880599542736701,
+      "cosine": 0.9986767165389326,
+      "strict_equal": false
+    },
+    "update_flip_distance": {
+      "rms_difference": 0.03071834425883624,
+      "relative_rms": 0.5335409052673025,
+      "cosine": 0.8696807378921642,
+      "strict_equal": false
+    },
+    "original_update_rms": 0.06216021627187729,
+    "actual_shared_calls": {
+      "outer": 0,
+      "inner": 0
+    }
+  },
+  {
+    "state_id": "train_extra_00046_seed101_i35",
+    "prompt": "a photo of a frisbee below a couch",
+    "preservation": false,
+    "mode": "trained_loop2",
+    "target_margin": -0.37497520446777344,
+    "opposite_margin": 2.875001907348633,
+    "reference_mse": 0.035797491669654846,
+    "reproduced_mse": 0.035797495394945145,
+    "absolute_reference_error": 3.725290298461914e-09,
+    "raw_condition_flip_distance": {
+      "rms_difference": 0.016493824368943845,
+      "relative_rms": 0.7018517977338214,
+      "cosine": 0.7537020270089017,
+      "strict_equal": false
+    },
+    "token_flip_distance": {
+      "rms_difference": 0.19222815223508627,
+      "relative_rms": 0.13874501864077798,
+      "cosine": 0.9940321069478397,
+      "strict_equal": false
+    },
+    "update_flip_distance": {
+      "rms_difference": 0.03792142792936238,
+      "relative_rms": 0.7487693612161906,
+      "cosine": 0.7838609590844523,
+      "strict_equal": false
+    },
+    "original_update_rms": 0.05984518676996231,
+    "actual_shared_calls": {
+      "outer": 4,
+      "inner": 4
+    }
+  },
+  {
+    "state_id": "train_extra_00046_seed101_i35",
+    "prompt": "a photo of a frisbee below a couch",
+    "preservation": false,
+    "mode": "trained_no_loop",
+    "target_margin": -0.37497520446777344,
+    "opposite_margin": 2.875001907348633,
+    "reference_mse": 0.02498846873641014,
+    "reproduced_mse": 0.024988466873764992,
+    "absolute_reference_error": 1.862645149230957e-09,
+    "raw_condition_flip_distance": {
+      "rms_difference": 0.016493824368943845,
+      "relative_rms": 0.7018517977338214,
+      "cosine": 0.7537020270089017,
+      "strict_equal": false
+    },
+    "token_flip_distance": {
+      "rms_difference": 0.19215378803166566,
+      "relative_rms": 0.13868991915761467,
+      "cosine": 0.9940383129456377,
+      "strict_equal": false
+    },
+    "update_flip_distance": {
+      "rms_difference": 0.04156248897630738,
+      "relative_rms": 0.8155245444639224,
+      "cosine": 0.7245607143621013,
+      "strict_equal": false
+    },
+    "original_update_rms": 0.06006650999188423,
+    "actual_shared_calls": {
+      "outer": 0,
+      "inner": 0
+    }
+  }
+]

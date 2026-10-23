@@ -1,0 +1,136 @@
+{
+  "trained_loop2": {
+    "preservation_rows": 25515,
+    "feature_columns": 3717,
+    "teacher_rows": 2187,
+    "target_columns": 64,
+    "qr_relative_residual": 4.77874015287509e-15,
+    "svd_relative_residual": 1.1769756920628565e-14,
+    "largest_singular": 4.720240472284786,
+    "smallest_singular": 1.610543872743316e-17,
+    "stable_rank": 2.8462948359109586,
+    "precision_conventions": {
+      "fp64_arithmetic": {
+        "rank": 3715,
+        "null_dimensions": 2,
+        "absolute_singular_tolerance": 2.6742371794862564e-11,
+        "tolerance_formula": "max(preservation_rows, columns) * source_precision_eps * largest_preservation_singular",
+        "projected_teacher_resolvable_rank": 0,
+        "teacher_feature_energy_in_preservation_null_fraction": 5.067802822115461e-32,
+        "preservation_feature_energy_in_selected_null_fraction": 1.2651229040392574e-33,
+        "teacher_target_projection_residual_energy_ratio": 1.0,
+        "per_teacher_target_projection": [
+          {
+            "state_id": "train_extra_00021_seed101_i35",
+            "target_projection_residual_energy_ratio": 1.0
+          },
+          {
+            "state_id": "train_extra_00039_seed101_i35",
+            "target_projection_residual_energy_ratio": 1.0
+          },
+          {
+            "state_id": "train_extra_00046_seed101_i35",
+            "target_projection_residual_energy_ratio": 1.0
+          }
+        ],
+        "meaning": "FP64 null is numerical zero constraint; FP32 null permits precision-scale preservation leakage"
+      },
+      "fp32_feature_resolution": {
+        "rank": 2205,
+        "null_dimensions": 1512,
+        "absolute_singular_tolerance": 0.014357201534550942,
+        "tolerance_formula": "max(preservation_rows, columns) * source_precision_eps * largest_preservation_singular",
+        "projected_teacher_resolvable_rank": 979,
+        "teacher_feature_energy_in_preservation_null_fraction": 0.004783961055392241,
+        "preservation_feature_energy_in_selected_null_fraction": 0.0010387256902397368,
+        "teacher_target_projection_residual_energy_ratio": 0.39921429644112477,
+        "per_teacher_target_projection": [
+          {
+            "state_id": "train_extra_00021_seed101_i35",
+            "target_projection_residual_energy_ratio": 0.9619544569814859
+          },
+          {
+            "state_id": "train_extra_00039_seed101_i35",
+            "target_projection_residual_energy_ratio": 0.12270642292817406
+          },
+          {
+            "state_id": "train_extra_00046_seed101_i35",
+            "target_projection_residual_energy_ratio": 0.11298203741113903
+          }
+        ],
+        "meaning": "FP64 null is numerical zero constraint; FP32 null permits precision-scale preservation leakage"
+      }
+    },
+    "scope": "Fixed linear features and current TRAIN corpus; not a claim about nonlinear or trainable recurrent representations",
+    "new_readout_fit": false,
+    "artifact_sha256": "8541e79b6861019e88d62d51a172645faabac8317d010905ce0b9dca3d246ee4",
+    "column_scale_sha256": "d73a199eac76f0224c22dd94fa76ee9b051bc7b02f167467196b41d7d0bfe1a4"
+  },
+  "trained_no_loop": {
+    "preservation_rows": 25515,
+    "feature_columns": 3717,
+    "teacher_rows": 2187,
+    "target_columns": 64,
+    "qr_relative_residual": 4.576761104047483e-15,
+    "svd_relative_residual": 1.2838417578225539e-14,
+    "largest_singular": 4.156953668577927,
+    "smallest_singular": 2.108666811081193e-17,
+    "stable_rank": 3.57609329674776,
+    "precision_conventions": {
+      "fp64_arithmetic": {
+        "rank": 3715,
+        "null_dimensions": 2,
+        "absolute_singular_tolerance": 2.355108838031712e-11,
+        "tolerance_formula": "max(preservation_rows, columns) * source_precision_eps * largest_preservation_singular",
+        "projected_teacher_resolvable_rank": 0,
+        "teacher_feature_energy_in_preservation_null_fraction": 5.365785789055186e-32,
+        "preservation_feature_energy_in_selected_null_fraction": 1.3660664215435705e-33,
+        "teacher_target_projection_residual_energy_ratio": 1.0,
+        "per_teacher_target_projection": [
+          {
+            "state_id": "train_extra_00021_seed101_i35",
+            "target_projection_residual_energy_ratio": 1.0
+          },
+          {
+            "state_id": "train_extra_00039_seed101_i35",
+            "target_projection_residual_energy_ratio": 1.0
+          },
+          {
+            "state_id": "train_extra_00046_seed101_i35",
+            "target_projection_residual_energy_ratio": 1.0
+          }
+        ],
+        "meaning": "FP64 null is numerical zero constraint; FP32 null permits precision-scale preservation leakage"
+      },
+      "fp32_feature_resolution": {
+        "rank": 2292,
+        "null_dimensions": 1425,
+        "absolute_singular_tolerance": 0.012643894297333456,
+        "tolerance_formula": "max(preservation_rows, columns) * source_precision_eps * largest_preservation_singular",
+        "projected_teacher_resolvable_rank": 918,
+        "teacher_feature_energy_in_preservation_null_fraction": 0.0031616957552540585,
+        "preservation_feature_energy_in_selected_null_fraction": 0.000691104220771901,
+        "teacher_target_projection_residual_energy_ratio": 0.41527273736079634,
+        "per_teacher_target_projection": [
+          {
+            "state_id": "train_extra_00021_seed101_i35",
+            "target_projection_residual_energy_ratio": 0.9608322579783183
+          },
+          {
+            "state_id": "train_extra_00039_seed101_i35",
+            "target_projection_residual_energy_ratio": 0.14648638028608743
+          },
+          {
+            "state_id": "train_extra_00046_seed101_i35",
+            "target_projection_residual_energy_ratio": 0.13849960090695246
+          }
+        ],
+        "meaning": "FP64 null is numerical zero constraint; FP32 null permits precision-scale preservation leakage"
+      }
+    },
+    "scope": "Fixed linear features and current TRAIN corpus; not a claim about nonlinear or trainable recurrent representations",
+    "new_readout_fit": false,
+    "artifact_sha256": "2ae0ef2b11463a384491ff73a7d51921a754702e99cc9fdb47de557b5f6e757b",
+    "column_scale_sha256": "73e48d9682066db6dbed8b41b08d203fd0aac7df4825164b7c77139d23c679a1"
+  }
+}

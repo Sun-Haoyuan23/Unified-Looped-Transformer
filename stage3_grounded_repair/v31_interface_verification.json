@@ -1,0 +1,8 @@
+{
+  "archive_sha256": "9ceb23f078dae1ea5ce05e82742b8bce31ee823e3cb41acf2d5bbe2881a5c3af",
+  "source_hashes_exact": true,
+  "original_status_read": true,
+  "optimizer_steps": 0,
+  "zero_exact": true,
+  "full_terminal_gradient": true
+}

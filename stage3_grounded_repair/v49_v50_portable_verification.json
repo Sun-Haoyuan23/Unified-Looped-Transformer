@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "archive_sha256": {
+    "stage3_teacher_process_v49_results.tgz": "3289fa245f1fd5ea4f2afe23349784c40c0306410926f6babe8855a42a6cadea",
+    "stage3_teacher_additive_v50_results.tgz": "03ef1978a44741a93674b1b54f1ae51ff0c51803fbf011769747f335a44f42d9"
+  },
+  "file_manifest_source_config_image_latent_hashes_exact": true,
+  "v49_original_bridge_inputs_and_endpoints_exact_server_assertions": 6,
+  "v49_teacher_process_states": 3,
+  "v49_true_correct_process_states": 3,
+  "v50_portable_paired_report_exact": true,
+  "v50_new_candidate_images": 3,
+  "v50_baseline_aliases": 3,
+  "v50_scoring_records": 6,
+  "aligned_teachers_preserve_original_baseline_quality": [
+    {
+      "state_id": "train_extra_00021_seed101_i35",
+      "pickscore": 0.024064647270733985,
+      "hps": 0.00048828125,
+      "siglip": 0.0036093294620513916
+    },
+    {
+      "state_id": "train_extra_00039_seed101_i35",
+      "pickscore": 0.21866639696327184,
+      "hps": 0.002685546875,
+      "siglip": 0.021373972296714783
+    },
+    {
+      "state_id": "train_extra_00046_seed101_i35",
+      "pickscore": 0.25417629949242837,
+      "hps": 0.002685546875,
+      "siglip": 0.015278637409210205
+    }
+  ],
+  "baseline_rescoring_drift": {
+    "train_extra_00021_seed101_i35": {
+      "pickscore": 0.0,
+      "hps": 0.0,
+      "siglip": 0.0
+    },
+    "train_extra_00039_seed101_i35": {
+      "pickscore": 0.0,
+      "hps": 0.0,
+      "siglip": 0.0
+    },
+    "train_extra_00046_seed101_i35": {
+      "pickscore": 1.4731954252056312e-06,
+      "hps": -0.000244140625,
+      "siglip": -1.7881393432617188e-07
+    }
+  },
+  "optimizer_updates": 0,
+  "new_independent_successful_teacher_states": 0,
+  "learned_loop_success": false
+}

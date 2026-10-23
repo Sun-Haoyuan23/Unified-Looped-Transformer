@@ -1,0 +1,62 @@
+[
+  {
+    "probe": "initial_no_loop",
+    "budget": "no_loop",
+    "teachers3": {
+      "train_extra_00021_seed101_i35": 0.4309076548495685,
+      "train_extra_00039_seed101_i35": 0.005796958506291428,
+      "train_extra_00046_seed101_i35": 0.004341155299068434
+    },
+    "preservation3_mean": 0.028302852748561383
+  },
+  {
+    "probe": "initial_loop2",
+    "budget": "loop2",
+    "teachers3": {
+      "train_extra_00021_seed101_i35": 0.4330076844865612,
+      "train_extra_00039_seed101_i35": 0.005723751642487946,
+      "train_extra_00046_seed101_i35": 0.004351346169618532
+    },
+    "preservation3_mean": 0.02623520531500803
+  },
+  {
+    "probe": "trained_no_loop",
+    "budget": "no_loop",
+    "teachers3": {
+      "train_extra_00021_seed101_i35": 0.43677140121410446,
+      "train_extra_00039_seed101_i35": 0.00596505302490163,
+      "train_extra_00046_seed101_i35": 0.004471267912066417
+    },
+    "preservation3_mean": 0.028237547322403786
+  },
+  {
+    "probe": "trained_loop2",
+    "budget": "loop2",
+    "teachers3": {
+      "train_extra_00021_seed101_i35": 0.42922356708093806,
+      "train_extra_00039_seed101_i35": 0.005652573669880995,
+      "train_extra_00046_seed101_i35": 0.004321653365917643
+    },
+    "preservation3_mean": 0.026462298870168655
+  },
+  {
+    "probe": "trained_nested",
+    "budget": "loop1",
+    "teachers3": {
+      "train_extra_00021_seed101_i35": 0.49104612006557374,
+      "train_extra_00039_seed101_i35": 0.020560156087977656,
+      "train_extra_00046_seed101_i35": 0.020347190403993392
+    },
+    "preservation3_mean": 0.027825139247276642
+  },
+  {
+    "probe": "trained_nested",
+    "budget": "loop2",
+    "teachers3": {
+      "train_extra_00021_seed101_i35": 0.5436415553367633,
+      "train_extra_00039_seed101_i35": 0.020663425690369042,
+      "train_extra_00046_seed101_i35": 0.021492143176373785
+    },
+    "preservation3_mean": 0.019624702379009044
+  }
+]

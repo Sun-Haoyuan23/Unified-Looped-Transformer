@@ -1,0 +1,36 @@
+[
+  {
+    "mode": "trained_loop2",
+    "teachers3": {
+      "train_extra_00021_seed101_i35": 0.5522896914538138,
+      "train_extra_00039_seed101_i35": 0.005754255039847399,
+      "train_extra_00046_seed101_i35": 0.004436458689612542
+    },
+    "preservation35_mean": 0.04120351162657154,
+    "preservation35_max": 0.1644608347598533,
+    "preservation_original3_mean": 0.04712427400017086,
+    "preservation_original3_v55_mean": 0.026462298870168655,
+    "preservation_original3": {
+      "train_extra_00001_seed202_i35": 0.03276528219614181,
+      "train_extra_00002_seed101_i35": 0.057478702295552034,
+      "train_extra_00021_seed202_i35": 0.05112883750881872
+    }
+  },
+  {
+    "mode": "trained_no_loop",
+    "teachers3": {
+      "train_extra_00021_seed101_i35": 0.5591610235393485,
+      "train_extra_00039_seed101_i35": 0.005906962781759518,
+      "train_extra_00046_seed101_i35": 0.004525745798671439
+    },
+    "preservation35_mean": 0.04131694838524457,
+    "preservation35_max": 0.1552786033699969,
+    "preservation_original3_mean": 0.04789084733952395,
+    "preservation_original3_v55_mean": 0.028237547322403786,
+    "preservation_original3": {
+      "train_extra_00001_seed202_i35": 0.03485202501989298,
+      "train_extra_00002_seed101_i35": 0.05726931911074859,
+      "train_extra_00021_seed202_i35": 0.051551197887930285
+    }
+  }
+]

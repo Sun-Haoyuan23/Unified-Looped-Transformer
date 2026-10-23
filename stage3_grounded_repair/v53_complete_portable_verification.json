@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "archive_sha256": "1eb5794da19fd25e575ae8445a8702b4e6e98c6b9a7fdc7fe9ddf446d219bccb",
+  "manifest_files_verified": 685,
+  "original_scores_portable_paired_reports_exact": true,
+  "source_config_checkpoint_image_latent_hashes_exact": true,
+  "layout_aliases_verified": 144,
+  "arms": [
+    "joint_control",
+    "outer_process",
+    "inner_process",
+    "joint_process"
+  ],
+  "scoring_records": 144,
+  "independent_prompts": 5,
+  "baseline_correct": 3,
+  "states": 6,
+  "cohort_hash_matches_v47": true,
+  "zero_intervention_passed_all_arms": true,
+  "all_nonzero_wrong_to_correct": 0,
+  "aligned_fit_arithmetic_calculated_on_server_torch_cpu": true,
+  "local_aligned_fit_check": "manifest bytes, source and endpoint tensor hashes; no local Torch calculation",
+  "generation_success": false,
+  "validation_images": 0,
+  "controller_started": false,
+  "cumulative_scoring_records": 4156,
+  "known_baseline_alias_records": 342,
+  "optimizer_updates_completed": 2050,
+  "FLOPs": null
+}

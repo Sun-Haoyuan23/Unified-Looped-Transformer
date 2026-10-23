@@ -1,0 +1,44 @@
+[
+  {
+    "cohort": "all6",
+    "action": "conditional_budget1",
+    "states": 6,
+    "pick_ilsd_minus_terminal": 0.0793016186736774,
+    "hps_ilsd_minus_terminal": 0.0015462239583333333
+  },
+  {
+    "cohort": "all6",
+    "action": "conditional_revisit",
+    "states": 6,
+    "pick_ilsd_minus_terminal": 0.021048034105054587,
+    "hps_ilsd_minus_terminal": -0.0003662109375
+  },
+  {
+    "cohort": "teachers3",
+    "action": "conditional_budget1",
+    "states": 3,
+    "pick_ilsd_minus_terminal": 0.09594774484821755,
+    "hps_ilsd_minus_terminal": 0.0013020833333333333
+  },
+  {
+    "cohort": "teachers3",
+    "action": "conditional_revisit",
+    "states": 3,
+    "pick_ilsd_minus_terminal": -0.004815875844997208,
+    "hps_ilsd_minus_terminal": -0.001220703125
+  },
+  {
+    "cohort": "preservation3",
+    "action": "conditional_budget1",
+    "states": 3,
+    "pick_ilsd_minus_terminal": 0.06265549249913722,
+    "hps_ilsd_minus_terminal": 0.0017903645833333333
+  },
+  {
+    "cohort": "preservation3",
+    "action": "conditional_revisit",
+    "states": 3,
+    "pick_ilsd_minus_terminal": 0.04691194405510638,
+    "hps_ilsd_minus_terminal": 0.00048828125
+  }
+]

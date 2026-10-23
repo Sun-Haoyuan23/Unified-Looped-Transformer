@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "archive_sha256": "44a883b19f8cc0f95fc871e12965b593f842e816f4f5335a39c79aa8b1d2408b",
+  "manifest_files_verified": 17,
+  "source_config_checkpoint_and_probe_coefficients_hash_exact": true,
+  "analytical_probes": 5,
+  "original_model_checkpoint_unchanged_reported": true,
+  "local_torch_solver_not_repeated": true,
+  "solver_calculated_server_fp64": true,
+  "optimizer_updates": 0,
+  "new_scoring_images": 0,
+  "scope": "Six TRAIN states, in-sample ridge fitting, not quality or causal recurrence improvement",
+  "FLOPs": null
+}
