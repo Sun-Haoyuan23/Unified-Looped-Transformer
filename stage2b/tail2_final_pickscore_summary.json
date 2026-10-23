@@ -1,0 +1,23 @@
+{
+  "note": "PickScore is a preference proxy, not human votes",
+  "model_repo": "yuvalkirstain/PickScore_v1",
+  "pairs_per_variant": 56,
+  "variants": {
+    "base": {
+      "mean": 22.213723,
+      "median": 22.453085
+    },
+    "L1": {
+      "mean": 20.689049,
+      "median": 20.896413,
+      "mean_paired_change": -1.524674,
+      "fraction_higher": 0.0179
+    },
+    "L2": {
+      "mean": 20.770751,
+      "median": 20.923248,
+      "mean_paired_change": -1.442972,
+      "fraction_higher": 0.0
+    }
+  }
+}

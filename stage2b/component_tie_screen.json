@@ -1,0 +1,59 @@
+{
+  "baseline": {
+    "mse_mean": 2.6170366237544663e-06,
+    "mse_median": 8.70395126639778e-07,
+    "states": 72,
+    "shared_components": []
+  },
+  "mlp_only": {
+    "mse_mean": 0.16999114328064024,
+    "mse_median": 0.09881908819079399,
+    "states": 72,
+    "shared_components": [
+      "mlp"
+    ]
+  },
+  "attention_only": {
+    "mse_mean": 0.49883977075417835,
+    "mse_median": 0.46773457527160645,
+    "states": 72,
+    "shared_components": [
+      "self_attn"
+    ]
+  },
+  "adaln_only": {
+    "mse_mean": 0.9475607539837559,
+    "mse_median": 0.9106009602546692,
+    "states": 72,
+    "shared_components": [
+      "adaLN_modulation"
+    ]
+  },
+  "norms_only": {
+    "mse_mean": 0.00275839167200805,
+    "mse_median": 0.002618761733174324,
+    "states": 72,
+    "shared_components": [
+      "input_layernorm",
+      "post_attention_layernorm"
+    ]
+  },
+  "mlp_and_adaln": {
+    "mse_mean": 1.0057810217969947,
+    "mse_median": 0.8957197368144989,
+    "states": 72,
+    "shared_components": [
+      "mlp",
+      "adaLN_modulation"
+    ]
+  },
+  "attention_and_adaln": {
+    "mse_mean": 1.2706061500228114,
+    "mse_median": 0.990431547164917,
+    "states": 72,
+    "shared_components": [
+      "self_attn",
+      "adaLN_modulation"
+    ]
+  }
+}

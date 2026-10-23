@@ -1,0 +1,13 @@
+{
+  "steps": 1800,
+  "train_prompts": 420,
+  "trajectory_states": 20580,
+  "data_sources": [
+    "train"
+  ],
+  "resume": "",
+  "trainable_parameters": 180525376,
+  "median_step_s_after_warmup": 0.3401,
+  "peak_allocated_gb": 12.456,
+  "checkpoint": "/home/shy_23/iterative_visual_stage1_20261003/stage2b/elt_tail2_extended_bf16.pt"
+}

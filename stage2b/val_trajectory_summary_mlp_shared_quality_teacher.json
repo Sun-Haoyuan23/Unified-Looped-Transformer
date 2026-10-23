@@ -1,0 +1,19 @@
+{
+  "prompts": 24,
+  "split": "val",
+  "states": 168,
+  "trajectory_dir": "val",
+  "indices": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    40,
+    48
+  ],
+  "checkpoint_steps": 1800,
+  "mse_L1_mean": 0.16344501170152353,
+  "mse_L2_mean": 0.06329709652345628,
+  "mse_L1_L2_mean": 0.09991496755918931
+}

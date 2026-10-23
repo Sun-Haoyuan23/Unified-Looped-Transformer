@@ -1,0 +1,142 @@
+[
+  {
+    "card": "composition_01_seed101_L1.jpg",
+    "A": "base",
+    "B": "L1"
+  },
+  {
+    "card": "composition_01_seed101_L2.jpg",
+    "A": "L2",
+    "B": "base"
+  },
+  {
+    "card": "composition_02_seed201_L1.jpg",
+    "A": "base",
+    "B": "L1"
+  },
+  {
+    "card": "composition_02_seed201_L2.jpg",
+    "A": "base",
+    "B": "L2"
+  },
+  {
+    "card": "composition_03_seed301_L1.jpg",
+    "A": "base",
+    "B": "L1"
+  },
+  {
+    "card": "composition_03_seed301_L2.jpg",
+    "A": "L2",
+    "B": "base"
+  },
+  {
+    "card": "portrait_01_seed401_L1.jpg",
+    "A": "L1",
+    "B": "base"
+  },
+  {
+    "card": "portrait_01_seed401_L2.jpg",
+    "A": "L2",
+    "B": "base"
+  },
+  {
+    "card": "portrait_02_seed501_L1.jpg",
+    "A": "base",
+    "B": "L1"
+  },
+  {
+    "card": "portrait_02_seed501_L2.jpg",
+    "A": "L2",
+    "B": "base"
+  },
+  {
+    "card": "portrait_03_seed601_L1.jpg",
+    "A": "base",
+    "B": "L1"
+  },
+  {
+    "card": "portrait_03_seed601_L2.jpg",
+    "A": "L2",
+    "B": "base"
+  },
+  {
+    "card": "nature_01_seed701_L1.jpg",
+    "A": "L1",
+    "B": "base"
+  },
+  {
+    "card": "nature_01_seed701_L2.jpg",
+    "A": "L2",
+    "B": "base"
+  },
+  {
+    "card": "nature_02_seed801_L1.jpg",
+    "A": "L1",
+    "B": "base"
+  },
+  {
+    "card": "nature_02_seed801_L2.jpg",
+    "A": "L2",
+    "B": "base"
+  },
+  {
+    "card": "nature_03_seed901_L1.jpg",
+    "A": "L1",
+    "B": "base"
+  },
+  {
+    "card": "nature_03_seed901_L2.jpg",
+    "A": "L2",
+    "B": "base"
+  },
+  {
+    "card": "art_01_seed1001_L1.jpg",
+    "A": "base",
+    "B": "L1"
+  },
+  {
+    "card": "art_01_seed1001_L2.jpg",
+    "A": "base",
+    "B": "L2"
+  },
+  {
+    "card": "art_02_seed1101_L1.jpg",
+    "A": "base",
+    "B": "L1"
+  },
+  {
+    "card": "art_02_seed1101_L2.jpg",
+    "A": "base",
+    "B": "L2"
+  },
+  {
+    "card": "art_03_seed1201_L1.jpg",
+    "A": "base",
+    "B": "L1"
+  },
+  {
+    "card": "art_03_seed1201_L2.jpg",
+    "A": "L2",
+    "B": "base"
+  },
+  {
+    "card": "product_01_seed1301_L1.jpg",
+    "A": "L1",
+    "B": "base"
+  },
+  {
+    "card": "product_01_seed1301_L2.jpg",
+    "A": "base",
+    "B": "L2"
+  },
+  {
+    "card": "product_02_seed1401_L1.jpg",
+    "A": "base",
+    "B": "L1"
+  },
+  {
+    "card": "product_02_seed1401_L2.jpg",
+    "A": "base",
+    "B": "L2"
+  }
+]

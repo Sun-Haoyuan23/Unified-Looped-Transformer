@@ -1,0 +1,19 @@
+{
+  "image_count": 112,
+  "prompt_count": 14,
+  "seeds_per_prompt": 4,
+  "variants": {
+    "base": {
+      "mean_siglip_alignment": 0.193688,
+      "mean_within_prompt_siglip_distance": 0.071,
+      "median_within_prompt_siglip_distance": 0.070095
+    },
+    "L2": {
+      "mean_siglip_alignment": 0.183539,
+      "mean_within_prompt_siglip_distance": 0.059913,
+      "median_within_prompt_siglip_distance": 0.05484,
+      "mean_paired_alignment_change": -0.010149,
+      "fraction_alignment_higher": 0.3036
+    }
+  }
+}

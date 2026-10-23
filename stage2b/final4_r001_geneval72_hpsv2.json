@@ -1,0 +1,589 @@
+{
+  "n": 72,
+  "baseline_mean": 0.2860548231336806,
+  "candidate_mean": 0.2859225802951389,
+  "delta_mean": -0.00013224283854166666,
+  "delta_95pct_bootstrap_ci": [
+    -0.00037977430555555556,
+    0.00011867947048611111
+  ],
+  "candidate_wins": 28,
+  "rows": [
+    {
+      "id": "00000",
+      "category": "single_object",
+      "prompt": "a photo of a bench",
+      "baseline": 0.275390625,
+      "candidate": 0.2744140625,
+      "delta": -0.0009765625
+    },
+    {
+      "id": "00007",
+      "category": "single_object",
+      "prompt": "a photo of a surfboard",
+      "baseline": 0.292724609375,
+      "candidate": 0.294189453125,
+      "delta": 0.00146484375
+    },
+    {
+      "id": "00014",
+      "category": "single_object",
+      "prompt": "a photo of a parking meter",
+      "baseline": 0.271240234375,
+      "candidate": 0.270263671875,
+      "delta": -0.0009765625
+    },
+    {
+      "id": "00022",
+      "category": "single_object",
+      "prompt": "a photo of a backpack",
+      "baseline": 0.28759765625,
+      "candidate": 0.28466796875,
+      "delta": -0.0029296875
+    },
+    {
+      "id": "00029",
+      "category": "single_object",
+      "prompt": "a photo of a laptop",
+      "baseline": 0.28564453125,
+      "candidate": 0.284912109375,
+      "delta": -0.000732421875
+    },
+    {
+      "id": "00036",
+      "category": "single_object",
+      "prompt": "a photo of a tv",
+      "baseline": 0.27587890625,
+      "candidate": 0.2763671875,
+      "delta": 0.00048828125
+    },
+    {
+      "id": "00043",
+      "category": "single_object",
+      "prompt": "a photo of a scissors",
+      "baseline": 0.274169921875,
+      "candidate": 0.274658203125,
+      "delta": 0.00048828125
+    },
+    {
+      "id": "00050",
+      "category": "single_object",
+      "prompt": "a photo of a teddy bear",
+      "baseline": 0.298095703125,
+      "candidate": 0.298095703125,
+      "delta": 0.0
+    },
+    {
+      "id": "00057",
+      "category": "single_object",
+      "prompt": "a photo of a sheep",
+      "baseline": 0.291748046875,
+      "candidate": 0.292724609375,
+      "delta": 0.0009765625
+    },
+    {
+      "id": "00065",
+      "category": "single_object",
+      "prompt": "a photo of a baseball glove",
+      "baseline": 0.2724609375,
+      "candidate": 0.271484375,
+      "delta": -0.0009765625
+    },
+    {
+      "id": "00072",
+      "category": "single_object",
+      "prompt": "a photo of a tennis racket",
+      "baseline": 0.28173828125,
+      "candidate": 0.28076171875,
+      "delta": -0.0009765625
+    },
+    {
+      "id": "00079",
+      "category": "single_object",
+      "prompt": "a photo of a kite",
+      "baseline": 0.2578125,
+      "candidate": 0.2568359375,
+      "delta": -0.0009765625
+    },
+    {
+      "id": "00080",
+      "category": "two_object",
+      "prompt": "a photo of a bench and a sports ball",
+      "baseline": 0.279296875,
+      "candidate": 0.278076171875,
+      "delta": -0.001220703125
+    },
+    {
+      "id": "00089",
+      "category": "two_object",
+      "prompt": "a photo of a toothbrush and a carrot",
+      "baseline": 0.278076171875,
+      "candidate": 0.278076171875,
+      "delta": 0.0
+    },
+    {
+      "id": "00098",
+      "category": "two_object",
+      "prompt": "a photo of a couch and a horse",
+      "baseline": 0.291748046875,
+      "candidate": 0.29248046875,
+      "delta": 0.000732421875
+    },
+    {
+      "id": "00107",
+      "category": "two_object",
+      "prompt": "a photo of a vase and a spoon",
+      "baseline": 0.284423828125,
+      "candidate": 0.28515625,
+      "delta": 0.000732421875
+    },
+    {
+      "id": "00116",
+      "category": "two_object",
+      "prompt": "a photo of a stop sign and a bottle",
+      "baseline": 0.279541015625,
+      "candidate": 0.28125,
+      "delta": 0.001708984375
+    },
+    {
+      "id": "00125",
+      "category": "two_object",
+      "prompt": "a photo of a pizza and a book",
+      "baseline": 0.287353515625,
+      "candidate": 0.286865234375,
+      "delta": -0.00048828125
+    },
+    {
+      "id": "00133",
+      "category": "two_object",
+      "prompt": "a photo of a computer keyboard and a microwave",
+      "baseline": 0.25537109375,
+      "candidate": 0.2548828125,
+      "delta": -0.00048828125
+    },
+    {
+      "id": "00142",
+      "category": "two_object",
+      "prompt": "a photo of a bench and a vase",
+      "baseline": 0.2783203125,
+      "candidate": 0.27978515625,
+      "delta": 0.00146484375
+    },
+    {
+      "id": "00151",
+      "category": "two_object",
+      "prompt": "a photo of a stop sign and a dog",
+      "baseline": 0.29736328125,
+      "candidate": 0.296630859375,
+      "delta": -0.000732421875
+    },
+    {
+      "id": "00160",
+      "category": "two_object",
+      "prompt": "a photo of a tie and a broccoli",
+      "baseline": 0.264892578125,
+      "candidate": 0.2666015625,
+      "delta": 0.001708984375
+    },
+    {
+      "id": "00169",
+      "category": "two_object",
+      "prompt": "a photo of a baseball bat and a bear",
+      "baseline": 0.2998046875,
+      "candidate": 0.30126953125,
+      "delta": 0.00146484375
+    },
+    {
+      "id": "00178",
+      "category": "two_object",
+      "prompt": "a photo of a baseball bat and a giraffe",
+      "baseline": 0.283447265625,
+      "candidate": 0.28271484375,
+      "delta": -0.000732421875
+    },
+    {
+      "id": "00179",
+      "category": "counting",
+      "prompt": "a photo of two clocks",
+      "baseline": 0.294189453125,
+      "candidate": 0.29443359375,
+      "delta": 0.000244140625
+    },
+    {
+      "id": "00186",
+      "category": "counting",
+      "prompt": "a photo of four sinks",
+      "baseline": 0.254150390625,
+      "candidate": 0.2529296875,
+      "delta": -0.001220703125
+    },
+    {
+      "id": "00193",
+      "category": "counting",
+      "prompt": "a photo of four computer keyboards",
+      "baseline": 0.263671875,
+      "candidate": 0.264892578125,
+      "delta": 0.001220703125
+    },
+    {
+      "id": "00201",
+      "category": "counting",
+      "prompt": "a photo of three handbags",
+      "baseline": 0.275146484375,
+      "candidate": 0.2734375,
+      "delta": -0.001708984375
+    },
+    {
+      "id": "00208",
+      "category": "counting",
+      "prompt": "a photo of three zebras",
+      "baseline": 0.289794921875,
+      "candidate": 0.289794921875,
+      "delta": 0.0
+    },
+    {
+      "id": "00215",
+      "category": "counting",
+      "prompt": "a photo of two tv remotes",
+      "baseline": 0.263671875,
+      "candidate": 0.264892578125,
+      "delta": 0.001220703125
+    },
+    {
+      "id": "00222",
+      "category": "counting",
+      "prompt": "a photo of three baseball bats",
+      "baseline": 0.23583984375,
+      "candidate": 0.234375,
+      "delta": -0.00146484375
+    },
+    {
+      "id": "00229",
+      "category": "counting",
+      "prompt": "a photo of three wine glasses",
+      "baseline": 0.2939453125,
+      "candidate": 0.294921875,
+      "delta": 0.0009765625
+    },
+    {
+      "id": "00236",
+      "category": "counting",
+      "prompt": "a photo of four clocks",
+      "baseline": 0.27734375,
+      "candidate": 0.277099609375,
+      "delta": -0.000244140625
+    },
+    {
+      "id": "00244",
+      "category": "counting",
+      "prompt": "a photo of two teddy bears",
+      "baseline": 0.312744140625,
+      "candidate": 0.3125,
+      "delta": -0.000244140625
+    },
+    {
+      "id": "00251",
+      "category": "counting",
+      "prompt": "a photo of three laptops",
+      "baseline": 0.263427734375,
+      "candidate": 0.26416015625,
+      "delta": 0.000732421875
+    },
+    {
+      "id": "00258",
+      "category": "counting",
+      "prompt": "a photo of four buses",
+      "baseline": 0.265625,
+      "candidate": 0.265625,
+      "delta": 0.0
+    },
+    {
+      "id": "00259",
+      "category": "colors",
+      "prompt": "a photo of a blue fire hydrant",
+      "baseline": 0.28759765625,
+      "candidate": 0.287841796875,
+      "delta": 0.000244140625
+    },
+    {
+      "id": "00267",
+      "category": "colors",
+      "prompt": "a photo of a red bicycle",
+      "baseline": 0.296875,
+      "candidate": 0.295654296875,
+      "delta": -0.001220703125
+    },
+    {
+      "id": "00276",
+      "category": "colors",
+      "prompt": "a photo of a blue toilet",
+      "baseline": 0.290771484375,
+      "candidate": 0.2900390625,
+      "delta": -0.000732421875
+    },
+    {
+      "id": "00284",
+      "category": "colors",
+      "prompt": "a photo of a brown chair",
+      "baseline": 0.306640625,
+      "candidate": 0.307861328125,
+      "delta": 0.001220703125
+    },
+    {
+      "id": "00293",
+      "category": "colors",
+      "prompt": "a photo of a white scissors",
+      "baseline": 0.27978515625,
+      "candidate": 0.280029296875,
+      "delta": 0.000244140625
+    },
+    {
+      "id": "00301",
+      "category": "colors",
+      "prompt": "a photo of a purple backpack",
+      "baseline": 0.295166015625,
+      "candidate": 0.293701171875,
+      "delta": -0.00146484375
+    },
+    {
+      "id": "00310",
+      "category": "colors",
+      "prompt": "a photo of a red potted plant",
+      "baseline": 0.29833984375,
+      "candidate": 0.29931640625,
+      "delta": 0.0009765625
+    },
+    {
+      "id": "00318",
+      "category": "colors",
+      "prompt": "a photo of a red parking meter",
+      "baseline": 0.280029296875,
+      "candidate": 0.27880859375,
+      "delta": -0.001220703125
+    },
+    {
+      "id": "00327",
+      "category": "colors",
+      "prompt": "a photo of a red scissors",
+      "baseline": 0.27392578125,
+      "candidate": 0.27294921875,
+      "delta": -0.0009765625
+    },
+    {
+      "id": "00335",
+      "category": "colors",
+      "prompt": "a photo of a white orange",
+      "baseline": 0.27783203125,
+      "candidate": 0.27734375,
+      "delta": -0.00048828125
+    },
+    {
+      "id": "00344",
+      "category": "colors",
+      "prompt": "a photo of a red backpack",
+      "baseline": 0.29052734375,
+      "candidate": 0.289794921875,
+      "delta": -0.000732421875
+    },
+    {
+      "id": "00352",
+      "category": "colors",
+      "prompt": "a photo of a red cake",
+      "baseline": 0.289306640625,
+      "candidate": 0.289794921875,
+      "delta": 0.00048828125
+    },
+    {
+      "id": "00353",
+      "category": "position",
+      "prompt": "a photo of a dog right of a teddy bear",
+      "baseline": 0.2939453125,
+      "candidate": 0.2939453125,
+      "delta": 0.0
+    },
+    {
+      "id": "00362",
+      "category": "position",
+      "prompt": "a photo of a train above a potted plant",
+      "baseline": 0.297119140625,
+      "candidate": 0.296875,
+      "delta": -0.000244140625
+    },
+    {
+      "id": "00371",
+      "category": "position",
+      "prompt": "a photo of a bus below a toothbrush",
+      "baseline": 0.30419921875,
+      "candidate": 0.302978515625,
+      "delta": -0.001220703125
+    },
+    {
+      "id": "00380",
+      "category": "position",
+      "prompt": "a photo of a hair drier below an elephant",
+      "baseline": 0.26904296875,
+      "candidate": 0.26953125,
+      "delta": 0.00048828125
+    },
+    {
+      "id": "00389",
+      "category": "position",
+      "prompt": "a photo of a stop sign above a chair",
+      "baseline": 0.289794921875,
+      "candidate": 0.28955078125,
+      "delta": -0.000244140625
+    },
+    {
+      "id": "00398",
+      "category": "position",
+      "prompt": "a photo of a toilet left of a kite",
+      "baseline": 0.285888671875,
+      "candidate": 0.286376953125,
+      "delta": 0.00048828125
+    },
+    {
+      "id": "00407",
+      "category": "position",
+      "prompt": "a photo of a donut right of a bench",
+      "baseline": 0.312255859375,
+      "candidate": 0.312744140625,
+      "delta": 0.00048828125
+    },
+    {
+      "id": "00416",
+      "category": "position",
+      "prompt": "a photo of a sandwich below a knife",
+      "baseline": 0.280029296875,
+      "candidate": 0.283447265625,
+      "delta": 0.00341796875
+    },
+    {
+      "id": "00425",
+      "category": "position",
+      "prompt": "a photo of a zebra below a broccoli",
+      "baseline": 0.303955078125,
+      "candidate": 0.30517578125,
+      "delta": 0.001220703125
+    },
+    {
+      "id": "00434",
+      "category": "position",
+      "prompt": "a photo of a frisbee above a truck",
+      "baseline": 0.287841796875,
+      "candidate": 0.28759765625,
+      "delta": -0.000244140625
+    },
+    {
+      "id": "00443",
+      "category": "position",
+      "prompt": "a photo of a cow right of a laptop",
+      "baseline": 0.310791015625,
+      "candidate": 0.310302734375,
+      "delta": -0.00048828125
+    },
+    {
+      "id": "00452",
+      "category": "position",
+      "prompt": "a photo of a couch left of a toaster",
+      "baseline": 0.287353515625,
+      "candidate": 0.286865234375,
+      "delta": -0.00048828125
+    },
+    {
+      "id": "00453",
+      "category": "color_attr",
+      "prompt": "a photo of a purple wine glass and a black apple",
+      "baseline": 0.294921875,
+      "candidate": 0.29443359375,
+      "delta": -0.00048828125
+    },
+    {
+      "id": "00462",
+      "category": "color_attr",
+      "prompt": "a photo of a white handbag and a purple bed",
+      "baseline": 0.296142578125,
+      "candidate": 0.297119140625,
+      "delta": 0.0009765625
+    },
+    {
+      "id": "00471",
+      "category": "color_attr",
+      "prompt": "a photo of a green teddy bear and a brown kite",
+      "baseline": 0.31298828125,
+      "candidate": 0.312255859375,
+      "delta": -0.000732421875
+    },
+    {
+      "id": "00480",
+      "category": "color_attr",
+      "prompt": "a photo of a purple tennis racket and a black sink",
+      "baseline": 0.28759765625,
+      "candidate": 0.288330078125,
+      "delta": 0.000732421875
+    },
+    {
+      "id": "00489",
+      "category": "color_attr",
+      "prompt": "a photo of a purple sheep and a pink banana",
+      "baseline": 0.31982421875,
+      "candidate": 0.320068359375,
+      "delta": 0.000244140625
+    },
+    {
+      "id": "00498",
+      "category": "color_attr",
+      "prompt": "a photo of a blue toilet and a white suitcase",
+      "baseline": 0.3076171875,
+      "candidate": 0.3076171875,
+      "delta": 0.0
+    },
+    {
+      "id": "00507",
+      "category": "color_attr",
+      "prompt": "a photo of a green surfboard and an orange oven",
+      "baseline": 0.294921875,
+      "candidate": 0.292724609375,
+      "delta": -0.002197265625
+    },
+    {
+      "id": "00516",
+      "category": "color_attr",
+      "prompt": "a photo of an orange motorcycle and a pink donut",
+      "baseline": 0.30078125,
+      "candidate": 0.2998046875,
+      "delta": -0.0009765625
+    },
+    {
+      "id": "00525",
+      "category": "color_attr",
+      "prompt": "a photo of a brown dining table and a white suitcase",
+      "baseline": 0.276123046875,
+      "candidate": 0.27490234375,
+      "delta": -0.001220703125
+    },
+    {
+      "id": "00534",
+      "category": "color_attr",
+      "prompt": "a photo of a green tennis racket and a black dog",
+      "baseline": 0.303955078125,
+      "candidate": 0.302490234375,
+      "delta": -0.00146484375
+    },
+    {
+      "id": "00543",
+      "category": "color_attr",
+      "prompt": "a photo of a white banana and a black elephant",
+      "baseline": 0.305419921875,
+      "candidate": 0.304443359375,
+      "delta": -0.0009765625
+    },
+    {
+      "id": "00552",
+      "category": "color_attr",
+      "prompt": "a photo of a blue pizza and a yellow baseball glove",
+      "baseline": 0.27294921875,
+      "candidate": 0.271484375,
+      "delta": -0.00146484375
+    }
+  ]
+}

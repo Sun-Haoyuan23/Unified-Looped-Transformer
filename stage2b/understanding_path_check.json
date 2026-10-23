@@ -1,0 +1,11 @@
+{
+  "checkpoint": "elt_onpolicy_5x2_bf16.pt",
+  "max_logit_abs_difference": 0.0,
+  "exact_match": true,
+  "shape": [
+    1,
+    1024,
+    151669
+  ],
+  "scope": "one deterministic image/question input; verifies pathway isolation"
+}
