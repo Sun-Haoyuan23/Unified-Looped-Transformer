@@ -1,0 +1,112 @@
+{
+  "generated": 56,
+  "prompts": 14,
+  "seeds_per_prompt": 4,
+  "working_gpu_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+  ],
+  "broken_gpu_index": 5,
+  "official_sampling_steps": 50,
+  "guidance_scale": 5.0,
+  "profiling_excluded_from_latency_medians": true,
+  "latency_median_s": 12.2928,
+  "prepare_median_s": 0.0335,
+  "denoise_median_s": 12.1338,
+  "decode_and_save_median_s": 0.1331,
+  "peak_allocated_median_gb": 8.109,
+  "peak_reserved_median_gb": 8.642,
+  "by_gpu": {
+    "0": {
+      "images": 8,
+      "unprofiled_images": 7,
+      "median_total_s": 12.0406,
+      "median_denoise_s": 11.8772,
+      "max_peak_allocated_gb": 8.11
+    },
+    "1": {
+      "images": 8,
+      "unprofiled_images": 7,
+      "median_total_s": 13.6267,
+      "median_denoise_s": 13.4541,
+      "max_peak_allocated_gb": 8.11
+    },
+    "2": {
+      "images": 8,
+      "unprofiled_images": 7,
+      "median_total_s": 12.73,
+      "median_denoise_s": 12.5806,
+      "max_peak_allocated_gb": 8.11
+    },
+    "3": {
+      "images": 8,
+      "unprofiled_images": 7,
+      "median_total_s": 12.3961,
+      "median_denoise_s": 12.2527,
+      "max_peak_allocated_gb": 8.11
+    },
+    "4": {
+      "images": 8,
+      "unprofiled_images": 7,
+      "median_total_s": 12.061,
+      "median_denoise_s": 11.9032,
+      "max_peak_allocated_gb": 8.11
+    },
+    "6": {
+      "images": 8,
+      "unprofiled_images": 7,
+      "median_total_s": 12.2928,
+      "median_denoise_s": 12.1338,
+      "max_peak_allocated_gb": 8.11
+    },
+    "7": {
+      "images": 8,
+      "unprofiled_images": 7,
+      "median_total_s": 12.0387,
+      "median_denoise_s": 11.8668,
+      "max_peak_allocated_gb": 8.11
+    }
+  },
+  "component_profile_ms": {
+    "language_backbone": {
+      "gpu_count": 7,
+      "median_ms": 6530.288
+    },
+    "semantic_transformer": {
+      "gpu_count": 7,
+      "median_ms": 1777.996
+    },
+    "visual_embedders": {
+      "gpu_count": 7,
+      "median_ms": 90.532
+    },
+    "fusion": {
+      "gpu_count": 7,
+      "median_ms": 51.634
+    },
+    "flow_head": {
+      "gpu_count": 7,
+      "median_ms": 3559.345
+    }
+  },
+  "training_probe": {
+    "purpose": "training throughput probe only; baseline-generated images are re-encoded",
+    "physical_gpu": 0,
+    "steps": 200,
+    "microbatch": 1,
+    "rank": 16,
+    "trainable_parameters": 1064960,
+    "training_images": 14,
+    "first_loss": 0.09082,
+    "last_loss": 0.12793,
+    "median_step_s_after_warmup": 0.1835,
+    "mean_step_s_after_warmup": 0.184,
+    "peak_allocated_gb": 8.388,
+    "peak_reserved_gb": 8.642
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "repository": "showlab/show-o2-1.5B",
+  "weight_bytes": 5661862314,
+  "weight_sha256": "a596cbc305c1df987c125d4f218e78f39b681621904cccfb2a3bf0ca0327f92c",
+  "official_config": "/home/shy_23/iterative_visual_stage1_20261003/models/show-o2-1.5B/config.json",
+  "local_config": "/home/shy_23/iterative_visual_stage1_20261003/models/show-o2-1.5B-local/config.json",
+  "config_override": "load_from_showo=True; local Qwen config/tokenizer and SigLIP path",
+  "rationale": "full official checkpoint is loaded after construction; strict missing-key check required in smoke run"
+}
